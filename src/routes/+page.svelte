@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { toolsTree } from "$lib/core/tools-tree";
-	import { generateToolURLs } from "$lib/core/tools-registry";
+	import { generateToolURLs } from '$lib/core/tools-registry';
+	import { toolsTree } from '$lib/core/tools-tree';
 
 	const entries = generateToolURLs(toolsTree);
 </script>

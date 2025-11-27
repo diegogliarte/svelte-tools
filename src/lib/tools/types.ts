@@ -1,11 +1,8 @@
 import type { Component } from "svelte";
 
-export interface ToolMetadata {
+export interface ToolDefinition {
 	title: string;
 	description: string;
-}
-
-export interface ToolDefinition extends ToolMetadata {
 	component: Component;
 }
 

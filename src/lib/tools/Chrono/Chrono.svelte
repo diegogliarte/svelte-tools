@@ -1,12 +1,3 @@
-<script context="module" lang="ts">
-	import type { ToolMetadata } from '$lib/tools/types';
-
-	export const toolDefinition: ToolMetadata = {
-		title: "Chrono",
-		description: "A tool for managing and tracking time-related data"
-	};
-</script>
-
 <script lang="ts">
 	import { onMount, onDestroy } from "svelte";
 

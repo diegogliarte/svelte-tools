@@ -13,7 +13,7 @@ import { slugify } from '$lib/utils/slug.utils';
 export function findTool(
 	path: string[],
 	toolSlug: string,
-	tree: ToolCategory[]
+	tree: ToolCategory[],
 ): ToolDefinition | null {
 	if (path.length === 0) return null;
 

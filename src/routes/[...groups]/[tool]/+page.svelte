@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { findTool } from "$lib/core/tools-registry";
-	import { toolsTree } from "$lib/core/tools-tree";
+	import { findTool } from '$lib/core/tools-registry';
+	import { toolsTree } from '$lib/core/tools-tree';
 
 	let { params } = $props();
 
