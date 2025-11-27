@@ -4,7 +4,6 @@
 
 	let { params } = $props();
 
-	console.log(params);
 	const categoryPath = params.groups.split("/");
 	const toolSlug = params.tool;
 
