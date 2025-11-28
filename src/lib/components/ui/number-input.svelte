@@ -83,7 +83,7 @@
 				px-3 py-2
 				border
 				outline-none hover:border-accent focus:border-accent focus:bg-accent-dark
-				transition-all duration-150
+				transition-all
 				pr-8
 			"
 			bind:value

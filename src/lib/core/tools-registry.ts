@@ -10,11 +10,7 @@ import { slugify } from '$lib/utils/slug.utils';
  * @param tree The category tree to search within
  * @returns The matching ToolDefinition or null if not found
  */
-export function findTool(
-	path: string[],
-	toolSlug: string,
-	tree: ToolCategory[],
-): ToolDefinition | null {
+export function findTool(path: string[], toolSlug: string, tree: ToolCategory[]): ToolDefinition | null {
 	if (path.length === 0) return null;
 
 	let currentLevel = tree;
@@ -23,9 +19,7 @@ export function findTool(
 		const segment = path[i];
 
 		// locate category in current level
-		const category = currentLevel.find(
-			(cat) => slugify(cat.name) === segment
-		);
+		const category = currentLevel.find((cat) => slugify(cat.name) === segment);
 
 		if (!category) return null;
 
@@ -33,9 +27,7 @@ export function findTool(
 		const isLast = i === path.length - 1;
 
 		if (isLast) {
-			const tool = category.tools.find(
-				(t) => slugify(t.title) === toolSlug
-			);
+			const tool = category.tools.find((t) => slugify(t.title) === toolSlug);
 			return tool ?? null;
 		}
 
@@ -65,7 +57,7 @@ export function generateToolURLs(
 		// Add tools directly under this category
 		for (const tool of category.tools) {
 			const toolSlug = slugify(tool.title);
-			const url = "/" + [...thisPath, toolSlug].join("/");
+			const url = '/' + [...thisPath, toolSlug].join('/');
 			result.push({ url, tool });
 		}
 

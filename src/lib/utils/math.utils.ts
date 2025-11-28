@@ -14,5 +14,5 @@ export function clampStep(value: number, min?: number, max?: number, step = 1) {
 
 function countDecimals(n: number) {
 	if (Math.floor(n) === n) return 0;
-	return n.toString().split(".")[1].length;
+	return n.toString().split('.')[1].length;
 }

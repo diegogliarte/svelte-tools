@@ -5,7 +5,7 @@
 	let height: number | null = $state(null);
 	let weight: number | null = $state(null);
 
-	let bmi: null | number = $derived.by(() => {
+	let bmi: number | null = $derived.by(() => {
 		if (height === null || weight === null) return null;
 		const heightInMeters = height / 100;
 		return weight / (heightInMeters * heightInMeters);

@@ -81,7 +81,7 @@
 
 		{#if showValue}
 			<div
-				class="absolute -bottom-6 text-small transition-all duration-150 {currentColor}"
+				class="absolute -bottom-6 text-small transition-all {currentColor}"
 				style={
 					value !== null
 						? `left: calc(${percentage}% - 1rem)`
@@ -94,7 +94,7 @@
 
 		<div class="border border-text h-3">
 			<div
-				class="h-full bg-accent transition-all duration-150"
+				class="h-full bg-accent transition-all"
 				style="width: {percentage}%"
 			></div>
 

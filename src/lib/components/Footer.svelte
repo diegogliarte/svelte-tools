@@ -11,8 +11,8 @@
             flex items-center gap-2
             px-1 py-1
             border
-            text-text hover:bg-accent-dark
-            transition-colors duration-150
+            hover:border-accent hover:bg-accent-dark
+            transition
             cursor-pointer
         "
 		title="Buy me a coffee on Ko-fi"

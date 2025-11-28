@@ -4,7 +4,7 @@ import { tool as BMICalculator } from '$lib/tools/bmi-calculator';
 
 export const toolsTree: ToolCategory[] = [
 	{
-		name: "Health",
+		name: 'Health',
 		tools: [BMICalculator],
 		subgroups: []
 	}
