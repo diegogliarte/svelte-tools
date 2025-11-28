@@ -10,13 +10,22 @@
 	const tool = findTool(categoryPath, toolSlug, toolsTree);
 </script>
 
+<svelte:head>
+	<title>{tool?.title ?? "Not Found"} | Tools</title>
+	<meta name="description" content={tool?.description ?? "Not Found"} />
+
+	<meta property="og:title" content={tool?.title ?? "Not Found"} />
+	<meta property="og:description" content={tool?.description ?? "Not Found"} />
+</svelte:head>
+
+
 {#if tool}
 	<h1 class="text-center text-large">{tool.title}</h1>
 	<h2 class="text-center text-small">{tool.description}</h2>
 
 	{@const Component = tool.component}
 
-	<div class="flex flex-col items-center justify-center mx-auto max-w-2xl border-1 p-8 m-4 gap-8">
+	<div class="flex flex-col mx-auto max-w-2xl border-1 p-8 m-4 mt-16 gap-8">
 		<Component />
 	</div>
 
