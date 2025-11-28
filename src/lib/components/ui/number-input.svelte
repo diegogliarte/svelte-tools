@@ -79,8 +79,7 @@
 			id={uid}
 			type="number"
 			class="
-				w-full
-				px-3 py-2
+				w-full px-3 py-2
 				border
 				outline-none hover:border-accent focus:border-accent focus:bg-accent-dark
 				transition-all
