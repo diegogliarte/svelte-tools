@@ -1,24 +1,11 @@
 import type { ToolCategory } from '$lib/tools/types';
 
-import { tool as ToolA } from '$lib/tools/ToolA';
-import { tool as ToolB } from '$lib/tools/ToolB';
-import { tool as Chrono } from '$lib/tools/Chrono';
+import { tool as BMICalculator } from '$lib/tools/bmi-calculator';
 
 export const toolsTree: ToolCategory[] = [
 	{
 		name: "Health",
-		tools: [],
-		subgroups: [
-			{
-				name: "Body",
-				tools: [ToolA],
-				subgroups: []
-			}
-		]
-	},
-	{
-		name: "Development",
-		tools: [ToolB, Chrono],
+		tools: [BMICalculator],
 		subgroups: []
 	}
 ];

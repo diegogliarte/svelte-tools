@@ -11,11 +11,15 @@
 </script>
 
 {#if tool}
-	<h1>{tool.title}</h1>
-	<p>{tool.description}</p>
+	<h1 class="text-center text-large">{tool.title}</h1>
+	<h2 class="text-center text-small">{tool.description}</h2>
 
 	{@const Component = tool.component}
-	<Component />
+
+	<div class="flex flex-col items-center justify-center mx-auto max-w-2xl border-1 p-8 m-4 gap-8">
+		<Component />
+	</div>
+
 {:else}
 	<p>Tool not found</p>
 {/if}

@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+@theme {
+    --color-bg: #0A0A0A;
+    --color-text: #efefef;
+    --color-accent: #9471ed;
+    --color-accent-dark: #11062f;
+    --text-small: 1rem;
+    --text-medium: 1.5rem;
+    --text-large: 2rem;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-size: var(--text-medium);
+    font-family: monospace;
+    letter-spacing: var(--tracking-tight);
+}

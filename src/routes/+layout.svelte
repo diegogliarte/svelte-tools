@@ -7,4 +7,6 @@
 <svelte:head>
 </svelte:head>
 
-{@render children()}
+<main class="m-4">
+	{@render children()}
+</main>
