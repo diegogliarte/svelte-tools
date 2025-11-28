@@ -74,14 +74,13 @@
 <div class="flex flex-col w-full gap-1">
 
 	{#if label}
-		<label for={uid} class="text-small">{label}</label>
+		<label for={uid}>{label}</label>
 	{/if}
 
-	<div class="relative w-full">
-
+	<div class="relative w-full mb-4">
 		{#if showValue}
 			<div
-				class="absolute -bottom-6 text-small transition-all {currentColor}"
+				class="absolute -bottom-7 transition-all {currentColor}"
 				style={
 					value !== null
 						? `left: calc(${percentage}% - 1rem)`

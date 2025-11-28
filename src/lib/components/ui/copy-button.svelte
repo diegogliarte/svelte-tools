@@ -17,7 +17,7 @@
 
 		if (await copy(value)) {
 			copied = true;
-			setTimeout(() => copied = false, 1200);
+			setTimeout(() => copied = false, 500);
 		}
 	}
 </script>

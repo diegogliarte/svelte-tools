@@ -1,19 +1,12 @@
 <script lang="ts">
-	import { generateToolURLs } from '$lib/core/tools-registry';
-	import { toolsTree } from '$lib/core/tools-tree';
-
-	const entries = generateToolURLs(toolsTree);
+	import ToolCategorySection from "$lib/components/ToolCategorySection.svelte";
+	import { toolsTree } from "$lib/core/tools-tree";
 </script>
 
-<h1>All Tools</h1>
+<h1 class="text-large mb-16">All Tools</h1>
 
-<ul>
-	{#each entries as { url, tool } (url)}
-		<li>
-			<a href={url}>
-				{tool.title}
-			</a>
-			— {tool.description}
-		</li>
+<div class="flex flex-col">
+	{#each toolsTree as category (category)}
+		<ToolCategorySection {category} />
 	{/each}
-</ul>
+</div>

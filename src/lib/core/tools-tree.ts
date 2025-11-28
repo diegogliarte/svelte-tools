@@ -6,7 +6,7 @@ import { tool as HasherGenerator } from '$lib/tools/hash-generator';
 export const toolsTree: ToolCategory[] = [
 	{
 		name: 'Health',
-		tools: [BMICalculator],
+		tools: [BMICalculator, BMICalculator, HasherGenerator],
 		subgroups: []
 	},
 	{
@@ -15,8 +15,12 @@ export const toolsTree: ToolCategory[] = [
 		subgroups: [
 			{
 				name: 'Generators',
-				tools: [HasherGenerator],
-				subgroups: []
+				tools: [HasherGenerator, HasherGenerator],
+				subgroups: [			{
+					name: 'Generator2',
+					tools: [HasherGenerator, HasherGenerator, HasherGenerator],
+					subgroups: []
+				}]
 			}],
 	}
 ];

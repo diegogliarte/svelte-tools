@@ -16,7 +16,7 @@
 
 <div class="flex flex-col w-full gap-1">
 	{#if label}
-		<label for={uid} class="text-small">{label}</label>
+		<label for={uid}>{label}</label>
 	{/if}
 
 	<input

@@ -21,7 +21,7 @@
 
 {#if tool}
 	<h1 class="text-center text-large">{tool.title}</h1>
-	<h2 class="text-center text-small">{tool.description}</h2>
+	<h2 class="text-center">{tool.description}</h2>
 
 	{@const Component = tool.component}
 

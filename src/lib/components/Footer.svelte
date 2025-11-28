@@ -2,7 +2,7 @@
 	import Icon from "@iconify/svelte";
 </script>
 
-<footer class="p-2 text-center text-xs flex flex-col items-center gap-2">
+<footer class="p-2 text-center text-small flex flex-col items-center gap-2">
 	<a
 		href="https://ko-fi.com/diegogliarte"
 		target="_blank"
@@ -17,7 +17,7 @@
         "
 		title="Buy me a coffee on Ko-fi"
 	>
-		<Icon icon="mdi:coffee" class="w-3 h-3" />
+		<Icon icon="mdi:coffee"/>
 		<span>Buy me a coffee</span>
 	</a>
 

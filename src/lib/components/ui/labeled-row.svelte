@@ -29,7 +29,7 @@
 	});
 </script>
 
-<div class="w-full flex items-center text-small">
+<div class="w-full flex items-center">
 	<div
 		bind:this={labelEl}
 		class="border border-r-0 p-1 text-center"

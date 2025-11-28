@@ -5,9 +5,9 @@
 	--color-text: #dddddd;
 	--color-accent: #9471ed;
 	--color-accent-dark: #18103a;
-	--text-small: 1rem;
-	--text-medium: 1.5rem;
-	--text-large: 2rem;
+	--text-small: 0.75rem;
+	--text-medium: 1rem;
+	--text-large: 1.75rem;
 }
 
 body {

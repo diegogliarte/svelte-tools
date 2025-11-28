@@ -71,7 +71,7 @@
 
 <div class="relative flex flex-col w-full gap-0.5">
 	{#if label}
-		<label for={uid} class="text-small">{label}</label>
+		<label for={uid}>{label}</label>
 	{/if}
 
 	<div class="relative w-full">
