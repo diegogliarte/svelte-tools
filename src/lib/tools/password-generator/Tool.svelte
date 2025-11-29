@@ -2,7 +2,7 @@
 	import NumberInput from "$lib/components/ui/number-input.svelte";
 	import CheckboxInput from "$lib/components/ui/checkbox-input.svelte";
 	import LabeledRow from "$lib/components/ui/labeled-row.svelte";
-	import Icon from "@iconify/svelte";
+	import MdiRefresh from "~icons/mdi/refresh";
 
 	let length = $state(16);
 	let useLower = $state(true);
@@ -52,7 +52,7 @@
 		onclick={() => {regenerate(); spinning = true} }
 		onanimationend={() => spinning = false}
 	>
-		<Icon icon="mdi:refresh" />
+		<MdiRefresh />
 	</button>
 </div>
 

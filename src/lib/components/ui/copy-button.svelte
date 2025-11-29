@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { copy } from "$lib/utils/clipboard.utils";
-	import Icon from "@iconify/svelte";
+	import MdiContentCopy from "~icons/mdi/content-copy";
+	import MdiCheck from "~icons/mdi/check";
 
 	interface Props {
 		value: string;
@@ -33,8 +34,8 @@
 	title="Copy"
 >
 	{#if copied}
-		<Icon icon="mdi:check" class="text-accent" />
+		<MdiCheck class="text-accent w-4 h-4" />
 	{:else}
-		<Icon icon="mdi:content-copy"/>
+		<MdiContentCopy class="w-4 h-4" />
 	{/if}
 </button>

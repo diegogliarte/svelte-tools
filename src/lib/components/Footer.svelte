@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from "@iconify/svelte";
+	import MdiCoffee from "~icons/mdi/coffee"
 </script>
 
 <footer class="p-2 text-center text-small flex flex-col items-center gap-2 z-50">
@@ -17,7 +17,7 @@
         "
 		title="Buy me a coffee on Ko-fi"
 	>
-		<Icon icon="mdi:coffee"/>
+		<MdiCoffee />
 		<span>Buy me a coffee</span>
 	</a>
 

@@ -1,7 +1,8 @@
 <script lang="ts">
-	import Icon from "@iconify/svelte";
 	import { clampAction } from '$lib/actions/clamp';
 	import { clampStep } from '$lib/utils/math.utils';
+	import MdiChevronUp from '~icons/mdi/chevron-up';
+	import MdiChevronDown from '~icons/mdi/chevron-down';
 
 
 	interface Props {
@@ -55,7 +56,7 @@
 
 </script>
 
-{#snippet arrow(dir: 1 | -1, symbol: string)}
+{#snippet arrow(dir: 1 | -1, symbol: "up" | "down")}
 	<button
 		type="button"
 		class="leading-none cursor-pointer hover:text-accent active:text-accent"
@@ -65,7 +66,11 @@
 		ontouchstart={() => startHold(dir)}
 		ontouchend={stopHold}
 	>
-		<Icon icon={symbol} />
+		{#if symbol === 'up'}
+			<MdiChevronUp />
+		{:else if symbol === 'down'}
+			<MdiChevronDown />
+		{/if}
 	</button>
 {/snippet}
 
@@ -95,8 +100,8 @@
 
 		<!-- arrows inside the input -->
 		<div class="absolute inset-y-0 right-3 flex flex-col justify-center">
-			{@render arrow(1, 'mdi:chevron-up')}
-			{@render arrow(-1, 'mdi:chevron-down')}
+			{@render arrow(1, 'up')}
+			{@render arrow(-1, 'down')}
 		</div>
 	</div>
 </div>
