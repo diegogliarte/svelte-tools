@@ -4,13 +4,13 @@
 
 
 	interface Props {
-		label: string;
+		label? : string;
 		value?: string | null;
 		group?: string | null;
 	}
 
 	let {
-		label,
+		label = "",
 		value = "",
 		group,
 	}: Props = $props();
@@ -30,13 +30,15 @@
 </script>
 
 <div class="w-full flex items-center">
-	<div
-		bind:this={labelEl}
-		class="border border-r-0 p-1 text-center"
-		style={`min-width:${labelGroups[group] ?? 0}px`}
-	>
-		{label}
-	</div>
+	{#if label}
+		<div
+			bind:this={labelEl}
+			class="border border-r-0 p-1 text-center"
+			style={`min-width:${labelGroups[group] ?? 0}px`}
+		>
+			{label}
+		</div>
+	{/if}
 
 	<div
 		class="
