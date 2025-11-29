@@ -2,11 +2,17 @@ import type { ToolCategory } from '$lib/tools/types';
 
 import { tool as BMICalculator } from '$lib/tools/bmi-calculator';
 import { tool as HasherGenerator } from '$lib/tools/hash-generator';
+import { tool as ChronoTool } from '$lib/tools/chrono';
 
 export const toolsTree: ToolCategory[] = [
 	{
 		name: 'Health',
-		tools: [BMICalculator, BMICalculator, HasherGenerator],
+		tools: [BMICalculator],
+		subgroups: []
+	},
+	{
+		name: 'Productivity',
+		tools: [ChronoTool],
 		subgroups: []
 	},
 	{
@@ -15,12 +21,8 @@ export const toolsTree: ToolCategory[] = [
 		subgroups: [
 			{
 				name: 'Generators',
-				tools: [HasherGenerator, HasherGenerator],
-				subgroups: [			{
-					name: 'Generator2',
-					tools: [HasherGenerator, HasherGenerator, HasherGenerator],
-					subgroups: []
-				}]
+				tools: [HasherGenerator,],
+				subgroups: [],
 			}],
 	}
 ];

@@ -4,6 +4,7 @@ export interface ToolDefinition {
 	title: string;
 	description: string;
 	component: Component;
+	removeBorder?: boolean;
 }
 
 export interface ToolCategory {

@@ -8,6 +8,7 @@
 	--text-small: 0.75rem;
 	--text-medium: 1rem;
 	--text-large: 1.75rem;
+    --font-clockicons: ClockIcons;
 }
 
 body {
@@ -35,4 +36,11 @@ body::-webkit-scrollbar-thumb {
         scrollbar-color: var(--color-text)
         var(--color-bg);
     }
+}
+
+@font-face {
+    font-family: "ClockIcons";
+    src: url("/fonts/clockicons.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
