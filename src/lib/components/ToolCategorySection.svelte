@@ -20,8 +20,8 @@
 
 	<!-- Tools directly inside this category -->
 	{#if category.tools.length > 0}
-		<div class="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4">
-			{#each category.tools as tool}
+		<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 mb-4">
+			{#each category.tools as tool (tool)}
 				<a
 					href={toolUrl(tool.title)}
 					class="
@@ -30,7 +30,7 @@
 					transition-colors
 				"
 				>
-					<div class="font-medium">{tool.title}</div>
+					<div class="font-medium truncate">{tool.title}</div>
 					<div class="text-small line-clamp-2">{tool.description}</div>
 				</a>
 			{/each}
@@ -38,9 +38,7 @@
 	{/if}
 
 	<!-- Recursive subgroups -->
-	{#each category.subgroups as subgroup}
-		<div class="border-l pl-4">
-			<svelte:self category={subgroup} parentPath={categoryPath} />
-		</div>
+	{#each category.subgroups as subgroup (subgroup)}
+		<svelte:self category={subgroup} parentPath={categoryPath} />
 	{/each}
 </section>

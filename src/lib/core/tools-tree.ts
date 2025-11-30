@@ -6,6 +6,7 @@ import { tool as ChronoTool } from '$lib/tools/chrono';
 import { tool as PasswordGenerator } from '$lib/tools/password-generator';
 import { tool as QRGenerator } from '$lib/tools/qr-generator';
 import { tool as RunningCalculator } from '$lib/tools/running-calculator';
+import { tool as CompoundInterestCalculator } from '$lib/tools/compound-interest-calculator';
 
 export const toolsTree: ToolCategory[] = [
 	{
@@ -15,7 +16,7 @@ export const toolsTree: ToolCategory[] = [
 	},
 	{
 		name: 'Productivity',
-		tools: [ChronoTool],
+		tools: [ChronoTool, CompoundInterestCalculator],
 		subgroups: []
 	},
 	{

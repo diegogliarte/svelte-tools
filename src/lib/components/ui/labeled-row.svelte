@@ -5,15 +5,25 @@
 
 	interface Props {
 		label? : string;
-		value?: string | null;
+		value?: string | number | null;
 		group?: string | null;
+		isCopyable?: boolean;
+		valueAlign?: "left" | "center" | "right";
 	}
 
 	let {
 		label = "",
 		value = "",
 		group,
+		isCopyable = true,
+		valueAlign = "left"
 	}: Props = $props();
+
+	const alignmentClass = {
+		left: "text-left",
+		center: "text-center",
+		right: "text-right"
+	}[valueAlign];
 
 	let labelEl: HTMLElement;
 
@@ -47,15 +57,17 @@
 			cursor-pointer
 			border
 			p-1
-			mr-2
 			outline-none hover:border-accent focus:border-accent focus:bg-accent-dark
+			{alignmentClass}
 		"
 		tabindex="-1"
 	>
 		{value ?? "—"}
 	</div>
 
-	<div class="flex">
-		<CopyButton value={value ?? ""} />
-	</div>
+	{#if isCopyable}
+		<div class="flex ml-2">
+			<CopyButton value={value ?? ""} />
+		</div>
+	{/if}
 </div>

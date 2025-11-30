@@ -4,7 +4,7 @@
 	import MdiCheck from "~icons/mdi/check";
 
 	interface Props {
-		value: string;
+		value: string | number;
 	}
 
 	let {
@@ -16,7 +16,7 @@
 	async function handleClick() {
 		if (!value) return;
 
-		if (await copy(value)) {
+		if (await copy(value.toString())) {
 			copied = true;
 			setTimeout(() => copied = false, 500);
 		}
