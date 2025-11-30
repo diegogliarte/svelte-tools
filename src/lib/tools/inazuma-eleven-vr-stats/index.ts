@@ -2,9 +2,8 @@ import type { ToolDefinition } from '$lib/tools/types';
 import Tool from './Tool.svelte';
 
 export const tool: ToolDefinition = {
-	title: 'Chrono',
-	description: 'Simple chronometer.',
+	title: 'Inazuma Eleven VR Stats',
+	description: 'View all Inazuma Eleven VR player stats.',
 	component: Tool,
-	removeBorder: true,
-	fullscreen: false
+	fullscreen: true
 };

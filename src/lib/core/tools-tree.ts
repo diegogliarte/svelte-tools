@@ -7,6 +7,7 @@ import { tool as PasswordGenerator } from '$lib/tools/password-generator';
 import { tool as QRGenerator } from '$lib/tools/qr-generator';
 import { tool as RunningCalculator } from '$lib/tools/running-calculator';
 import { tool as CompoundInterestCalculator } from '$lib/tools/compound-interest-calculator';
+import { tool as InazumaElevenVRStats } from '$lib/tools/inazuma-eleven-vr-stats';
 
 export const toolsTree: ToolCategory[] = [
 	{
@@ -26,6 +27,16 @@ export const toolsTree: ToolCategory[] = [
 			{
 				name: 'Generators',
 				tools: [HasherGenerator, PasswordGenerator, QRGenerator],
+				subgroups: [],
+			}],
+	},
+	{
+		name: 'Inazuma Eleven',
+		tools: [],
+		subgroups: [
+			{
+				name: 'Victory Road',
+				tools: [InazumaElevenVRStats],
 				subgroups: [],
 			}],
 	}
