@@ -19,21 +19,21 @@ body {
 	letter-spacing: var(--tracking-tight);
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
 
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: var(--color-bg);
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background: var(--color-text);
 }
 
 @supports not selector(::-webkit-scrollbar) {
-    body {
+    * {
         scrollbar-color: var(--color-text)
         var(--color-bg);
     }

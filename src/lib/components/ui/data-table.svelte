@@ -12,7 +12,13 @@
 		searchValue?: (row: T) => string;
 	}
 
-	let { columns, rows, pageSize = 50 } = $props();
+	interface Props<T> {
+		columns: Column<T>[];
+		rows: T[];
+		pageSize?: number;
+	}
+
+	let { columns, rows, pageSize = 50 }: Props<any> = $props();
 
 	// ---------------------------
 	// STATE
@@ -128,17 +134,17 @@
 	</div>
 </div>
 
-<div class="w-full overflow-x-auto">
+<div>
 	<table class="w-full border-collapse text-sm">
 		<thead>
 		<tr class="border-b border-text/50">
 			{#each columns as col (col.key)}
 				<th
-					class="text-left p-2 font-medium cursor-pointer select-none transition"
+					class="text-left p-1 font-medium cursor-pointer select-none transition"
 					style={col.width ? `width:${col.width}` : ""}
 					onclick={() => toggleSort(col.key)}
 				>
-					<div class="flex items-center gap-1 transition {sortKey === col.key ? 'text-accent' : ''}">
+					<div class="flex items-center gap-1 transition hover:text-accent {sortKey === col.key ? 'text-accent' : ''}">
 						<span>{col.label}</span>
 
 						<span class="inline-flex items-center justify-center opacity-60">
@@ -170,7 +176,7 @@
 			{#each visibleRows as row (row)}
 				<tr class="border-b border-text/25 hover:bg-accent-dark/20 transition">
 					{#each columns as col (col.key)}
-						<td class="p-2">
+						<td class="p-1">
 							{#if col.render}
 								{@html col.render(row)}
 							{:else}
