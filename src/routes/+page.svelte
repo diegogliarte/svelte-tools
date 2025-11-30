@@ -12,10 +12,8 @@
 </svelte:head>
 
 
-<h1 class="text-large mb-12">All Tools</h1>
-
 <div class="flex flex-col">
-	{#each toolsTree as category (category)}
+	{#each toolsTree as category (category.name)}
 		<ToolCategorySection {category} />
 	{/each}
 </div>

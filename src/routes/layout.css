@@ -1,4 +1,7 @@
-@import 'tailwindcss';
+/* Fixes base being applied last */
+@import "tailwindcss/theme";       /* variables */
+@import "tailwindcss/preflight";   /* base/reset */
+@import "tailwindcss/utilities";   /* components + utilities */
 
 @theme {
 	--color-bg: #131313;
