@@ -15,6 +15,10 @@
 	function toggleCategory(cat: string) {
 		collapsed[cat] = !collapsed[cat];
 	}
+
+	import { afterNavigate } from '$app/navigation';
+
+	afterNavigate(() => console.log('navigated'));
 </script>
 
 <div
