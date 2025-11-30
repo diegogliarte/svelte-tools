@@ -8,6 +8,7 @@ import { tool as QRGenerator } from '$lib/tools/qr-generator';
 import { tool as RunningCalculator } from '$lib/tools/running-calculator';
 import { tool as CompoundInterestCalculator } from '$lib/tools/compound-interest-calculator';
 import { tool as InazumaElevenVRStats } from '$lib/tools/inazuma-eleven-vr-stats';
+import { tool as Base64EncoderDecoder } from '$lib/tools/base64-encoder-decoder';
 
 export const toolsTree: ToolCategory[] = [
 	{
@@ -22,22 +23,12 @@ export const toolsTree: ToolCategory[] = [
 	},
 	{
 		name: 'Development',
-		tools: [],
-		subgroups: [
-			{
-				name: 'Generators',
-				tools: [HasherGenerator, PasswordGenerator, QRGenerator],
-				subgroups: [],
-			}],
+		tools: [HasherGenerator, PasswordGenerator, QRGenerator, Base64EncoderDecoder],
+		subgroups: [],
 	},
 	{
-		name: 'Inazuma Eleven',
-		tools: [],
-		subgroups: [
-			{
-				name: 'Victory Road',
-				tools: [InazumaElevenVRStats],
-				subgroups: [],
-			}],
+		name: 'Inazuma Eleven VR',
+		tools: [InazumaElevenVRStats],
+		subgroups: []
 	}
 ];

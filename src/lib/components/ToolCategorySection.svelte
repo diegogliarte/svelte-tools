@@ -15,8 +15,8 @@
 	}
 </script>
 
-<section class="mb-10">
-	<h3 class="text-medium mb-3">{category.name}</h3>
+<section class="mb-4 last:mb-0">
+	<h3 class="text-medium mb-1">{category.name}</h3>
 
 	<!-- Tools directly inside this category -->
 	{#if category.tools.length > 0}
@@ -25,8 +25,8 @@
 				<a
 					href={toolUrl(tool.title)}
 					class="
-					border p-4 block
-					hover:border-accent hover:bg-accent-dark/20
+					border px-2 py-1
+					hover:border-accent hover:bg-accent-dark
 					transition-colors
 				"
 				>
