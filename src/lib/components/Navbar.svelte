@@ -6,7 +6,7 @@
 	export let toggleSidebar: () => void;
 </script>
 
-<nav class="w-full border-b border-text bg-bg text-text px-4 py-2 flex items-center gap-4">
+<nav class="w-full border-b border-text bg-bg text-text px-4 py-2 flex items-center gap-4 z-50">
 	<!-- Sidebar toggle -->
 	<button class="text-text hover:text-accent transition cursor-pointer" onclick={toggleSidebar}>
 		<MdiMenu class="w-6 h-6" />

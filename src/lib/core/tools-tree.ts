@@ -9,8 +9,25 @@ import { tool as RunningCalculator } from '$lib/tools/running-calculator';
 import { tool as CompoundInterestCalculator } from '$lib/tools/compound-interest-calculator';
 import { tool as InazumaElevenVRStats } from '$lib/tools/inazuma-eleven-vr-stats';
 import { tool as Base64EncoderDecoder } from '$lib/tools/base64-encoder-decoder';
+import { slugify } from '$lib/utils/slug.utils';
 
-export const toolsTree: ToolCategory[] = [
+function applyHref(category: ToolCategory, parentPath = ""): ToolCategory {
+	const categorySlug = slugify(category.name);
+	const fullPath = parentPath ? `${parentPath}/${categorySlug}` : categorySlug;
+
+	category.tools = category.tools.map((tool) => ({
+		...tool,
+		href: `/${fullPath}/${slugify(tool.title)}`
+	}));
+
+	category.subgroups = category.subgroups.map((sub) =>
+		applyHref(sub, fullPath)
+	);
+
+	return category;
+}
+
+export const rawTree: ToolCategory[] = [
 	{
 		name: 'Health',
 		tools: [BMICalculator, RunningCalculator],
@@ -32,3 +49,5 @@ export const toolsTree: ToolCategory[] = [
 		subgroups: []
 	}
 ];
+
+export const toolsTree = rawTree.map((c) => applyHref(c));

@@ -25,10 +25,11 @@
 	transition-transform
 	{visible ? '' : 'hidden'}
 	p-1 flex flex-col gap-1 text-small
+	z-50
 "
 >
 
-	{#each toolsTree as category}
+	{#each toolsTree as category (category)}
 		<div>
 			<button
 				class="w-full flex items-center text-left hover:text-accent py-1"
@@ -47,7 +48,7 @@
 			<!-- Tools -->
 			{#if !collapsed[category.name]}
 				<div class="border-l border-text pl-2 flex flex-col">
-					{#each category.tools as tool}
+					{#each category.tools as tool (tool.href)}
 						<a
 							href={tool.href}
 							class="

@@ -8,11 +8,6 @@
 		? `${parentPath}/${category.name}`
 		: category.name;
 
-	function toolUrl(title: string) {
-		const slug = title.toLowerCase().replace(/\s+/g, "-");
-		const path = categoryPath.toLowerCase().replace(/\s+/g, "-");
-		return `/${path}/${slug}`;
-	}
 </script>
 
 <section class="mb-4 last:mb-0">
@@ -23,7 +18,7 @@
 		<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 mb-4">
 			{#each category.tools as tool (tool)}
 				<a
-					href={toolUrl(tool.title)}
+					href={tool.href}
 					class="
 					border px-2 py-1
 					hover:border-accent hover:bg-accent-dark

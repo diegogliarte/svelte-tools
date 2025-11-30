@@ -18,7 +18,6 @@
 
 	<Sidebar visible={isSidebarOpen} />
 
-	<!-- Right side: scrolls as one unit -->
 	<div class="flex flex-col flex-1 overflow-y-auto">
 
 		<Navbar {toggleSidebar} />

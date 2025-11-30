@@ -37,35 +37,3 @@ export function findTool(path: string[], toolSlug: string, tree: ToolCategory[])
 
 	return null;
 }
-
-/**
- * Generate URLs for all tools in the category tree.
- *
- * @param categories The root categories to start from
- * @param path The current path segments (used in recursion)
- * @returns Array of objects containing tool URLs and their definitions
- */
-export function generateToolURLs(
-	categories: ToolCategory[],
-	path: string[] = []
-): { url: string; tool: ToolDefinition }[] {
-	const result: { url: string; tool: ToolDefinition }[] = [];
-
-	for (const category of categories) {
-		const thisPath = [...path, slugify(category.name)];
-
-		// Add tools directly under this category
-		for (const tool of category.tools) {
-			const toolSlug = slugify(tool.title);
-			const url = '/' + [...thisPath, toolSlug].join('/');
-			result.push({ url, tool });
-		}
-
-		// Recurse for subcategories
-		if (category.subgroups.length > 0) {
-			result.push(...generateToolURLs(category.subgroups, thisPath));
-		}
-	}
-
-	return result;
-}
