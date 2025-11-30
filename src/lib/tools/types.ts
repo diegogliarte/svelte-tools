@@ -5,6 +5,7 @@ export interface ToolDefinition {
 	description: string;
 	component: Component;
 	removeBorder?: boolean;
+	fullscreen?: boolean;
 }
 
 export interface ToolCategory {
