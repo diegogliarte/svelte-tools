@@ -7,7 +7,6 @@
 	let laps = $state<string[]>([]);
 	let pulsing = $state(false);
 
-	// --- formatting ----------------------------------------------------
 	let formatted = $derived.by(() => {
 		const total = elapsed / 1000;
 		const h = Math.floor(total / 3600);
@@ -17,7 +16,6 @@
 		return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 	});
 
-	// --- timer loop ----------------------------------------------------
 	$effect(() => {
 		let frame: number;
 
@@ -35,7 +33,6 @@
 		return () => cancelAnimationFrame(frame);
 	});
 
-	// --- controls ------------------------------------------------------
 	function toggleRun() {
 		running = !running;
 		if (running) lastTick = 0;
@@ -63,7 +60,6 @@
 		}
 	}
 
-	// --- mouse events --------------------------------------------------
 	function onMouseDown(e: MouseEvent) {
 		// middle = lap
 		if (e.button === 1) {
