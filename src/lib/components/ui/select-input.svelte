@@ -2,12 +2,12 @@
 	import MdiChevronDown from "~icons/mdi/chevron-down";
 
 	interface Option {
-		value: string;
+		value: string | boolean;
 		label: string;
 	}
 
 	interface Props {
-		value?: string | null;
+		value?: string | boolean | null;
 		options: Option[];
 		label?: string;
 		placeholder?: string; // Shown when no value

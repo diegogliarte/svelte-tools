@@ -25,7 +25,7 @@
 
 	{@const Component = tool.component}
 
-	<div class="flex flex-col mx-auto {!tool.fullscreen ? 'max-w-3xl' : '' } {!tool.removeBorder ? 'border-0' : '' } border-text p-8 m-4 mt-8 gap-8">
+	<div class="flex flex-col mx-auto {!tool.fullscreen ? 'max-w-3xl' : '' } {!tool.removeBorder ? 'border-0' : '' } border-text m-4 mt-8 gap-8">
 		<Component />
 	</div>
 

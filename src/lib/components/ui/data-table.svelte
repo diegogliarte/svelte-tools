@@ -4,32 +4,27 @@
 	import MdiChevronDown from '~icons/mdi/chevron-down';
 	import MdiChevronUpDown from "~icons/mdi/chevron-up-down";
 
-	export interface Column<T> {
-		key: keyof T;
+	export interface Column<RowType = any> {
+		key: string;
 		label: string;
 		width?: string;
-		render?: (row: T) => string;
-		searchValue?: (row: T) => string;
+		render?: (row: RowType) => string;
+		searchValue?: (row: RowType) => string;
+		sortValue?: (row: RowType) => number | string;
 	}
 
-	interface Props<T> {
-		columns: Column<T>[];
-		rows: T[];
+	interface Props<RowType = any> {
+		columns: Column<RowType>[];
+		rows: RowType[];
 		pageSize?: number;
 	}
 
-	let { columns, rows, pageSize = 50 }: Props<any> = $props();
+	let { columns, rows, pageSize = 50 }: Props = $props();
 
-	// ---------------------------
-	// STATE
-	// ---------------------------
 	let search = $state("");
 	let sortKey = $state<keyof any | null>(null);
 	let sortDir = $state<"asc" | "desc" | null>(null);
 
-	// ---------------------------
-	// FILTERED + SORTED rows
-	// ---------------------------
 	let processed = $derived.by(() => {
 		let filtered = rows;
 
@@ -72,8 +67,10 @@
 		// --- sorting (unchanged) ---
 		if (sortKey) {
 			filtered = [...filtered].sort((a, b) => {
-				const av = a[sortKey];
-				const bv = b[sortKey];
+				const col = columns.find(c => c.key === sortKey);
+
+				const av = col?.sortValue ? col.sortValue(a) : a[sortKey];
+				const bv = col?.sortValue ? col.sortValue(b) : b[sortKey];
 
 				if (av < bv) return sortDir === "asc" ? -1 : 1;
 				if (av > bv) return sortDir === "asc" ? 1 : -1;
