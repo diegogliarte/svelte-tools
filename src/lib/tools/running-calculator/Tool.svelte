@@ -1,7 +1,4 @@
 <script lang="ts">
-	// ---------------------------
-	// Helpers
-	// ---------------------------
 	function hmsToSeconds(h = 0, m = 0, s = 0) {
 		return (h || 0) * 3600 + (m || 0) * 60 + (s || 0);
 	}
@@ -14,9 +11,6 @@
 		};
 	}
 
-	// ---------------------------
-	// State
-	// ---------------------------
 	let timeH = $state<number | undefined>();
 	let timeM = $state<number | undefined>();
 	let timeS = $state<number | undefined>();
@@ -27,14 +21,10 @@
 	let paceM = $state<number | undefined>();
 	let paceS = $state<number | undefined>();
 
-	// "time" | "distance" | "pace"
-	let locked = $state<"time" | "distance" | "pace">("time");
+	let locked = $state<"time" | "distance" | "pace">("pace");
 
 	const lock = (f: "time" | "distance" | "pace") => (locked = f);
 
-	// ---------------------------
-	// Calculation (reactive)
-	// ---------------------------
 	$effect(() => {
 		const t = hmsToSeconds(timeH, timeM, timeS);
 		const p = hmsToSeconds(paceH, paceM, paceS);
@@ -58,9 +48,6 @@
 		}
 	});
 
-	// ---------------------------
-	// Input auto-advance
-	// ---------------------------
 	function limit2(e: Event, next?: HTMLInputElement | null) {
 		const input = e.target as HTMLInputElement;
 		if (input.value.length > 2) input.value = input.value.slice(0, 2);
@@ -75,26 +62,34 @@
 	let paceSEl: HTMLInputElement;
 	let distanceEl: HTMLInputElement;
 
-	// ---------------------------
-	// Distance max digits
-	// ---------------------------
-	function enforceDistanceLimit(e: Event) {
+	function enforceDistanceLimit(e) {
 		const input = e.target as HTMLInputElement;
 		if (input.value.length > 5) {
 			input.value = input.value.slice(0, 5);
 		}
 	}
+
+	const baseInput = "w-6 text-center bg-transparent border-b outline-none transition-colors";
+	const unlockedInput = "focus:border-accent hover:border-accent";
 </script>
+
+{#snippet labeledButton(label: string, active: boolean, onclick: () => void) }
+	<button
+		class="cursor-pointer transition-colors hover:text-accent {active ? 'text-accent' : ''}"
+		onclick={onclick}
+	>
+		{label}
+	</button>
+{/snippet}
+
+{#snippet colons() }
+	<span class="mx-2 text-accent">:</span>
+{/snippet}
 
 <section class="max-w-xs mx-auto space-y-6">
 	<!-- TIME -->
 	<div class="flex justify-between items-center gap-8">
-		<button
-			class="cursor-pointer transition-colors hover:text-accent {locked === 'time' ? 'text-accent' : ''}"
-			onclick={() => lock("time")}
-		>
-			Time
-		</button>
+		{@render labeledButton("Time", locked === "time", () => lock("time"))}
 
 		<div class="flex items-center transition-opacity {locked === 'time' ? 'opacity-50' : ''}">
 			<input
@@ -103,13 +98,10 @@
 				bind:value={timeH}
 				placeholder="h"
 				readonly={locked === "time"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) => locked !== "time" && limit2(e, timeMEl)}
-			/>
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, timeMEl)} />
 
-			<span class="mx-2 text-accent">:</span>
+			{@render colons()}
 
 			<input
 				type="number"
@@ -117,13 +109,11 @@
 				bind:value={timeM}
 				placeholder="m"
 				readonly={locked === "time"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) => locked !== "time" && limit2(e, timeSEl)}
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, timeSEl)}
 			/>
 
-			<span class="mx-2 text-accent">:</span>
+			{@render colons()}
 
 			<input
 				type="number"
@@ -131,25 +121,15 @@
 				bind:value={timeS}
 				placeholder="s"
 				readonly={locked === "time"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) =>
-					locked !== "time" &&
-					limit2(e, locked === "distance" ? paceHEl : distanceEl)
-				}
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, distanceEl)}
 			/>
 		</div>
 	</div>
 
 	<!-- DISTANCE -->
 	<div class="flex justify-between items-center">
-		<button
-			class="cursor-pointer transition-colors hover:text-accent {locked === 'distance' ? 'text-accent' : ''}"
-			onclick={() => lock("distance")}
-		>
-			Distance
-		</button>
+		{@render labeledButton("Distance", locked === "distance", () => lock("distance"))}
 
 		<input
 			type="number"
@@ -158,19 +138,14 @@
 			step="0.1"
 			placeholder="km"
 			readonly={locked === "distance"}
-			class="w-20 text-right bg-transparent border-b outline-none transition-colors {locked === 'distance' ? 'opacity-50' : ''} focus:border-accent hover:border-accent"
+			class="w-20 h-full text-right bg-transparent border-b outline-none transition-colors {locked === 'distance' ? 'opacity-50' : 'focus:border-accent hover:border-accent'}"
 			oninput={(e) => locked !== "distance" && enforceDistanceLimit(e)}
 		/>
 	</div>
 
 	<!-- PACE -->
 	<div class="flex justify-between items-center">
-		<button
-			class="cursor-pointer transition-colors hover:text-accent {locked === 'pace' ? 'text-accent' : ''}"
-			onclick={() => lock("pace")}
-		>
-			Pace
-		</button>
+		{@render labeledButton("Pace", locked === "pace", () => lock("pace"))}
 
 		<div class="flex items-center transition-opacity {locked === 'pace' ? 'opacity-50' : ''}">
 			<input
@@ -179,46 +154,34 @@
 				bind:value={paceH}
 				placeholder="h"
 				readonly={locked === "pace"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) => locked !== "pace" && limit2(e, paceMEl)}
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, paceMEl)}
 			/>
 
-			<span class="mx-2 text-accent">:</span>
+			{@render colons()}
 
 			<input
 				type="number"
 				bind:this={paceMEl}
 				bind:value={paceM}
 				placeholder="m"
-				min="0"
-				max="59"
 				readonly={locked === "pace"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) => locked !== "pace" && limit2(e, paceSEl)}
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, paceSEl)}
 			/>
 
-			<span class="mx-2 text-accent">:</span>
+			{@render colons()}
 
 			<input
 				type="number"
 				bind:this={paceSEl}
 				bind:value={paceS}
 				placeholder="s"
-				min="0"
-				max="59"
 				readonly={locked === "pace"}
-				class="w-6 text-center bg-transparent border-b outline-none
-				       transition-colors
-				       focus:border-accent hover:border-accent"
-				oninput={(e) =>
-					locked !== "pace" &&
-					limit2(e, locked === "time" ? distanceEl : timeHEl)
-				}
+				class={`${baseInput} ${locked !== 'time' ? unlockedInput : ''}`}
+				oninput={(e) => limit2(e, timeHEl)}
 			/>
+
 		</div>
 	</div>
 </section>
