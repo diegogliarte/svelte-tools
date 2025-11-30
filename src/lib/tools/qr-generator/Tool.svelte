@@ -56,10 +56,14 @@
 		onclick={downloadQR}
 		class="
 			cursor-pointer
-			transition-opacity
-			{visible ? 'opacity-100' : 'opacity-0'}
+			transition-opacity {visible ? 'opacity-100' : 'opacity-0'}
 		"
 	></canvas>
 </div>
 
-<p class="text-small h-1 text-center">{caption}</p>
+<p class="
+	text-small
+	h-1
+	text-center
+	transition-opacity {visible ? 'opacity-100' : 'opacity-0'}"
+>{caption}</p>

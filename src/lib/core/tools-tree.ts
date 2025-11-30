@@ -5,11 +5,12 @@ import { tool as HasherGenerator } from '$lib/tools/hash-generator';
 import { tool as ChronoTool } from '$lib/tools/chrono';
 import { tool as PasswordGenerator } from '$lib/tools/password-generator';
 import { tool as QRGenerator } from '$lib/tools/qr-generator';
+import { tool as RunningCalculator } from '$lib/tools/running-calculator';
 
 export const toolsTree: ToolCategory[] = [
 	{
 		name: 'Health',
-		tools: [BMICalculator],
+		tools: [BMICalculator, RunningCalculator],
 		subgroups: []
 	},
 	{
