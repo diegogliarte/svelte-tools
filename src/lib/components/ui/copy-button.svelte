@@ -31,7 +31,6 @@
 		transition-colors
 	"
 	onclick={handleClick}
-	title="Copy"
 >
 	{#if copied}
 		<MdiCheck class="text-accent w-4 h-4" />

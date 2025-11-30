@@ -15,7 +15,6 @@
             transition
             cursor-pointer
         "
-		title="Buy me a coffee on Ko-fi"
 	>
 		<MdiCoffee />
 		<span>Buy me a coffee</span>

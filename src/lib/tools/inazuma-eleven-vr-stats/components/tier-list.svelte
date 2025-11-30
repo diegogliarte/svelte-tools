@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { tooltipAction } from "$lib/actions/tooltip";
 	import { calculateATDFStats } from "$lib/utils/inazuma-eleven-vr";
 	import players from "$lib/data/inazuma-eleven-vr/players.json";
 
@@ -79,13 +80,11 @@
 						<!-- 👇 4-column grid of players -->
 						<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1">
 							{#each tier.players as p (p.Image)}
-								<div class="border hover:border-accent transition w-full {elementColor[p.Element] ?? ''}">
-									<img
-										src={p.Image}
-										alt={p.Name}
-										title={p.Name}
-										class="player-img"
-									/>
+								<div
+									use:tooltipAction={{ text: p.Name, position: "bottom" }}
+									class="border hover:border-accent transition w-full {elementColor[p.Element]}"
+								>
+									<img src={p.Image} alt={p.Name} class="player-img" />
 								</div>
 							{/each}
 						</div>
