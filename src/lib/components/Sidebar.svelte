@@ -10,9 +10,10 @@
 
 	let { visible = $bindable() }: Props = $props();
 
-	let collapsed: Record<string, boolean> = {};
+	let collapsed: Record<string, boolean> = $state({});
 
 	function toggleCategory(cat: string) {
+		console.log("toggling", cat);
 		collapsed[cat] = !collapsed[cat];
 	}
 </script>
@@ -24,6 +25,7 @@
 	overflow-y-auto
 	transition-transform
 	{visible ? '' : 'hidden'}
+	w-40
 	p-1 flex flex-col gap-1 text-small
 	z-50
 "
@@ -32,7 +34,7 @@
 	{#each toolsTree as category (category)}
 		<div>
 			<button
-				class="w-full flex items-center text-left hover:text-accent py-1"
+				class="w-full flex items-center text-left hover:text-accent py-1 cursor-pointer"
 				onclick={() => toggleCategory(category.name)}
 			>
 				{#if collapsed[category.name]}
@@ -52,9 +54,10 @@
 						<a
 							href={tool.href}
 							class="
-								py-0.5 hover:text-accent
+								py-0.5 hover:text-accent truncate
 								{page.url.pathname === tool.href ? 'text-accent' : ''}
 							"
+							title={tool.title}
 						>
 							{tool.title}
 						</a>
