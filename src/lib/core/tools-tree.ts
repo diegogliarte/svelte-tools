@@ -4,6 +4,7 @@ import { tool as BMICalculator } from '$lib/tools/bmi-calculator';
 import { tool as HasherGenerator } from '$lib/tools/hash-generator';
 import { tool as ChronoTool } from '$lib/tools/chrono';
 import { tool as PasswordGenerator } from '$lib/tools/password-generator';
+import { tool as QRGenerator } from '$lib/tools/qr-generator';
 
 export const toolsTree: ToolCategory[] = [
 	{
@@ -22,7 +23,7 @@ export const toolsTree: ToolCategory[] = [
 		subgroups: [
 			{
 				name: 'Generators',
-				tools: [HasherGenerator, PasswordGenerator],
+				tools: [HasherGenerator, PasswordGenerator, QRGenerator],
 				subgroups: [],
 			}],
 	}
