@@ -73,9 +73,9 @@
 
 				{#each computeRoleTiers(role) as tier, i (i)}
 					<div>
-						<div class="">
+						<h3>
 							Tier {i + 1} ({tier.value})
-						</div>
+						</h3>
 
 						<!-- 👇 4-column grid of players -->
 						<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1">
