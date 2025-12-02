@@ -20,15 +20,19 @@
 
 <div
 	class="
-	h-screen
-	border-r
-	overflow-y-auto
-	transition-transform
-	{visible ? '' : 'hidden'}
-	w-40
-	p-1 flex flex-col gap-1 text-small
-	z-50
-"
+		fixed
+		inset-y-0
+		left-0
+		w-40
+		h-screen
+		border-r
+		overflow-y-auto
+		transition-transform
+		{visible ? '' : 'hidden'}
+		p-1 flex flex-col gap-1 text-small
+		z-50
+		bg-bg  /* important so content behind doesn't show through */
+	"
 >
 
 	{#each toolsTree as category (category)}

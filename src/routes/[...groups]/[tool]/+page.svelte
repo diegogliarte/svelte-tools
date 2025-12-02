@@ -4,10 +4,9 @@
 
 	let { params } = $props();
 
-	const categoryPath = params.groups.split("/");
-	const toolSlug = params.tool;
-
-	const tool = findTool(categoryPath, toolSlug, toolsTree);
+	let categoryPath = $derived(params.groups.split("/"));
+	let toolSlug = $derived(params.tool);
+	let tool = $derived(findTool(categoryPath, toolSlug, toolsTree));
 </script>
 
 <svelte:head>
@@ -25,7 +24,7 @@
 
 	{@const Component = tool.component}
 
-	<div class="flex flex-col mx-auto {!tool.fullscreen ? 'max-w-3xl' : '' } {!tool.removeBorder ? 'border-0' : '' } border-text m-4 mt-8 gap-8">
+	<div class="flex flex-col {!tool.fullscreen ? 'max-w-3xl mx-auto' : '' } {!tool.removeBorder ? 'border-0' : '' } border-text m-4 mt-8 gap-8">
 		<Component />
 	</div>
 

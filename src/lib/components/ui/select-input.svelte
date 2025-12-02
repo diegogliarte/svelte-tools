@@ -25,7 +25,7 @@
 	const uid = $props.id();
 </script>
 
-<div class="flex flex-col w-full gap-1 ">
+<div class="flex flex-col w-fit gap-1">
 	{#if label}
 		<label for={uid} class="pointer-events-none">{label}</label>
 	{/if}

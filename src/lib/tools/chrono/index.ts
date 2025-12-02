@@ -6,5 +6,4 @@ export const tool: ToolDefinition = {
 	description: 'Simple chronometer.',
 	component: Tool,
 	removeBorder: true,
-	fullscreen: false
 };

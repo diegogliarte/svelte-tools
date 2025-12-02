@@ -90,6 +90,7 @@
 
 	function onScroll() {
 		const bottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+		console.log(bottom);
 		if (bottom && visibleRows.length < processed.length) {
 			page += 1;
 		}
@@ -117,7 +118,7 @@
 </script>
 
 <!-- Search + Counter -->
-<div class="flex items-center justify-between">
+<div class="flex items-center justify-between gap-2">
 	<div class="w-48">
 		<TextInput
 			placeholder="Search..."
@@ -135,7 +136,7 @@
 	<table class="w-full border-collapse text-sm">
 		<thead>
 		<tr class="border-b border-text/50">
-			{#each columns as col (col.key)}
+			{#each columns as col (col)}
 				<th
 					class="text-left p-1 font-medium cursor-pointer select-none transition"
 					style={col.width ? `width:${col.width}` : ""}
@@ -172,7 +173,7 @@
 		{:else}
 			{#each visibleRows as row (row)}
 				<tr class="border-b border-text/25 hover:bg-accent-dark/20 transition">
-					{#each columns as col (col.key)}
+					{#each columns as col (col)}
 						<td class="p-1">
 							{#if col.render}
 								{@html col.render(row)}

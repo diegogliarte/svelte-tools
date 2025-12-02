@@ -14,15 +14,15 @@
 	}
 </script>
 
-<div class="flex bg-bg text-text h-screen overflow-hidden">
+<div class="flex bg-bg text-text ">
 
 	<Sidebar visible={isSidebarOpen} />
 
-	<div class="flex flex-col flex-1 overflow-y-auto">
+	<div class="flex flex-col flex-1 overflow-y-auto {isSidebarOpen ? 'pl-40' : ''}">
 
 		<Navbar {toggleSidebar} />
 
-		<main class="p-4 flex flex-col flex-1">
+		<main class="p-4 flex flex-col flex-1 overflow-x-auto">
 			{@render children()}
 		</main>
 
