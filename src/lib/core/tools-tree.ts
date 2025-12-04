@@ -1,4 +1,5 @@
 import type { ToolCategory } from '$lib/tools/types';
+import { slugify } from '$lib/utils/slug.utils';
 
 import { tool as BMICalculator } from '$lib/tools/bmi-calculator';
 import { tool as HasherGenerator } from '$lib/tools/hash-generator';
@@ -9,9 +10,9 @@ import { tool as RunningCalculator } from '$lib/tools/running-calculator';
 import { tool as CompoundInterestCalculator } from '$lib/tools/compound-interest-calculator';
 import { tool as InazumaElevenVRStats } from '$lib/tools/inazuma-eleven-vr-stats';
 import { tool as Base64EncoderDecoder } from '$lib/tools/base64-encoder-decoder';
-import { slugify } from '$lib/utils/slug.utils';
+import { tool as JSONFormatter } from '$lib/tools/json-formatter';
 
-function applyHref(category: ToolCategory, parentPath = ""): ToolCategory {
+function applyHref(category: ToolCategory, parentPath = ''): ToolCategory {
 	const categorySlug = slugify(category.name);
 	const fullPath = parentPath ? `${parentPath}/${categorySlug}` : categorySlug;
 
@@ -20,9 +21,7 @@ function applyHref(category: ToolCategory, parentPath = ""): ToolCategory {
 		href: `/${fullPath}/${slugify(tool.title)}`
 	}));
 
-	category.subgroups = category.subgroups.map((sub) =>
-		applyHref(sub, fullPath)
-	);
+	category.subgroups = category.subgroups.map((sub) => applyHref(sub, fullPath));
 
 	return category;
 }
@@ -40,8 +39,8 @@ export const rawTree: ToolCategory[] = [
 	},
 	{
 		name: 'Development',
-		tools: [HasherGenerator, PasswordGenerator, QRGenerator, Base64EncoderDecoder],
-		subgroups: [],
+		tools: [HasherGenerator, PasswordGenerator, QRGenerator, Base64EncoderDecoder, JSONFormatter],
+		subgroups: []
 	},
 	{
 		name: 'Inazuma Eleven VR',
