@@ -23,7 +23,7 @@
 		fixed
 		inset-y-0
 		left-0
-		w-40
+		w-sidebar
 		h-screen
 		border-r
 		overflow-y-auto

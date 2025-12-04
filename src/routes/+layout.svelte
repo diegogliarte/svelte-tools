@@ -18,16 +18,16 @@
 
 	<Sidebar visible={isSidebarOpen} />
 
-	<div class="flex flex-col flex-1 overflow-y-auto {isSidebarOpen ? 'pl-40' : ''}">
+	<div class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}">
 
 		<Navbar {toggleSidebar} />
 
-		<main class="p-4 flex flex-col flex-1 overflow-x-auto">
+		<main class="p-4 flex-1">
 			{@render children()}
 		</main>
 
 		<Footer />
 	</div>
-
 </div>
+
 

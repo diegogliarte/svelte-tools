@@ -12,6 +12,7 @@
 	--text-medium: 1rem;
 	--text-large: 1.75rem;
     --font-clockicons: ClockIcons;
+    --spacing-sidebar: 10rem;
 }
 
 body {
