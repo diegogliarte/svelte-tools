@@ -109,6 +109,7 @@
 			},
 			options: {
 				responsive: true,
+				maintainAspectRatio: false,
 				plugins: {
 					legend: {
 						labels: {
@@ -135,11 +136,10 @@
 	});
 </script>
 
-<div>
+<div class="h-full">
 	<canvas
 		bind:this={canvas}
-		height="128"
-		class={labels.length && datasets.length ? "" : "hidden"}
+		class="{labels.length && datasets.length ? '' : 'hidden'}  h-full w-full"
 	></canvas>
 
 	<div

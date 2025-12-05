@@ -2,6 +2,7 @@
 	import MdiMenu from "~icons/mdi/menu";
 	import MdiGithub from "~icons/mdi/github";
 	import MdiHome from "~icons/mdi/home";
+	import MdiShape from "~icons/mdi/shape";
 
 	export let toggleSidebar: () => void;
 </script>
@@ -20,6 +21,12 @@
 	<div class="flex-1"></div>
 
 	<!-- GitHub -->
+	<a
+		href="/components"
+		class="text-text hover:text-accent transition"
+	>
+		<MdiShape class="w-6 h-6" />
+	</a>
 	<a
 		href="https://github.com/diegogliarte/tools"
 		target="_blank"

@@ -13,7 +13,6 @@
 	let collapsed: Record<string, boolean> = $state({});
 
 	function toggleCategory(cat: string) {
-		console.log("toggling", cat);
 		collapsed[cat] = !collapsed[cat];
 	}
 </script>

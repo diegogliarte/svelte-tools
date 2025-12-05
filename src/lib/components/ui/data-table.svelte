@@ -90,7 +90,6 @@
 
 	function onScroll() {
 		const bottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
-		console.log(bottom);
 		if (bottom && visibleRows.length < processed.length) {
 			page += 1;
 		}
