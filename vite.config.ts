@@ -8,8 +8,8 @@ export default defineConfig({
 		tailwindcss(),
 		sveltekit(),
 		Icons({
-			compiler: 'svelte',  // required for Svelte
-			autoInstall: true,
+			compiler: 'svelte', // required for Svelte
+			autoInstall: true
 		})
-	],
+	]
 });

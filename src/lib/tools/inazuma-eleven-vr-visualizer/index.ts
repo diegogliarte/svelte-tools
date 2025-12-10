@@ -2,8 +2,8 @@ import type { ToolDefinition } from '$lib/tools/types';
 import Tool from './Tool.svelte';
 
 export const tool: ToolDefinition = {
-	title: 'Chrono',
-	description: 'Simple chronometer.',
+	title: 'Visualizer',
+	description: 'View the players by teams, etc...',
 	component: Tool,
-	removeBorder: true
+	fullscreen: true
 };

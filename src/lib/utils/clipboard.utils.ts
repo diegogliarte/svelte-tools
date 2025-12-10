@@ -3,7 +3,7 @@ export async function copy(text: string): Promise<boolean> {
 		await navigator.clipboard.writeText(text);
 		return true;
 	} catch (err) {
-		console.warn("Clipboard copy failed:", err);
+		console.warn('Clipboard copy failed:', err);
 		return false;
 	}
 }

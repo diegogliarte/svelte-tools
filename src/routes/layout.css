@@ -1,7 +1,7 @@
 /* Fixes base being applied last */
-@import "tailwindcss/theme";       /* variables */
-@import "tailwindcss/preflight";   /* base/reset */
-@import "tailwindcss/utilities";   /* components + utilities */
+@import 'tailwindcss/theme'; /* variables */
+@import 'tailwindcss/preflight'; /* base/reset */
+@import 'tailwindcss/utilities'; /* components + utilities */
 
 @theme {
 	--color-bg: #131313;
@@ -11,8 +11,8 @@
 	--text-small: 0.75rem;
 	--text-medium: 1rem;
 	--text-large: 1.75rem;
-    --font-clockicons: ClockIcons;
-    --spacing-sidebar: 10rem;
+	--font-clockicons: ClockIcons;
+	--spacing-sidebar: 10rem;
 }
 
 body {
@@ -24,28 +24,27 @@ body {
 }
 
 *::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+	width: 6px;
+	height: 6px;
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--color-bg);
+	background: var(--color-bg);
 }
 
 *::-webkit-scrollbar-thumb {
-    background: var(--color-text);
+	background: var(--color-text);
 }
 
 @supports not selector(::-webkit-scrollbar) {
-    * {
-        scrollbar-color: var(--color-text)
-        var(--color-bg);
-    }
+	* {
+		scrollbar-color: var(--color-text) var(--color-bg);
+	}
 }
 
 @font-face {
-    font-family: "ClockIcons";
-    src: url("/fonts/clockicons.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'ClockIcons';
+	src: url('/fonts/clockicons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }

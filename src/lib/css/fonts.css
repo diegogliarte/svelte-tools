@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "ClockIcons";
-    src: url("/fonts/clockicons.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'ClockIcons';
+	src: url('/fonts/clockicons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
