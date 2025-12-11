@@ -2,6 +2,7 @@
 	import players from "$lib/data/inazuma-eleven-vr/players.json";
 	import TextInput from "$lib/components/ui/text-input.svelte";
 	import { tooltipAction } from "$lib/actions/tooltip";
+	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
 
 	let search = $state("");
 
@@ -90,18 +91,14 @@
 							<div class="flex flex-wrap flex-row gap-0.5">
 
 								{#each filterPlayers(team).filter(p => p.Position === pos) as p (p.ID)}
-
-									<div
-										use:tooltipAction={{ text: p.Name, position: "top", trigger: "click" }}
-										class="group w-16 aspect-square "
-									>
-										<img
-											src={p.Image}
-											alt={p.Name}
-											class="w-full h-full object-cover {elementColor[p.Element] ?? 'bg-neutral-700'} pointer-events-none transition transform border group-hover:scale-300 group-hover:z-50"
-										/>
+									<div class="w-16 h-16 group">
+										<PlayerIcon
+											img={p.Image}
+											name={p.Name}
+											element={p.Element}
+											variant="viewer"
+										></PlayerIcon>
 									</div>
-
 
 								{/each}
 

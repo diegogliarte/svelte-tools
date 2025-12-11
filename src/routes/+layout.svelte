@@ -6,28 +6,36 @@
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
+	import { onMount } from 'svelte';
+
 	let { children } = $props();
 
-	let isSidebarOpen = $state(true);
+	let isSidebarOpen = $state(null as null | boolean);
+
+	onMount(() => {
+		const stored = localStorage.getItem('sidebar-open');
+		isSidebarOpen = stored ? stored === 'true' : true;
+		console.log("mounting!!");
+	});
+
 	function toggleSidebar() {
 		isSidebarOpen = !isSidebarOpen;
+		localStorage.setItem('sidebar-open', String(isSidebarOpen));
 	}
 </script>
 
-<div class="flex bg-bg text-text ">
+{#if isSidebarOpen !== null}
+	<div class="flex bg-bg text-text ">
+		<Sidebar visible={isSidebarOpen} />
 
-	<Sidebar visible={isSidebarOpen} />
+		<div class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}">
+			<Navbar {toggleSidebar} />
 
-	<div class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}">
+			<main class="p-4 flex-1">
+				{@render children()}
+			</main>
 
-		<Navbar {toggleSidebar} />
-
-		<main class="p-4 flex-1">
-			{@render children()}
-		</main>
-
-		<Footer />
+			<Footer />
+		</div>
 	</div>
-</div>
-
-
+{/if}

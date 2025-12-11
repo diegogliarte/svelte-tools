@@ -5,10 +5,11 @@ interface TooltipParams {
 	delay?: number;
 	position?: 'top' | 'bottom' | 'left' | 'right';
 	trigger?: 'hover' | 'click' | 'both';
+	disabled?: boolean;
 }
 
 export const tooltipAction: Action<HTMLElement, TooltipParams> = (node, params) => {
-	let { text, delay = 0, position = 'top', trigger = 'hover' } = params ?? {};
+	let { text, delay = 0, position = 'top', trigger = 'hover', disabled = false } = params ?? {};
 	let timer: ReturnType<typeof setTimeout>;
 	let el: HTMLDivElement | null = null;
 	let isVisible = false;
@@ -21,7 +22,7 @@ export const tooltipAction: Action<HTMLElement, TooltipParams> = (node, params) 
 	}[position];
 
 	function show() {
-		if (isVisible) return;
+		if (isVisible && !disabled) return;
 		isVisible = true;
 
 		el = document.createElement('div');

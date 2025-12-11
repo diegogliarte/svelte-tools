@@ -3,12 +3,20 @@
 	import MdiChevronUp from '~icons/mdi/chevron-up';
 	import MdiChevronDown from '~icons/mdi/chevron-down';
 	import MdiChevronUpDown from "~icons/mdi/chevron-up-down";
+	import type { Component } from 'svelte';
 
 	export interface Column<RowType = any> {
 		key: string;
 		label: string;
 		width?: string;
+		// Option A: HTML string (existing)
 		render?: (row: RowType) => string;
+
+		// Option B: Svelte component (new)
+		renderComponent?: (row: RowType) => {
+			component: Component;
+			props?: Record<string, any>;
+		};
 		searchValue?: (row: RowType) => string;
 		sortValue?: (row: RowType) => number | string;
 	}
@@ -174,8 +182,13 @@
 				<tr class="border-b border-text/25 hover:bg-accent-dark/20 transition">
 					{#each columns as col (col)}
 						<td class="p-1">
-							{#if col.render}
+							{#if col.renderComponent}
+								{@const Component = col.renderComponent(row).component}
+								<Component {...col.renderComponent(row).props} />
+
+							{:else if col.render}
 								{@html col.render(row)}
+
 							{:else}
 								{row[col.key]}
 							{/if}

@@ -5,6 +5,7 @@
 
 	import rawPlayers from "$lib/data/inazuma-eleven-vr/players.json";
 	import { calculateATDFStats } from "$lib/utils/inazuma-eleven-vr";
+	import PlayerCell from '$lib/components/inazuma/PlayerCell.svelte';
 
 	// ---------------------------------------
 	// DATA
@@ -65,41 +66,15 @@
 		})
 	);
 
-	// ---------------------------------------
-	// COLORS + COLUMNS
-	// ---------------------------------------
-	const elementColor = {
-		Mountain: "bg-yellow-800/75",
-		Fire: "bg-red-800/75",
-		Forest: "bg-green-800/75",
-		Wind: "bg-sky-800/75"
-	};
-
-	const positionColor = {
-		GK: "bg-yellow-900",
-		DF: "bg-blue-900",
-		MF: "bg-green-900",
-		FW: "bg-red-900"
-	};
-
 	const playerColumn: Column = {
 		key: "player",
 		label: "Player",
 		width: "280px",
 		searchValue: (p) => `${p.Name} ${p.Nickname} ${p.Position}`,
-		render: (p) => `
-			<div class="flex items-center gap-3">
-				<div class="w-14 h-14 ${elementColor[p.Element] ?? "bg-neutral-700"}">
-					<img src="${p.Image}" alt="${p.Name}" class="w-full h-full object-cover" />
-				</div>
-				<div>
-					<div class="leading-none">${p.Name}</div>
-					<div class="text-xs inline-block px-1 border ${positionColor[p.Position] ?? "bg-neutral-700"}">
-						${p.Position}
-					</div>
-				</div>
-			</div>
-		`,
+		renderComponent: (p) => ({
+			component: PlayerCell,
+			props: { player: p }
+		})
 	};
 
 	const normalColumns: Column[] = [

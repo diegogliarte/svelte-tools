@@ -4,45 +4,31 @@
 	import HissatsuStats from './components/hissatsu-stats.svelte';
 	import EquipmentStats from './components/equipment-stats.svelte';
 	import EquipmentTiers from './components/equipment-tiers.svelte';
+	import Button from "$lib/components/ui/button.svelte";
 
 	let displayMode = $state<"player-stats" | "player-tiers" | "hissatsu-stats" | "equipment-stats" | "equipment-tiers">("player-stats");
 </script>
 
 <div class="flex gap-2 mb-4">
-	<button
-		class="px-3 py-1 border hover:border-accent {displayMode === 'player-stats' ? 'bg-accent text-white border-accent' : ''} transition cursor-pointer"
-		onclick={() => displayMode = "player-stats"}
-	>
+	<Button active={displayMode === 'player-stats'} onClick={() => displayMode = 'player-stats'}>
 		Player Stats
-	</button>
+	</Button>
 
-	<button
-		class="px-3 py-1 border hover:border-accent {displayMode === 'player-tiers' ? 'bg-accent text-white border-accent' : 'tiers'} transition cursor-pointer"
-		onclick={() => displayMode = "player-tiers"}
-	>
+	<Button active={displayMode === 'player-tiers'} onClick={() => displayMode = 'player-tiers'}>
 		Player Tiers
-	</button>
+	</Button>
 
-	<button
-		class="px-3 py-1 border hover:border-accent {displayMode === 'hissatsu-stats' ? 'bg-accent text-white border-accent' : 'hissatsu'} transition cursor-pointer"
-		onclick={() => displayMode = "hissatsu-stats"}
-	>
+	<Button active={displayMode === 'hissatsu-stats'} onClick={() => displayMode = 'hissatsu-stats'}>
 		Hissatsu Stats
-	</button>
+	</Button>
 
-	<button
-		class="px-3 py-1 border hover:border-accent {displayMode === 'equipment-stats' ? 'bg-accent text-white border-accent' : 'hissatsu'} transition cursor-pointer"
-		onclick={() => displayMode = "equipment-stats"}
-	>
+	<Button active={displayMode === 'equipment-stats'} onClick={() => displayMode = 'equipment-stats'}>
 		Equipment Stats
-	</button>
+	</Button>
 
-	<button
-		class="px-3 py-1 border hover:border-accent {displayMode === 'equipment-tiers' ? 'bg-accent text-white border-accent' : 'hissatsu'} transition cursor-pointer"
-		onclick={() => displayMode = "equipment-tiers"}
-	>
+	<Button active={displayMode === 'equipment-tiers'} onClick={() => displayMode = 'equipment-tiers'}>
 		Equipment Tiers
-	</button>
+	</Button>
 </div>
 
 {#if displayMode === "player-stats"}
