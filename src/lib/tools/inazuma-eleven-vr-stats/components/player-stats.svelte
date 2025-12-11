@@ -15,7 +15,7 @@
 	const positions = ["GK", "DF", "MF", "FW"] as const;
 	const elements  = ["Fire", "Wind", "Forest", "Mountain"] as const;
 	const roles     = ["Player", "Manager", "Coach"] as const;
-	const genders   = ["Male", "Female"] as const;
+	const genders   = ["Male", "Female", "Unknown"] as const;
 
 	function makeFilter<T extends readonly string[]>(list: T) {
 		return Object.fromEntries(list.map(key => [key, false])) as Record<T[number], boolean>;

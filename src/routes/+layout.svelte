@@ -15,7 +15,6 @@
 	onMount(() => {
 		const stored = localStorage.getItem('sidebar-open');
 		isSidebarOpen = stored ? stored === 'true' : true;
-		console.log("mounting!!");
 	});
 
 	function toggleSidebar() {
