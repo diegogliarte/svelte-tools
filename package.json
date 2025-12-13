@@ -12,8 +12,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"scrape:inazuma-vr:players": "tsx src/scripts/scrapers/inazuma-eleven-vr/players.ts",
-		"scrape:inazuma-vr:hissatsu-movies": "tsx src/scripts/scrapers/inazuma-eleven-vr/hissatsu-movies.ts"
+		"scrape:inazuma-vr:players": "tsx src/scripts/inazuma-eleven-vr/players.ts",
+		"scrape:inazuma-vr:hissatsu-movies": "tsx src/scripts/inazuma-eleven-vr/hissatsu-movies.ts"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
@@ -27,6 +27,7 @@
 		"@tailwindcss/vite": "^4.1.17",
 		"@types/node": "^22",
 		"cheerio": "^1.1.2",
+		"csv-parse": "^6.1.0",
 		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.13.0",

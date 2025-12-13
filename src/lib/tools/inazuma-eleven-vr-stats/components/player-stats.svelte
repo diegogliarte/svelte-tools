@@ -70,7 +70,7 @@
 		key: "player",
 		label: "Player",
 		width: "280px",
-		searchValue: (p) => `${p.Name} ${p.Nickname} ${p.Position}`,
+		searchValue: (p) => `${p.Name} ${p.Nickname} ${p.Position} ${p.RomajiName}`,
 		renderComponent: (p) => ({
 			component: PlayerCell,
 			props: { player: p }
