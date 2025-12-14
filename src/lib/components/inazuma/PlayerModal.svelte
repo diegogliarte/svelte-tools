@@ -3,7 +3,7 @@
 	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
 	import players from '$lib/data/inazuma-eleven-vr/players.json';
 
-	import type { Player } from '$lib/utils/inazuma-eleven-vr';
+	import { calculateATDFStats, type Player } from '$lib/utils/inazuma-eleven-vr';
 	import { computePlayerTier } from '$lib/utils/inazuma-eleven-vr';
 
 
@@ -15,6 +15,17 @@
 	let { player, showModal = $bindable() }: Props = $props();
 
 	let tierInfo = $derived(computePlayerTier(player, players as Player[]))
+
+	let atdf = $derived(calculateATDFStats({
+		kick: player.Kick,
+		control: player.Control,
+		technique: player.Technique,
+		pressure: player.Pressure,
+		physical: player.Physical,
+		agility: player.Agility,
+		intelligence: player.Intelligence,
+		total: player.Total
+	}));
 </script>
 
 <Modal bind:showModal title={player?.Name}>
@@ -30,35 +41,16 @@
 			</div>
 
 			<div class="flex flex-col justify-between">
-				<div>
-					{player.Name}
-				</div>
-
-				<div>
-					{player.RomajiName}
-				</div>
-
-				<div>
-					{player.Position} • {player.Element}
-				</div>
-
-				<div>
-					Archetype: {player.Archetype}
-				</div>
-
-				<div class=" font-semibold">
-					Tier {tierInfo.tier}
-					<span class="opacity-70">
-						({tierInfo.value})
-					</span>
-				</div>
+				<div>{player.Name}</div>
+				<div>{player.RomajiName}</div>
+				<div>{player.Position} · {player.Element}</div>
+				<div>Archetype: {player.Archetype}</div>
+				<div>Tier {tierInfo.tier} ({tierInfo.value})</div>
 			</div>
 		</div>
 
-		<!-- Stats -->
 		<h3 class="font-bold mb-1">Stats</h3>
-
-		<div class="grid grid-cols-2 sm:grid-cols-3 gap-1  mb-4">
+		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-small">
 			<div>Kick: <span class="font-bold">{player.Kick}</span></div>
 			<div>Control: <span class="font-bold">{player.Control}</span></div>
 			<div>Technique: <span class="font-bold">{player.Technique}</span></div>
@@ -66,14 +58,22 @@
 			<div>Physical: <span class="font-bold">{player.Physical}</span></div>
 			<div>Agility: <span class="font-bold">{player.Agility}</span></div>
 			<div>Intelligence: <span class="font-bold">{player.Intelligence}</span></div>
+			<div>Total: <span class="font-bold">{player.Total}</span></div>
 		</div>
 
-		<div class="mb-4 ">
-			Total: <span class="font-bold">{player.Total}</span>
+		<h3 class="font-bold mb-1">ATDF Stats</h3>
+		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-small">
+			<div>Shoot AT: <span class="font-bold">{atdf.shootAT}</span></div>
+			<div>Focus AT: <span class="font-bold">{atdf.focusAT}</span></div>
+			<div>Focus DF: <span class="font-bold">{atdf.focusDF}</span></div>
+			<div>Scramble AT: <span class="font-bold">{atdf.scrambleAT}</span></div>
+			<div>Scramble DF: <span class="font-bold">{atdf.scrambleDF}</span></div>
+			<div>Wall DF: <span class="font-bold">{atdf.wallDF}</span></div>
+			<div>KP: <span class="font-bold">{atdf.kp}</span></div>
 		</div>
 
 		<h3 class="font-bold mb-1">Profile</h3>
-		<div class="grid grid-cols-2 gap-2  mb-4">
+		<div class="grid grid-cols-2 gap-2 mb-4 text-small">
 			<div>Age Group: {player.AgeGroup}</div>
 			<div>School Year: {player.Year}</div>
 			<div>Gender: {player.Gender}</div>
@@ -83,7 +83,7 @@
 		<!-- Teams -->
 		{#if player.Teams?.length}
 			<h3 class="font-bold mb-1">Teams</h3>
-			<ul class="list-disc list-inside  mb-4">
+			<ul class="list-disc list-inside mb-4">
 				{#each player.Teams as t (t)}
 					<li>{t}</li>
 				{/each}

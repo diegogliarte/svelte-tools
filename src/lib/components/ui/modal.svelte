@@ -36,7 +36,7 @@
 		if (e.target === dialog) close();
 	}}
 	class="
-		backdrop:bg-bgk/30 backdrop:backdrop-blur-xs
+		backdrop:bg-bg/30 backdrop:backdrop-blur-xs
 		p-0 border-none
 		w-full h-full
 		transition-all duration-200
