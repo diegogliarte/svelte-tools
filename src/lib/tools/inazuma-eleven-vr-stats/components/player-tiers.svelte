@@ -1,70 +1,24 @@
 <script lang="ts">
-	import { calculateATDFStats } from "$lib/utils/inazuma-eleven-vr";
-	import players from "$lib/data/inazuma-eleven-vr/players.json";
 	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
+	import type { Player } from '$lib/utils/inazuma-eleven-vr';
 
-	const tierStat = {
-		FW: "shootAT",
-		MF: "focusAT",
-		DF: "focusDF",
-		GK: "kp"
-	};
+	import { computeRoleTiers } from '$lib/utils/inazuma-eleven-vr';
+	import rawPlayers from '$lib/data/inazuma-eleven-vr/players.json';
 
-	const processed = players
-		.filter(p => p.Name !== "???")
-		.map(p => {
-			const base = {
-				kick: p.Kick,
-				control: p.Control,
-				technique: p.Technique,
-				pressure: p.Pressure,
-				physical: p.Physical,
-				agility: p.Agility,
-				intelligence: p.Intelligence,
-				total: p.Total
-			};
-			return { ...p, power: calculateATDFStats(base) };
-		});
+	const ROLES = ["FW", "MF", "DF", "GK"] as const;
 
-	function computeRoleTiers(role: "FW" | "MF" | "DF" | "GK") {
-		const statKey = tierStat[role];
+	const players: Player[] = rawPlayers as Player[];
 
-		const rolePlayers = processed
-			.filter(p => p.Position === role)
-			.map(p => ({
-				player: p,
-				value: p.power[statKey]
-			}));
-
-		const uniqueValues = Array.from(
-			new Set(rolePlayers.map(p => p.value))
-		)
-			.sort((a, b) => b - a)
-			.slice(0, 3);
-
-		return uniqueValues.map(v => ({
-			value: v,
-			players: rolePlayers
-				.filter(p => p.value === v)
-				.map(p => p.player)
-				.sort((a, b) => {
-					const elemCompare = a.Element.localeCompare(b.Element);
-					if (elemCompare !== 0) return elemCompare;
-					return a.Name.localeCompare(b.Name);
-				})
-		}));
-	}
 </script>
 
 <div class="flex flex-col gap-12">
-	{#each ["FW", "MF", "DF", "GK"] as role (role)}
+	{#each ROLES as role (role)}
 		<div>
 			<h2 class="text-large">{role}</h2>
 
-			<!-- 3 columns = Tier 1 / Tier 2 / Tier 3 -->
 			<div class="grid grid-cols-3 gap-6">
 
-				{#each computeRoleTiers(role) as tier, i (i)}
+				{#each computeRoleTiers(role, players) as tier, i (i)}
 					<div>
 						<h3>
 							Tier {i + 1} ({tier.value})
@@ -74,9 +28,7 @@
 						<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1">
 							{#each tier.players as p (p.Image)}
 								<PlayerIcon
-									img={p.Image}
-									name={p.Name}
-									element={p.Element}
+									player={p}
 									tooltip={true}
 								/>
 							{/each}

@@ -139,9 +139,7 @@
 								{#each filterPlayers(team).filter(p => p.Position === pos) as p (p.ID)}
 									<div class="w-16 h-16 group">
 										<PlayerIcon
-											img={p.Image}
-											name={p.Name}
-											element={p.Element}
+											player={p}
 											variant="viewer"
 										></PlayerIcon>
 									</div>

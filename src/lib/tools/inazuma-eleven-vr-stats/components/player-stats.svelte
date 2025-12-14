@@ -4,13 +4,10 @@
 	import CheckboxInput from "$lib/components/ui/checkbox-input.svelte";
 
 	import rawPlayers from "$lib/data/inazuma-eleven-vr/players.json";
-	import { calculateATDFStats } from "$lib/utils/inazuma-eleven-vr";
+	import { calculateATDFStats, type Player } from '$lib/utils/inazuma-eleven-vr';
 	import PlayerCell from '$lib/components/inazuma/PlayerCell.svelte';
 
-	// ---------------------------------------
-	// DATA
-	// ---------------------------------------
-	const players = rawPlayers.filter(p => p.Name !== "???");
+	const players: Player[] = rawPlayers.filter(p => p.Name !== "???") as Player[];
 
 	const positions = ["GK", "DF", "MF", "FW"] as const;
 	const elements  = ["Fire", "Wind", "Forest", "Mountain"] as const;

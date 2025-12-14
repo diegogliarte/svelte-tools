@@ -19,9 +19,7 @@
 	<!-- Player icon -->
 	<div class="w-14 h-14 aspect-square">
 		<PlayerIcon
-			img={player.Image}
-			name={player.Name}
-			element={player.Element}
+			player={player}
 			tooltip
 		/>
 	</div>
