@@ -3,28 +3,29 @@
 	import TextInput from "$lib/components/ui/text-input.svelte";
 	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
 	import CheckboxInput from "$lib/components/ui/checkbox-input.svelte";
+	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.svelte';
 
 	let search = $state("");
 
-	const positions = ["GK", "DF", "MF", "FW"] as const;
-	const elements  = ["Fire", "Wind", "Forest", "Mountain"] as const;
-	const roles     = ["Player", "Manager", "Coach"] as const;
-	const genders   = ["Male", "Female"] as const;
-
-	function makeFilter(list: readonly string[]) {
-		return Object.fromEntries(list.map(k => [k, false])) as Record<string, boolean>;
-	}
+	const positions = sortNoneLast(unique(players.map(p => p.Position ?? "?")));
+	const elements  = sortNoneLast(unique(players.map(p => p.Element ?? "None")));
+	const roles     = sortNoneLast(unique(players.map(p => p.Role ?? "None")));
+	const genders   = sortNoneLast(unique(players.map(p => p.Gender ?? "None")));
 
 	let positionFilter = $state(makeFilter(positions));
 	let elementFilter  = $state(makeFilter(elements));
 	let roleFilter     = $state(makeFilter(roles));
 	let genderFilter   = $state(makeFilter(genders));
 
+	const filterGroups = [
+		{ name: "Position", list: positions, store: positionFilter },
+		{ name: "Element",  list: elements,  store: elementFilter },
+		{ name: "Role",     list: roles,     store: roleFilter },
+		{ name: "Gender",   list: genders,   store: genderFilter }
+	];
+
 	const positionOrder = ["FW", "MF", "DF", "GK", "?"] as const;
 
-	// -------------------------------------------------
-	// Build team map (NO sorting, original order)
-	// -------------------------------------------------
 	const teamMap: Record<string, any[]> = {};
 
 	for (const p of players) {
@@ -36,82 +37,74 @@
 		}
 	}
 
-	// Teams in natural scrape order:
 	let teamOrder = Object.keys(teamMap);
 
-	// Remove the two special cases from the main list:
 	teamOrder = teamOrder.filter(t => t !== "Unaffiliated" && t !== "-");
 
-	// Push them at the end **in this order**
 	if (teamMap["Unaffiliated"]) teamOrder.push("Unaffiliated");
 	if (teamMap["-"]) teamOrder.push("-");
 
-	function matchAttributes(p) {
-		const posActive = Object.keys(positionFilter).filter(k => positionFilter[k]);
-		const elemActive = Object.keys(elementFilter).filter(k => elementFilter[k]);
-		const roleActive = Object.keys(roleFilter).filter(k => roleFilter[k]);
-		const genderActive = Object.keys(genderFilter).filter(k => genderFilter[k]);
 
-		return (
-			(posActive.length   ? posActive.includes(p.Position) : true) &&
-			(elemActive.length  ? elemActive.includes(p.Element) : true) &&
-			(roleActive.length  ? roleActive.includes(p.Role)   : true) &&
-			(genderActive.length? genderActive.includes(p.Gender) : true)
-		);
-	}
-
-	function filterTeams() {
-		const q = search.trim().toLowerCase();
-		if (!q) return teamOrder;
-
-		return teamOrder.filter(team =>
-			filterPlayers(team).length > 0 ||
-			team.toLowerCase().includes(search.trim().toLowerCase())
-		);
-	}
-
-	function filterPlayers(team: string) {
+	const filteredTeamMap = $derived.by(() => {
 		const q = search.trim().toLowerCase();
 
-		return teamMap[team].filter(p =>
-			matchAttributes(p) &&
-			(
-				!q ||
-				p.Name.toLowerCase().includes(q) ||
-				(p.Nickname ?? "").toLowerCase().includes(q) ||
-				team.toLowerCase().includes(q)
-			)
-		);
-	}
+		const allowedPositions = Object.keys(positionFilter).filter(k => positionFilter[k]);
+		const allowedElements  = Object.keys(elementFilter).filter(k => elementFilter[k]);
+		const allowedRoles     = Object.keys(roleFilter).filter(k => roleFilter[k]);
+		const allowedGenders   = Object.keys(genderFilter).filter(k => genderFilter[k]);
 
+		const result: Record<string, any[]> = {};
+
+		for (const team of teamOrder) {
+			const list = teamMap[team].filter(p =>
+				(allowedPositions.length ? allowedPositions.includes(p.Position) : true) &&
+				(allowedElements.length  ? allowedElements.includes(p.Element)  : true) &&
+				(allowedRoles.length     ? allowedRoles.includes(p.Role)        : true) &&
+				(allowedGenders.length   ? allowedGenders.includes(p.Gender)    : true) &&
+				(
+					!q ||
+					p.Name.toLowerCase().includes(q) ||
+					(p.Nickname ?? "").toLowerCase().includes(q) ||
+					team.toLowerCase().includes(q)
+				)
+			);
+
+			if (list.length) result[team] = list;
+		}
+
+		return result;
+	});
+
+
+	const visibleTeams = $derived(Object.keys(filteredTeamMap));
+
+	const playersByTeamAndPosition = $derived.by(() => {
+		const map: Record<string, Record<string, any[]>> = {};
+
+		for (const team in filteredTeamMap) {
+			map[team] = {};
+
+			for (const p of filteredTeamMap[team]) {
+				const pos = p.Position ?? "?";
+				(map[team][pos] ??= []).push(p);
+			}
+		}
+
+		return map;
+	});
 </script>
 
 <div class="flex justify-around flex-col sm:flex-row gap-2">
-
-	<div class="flex flex-row sm:flex-col gap-1">
-		{#each positions as pos (pos)}
-			<CheckboxInput label={pos} bind:checked={positionFilter[pos]} />
-		{/each}
-	</div>
-
-	<div class="flex flex-row sm:flex-col gap-1">
-		{#each elements as el (el)}
-			<CheckboxInput label={el} bind:checked={elementFilter[el]} />
-		{/each}
-	</div>
-
-	<div class="flex flex-row sm:flex-col gap-1">
-		{#each roles as r (r)}
-			<CheckboxInput label={r} bind:checked={roleFilter[r]} />
-		{/each}
-	</div>
-
-	<div class="flex flex-row sm:flex-col gap-1">
-		{#each genders as g (g)}
-			<CheckboxInput label={g} bind:checked={genderFilter[g]} />
-		{/each}
-	</div>
-
+	{#each filterGroups as group (group.name)}
+		<div class="flex flex-row sm:flex-col gap-1">
+			{#each group.list as val (val)}
+				<CheckboxInput
+					label={val}
+					bind:checked={group.store[val]}
+				/>
+			{/each}
+		</div>
+	{/each}
 </div>
 
 <!-- SEARCH -->
@@ -121,34 +114,25 @@
 
 <div class="flex flex-row flex-wrap gap-8">
 
-	{#each filterTeams() as team (team)}
+	{#each visibleTeams as team (team)}
 		<div class="border px-2 pb-2 h-fit">
 
 			<h2 class="text-large">{team}</h2>
 
 			<div class="flex flex-col gap-4">
 				{#each positionOrder as pos (pos)}
-					{#if filterPlayers(team).some(p => p.Position === pos)}
-
+					{#if playersByTeamAndPosition[team]?.[pos]?.length}
 						<div class="flex flex-row gap-2">
-							<h3 class="">{pos}</h3>
+							<h3>{pos}</h3>
 
-							<!-- FLEX WRAP PLAYER ROW -->
 							<div class="flex flex-wrap flex-row gap-0.5">
-
-								{#each filterPlayers(team).filter(p => p.Position === pos) as p (p.ID)}
+								{#each playersByTeamAndPosition[team][pos] as p (p.ID)}
 									<div class="w-16 h-16 group">
-										<PlayerIcon
-											player={p}
-											variant="viewer"
-										></PlayerIcon>
+										<PlayerIcon player={p} variant="viewer" />
 									</div>
-
 								{/each}
-
 							</div>
 						</div>
-
 					{/if}
 				{/each}
 			</div>

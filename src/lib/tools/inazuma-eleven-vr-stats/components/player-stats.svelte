@@ -1,27 +1,25 @@
 <script lang="ts">
 	import DataTable, { type Column } from '$lib/components/ui/data-table.svelte';
-	import SelectInput from "$lib/components/ui/select-input.svelte";
-	import CheckboxInput from "$lib/components/ui/checkbox-input.svelte";
+	import SelectInput from '$lib/components/ui/select-input.svelte';
+	import CheckboxInput from '$lib/components/ui/checkbox-input.svelte';
 
-	import rawPlayers from "$lib/data/inazuma-eleven-vr/players.json";
+	import rawPlayers from '$lib/data/inazuma-eleven-vr/players.json';
 	import { calculateATDFStats, type Player } from '$lib/utils/inazuma-eleven-vr';
 	import PlayerCell from '$lib/components/inazuma/PlayerCell.svelte';
+	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.svelte';
 
 	const players: Player[] = rawPlayers.filter(p => p.Name !== "???") as Player[];
 
-	const positions = ["GK", "DF", "MF", "FW"] as const;
-	const elements  = ["Fire", "Wind", "Forest", "Mountain"] as const;
-	const roles     = ["Player", "Manager", "Coach"] as const;
-	const genders   = ["Male", "Female", "Unknown"] as const;
-
-	function makeFilter<T extends readonly string[]>(list: T) {
-		return Object.fromEntries(list.map(key => [key, false])) as Record<T[number], boolean>;
-	}
+	const positions = sortNoneLast(unique(players.map(p => p.Position ?? "?")));
+	const elements  = sortNoneLast(unique(players.map(p => p.Element ?? "None")));
+	const roles     = sortNoneLast(unique(players.map(p => p.Role ?? "None")));
+	const genders   = sortNoneLast(unique(players.map(p => p.Gender ?? "None")));
 
 	let positionFilter = $state(makeFilter(positions));
 	let elementFilter  = $state(makeFilter(elements));
 	let roleFilter     = $state(makeFilter(roles));
 	let genderFilter   = $state(makeFilter(genders));
+
 
 	let statMode = $state<"normal" | "atdf">("normal");
 

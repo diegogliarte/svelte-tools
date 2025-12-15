@@ -32,15 +32,13 @@
 	{#if player}
 		<!-- Header row -->
 		<div class="flex gap-4 mb-4">
-			<div class="w-24">
+			<div class="w-26 h-26">
 				<PlayerIcon
 					player={player}
-					tooltip={false}
-					openModal={false}
 				/>
 			</div>
 
-			<div class="flex flex-col justify-between">
+			<div class="flex flex-col justify-between text-small">
 				<div>{player.Name}</div>
 				<div>{player.RomajiName}</div>
 				<div>{player.Position} · {player.Element}</div>

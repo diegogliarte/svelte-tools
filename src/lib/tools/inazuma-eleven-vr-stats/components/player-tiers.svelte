@@ -29,7 +29,6 @@
 							{#each tier.players as p (p.Image)}
 								<PlayerIcon
 									player={p}
-									tooltip={true}
 								/>
 							{/each}
 						</div>

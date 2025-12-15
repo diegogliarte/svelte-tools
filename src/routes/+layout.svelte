@@ -1,4 +1,6 @@
 <script lang="ts">
+	import type { LayoutProps } from './$types';
+
 	import './layout.css';
 	import '$lib/css/fonts.css';
 
@@ -6,27 +8,24 @@
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
-	import { onMount } from 'svelte';
 
-	let { children } = $props();
+	let { data, children }: LayoutProps = $props();
 
-	let isSidebarOpen = $state(false);
-
-	onMount(() => {
-		const stored = localStorage.getItem('sidebar-open');
-		isSidebarOpen = stored ? stored === 'true' : false;
-	});
+	let isSidebarOpen = $state(data.sidebarOpen);
 
 	function toggleSidebar() {
 		isSidebarOpen = !isSidebarOpen;
-		localStorage.setItem('sidebar-open', String(isSidebarOpen));
+
+		document.cookie = `sidebar-open=${isSidebarOpen}; path=/; max-age=31536000`;
 	}
 </script>
 
-<div class="flex bg-bg text-text ">
+<div class="flex bg-bg text-text">
 	<Sidebar visible={isSidebarOpen} />
 
-	<div class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}">
+	<div
+		class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}"
+	>
 		<Navbar {toggleSidebar} />
 
 		<main class="p-4 flex-1">

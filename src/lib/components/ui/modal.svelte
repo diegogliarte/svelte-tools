@@ -43,6 +43,7 @@
 		bg-transparent
 		text-text
 		flex justify-center items-center
+		mx-auto my-auto
 	"
 >
 	<div

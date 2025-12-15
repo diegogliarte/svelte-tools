@@ -2,6 +2,7 @@
 	import DataTable, { type Column } from '$lib/components/ui/data-table.svelte';
 	import CheckboxInput from '$lib/components/ui/checkbox-input.svelte';
 	import hissatsu from "$lib/data/inazuma-eleven-vr/hissatsu.json";
+	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.svelte';
 
 	// Element colors (optional)
 	const elementColor = {
@@ -18,7 +19,7 @@
 		searchValue: (h) => `${h.Name} ${h["Japanese Name"]} ${h.Type} ${h.Element}`,
 		render: (h) => `
 		<div class="relative group flex items-center gap-2 cursor-pointer">
-			<div class="w-3 h-3 rounded-full ${elementColor[h.Element] ?? 'bg-neutral-600'}"></div>
+			<div class="w-3 h-3 rounded-sm ${elementColor[h.Element] ?? 'bg-neutral-600'}"></div>
 			<span>${h.Name}</span>
 
 
@@ -59,31 +60,15 @@
 		Element: r.Element?.trim() || "None",
 	}));
 
-	function unique<T>(arr: T[]) {
-		return Array.from(new Set(arr));
-	}
-
-	function sortNoneLast(list: string[]) {
-		return list.slice().sort((a, b) => {
-			if (a === "None") return 1;
-			if (b === "None") return -1;
-			return a.localeCompare(b);
-		});
-	}
-
 	const types      = unique(rows.map(r => r.Type));
 	const subtypes   = sortNoneLast(unique(rows.map(r => r["Sub-Type"])));
 	const elements   = sortNoneLast(unique(rows.map(r => r.Element)));
 	const powerVals  = unique(rows.map(r => r.Power)).filter(Boolean);
 
-	function makeFilter(list: string[]) {
-		return Object.fromEntries(list.map(v => [v, false])) as Record<string, boolean>;
-	}
-
 	let typeFilter     = $state(makeFilter(types));
 	let subtypeFilter  = $state(makeFilter(subtypes));
 	let elementFilter  = $state(makeFilter(elements));
-	let powerFilter    = $state(makeFilter(powerVals.map(String))); // convert to strings
+	let powerFilter    = $state(makeFilter(powerVals.map(String)));
 
 	let filteredRows = $derived.by(() => {
 		const allowedTypes     = Object.keys(typeFilter).filter(k => typeFilter[k]);
