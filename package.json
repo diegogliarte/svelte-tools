@@ -13,7 +13,9 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"scrape:inazuma-vr:players": "tsx src/scripts/inazuma-eleven-vr/players.ts",
-		"scrape:inazuma-vr:hissatsu-movies": "tsx src/scripts/inazuma-eleven-vr/hissatsu-movies.ts"
+		"scrape:inazuma-vr:hissatsu-movies": "tsx src/scripts/inazuma-eleven-vr/hissatsu-movies.ts",
+		"scrape:digimon-story-ts:digimons": "tsx src/scripts/digimon-story-ts/digimons.ts",
+		"scrape:digimon-story-ts:download-icons": "tsx src/scripts/digimon-story-ts/download-icons.ts"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
