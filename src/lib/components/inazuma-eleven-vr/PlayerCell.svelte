@@ -1,5 +1,6 @@
 <script lang="ts">
-	import PlayerIcon from "$lib/components/inazuma/PlayerIcon.svelte";
+	import PlayerIcon from "$lib/components/inazuma-eleven-vr/PlayerIcon.svelte";
+	import type { Player } from '$lib/utils/inazuma-eleven-vr.utils';
 
 	const positionColor = {
 		GK: "bg-yellow-900",
@@ -9,7 +10,7 @@
 	};
 
 	interface Props {
-		player: any;
+		player: Player;
 	}
 
 	let { player }: Props = $props();
@@ -20,7 +21,6 @@
 	<div class="w-14 h-14 aspect-square">
 		<PlayerIcon
 			player={player}
-			tooltip
 		/>
 	</div>
 

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import PlayerModal from "$lib/components/inazuma/PlayerModal.svelte";
-	import type { Player } from '$lib/utils/inazuma-eleven-vr';
+	import PlayerModal from "$lib/components/inazuma-eleven-vr/PlayerModal.svelte";
+	import type { Player } from '$lib/utils/inazuma-eleven-vr.utils';
 
 	interface Props {
-		player: Player;           // Pass entire player object
+		player: Player;
 		variant?: "default" | "viewer";
 	}
 

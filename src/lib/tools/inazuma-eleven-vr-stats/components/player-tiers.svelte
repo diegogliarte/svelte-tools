@@ -1,8 +1,8 @@
 <script lang="ts">
-	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
-	import type { Player } from '$lib/utils/inazuma-eleven-vr';
+	import PlayerIcon from '$lib/components/inazuma-eleven-vr/PlayerIcon.svelte';
+	import type { Player } from '$lib/utils/inazuma-eleven-vr.utils';
 
-	import { computeRoleTiers } from '$lib/utils/inazuma-eleven-vr';
+	import { computeRoleTiers } from '$lib/utils/inazuma-eleven-vr.utils';
 	import rawPlayers from '$lib/data/inazuma-eleven-vr/players.json';
 
 	const ROLES = ["FW", "MF", "DF", "GK"] as const;

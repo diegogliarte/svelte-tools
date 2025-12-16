@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Modal from '$lib/components/ui/modal.svelte';
-	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
+	import PlayerIcon from '$lib/components/inazuma-eleven-vr/PlayerIcon.svelte';
 	import players from '$lib/data/inazuma-eleven-vr/players.json';
 
-	import { calculateATDFStats, type Player } from '$lib/utils/inazuma-eleven-vr';
-	import { computePlayerTier } from '$lib/utils/inazuma-eleven-vr';
+	import { calculateATDFStats, type Player } from '$lib/utils/inazuma-eleven-vr.utils';
+	import { computePlayerTier } from '$lib/utils/inazuma-eleven-vr.utils';
 
 
 	interface Props {

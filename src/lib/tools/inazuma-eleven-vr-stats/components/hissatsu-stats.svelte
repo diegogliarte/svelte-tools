@@ -2,7 +2,7 @@
 	import DataTable, { type Column } from '$lib/components/ui/data-table.svelte';
 	import CheckboxInput from '$lib/components/ui/checkbox-input.svelte';
 	import hissatsu from "$lib/data/inazuma-eleven-vr/hissatsu.json";
-	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.svelte';
+	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.utils.svelte.js';
 
 	// Element colors (optional)
 	const elementColor = {

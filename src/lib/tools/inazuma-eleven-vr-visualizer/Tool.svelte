@@ -1,9 +1,9 @@
 <script lang="ts">
 	import players from "$lib/data/inazuma-eleven-vr/players.json";
 	import TextInput from "$lib/components/ui/text-input.svelte";
-	import PlayerIcon from '$lib/components/inazuma/PlayerIcon.svelte';
+	import PlayerIcon from '$lib/components/inazuma-eleven-vr/PlayerIcon.svelte';
 	import CheckboxInput from "$lib/components/ui/checkbox-input.svelte";
-	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.svelte';
+	import { makeFilter, sortNoneLast, unique } from '$lib/utils/filters.utils.svelte.js';
 
 	let search = $state("");
 

@@ -137,15 +137,13 @@ async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 		skills: { special: [], attachment: [] }
 	};
 
-	// RIDABLE (Quick Facts table under #info)
-	$('h2#info')
-		.next('.columns')
-		.find('table tbody tr')
-		.each((_, tr) => {
-			if (clean($(tr).find('th').text()) === 'Ridable') {
-				digimon.ridable = clean($(tr).find('td').text()) === 'Yes';
-			}
-		});
+	$('table tbody tr').each((_, tr) => {
+		const label = clean($(tr).find('th').text());
+
+		if (label === 'Ridable') {
+			digimon.ridable = clean($(tr).find('td').text()) === 'Yes';
+		}
+	});
 
 	// BASE STATS
 	const baseStatsBox = $('h2#base-stats').next('.box');

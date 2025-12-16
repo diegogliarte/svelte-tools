@@ -10843,7 +10843,7 @@
     "type": "Sea Beast",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ikkakumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 965,
@@ -11252,7 +11252,7 @@
     "type": "Insectoid",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kabuterimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 553,
@@ -11522,7 +11522,7 @@
     "type": "Beast",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/garurumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 623,
@@ -11659,7 +11659,7 @@
     "type": "Beast Dragon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ginryumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 868,
@@ -11794,7 +11794,7 @@
     "type": "Beast",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/grizzlymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1007,
@@ -11928,7 +11928,7 @@
     "type": "Dinosaur",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/greymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 896,
@@ -12199,7 +12199,7 @@
     "type": "Dinosaur",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/geogreymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1036,
@@ -12605,7 +12605,7 @@
     "type": "Weapon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/zubaeagermon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 798,
@@ -13014,7 +13014,7 @@
     "type": "Dark Beast",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dobermon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 623,
@@ -13150,7 +13150,7 @@
     "type": "Giant Bird",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/birdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 693,
@@ -13288,7 +13288,7 @@
     "type": "Beast",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/firamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 700,
@@ -13422,7 +13422,7 @@
     "type": "Mythical Dragon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/veedramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -13696,7 +13696,7 @@
     "type": "Bird",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/peckmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 644,
@@ -13832,7 +13832,7 @@
     "type": "Rare Animal",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/mojyamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1092,
@@ -13969,7 +13969,7 @@
     "type": "Ice-Snow",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/frigimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1036,
@@ -14107,7 +14107,7 @@
     "type": "Mythical Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/unimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 630,
@@ -14244,7 +14244,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/raptordramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -14514,7 +14514,7 @@
     "type": "Beast Man",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/leomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -14650,7 +14650,7 @@
     "type": "Holy Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/reppamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 482,
@@ -15059,7 +15059,7 @@
     "type": "Wizard",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/witchmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 672,
@@ -15194,7 +15194,7 @@
     "type": "Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/gaogamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 413,
@@ -15601,7 +15601,7 @@
     "type": "Mysterious Beast",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kyubimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 482,
@@ -15873,7 +15873,7 @@
     "type": "Beast Man",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/centarumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 714,
@@ -16697,7 +16697,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/tankmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 623,
@@ -16833,7 +16833,7 @@
     "type": "Mutant",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/mudfrigimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 909,
@@ -17104,7 +17104,7 @@
     "type": "Dinosaur",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/tyrannomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 896,
@@ -17377,7 +17377,7 @@
     "type": "Vegetation",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/togemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 965,
@@ -17513,7 +17513,7 @@
     "type": "Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/drimogemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 756,
@@ -17649,7 +17649,7 @@
     "type": "Beast Dragon",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dorugamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -17921,7 +17921,7 @@
     "type": "Machine",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/blimpmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1148,
@@ -18191,7 +18191,7 @@
     "type": "Armored Dragon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/monochromon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 623,
@@ -18599,7 +18599,7 @@
     "type": "Beast Man",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/wendigomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1183,
@@ -18734,7 +18734,7 @@
     "type": "Vegetation",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/woodmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1169,
@@ -18869,7 +18869,7 @@
     "type": "Demon",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ogremon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 896,
@@ -19141,7 +19141,7 @@
     "type": "Machine",
     "base_personality": "Devoted",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/guardromon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 693,
@@ -19412,7 +19412,7 @@
     "type": "Dark Dragon",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/growlmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -19547,7 +19547,7 @@
     "type": "Insectoid",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kuwagamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -20222,7 +20222,7 @@
     "type": "Mineral",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/golemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1169,
@@ -20492,7 +20492,7 @@
     "type": "Dark Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/sangloupmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 756,
@@ -20766,7 +20766,7 @@
     "type": "Dinosaur",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/tuskmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 902,
@@ -21177,7 +21177,7 @@
     "type": "Insectoid",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dokugumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 700,
@@ -22535,7 +22535,7 @@
     "type": "Beast Man",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/minotarumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1021,
@@ -22805,7 +22805,7 @@
     "type": "Machine",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/mekanorimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 847,
@@ -23078,7 +23078,7 @@
     "type": "Android",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/waspmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 826,
@@ -23214,7 +23214,7 @@
     "type": "Giant Bird",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/aquilamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 553,
@@ -23351,7 +23351,7 @@
     "type": "Armored Dragon",
     "base_personality": "Overprotective",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ankylomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 965,
@@ -23622,7 +23622,7 @@
     "type": "Machine",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/guardromon-gold-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 693,
@@ -23758,7 +23758,7 @@
     "type": "Insectoid",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/stingmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 756,
@@ -24030,7 +24030,7 @@
     "type": "Aquatic",
     "base_personality": "Overprotective",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/submarimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 861,
@@ -24420,7 +24420,7 @@
     "type": "Holy Beast",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/nefertimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 777,
@@ -24680,7 +24680,7 @@
     "type": "Holy Beast",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/pegasusmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 686,
@@ -24810,7 +24810,7 @@
     "type": "Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/halsemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 763,
@@ -24940,7 +24940,7 @@
     "type": "Beast",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/lighdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 686,
@@ -25741,7 +25741,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kendogarurumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 916,
@@ -26557,7 +26557,7 @@
     "type": "Insectoid",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/megakabuterimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1372,
@@ -26693,7 +26693,7 @@
     "type": "Android",
     "base_personality": "Devoted",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/andromon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 944,
@@ -26830,7 +26830,7 @@
     "type": "Sky Dragon",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/wingdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1372,
@@ -26967,7 +26967,7 @@
     "type": "Holy Dragon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/aeroveedramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1456,
@@ -27105,7 +27105,7 @@
     "type": "Puppet",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/extyrannomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1617,
@@ -27381,7 +27381,7 @@
     "type": "Bird Man",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/garudamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -27519,7 +27519,7 @@
     "type": "Beast Man",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/grapleomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1715,
@@ -27797,7 +27797,7 @@
     "type": "Beast Man",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/greatgrizzlymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 965,
@@ -27932,7 +27932,7 @@
     "type": "Dark Beast",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cerberusmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1281,
@@ -28208,7 +28208,7 @@
     "type": "Android",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cyberdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1547,
@@ -28482,7 +28482,7 @@
     "type": "Sea Beast",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/zudomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1715,
@@ -28620,7 +28620,7 @@
     "type": "Holy Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/chirinmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 861,
@@ -29031,7 +29031,7 @@
     "type": "Beast Man",
     "base_personality": "Devoted",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/iceleomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1288,
@@ -29583,7 +29583,7 @@
     "type": "Sea Animal",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/whamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1798,
@@ -29860,7 +29860,7 @@
     "type": "Ancient Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/mammothmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1603,
@@ -29997,7 +29997,7 @@
     "type": "Android",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/metalgreymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1631,
@@ -30134,7 +30134,7 @@
     "type": "Puppet",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/monzaemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1631,
@@ -30270,7 +30270,7 @@
     "type": "Mysterious Bird",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/crowmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 770,
@@ -30680,7 +30680,7 @@
     "type": "Machine",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/loaderleomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1155,
@@ -30817,7 +30817,7 @@
     "type": "Beast Man",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/weregarurumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1456,
@@ -30955,7 +30955,7 @@
     "type": "Ancient Crustacean",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/scorpiomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1218,
@@ -31091,7 +31091,7 @@
     "type": "Undead",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/enbarrmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -31229,7 +31229,7 @@
     "type": "Holy Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/antylamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 861,
@@ -32193,7 +32193,7 @@
     "type": "Undead",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/skullbaluchimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1007,
@@ -32881,7 +32881,7 @@
     "type": "Fire",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/skullmeramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1631,
@@ -33156,7 +33156,7 @@
     "type": "Ceratopsian",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/triceramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -33429,7 +33429,7 @@
     "type": "Warrior",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/knightmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1113,
@@ -33705,7 +33705,7 @@
     "type": "Puppet",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/pandamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -34255,7 +34255,7 @@
     "type": "Mythical Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/hippogryphonmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 944,
@@ -34528,7 +34528,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/volcanomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1631,
@@ -34667,7 +34667,7 @@
     "type": "Machine",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/masterblimpmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2380,
@@ -34802,7 +34802,7 @@
     "type": "Android",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/machgaogamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1547,
@@ -35621,7 +35621,7 @@
     "type": "Machine",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/locomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 833,
@@ -35896,7 +35896,7 @@
     "type": "Dark Beast",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/arukenimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 944,
@@ -36172,7 +36172,7 @@
     "type": "Puppet",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/etemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -36311,7 +36311,7 @@
     "type": "Insectoid",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/okuwamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1288,
@@ -36859,7 +36859,7 @@
     "type": "Android",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cannonbeemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 944,
@@ -36995,7 +36995,7 @@
     "type": "Earth Dragon",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/groundramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1456,
@@ -37405,7 +37405,7 @@
     "type": "Vegetation",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cherrymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1715,
@@ -38091,7 +38091,7 @@
     "type": "Aquatic Beast Man",
     "base_personality": "Overprotective",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dragomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1204,
@@ -38229,7 +38229,7 @@
     "type": "Machine",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/tankdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1218,
@@ -39878,7 +39878,7 @@
     "type": "Android",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/metaltyrannomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1029,
@@ -40016,7 +40016,7 @@
     "type": "Evil King",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/lucemon-cm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1547,
@@ -40564,7 +40564,7 @@
     "type": "Mutant",
     "base_personality": "Overprotective",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/shakkoumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1547,
@@ -40837,7 +40837,7 @@
     "type": "Mutant",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dinobeemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1288,
@@ -40972,7 +40972,7 @@
     "type": "Dragon Man",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/paildramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1288,
@@ -41108,7 +41108,7 @@
     "type": "Unidentified",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/infermon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1288,
@@ -41513,7 +41513,7 @@
     "type": "Deity",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/apollomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1959,
@@ -41648,7 +41648,7 @@
     "type": "Holy Knight",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/alphamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1645,
@@ -41784,7 +41784,7 @@
     "type": "Holy Knight",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ulforceveedramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -41917,7 +41917,7 @@
     "type": "Holy Bird",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/varodurumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -42187,7 +42187,7 @@
     "type": "Dragon Man",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/wargreymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1917,
@@ -42724,7 +42724,7 @@
     "type": "Holy Knight",
     "base_personality": "Devoted",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/craniamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -42859,7 +42859,7 @@
     "type": "Giant Bird",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/eaglemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1568,
@@ -43128,7 +43128,7 @@
     "type": "Cherub",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cherubimon-black-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1645,
@@ -43264,7 +43264,7 @@
     "type": "Cherub",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/cherubimon-good-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1645,
@@ -43399,7 +43399,7 @@
     "type": "Holy Dragon",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/goldramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -43534,7 +43534,7 @@
     "type": "Shining Dragon",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/shinegreymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2373,
@@ -43803,7 +43803,7 @@
     "type": "Undead",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/skullmammothmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1910,
@@ -44072,7 +44072,7 @@
     "type": "Holy Knight",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kentaurosmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1281,
@@ -44207,7 +44207,7 @@
     "type": "Dragon Man",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/slayerdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -44477,7 +44477,7 @@
     "type": "Machine",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/megagargomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1645,
@@ -44747,7 +44747,7 @@
     "type": "Deity",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/neptunemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1736,
@@ -44882,7 +44882,7 @@
     "type": "Android",
     "base_personality": "Devoted",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/hiandromon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1281,
@@ -45016,7 +45016,7 @@
     "type": "Beast Man",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/bancholeomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1917,
@@ -45153,7 +45153,7 @@
     "type": "Insectoid",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/herculeskabuterimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1917,
@@ -45286,7 +45286,7 @@
     "type": "Holy Beast",
     "base_personality": "Tolerant",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/phoenixmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -45817,7 +45817,7 @@
     "type": "Deity",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/marsmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1687,
@@ -46493,7 +46493,7 @@
     "type": "Holy Knight",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/gankoomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2716,
@@ -46761,7 +46761,7 @@
     "type": "Machine",
     "base_personality": "Sociable",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/groundlocomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1190,
@@ -46894,7 +46894,7 @@
     "type": "Mythical Beast",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/gryphonmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1239,
@@ -47027,7 +47027,7 @@
     "type": "Deity",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/ceresmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1729,
@@ -47300,7 +47300,7 @@
     "type": "Ancient Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/saberleomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -47703,7 +47703,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/jumbogamemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2163,
@@ -47973,7 +47973,7 @@
     "type": "Holy Knight",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dynasmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -48108,7 +48108,7 @@
     "type": "Holy Knight",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/leopardmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1169,
@@ -48246,7 +48246,7 @@
     "type": "Holy Knight",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/leopardmon-lm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1554,
@@ -48379,7 +48379,7 @@
     "type": "Beast Dragon",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/dorugoramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2100,
@@ -48512,7 +48512,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/pilevolcanomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1372,
@@ -48782,7 +48782,7 @@
     "type": "Plesiosaur",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/plesiomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2100,
@@ -48916,7 +48916,7 @@
     "type": "Android",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/boltmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -49186,7 +49186,7 @@
     "type": "Android",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/metalgarurumon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1281,
@@ -50663,7 +50663,7 @@
     "type": "Machine",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/chaosdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1917,
@@ -50797,7 +50797,7 @@
     "type": "Dark Beast",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/callismon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1631,
@@ -50931,7 +50931,7 @@
     "type": "Machine",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/gundramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1547,
@@ -51066,7 +51066,7 @@
     "type": "Puppet",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/kingetemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1463,
@@ -51199,7 +51199,7 @@
     "type": "Dark Beast",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/grandracmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1575,
@@ -51468,7 +51468,7 @@
     "type": "Wizard",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/zanbamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1736,
@@ -51734,7 +51734,7 @@
     "type": "Android",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/darkdramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -52005,7 +52005,7 @@
     "type": "Deity",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/titamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2373,
@@ -52141,7 +52141,7 @@
     "type": "Insectoid",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/tyrantkabuterimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -52276,7 +52276,7 @@
     "type": "Evil King",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/creepymon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1736,
@@ -53215,7 +53215,7 @@
     "type": "Wizard",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/pharaohmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1540,
@@ -53889,7 +53889,7 @@
     "type": "Evil King",
     "base_personality": "Enlightened",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/malomyotismon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1568,
@@ -54158,7 +54158,7 @@
     "type": "Evil King",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/beelzemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -54294,7 +54294,7 @@
     "type": "Evil King",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/belphemon-sm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1456,
@@ -54832,7 +54832,7 @@
     "type": "Machine",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/machinedramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1372,
@@ -54967,7 +54967,7 @@
     "type": "Evil Dragon",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/megidramon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2282,
@@ -55102,7 +55102,7 @@
     "type": "Android",
     "base_personality": "Opportunistic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/metaletemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1826,
@@ -55236,7 +55236,7 @@
     "type": "Deity",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/merukimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1519,
@@ -55639,7 +55639,7 @@
     "type": "Android",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/rusttyrannomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -55774,7 +55774,7 @@
     "type": "Evil King",
     "base_personality": "Strategic",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/leviamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -56043,7 +56043,7 @@
     "type": "Holy Knight",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/lordknightmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1463,
@@ -56177,7 +56177,7 @@
     "type": "Ancient Dragon",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/imperialdramon-dm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2191,
@@ -56450,7 +56450,7 @@
     "type": "Beast Man",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/vikemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2100,
@@ -56717,7 +56717,7 @@
     "type": "Insectoid",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/grankuwagamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1736,
@@ -56850,7 +56850,7 @@
     "type": "Unidentified",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/diaboromon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2008,
@@ -57114,7 +57114,7 @@
     "type": "Holy Knight",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/magnamon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1372,
@@ -57641,7 +57641,7 @@
     "type": "No Data",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/alphamon-ouryuken-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2212,
@@ -58039,7 +58039,7 @@
     "type": "Holy Knight",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/omnimon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2156,
@@ -58175,7 +58175,7 @@
     "type": "Holy Knight",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/omnimon-zwart-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2212,
@@ -58312,7 +58312,7 @@
     "type": "Unique",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/chaosmon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1106,
@@ -58445,7 +58445,7 @@
     "type": "Unique",
     "base_personality": "Daring",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/chaosmon-valdur-arm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 1106,
@@ -58843,7 +58843,7 @@
     "type": "Deity",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/susanomon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2324,
@@ -59240,7 +59240,7 @@
     "type": "Holy Knight",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/examon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2653,
@@ -59901,7 +59901,7 @@
     "type": "Evil King",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/beelzemon-bm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2436,
@@ -60033,7 +60033,7 @@
     "type": "Evil King",
     "base_personality": "Zealous",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/belphemon-rm-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2653,
@@ -60430,7 +60430,7 @@
     "type": "Unidentified",
     "base_personality": "Sly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/armageddemon-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 2611,
@@ -62040,7 +62040,7 @@
     "type": "Beast",
     "base_personality": "Friendly",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/garurumon-black-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 623,
@@ -62175,7 +62175,7 @@
     "type": "Dinosaur",
     "base_personality": "Reckless",
     "icon": "https://www.grindosaur.com/img/games/digimon-story-time-stranger/icons/greymon-blue-icon.png",
-    "ridable": false,
+    "ridable": true,
     "base_stats": {
       "lv1": {
         "HP": 965,

@@ -25,7 +25,7 @@
 		right: "text-right"
 	}[valueAlign];
 
-	let labelEl: HTMLElement;
+	let labelEl: HTMLElement | null = $state(null);
 
 	$effect(() => {
 		if (!labelEl || group == null) return;
