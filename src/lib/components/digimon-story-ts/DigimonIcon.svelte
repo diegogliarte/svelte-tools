@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { tooltipAction} from '$lib/actions/tooltip';
 	import DigimonModal from '$lib/components/digimon-story-ts/DigimonModal.svelte';
 	import type { Digimon } from '$lib/utils/digimon-story-ts.utils';
 	import { toKebabCase } from '$lib/utils/text.utils';
@@ -20,6 +21,32 @@
 	}: Props = $props();
 
 	let showModal = $state(false);
+
+	const evoBadge = $derived.by(() => {
+		const types = digimon.evolution_conditions?.map(e => e.type) ?? [];
+		if (types.includes('jogress')) return 'jogress';
+		if (types.includes('item')) return 'item';
+		return null;
+	});
+
+	const evoTooltip = $derived.by(() => {
+		if (!evoBadge) return '';
+
+		const conditions = digimon.evolution_conditions
+			.filter(e => e.type === evoBadge);
+
+		return conditions
+			.map(e =>
+				Object.entries(e.requirements)
+					.filter(([k]) =>
+						k.toLowerCase().includes('jogress') ||
+						k.toLowerCase().includes('item')
+					)
+					.map(([, v]) => `${v}`)
+					.join(' & ')
+			)
+			.join('\n\n');
+	});
 </script>
 
 {#if variant === 'default'}
@@ -52,8 +79,8 @@
 			class="
 				cursor-pointer
 				relative border
-				{selected ? 'border-accent' : ''}
-				hover:scale-110 transition
+				{selected ? 'border-accent hover:border-red-400' : 'hover:border-accent'}
+				 transition
 			"
 			onclick={() => onClick?.(digimon)}
 		>
@@ -64,18 +91,39 @@
 				class="w-full h-full object-cover pointer-events-none"
 			/>
 
-			<!-- Attribute icon -->
 			<img
 				src={`/digimon-story-ts/${toKebabCase(digimon.attribute)}.png`}
 				alt={digimon.attribute}
-				class="absolute bottom-0 right-0 w-4 h-4 bg-bg"
+				class="absolute -bottom-1 -right-2 w-4 h-4 bg-bg"
 			/>
+
+			{#if evoBadge}
+				<div
+					class="absolute -top-2 -right-2 text-xs w-4 h-4 bg-bg"
+					use:tooltipAction={{ text: evoTooltip, position: 'top' }}
+				>
+					{evoBadge === 'jogress' ? '🧬' : '🎒'}
+				</div>
+			{/if}
 		</button>
 
-		<div
-			class="text-xs w-18 text-center truncate"
+		<!-- Name (opens modal) -->
+		<button
+			type="button"
+			class="text-xs w-18 text-center truncate cursor-pointer hover:text-accent transition"
+			onclick={() => {
+				if (openModal) showModal = true;
+			}}
 		>
 			{digimon.name}
-		</div>
+		</button>
 	</div>
+
+	{#if showModal}
+		<DigimonModal
+			digimon={digimon}
+			bind:showModal
+		/>
+	{/if}
 {/if}
+

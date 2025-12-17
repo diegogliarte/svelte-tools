@@ -115,7 +115,7 @@
 					/>
 					<span>{digimon.attribute} · {digimon.type}</span>
 				</div>
-				<div>Base Personality: {digimon.base_personality}</div>
+				<div>Base Personality: <span class="text-accent">{digimon.base_personality}</span></div>
 				{#if digimon.ridable}
 					<div class="text-accent">Ridable</div>
 				{/if}

@@ -1,21 +1,21 @@
 <script lang="ts">
 	import TextInput from '$lib/components/ui/text-input.svelte';
 	import DigimonIcon from '$lib/components/digimon-story-ts/DigimonIcon.svelte';
+	import { tooltipAction } from '$lib/actions/tooltip';
 	import MdiChevronRight from '~icons/mdi/chevron-right';
+	import MdiClose from '~icons/mdi/close';
+
 
 	import digimonRaw from '$lib/data/digimon-story-ts/digimon.json';
-	import {
-		indexDigimonById,
-		getPreEvolutions,
-		getEvolutions
-	} from '$lib/utils/digimon-story-ts.utils';
 	import type { Digimon } from '$lib/utils/digimon-story-ts.utils';
+	import { getEvolutions, getPreEvolutions, indexDigimonById } from '$lib/utils/digimon-story-ts.utils';
 
 	const digimon: Digimon[] = digimonRaw as unknown as Digimon[];
 	const digimonById = indexDigimonById(digimon);
 
 	let search = $state('');
-	let chain = $state<number[]>([]);
+	type Chain = number[];
+	let team = $state<Chain[]>([]);
 
 	const filteredDigimon = $derived.by(() => {
 		const q = search.trim().toLowerCase();
@@ -27,47 +27,56 @@
 		);
 	});
 
-	const leftEdge = $derived(chain.length ? digimonById.get(chain[0]) : null);
-	const rightEdge = $derived(chain.length ? digimonById.get(chain[chain.length - 1]) : null);
-
-	const preEvos = $derived(leftEdge ? getPreEvolutions(leftEdge, digimonById) : []);
-	const evos = $derived(rightEdge ? getEvolutions(rightEdge, digimonById) : []);
-
-	function notInChain(d: Digimon) {
-		return !chain.includes(d.id);
-	}
-
 	function startChain(d: Digimon) {
-		chain = [d.id];
+		team = [...team, [d.id]];
 		search = '';
 	}
 
-	function extendLeft(d: Digimon) {
-		chain = [d.id, ...chain];
+	function updateChain(index: number, next: number[]) {
+		if (next.length === 0) {
+			team = team.filter((_, i) => i !== index);
+			return;
+		}
+
+		team = team.map((c, i) => (i === index ? next : c));
 	}
 
-	function extendRight(d: Digimon) {
-		chain = [...chain, d.id];
+
+	function extendLeft(index: number, d: Digimon) {
+		updateChain(index, [d.id, ...team[index]]);
 	}
 
-	function trimChain(d: Digimon) {
+	function extendRight(index: number, d: Digimon) {
+		updateChain(index, [...team[index], d.id]);
+	}
+
+	function trimChain(chain: number[], d: Digimon) {
+		console.log(chain, d);
+		const index = team.indexOf(chain);
+		console.log(index);
+		if (index === -1) return;
+
 		const idx = chain.indexOf(d.id);
 		if (idx === -1) return;
 
-		// clicking left edge removes it
+		console.log(idx);
+
 		if (idx === 0) {
-			chain = chain.slice(1);
+			updateChain(index, chain.slice(1));
 			return;
 		}
 
-		// clicking right edge removes it
 		if (idx === chain.length - 1) {
-			chain = chain.slice(0, -1);
+			updateChain(index, chain.slice(0, -1));
 			return;
 		}
 
-		// clicking middle trims to that point
-		chain = chain.slice(0, idx);
+		updateChain(index, chain.slice(0, idx));
+	}
+
+
+	function deleteChain(index: number) {
+		team = team.filter((_, i) => i !== index);
 	}
 </script>
 
@@ -97,55 +106,97 @@
 	</div>
 {/if}
 
-{#if chain.length}
-	<div class="flex justify-center items-center w-full gap-6 border p-2">
-		<!-- Pre-evolutions -->
-		<div class="flex flex-col gap-2">
-			{#each preEvos.filter(notInChain) as d (d.id)}
-				<div class="w-12">
-				<DigimonIcon
-					digimon={d}
-					variant="viewer"
-					onClick={() => extendLeft(d)}
-				/>
-				</div>
-			{/each}
-		</div>
+{#each team as c, i (i)}
+	{@const leftEdge = digimonById.get(c[0])}
+	{@const rightEdge = digimonById.get(c[c.length - 1])}
 
-		<!-- Chain -->
-		<div class="flex items-center gap-4">
-			{#each chain as id, i (id)}
-				{@const d = digimonById.get(id)}
-				{#if d}
+	{@const preEvos = leftEdge ? getPreEvolutions(leftEdge, digimonById) : []}
+	{@const evos = rightEdge ? getEvolutions(rightEdge, digimonById) : []}
+
+	{@const notInChain = (d: Digimon) => !c.includes(d.id)}
+
+	<div class="relative p-2 border">
+		<button
+			type="button"
+			class="absolute top-1 right-1 opacity-50 hover:opacity-100 hover:text-accent cursor-pointer"
+			onclick={(e) => {
+				e.stopPropagation();
+				deleteChain(i);
+			}}
+		>
+			<MdiClose />
+		</button>
+
+		<div class="flex justify-center items-center w-full gap-6 p-2">
+			<!-- Pre-evolutions -->
+			<div class="flex flex-col gap-2">
+				{#each preEvos.filter(notInChain) as d (d.id)}
 					<div class="w-14">
-					<DigimonIcon
-						digimon={d}
-						variant="viewer"
-						selected
-						onClick={() => trimChain(d)}
-					/>
+						<DigimonIcon
+							digimon={d}
+							variant="viewer"
+							onClick={() => extendLeft(i, d)}
+						/>
 					</div>
-				{/if}
+				{/each}
+			</div>
 
-				{#if i < chain.length - 1}
-					<MdiChevronRight class="opacity-50 -mx-2" />
-				{/if}
-			{/each}
-		</div>
+			<!-- Chain -->
+			<div class="flex items-center gap-4">
+				{#each c as id, i (id)}
+					{@const d = digimonById.get(id)}
+					{#if d}
+						<div class="w-14">
+							<DigimonIcon
+								digimon={d}
+								variant="viewer"
+								selected
+								onClick={() => trimChain(c, d)}
+							/>
+						</div>
+					{/if}
 
-		<!-- Evolutions -->
-		<div class="flex flex-col gap-2">
-			{#each evos.filter(notInChain) as d (d.id)}
-				<div class="w-12">
-					<DigimonIcon
-						digimon={d}
-						variant="viewer"
-						onClick={() => extendRight(d)}
-					/>
-				</div>
-			{/each}
+					{#if i < c.length - 1}
+						{@const next = digimonById.get(c[i + 1])}
+
+						{@const evoRequirements =
+							next?.evolution_conditions
+								?.map(e =>
+									Object.entries(e.requirements)
+										.map(([k, v]) => `${k}: ${v}`)
+										.join('\n')
+								)
+								.join('\n\n') ?? ''
+						}
+						<div
+							class="relative"
+							use:tooltipAction={{ text: evoRequirements, position: 'top'}}
+						>
+						<MdiChevronRight
+							class="transition hover:text-accent -mx-2 cursor-help"
+
+						/>
+						</div>
+
+					{/if}
+				{/each}
+			</div>
+
+
+			<!-- Evolutions -->
+			<div class="flex flex-col gap-2">
+				{#each evos.filter(notInChain) as d (d.id)}
+					<div class="w-14">
+						<DigimonIcon
+							digimon={d}
+							variant="viewer"
+							onClick={() => extendRight(i, d)}
+						/>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 
-{/if}
+{/each}
 

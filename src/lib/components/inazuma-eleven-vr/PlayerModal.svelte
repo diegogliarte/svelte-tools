@@ -43,8 +43,8 @@
 				<div>{player.Name}</div>
 				<div>{player.RomajiName}</div>
 				<div>{player.Position} · {player.Element}</div>
-				<div>Archetype: {player.Archetype}</div>
-				<div>Tier {tierInfo.tier} ({tierInfo.value})</div>
+				<div>Archetype: <span class="text-accent">{player.Archetype}</span></div>
+				<div><span class="text-accent">Tier {tierInfo.tier}</span> ({tierInfo.value})</div>
 			</div>
 		</div>
 
@@ -76,7 +76,7 @@
 			<div>Age Group: {player.AgeGroup}</div>
 			<div>School Year: {player.Year}</div>
 			<div>Gender: {player.Gender}</div>
-			<div>Role: {player.Role}</div>
+			<div>Role: <span class="text-accent">{player.Role}</span></div>
 		</div>
 
 		<!-- Teams -->
