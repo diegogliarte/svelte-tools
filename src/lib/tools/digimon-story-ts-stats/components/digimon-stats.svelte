@@ -4,7 +4,7 @@
 	import SelectInput from '$lib/components/ui/select-input.svelte';
 
 	import digimonRaw from '$lib/data/digimon-story-ts/digimon.json';
-	import { makeFilter, unique, sortNoneLast } from '$lib/utils/filters.utils.svelte.js';
+	import { makeFilter, unique } from '$lib/utils/filters.utils.svelte.js';
 	import DigimonCell from '$lib/components/digimon-story-ts/DigimonCell.svelte';
 
 	type Digimon = typeof digimonRaw[number];
@@ -122,7 +122,6 @@
 
 </script>
 
-<!-- FILTERS -->
 <div class="flex justify-around flex-col sm:flex-row gap-2 mb-4">
 	<div class="flex flex-row sm:flex-col flex-wrap gap-1">
 		{#each generations as g (g)}

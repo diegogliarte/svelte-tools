@@ -12,7 +12,7 @@
 	const uid = $props.id();
 </script>
 
-<label for={uid} class="flex items-center gap-2 cursor-pointer text-small h-fit group">
+<label for={uid} class="flex items-center gap-1 cursor-pointer text-small h-fit group">
 	<input
 		id={uid}
 		type="checkbox"
