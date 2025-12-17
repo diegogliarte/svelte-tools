@@ -4,7 +4,7 @@
 	import digimonRaw from '$lib/data/digimon-story-ts/digimon.json';
 	import skillsRaw from '$lib/data/digimon-story-ts/skills.json';
 
-	import type { Digimon } from '$lib/utils/digimon-story-ts.utils';
+	import { type Digimon, getSkillIcon } from '$lib/utils/digimon-story-ts.utils';
 
 	interface Skill {
 		slug: string;
@@ -63,15 +63,28 @@
 {#snippet SkillCard(skill)}
 	<div class="border p-2 flex flex-col gap-2">
 		<div class="flex justify-between items-center">
-			<span class="font-bold">{skill.name}</span>
+			<div class="flex items-center gap-2">
+				<img
+					src={getSkillIcon(skill.type)}
+					alt={skill.type}
+					class="h-[1.25em] w-[1.25em] shrink-0"
+				/>
 
-			<span class="opacity-70">
-				SP {skill.sp_cost}
-			</span>
+				<span class="font-bold">{skill.name}</span>
+			</div>
+
+			{#if skill.sp_cost !== undefined}
+				<span>
+					SP {skill.sp_cost}
+				</span>
+			{/if}
 		</div>
 
 		<div>
-			{skill.type} · {skill.damage_type} · Power {skill.power}
+			{skill.type}
+				· {skill.damage_type}
+				· Power {skill.power}{#if skill.hit_count && skill.hit_count > 1}×{skill.hit_count}
+			{/if}
 		</div>
 
 		<div>
@@ -79,6 +92,7 @@
 		</div>
 	</div>
 {/snippet}
+
 
 
 
