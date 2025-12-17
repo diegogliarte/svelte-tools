@@ -1,8 +1,11 @@
 <script lang="ts">
 	import TextInput from '$lib/components/ui/text-input.svelte';
 	import Button from '$lib/components/ui/button.svelte';
+	import CopyButton from '$lib/components/ui/copy-button.svelte';
 	import DigimonIcon from '$lib/components/digimon-story-ts/DigimonIcon.svelte';
 	import { tooltipAction } from '$lib/actions/tooltip';
+	import { onMount } from 'svelte';
+
 	import MdiChevronRight from '~icons/mdi/chevron-right';
 	import MdiClose from '~icons/mdi/close';
 	import MdiDiceMultiple from '~icons/mdi/dice-multiple';
@@ -35,10 +38,52 @@
 		localStorage.setItem(STORAGE_KEY, JSON.stringify(team));
 	});
 
-
 	let search = $state('');
 	type Chain = number[];
 	let team = $state<Chain[]>([]);
+
+	function encodeTeam(team: number[][]): string {
+		const snapshot = $state.snapshot(team);
+		return btoa(JSON.stringify(snapshot))
+			.replace(/\+/g, '-')
+			.replace(/\//g, '_')
+			.replace(/=+$/, '');
+	}
+
+	function decodeTeam(raw: string): number[][] | null {
+		try {
+			const parsed = JSON.parse(atob(raw));
+			return Array.isArray(parsed) ? parsed : null;
+		} catch {
+			return null;
+		}
+	}
+
+	const teamEncoded = $derived(encodeTeam(team));
+
+	onMount(() => {
+		const params = new URLSearchParams(window.location.search);
+		const raw = params.get('team');
+		if (!raw) return;
+
+		const decoded = decodeTeam(raw);
+		if (!decoded) return;
+
+		team = decoded;
+		localStorage.setItem(STORAGE_KEY, JSON.stringify(decoded));
+
+		const url = new URL(window.location.href);
+		url.searchParams.delete('team');
+		history.replaceState({}, '', url.toString());
+	});
+
+	const shareUrl = $derived.by(() => {
+		if (typeof window === 'undefined') return '';
+		const url = new URL(window.location.href);
+		url.searchParams.set('team', teamEncoded);
+		return url.toString();
+	});
+
 
 	const filteredDigimon = $derived.by(() => {
 		const q = search.trim().toLowerCase();
@@ -166,12 +211,23 @@
 		/>
 	</div>
 
-	<Button onClick={generateRandomTeam}>
+	<div class="flex gap-8">
+		<div class="flex items-center gap-2">
+			Share your team!
+			<CopyButton
+				value={shareUrl}
+			/>
+		</div>
+
+		<Button onClick={generateRandomTeam}>
 		<span class="flex items-center">
-			<MdiDiceMultiple/>Random Team
+			<MdiDiceMultiple />Random Team
 		</span>
-	</Button>
+		</Button>
+	</div>
+
 </div>
+
 {#if search && filteredDigimon.length}
 	<div class="flex flex-wrap gap-2">
 		{#each filteredDigimon as d (d.id)}
@@ -187,6 +243,12 @@
 {:else if search}
 	<div class="opacity-60 mb-6">
 		No Digimon found
+	</div>
+{/if}
+
+{#if team.length === 0}
+	<div class="w-full mx-auto text-center mt-8">
+		No Digimon chains yet. Search a Digimon, generate a random team, or load one from a link.
 	</div>
 {/if}
 
@@ -256,10 +318,10 @@
 							class="relative"
 							use:tooltipAction={{ text: evoRequirements, position: 'top'}}
 						>
-						<MdiChevronRight
-							class="transition hover:text-accent -mx-2 cursor-help"
+							<MdiChevronRight
+								class="transition hover:text-accent -mx-2 cursor-help"
 
-						/>
+							/>
 						</div>
 
 					{/if}
@@ -281,6 +343,5 @@
 			</div>
 		</div>
 	</div>
-
 {/each}
 
