@@ -1,9 +1,11 @@
 <script lang="ts">
 	import TextInput from '$lib/components/ui/text-input.svelte';
+	import Button from '$lib/components/ui/button.svelte';
 	import DigimonIcon from '$lib/components/digimon-story-ts/DigimonIcon.svelte';
 	import { tooltipAction } from '$lib/actions/tooltip';
 	import MdiChevronRight from '~icons/mdi/chevron-right';
 	import MdiClose from '~icons/mdi/close';
+	import MdiDiceMultiple from '~icons/mdi/dice-multiple';
 
 
 	import digimonRaw from '$lib/data/digimon-story-ts/digimon.json';
@@ -12,6 +14,27 @@
 
 	const digimon: Digimon[] = digimonRaw as unknown as Digimon[];
 	const digimonById = indexDigimonById(digimon);
+
+	const STORAGE_KEY = 'digimon-story-ts:team-builder';
+
+	$effect(() => {
+		const raw = localStorage.getItem(STORAGE_KEY);
+		if (!raw) return;
+
+		try {
+			const parsed = JSON.parse(raw);
+			if (Array.isArray(parsed)) {
+				team = parsed;
+			}
+		} catch {
+
+		}
+	});
+
+	$effect(() => {
+		localStorage.setItem(STORAGE_KEY, JSON.stringify(team));
+	});
+
 
 	let search = $state('');
 	type Chain = number[];
@@ -51,15 +74,11 @@
 	}
 
 	function trimChain(chain: number[], d: Digimon) {
-		console.log(chain, d);
 		const index = team.indexOf(chain);
-		console.log(index);
 		if (index === -1) return;
 
 		const idx = chain.indexOf(d.id);
 		if (idx === -1) return;
-
-		console.log(idx);
 
 		if (idx === 0) {
 			updateChain(index, chain.slice(1));
@@ -78,16 +97,81 @@
 	function deleteChain(index: number) {
 		team = team.filter((_, i) => i !== index);
 	}
+
+	function randomItem<T>(arr: T[]): T {
+		return arr[Math.floor(Math.random() * arr.length)];
+	}
+
+	function buildRandomChain(
+		start: Digimon,
+		used: Set<number>
+	): number[] {
+		const chain: number[] = [start.id];
+		let current = start;
+
+		const visited = new Set<number>([current.id]);
+		used.add(current.id);
+
+		while (current.evolutions?.length) {
+			const candidates = current.evolutions
+				.filter(id => !visited.has(id) && !used.has(id))
+				.map(id => digimonById.get(id))
+				.filter((d): d is Digimon => Boolean(d));
+
+			if (!candidates.length) break;
+
+			const next = randomItem(candidates);
+
+			visited.add(next.id);
+			used.add(next.id);
+			chain.push(next.id);
+			current = next;
+		}
+
+		return chain;
+	}
+
+	function generateRandomTeam() {
+		const starters = digimon.filter(
+			d => d.generation === 'In-Training I'
+		);
+
+		if (!starters.length) return;
+
+		const TEAM_SIZE = 6;
+		const used = new Set<number>();
+		const chains: number[][] = [];
+
+		while (chains.length < TEAM_SIZE && starters.length) {
+			const availableStarters = starters.filter(d => !used.has(d.id));
+			if (!availableStarters.length) break;
+
+			const start = randomItem(availableStarters);
+			const chain = buildRandomChain(start, used);
+
+			chains.push(chain);
+		}
+
+		team = chains;
+		search = '';
+	}
 </script>
 
 
-<div class="w-64 mb-4">
-	<TextInput
-		placeholder="Search Digimon..."
-		bind:value={search}
-	/>
-</div>
+<div class="flex items-center justify-between gap-2">
+	<div class="w-64">
+		<TextInput
+			placeholder="Search Digimon..."
+			bind:value={search}
+		/>
+	</div>
 
+	<Button onClick={generateRandomTeam}>
+		<span class="flex items-center">
+			<MdiDiceMultiple/>Random Team
+		</span>
+	</Button>
+</div>
 {#if search && filteredDigimon.length}
 	<div class="flex flex-wrap gap-2">
 		{#each filteredDigimon as d (d.id)}
@@ -115,7 +199,7 @@
 
 	{@const notInChain = (d: Digimon) => !c.includes(d.id)}
 
-	<div class="relative p-2 border">
+	<div class="relative border">
 		<button
 			type="button"
 			class="absolute top-1 right-1 opacity-50 hover:opacity-100 hover:text-accent cursor-pointer"
