@@ -128,7 +128,7 @@
 	</div>
 
 	<!-- laps on right -->
-	<div class="absolute top-0 right-0 p-4 flex flex-col gap-1 text-small">
+	<div class="absolute top-0 right-0 p-4 flex flex-col gap-1 text-xs">
 		{#each laps as lap, i (i)}
 			<div>{lap}</div>
 		{/each}

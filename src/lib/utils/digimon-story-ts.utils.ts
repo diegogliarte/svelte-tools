@@ -100,3 +100,36 @@ export function formatSkillTarget(target: SkillTarget): string {
 		default: return '—';
 	}
 }
+
+export function indexDigimonById(digimon: Digimon[]): Map<number, Digimon> {
+	return new Map(digimon.map(d => [d.id, d]));
+}
+
+export function getPreEvolutions(
+	digimon: Digimon,
+	byId: Map<number, Digimon>
+): Digimon[] {
+	return digimon.pre_evolutions
+		.map(id => byId.get(id))
+		.filter(Boolean) as Digimon[];
+}
+
+export function getEvolutions(
+	digimon: Digimon,
+	byId: Map<number, Digimon>
+): Digimon[] {
+	return digimon.evolutions
+		.map(id => byId.get(id))
+		.filter(Boolean) as Digimon[];
+}
+
+export function getAdjacentDigimon(
+	digimon: Digimon,
+	byId: Map<number, Digimon>
+): Digimon[] {
+	return [
+		...getPreEvolutions(digimon, byId),
+		...getEvolutions(digimon, byId)
+	];
+}
+

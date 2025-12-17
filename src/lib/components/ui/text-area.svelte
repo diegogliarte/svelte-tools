@@ -45,7 +45,7 @@
 
 		{#if displayLines}
 			<!-- Line numbers (same for both modes) -->
-			<div class="flex flex-col p-2 text-small select-none text-right min-w-[2.5rem] border-r">
+			<div class="flex flex-col p-2 text-xs select-none text-right min-w-[2.5rem] border-r">
 				{#each Array(lineCount) as _, i (i)}
 					<div>
 						{i + 1}
@@ -64,7 +64,7 @@
 			class="
 				text-wrap
 				flex-1 resize-none
-				text-small
+				text-xs
 				min-h-64
 				outline-none p-2
 				whitespace-pre font-mono

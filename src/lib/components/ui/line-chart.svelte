@@ -143,7 +143,7 @@
 	></canvas>
 
 	<div
-		class="absolute inset-0 flex items-center justify-center text-small
+		class="absolute inset-0 flex items-center justify-center text-xs
 		{labels.length && datasets.length ? 'hidden' : ''}"
 	>
 		No data

@@ -35,10 +35,11 @@
 			<div class="w-26 h-26">
 				<PlayerIcon
 					player={player}
+					openModal={false}
 				/>
 			</div>
 
-			<div class="flex flex-col justify-between text-small">
+			<div class="flex flex-col justify-between text-xs">
 				<div>{player.Name}</div>
 				<div>{player.RomajiName}</div>
 				<div>{player.Position} · {player.Element}</div>
@@ -48,7 +49,7 @@
 		</div>
 
 		<h3 class="font-bold mb-1">Stats</h3>
-		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-small">
+		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-xs">
 			<div>Kick: <span class="font-bold">{player.Kick}</span></div>
 			<div>Control: <span class="font-bold">{player.Control}</span></div>
 			<div>Technique: <span class="font-bold">{player.Technique}</span></div>
@@ -60,7 +61,7 @@
 		</div>
 
 		<h3 class="font-bold mb-1">ATDF Stats</h3>
-		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-small">
+		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-xs">
 			<div>Shoot AT: <span class="font-bold">{atdf.shootAT}</span></div>
 			<div>Focus AT: <span class="font-bold">{atdf.focusAT}</span></div>
 			<div>Focus DF: <span class="font-bold">{atdf.focusDF}</span></div>
@@ -71,7 +72,7 @@
 		</div>
 
 		<h3 class="font-bold mb-1">Profile</h3>
-		<div class="grid grid-cols-2 gap-2 mb-4 text-small">
+		<div class="grid grid-cols-2 gap-2 mb-4 text-xs">
 			<div>Age Group: {player.AgeGroup}</div>
 			<div>School Year: {player.Year}</div>
 			<div>Gender: {player.Gender}</div>

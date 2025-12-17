@@ -2,7 +2,7 @@
 	import MdiCoffee from "~icons/mdi/coffee"
 </script>
 
-<footer class="border-t p-2 text-center text-small flex flex-col items-center gap-2 z-50">
+<footer class="border-t p-2 text-center text-xs flex flex-col items-center gap-2 z-50">
 	<a
 		href="https://ko-fi.com/diegogliarte"
 		target="_blank"

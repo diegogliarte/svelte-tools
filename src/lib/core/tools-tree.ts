@@ -13,6 +13,7 @@ import { tool as Base64EncoderDecoder } from '$lib/tools/base64-encoder-decoder'
 import { tool as JSONFormatter } from '$lib/tools/json-formatter';
 import { tool as InazumaElevenVRVisualizer } from '$lib/tools/inazuma-eleven-vr-visualizer';
 import { tool as DigimonStoryTSStats } from '$lib/tools/digimon-story-ts-stats';
+import { tool as DigimonStoryTSTeamBuilder } from '$lib/tools/digimon-story-ts-team-builder';
 
 function applyHref(category: ToolCategory, parentPath = ''): ToolCategory {
 	const categorySlug = slugify(category.name);
@@ -51,7 +52,7 @@ export const rawTree: ToolCategory[] = [
 	},
 	{
 		name: 'Digimon Story TS',
-		tools: [DigimonStoryTSStats],
+		tools: [DigimonStoryTSStats, DigimonStoryTSTeamBuilder],
 		subgroups: []
 	}
 ];

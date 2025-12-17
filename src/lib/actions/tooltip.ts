@@ -32,7 +32,7 @@ export const tooltipAction: Action<HTMLElement, TooltipParams> = (node, params) 
             absolute z-50
             px-2 py-1
             border bg-bg
-            text-small
+            text-xs
             whitespace-nowrap
             ${posClass}
             pointer-events-none

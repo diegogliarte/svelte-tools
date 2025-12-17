@@ -134,7 +134,7 @@
 	</div>
 
 
-	<div class="opacity-70 text-small">
+	<div class="opacity-70 text-xs">
 		Showing {processed.length} of {rows.length}
 	</div>
 </div>

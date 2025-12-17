@@ -6,10 +6,9 @@
 	import digimonRaw from '$lib/data/digimon-story-ts/digimon.json';
 	import { makeFilter, unique } from '$lib/utils/filters.utils.svelte.js';
 	import DigimonCell from '$lib/components/digimon-story-ts/DigimonCell.svelte';
+	import type { Digimon } from '$lib/utils/digimon-story-ts.utils';
 
-	type Digimon = typeof digimonRaw[number];
-
-	const digimon: Digimon[] = digimonRaw;
+	const digimon: Digimon[] = digimonRaw as unknown as Digimon[];
 
 	const generations = unique(digimon.map(d => d.generation));
 	const attributes  = unique(digimon.map(d => d.attribute));

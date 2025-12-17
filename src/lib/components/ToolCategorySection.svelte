@@ -26,7 +26,7 @@
 				"
 				>
 					<div class="font-medium truncate">{tool.title}</div>
-					<div class="text-small line-clamp-2">{tool.description}</div>
+					<div class="text-xs line-clamp-2">{tool.description}</div>
 				</a>
 			{/each}
 		</div>

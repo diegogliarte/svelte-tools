@@ -101,10 +101,10 @@
 		<!-- Header -->
 		<div class="flex gap-4 mb-4">
 			<div class="w-26 h-26">
-				<DigimonIcon digimon={digimon} />
+				<DigimonIcon digimon={digimon} openModal={false} />
 			</div>
 
-			<div class="flex flex-col justify-between text-small">
+			<div class="flex flex-col justify-between text-xs">
 				<div class="font-bold">{digimon.name}</div>
 				<div>{digimon.generation}</div>
 				<div class="flex items-center gap-1 leading-none">
@@ -124,7 +124,7 @@
 
 		<!-- Stats -->
 		<h3 class="font-bold mb-1">Base Stats</h3>
-		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-small">
+		<div class="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-4 text-xs">
 			<div>HP: <span class="font-bold">{digimon.base_stats.lv99.HP}</span></div>
 			<div>SP: <span class="font-bold">{digimon.base_stats.lv99.SP}</span></div>
 			<div>ATK: <span class="font-bold">{digimon.base_stats.lv99.ATK}</span></div>
@@ -138,7 +138,7 @@
 		{#if digimon.evolution_conditions?.length}
 			<h3 class="font-bold mb-2">Evolution Conditions</h3>
 
-			<div class="flex flex-col gap-2 mb-4 text-small">
+			<div class="flex flex-col gap-2 mb-4 text-xs">
 				{#each digimon.evolution_conditions as evo (evo)}
 					<div class="border p-2">
 						<div class="font-semibold mb-1 capitalize">{evo.type}</div>
@@ -156,7 +156,7 @@
 		{#if specialSkills.length || attachmentSkills.length}
 			<h3 class="font-bold mb-2">Skills</h3>
 
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-small">
+			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-xs">
 				{#if specialSkills.length}
 					<div>
 						<div class="font-semibold mb-1">Special</div>
@@ -187,7 +187,7 @@
 		{#if digimon.possible_personalities}
 			<h3 class="font-bold mb-2">Possible Personalities</h3>
 
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-small">
+			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-xs">
 				{#each Object.entries(digimon.possible_personalities) as [group, entries]}
 					<div class="border p-2">
 						<div class="font-semibold mb-1">{group}</div>
@@ -208,7 +208,7 @@
 		{#if preEvolutions.length || evolutions.length}
 			<h3 class="font-bold mb-2">Evolution Tree</h3>
 
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-small">
+			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
 				{#if preEvolutions.length}
 					<div>
 						<div class="font-semibold mb-1">Pre-evolutions</div>

@@ -28,7 +28,7 @@
 		overflow-y-auto
 		transition-transform
 		{visible ? '' : 'hidden'}
-		p-1 flex flex-col gap-1 text-small
+		p-1 flex flex-col gap-1 text-xs
 		z-50
 		bg-bg  /* important so content behind doesn't show through */
 	"

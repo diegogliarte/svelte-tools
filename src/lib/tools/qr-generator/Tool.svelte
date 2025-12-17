@@ -62,7 +62,7 @@
 </div>
 
 <p class="
-	text-small
+	text-xs
 	h-1
 	text-center
 	transition-opacity {visible ? 'opacity-100' : 'opacity-0'}"
