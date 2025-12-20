@@ -22,8 +22,8 @@
 
 <button
 	class="
-        px-2 py-1 border transition cursor-pointer
-        hover:border-accent
+        px-3 py-2 border transition cursor-pointer
+        not-disabled:hover:border-accent
         disabled:opacity-50 disabled:cursor-not-allowed
         {active ? 'bg-accent text-white border-accent' : ''}
     "

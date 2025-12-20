@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { load } from 'cheerio';
-import { parse } from "csv-parse/sync";
+import { parse } from 'csv-parse/sync';
 
 const PER_PAGE = 1000;
 const BASE_PARAM = `https://zukan.inazuma.jp/en/chara_param/?per_page=${PER_PAGE}&page=`;
@@ -9,8 +9,8 @@ const BASE_LIST = `https://zukan.inazuma.jp/en/chara_list/?per_page=${PER_PAGE}&
 
 const BATCH_SIZE = 5;
 
-const csvPath = path.join(import.meta.dirname, "characters.csv");
-const csvRaw = fs.readFileSync(csvPath, "utf-8");
+const csvPath = path.join(import.meta.dirname, 'characters.csv');
+const csvRaw = fs.readFileSync(csvPath, 'utf-8');
 
 const csvRows: any[] = parse(csvRaw, {
 	columns: true,
@@ -85,36 +85,38 @@ function parsePlayers(html: string) {
 
 		const howToObtain: any[] = [];
 
-		$p.find('dl.getTxt > dd').children('dl').each((_, dl) => {
-			const $dl = $(dl);
-			const title = clean($dl.find('> dt').text());
+		$p.find('dl.getTxt > dd')
+			.children('dl')
+			.each((_, dl) => {
+				const $dl = $(dl);
+				const title = clean($dl.find('> dt').text());
 
-			const subsections: any[] = [];
-			const entries: string[] = [];
+				const subsections: any[] = [];
+				const entries: string[] = [];
 
-			// Find subsection blocks (dd with p + ul)
-			$dl.find('> dd').each((_, dd) => {
-				const $dd = $(dd);
-				const subsectionTitle = clean($dd.find('> p').text());
-				const subsectionEntries: string[] = [];
+				// Find subsection blocks (dd with p + ul)
+				$dl.find('> dd').each((_, dd) => {
+					const $dd = $(dd);
+					const subsectionTitle = clean($dd.find('> p').text());
+					const subsectionEntries: string[] = [];
 
-				$dd.find('> ul > li').each((_, li) => {
-					subsectionEntries.push(clean($(li).text()));
+					$dd.find('> ul > li').each((_, li) => {
+						subsectionEntries.push(clean($(li).text()));
+					});
+
+					if (subsectionTitle) {
+						subsections.push({
+							title: subsectionTitle,
+							entries: subsectionEntries
+						});
+					} else {
+						// dd without a <p> means a flat entry list group
+						entries.push(...subsectionEntries);
+					}
 				});
 
-				if (subsectionTitle) {
-					subsections.push({
-						title: subsectionTitle,
-						entries: subsectionEntries
-					});
-				} else {
-					// dd without a <p> means a flat entry list group
-					entries.push(...subsectionEntries);
-				}
+				howToObtain.push({ title, entries, subsections });
 			});
-
-			howToObtain.push({ title, entries, subsections });
-		});
 
 		const stats: Record<string, any> = {};
 		$p.find('ul.param > li dl').each((_, dl) => {
@@ -301,8 +303,8 @@ async function run() {
 
 			Teams: t.teams,
 
-			RomajiName: csv?.["Name(Romaji)"] ?? "",
-			Archetype: csv?.["Preferred Playstyle"] ?? "",
+			RomajiName: csv?.['Name(Romaji)'] ?? '',
+			Archetype: csv?.['Preferred Playstyle'] ?? ''
 		});
 	}
 

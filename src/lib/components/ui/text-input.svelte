@@ -14,7 +14,7 @@
 	const uid = $props.id();
 </script>
 
-<div class="flex flex-col w-full gap-1">
+<div class="flex flex-col w-full gap-0.5">
 	{#if label}
 		<label for={uid}>{label}</label>
 	{/if}

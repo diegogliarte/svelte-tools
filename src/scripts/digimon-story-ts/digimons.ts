@@ -4,15 +4,9 @@ import { load } from 'cheerio';
 
 const BASE = 'https://www.grindosaur.com';
 
-const LIST_URL =
-	`${BASE}/en/games/digimon-story-time-stranger/digimon`;
+const LIST_URL = `${BASE}/en/games/digimon-story-time-stranger/digimon`;
 
-const OUT_DIR = path.join(
-	'src',
-	'lib',
-	'data',
-	'digimon-story-ts'
-);
+const OUT_DIR = path.join('src', 'lib', 'data', 'digimon-story-ts');
 
 const DIGIMON_OUT = path.join(OUT_DIR, 'digimon.json');
 const SKILLS_OUT = path.join(OUT_DIR, 'skills.json');
@@ -74,11 +68,7 @@ async function scrapeList() {
 	return list;
 }
 
-function parseSkill(
-	html: string,
-	slug: string,
-	category: 'special' | 'attachment'
-) {
+function parseSkill(html: string, slug: string, category: 'special' | 'attachment') {
 	const $ = load(html);
 
 	const skill: any = {
@@ -109,18 +99,10 @@ function parseSkill(
 	});
 
 	// IN-GAME DESCRIPTION (FIXED)
-	skill.description = clean(
-		$('#info .columns__item')
-			.eq(1)
-			.find('p')
-			.first()
-			.text()
-	);
+	skill.description = clean($('#info .columns__item').eq(1).find('p').first().text());
 
 	return skill;
 }
-
-
 
 async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 	const html = await fetchPage(entry.url);
@@ -183,19 +165,21 @@ async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 		}
 
 		// Personality cells
-		$(tr).find('td').each((i, td) => {
-			const name = clean($(td).clone().find('b').remove().end().text());
-			const pct = clean($(td).find('b').text());
+		$(tr)
+			.find('td')
+			.each((i, td) => {
+				const name = clean($(td).clone().find('b').remove().end().text());
+				const pct = clean($(td).find('b').text());
 
-			if (!name || !pct) return;
+				if (!name || !pct) return;
 
-			const category = currentCategories[Math.floor(i / 2)]
+				const category = currentCategories[Math.floor(i / 2)];
 
-			digimon.possible_personalities[category].push({
-				name,
-				chance: parseFloat(pct.replace('%', ''))
-			})
-		});
+				digimon.possible_personalities[category].push({
+					name,
+					chance: parseFloat(pct.replace('%', ''))
+				});
+			});
 	});
 
 	// EVOLUTION CONDITIONS
@@ -227,9 +211,9 @@ async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 
 				let type: 'simple' | 'stats' | 'jogress' | 'item' = 'simple';
 
-				if (headers.some(h => h.includes('Jogress'))) {
+				if (headers.some((h) => h.includes('Jogress'))) {
 					type = 'jogress';
-				} else if (headers.some(h => h.includes('Req. Item'))) {
+				} else if (headers.some((h) => h.includes('Req. Item'))) {
 					type = 'item';
 				} else if (headers.length > 1) {
 					type = 'stats';
@@ -241,7 +225,6 @@ async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 				});
 			});
 	});
-
 
 	// EVOLVES FROM
 	const evolvesFromBox = $('h2#evolves-from').next('.box');
@@ -269,33 +252,32 @@ async function parseDigimon(entry: any, skillsMap: Record<string, any>) {
 	skillsBox.find('table').each((_, table) => {
 		const caption = clean($(table).find('caption').text()).toLowerCase();
 
-		const category =
-			caption.includes('special') ? 'special' :
-				caption.includes('attachment') ? 'attachment' :
-					null;
+		const category = caption.includes('special') ? 'special' : caption.includes('attachment') ? 'attachment' : null;
 
 		if (!category) return;
 
-		$(table).find('tbody tr').each((_, tr) => {
-			const link = $(tr).find('td:nth-child(2) a');
-			if (!link.length) return;
+		$(table)
+			.find('tbody tr')
+			.each((_, tr) => {
+				const link = $(tr).find('td:nth-child(2) a');
+				if (!link.length) return;
 
-			const href = link.attr('href');
-			if (!href) return;
+				const href = link.attr('href');
+				if (!href) return;
 
-			const slug = slugify(href.split('/').pop()!);
+				const slug = slugify(href.split('/').pop()!);
 
-			digimon.skills[category].push(slug);
+				digimon.skills[category].push(slug);
 
-			// mark skill for later fetch
-			if (!skillsMap[slug]) {
-				skillsMap[slug] = {
-					slug,
-					url: href.startsWith('http') ? href : BASE + href,
-					category
-				};
-			}
-		});
+				// mark skill for later fetch
+				if (!skillsMap[slug]) {
+					skillsMap[slug] = {
+						slug,
+						url: href.startsWith('http') ? href : BASE + href,
+						category
+					};
+				}
+			});
 	});
 
 	return digimon;
@@ -314,13 +296,9 @@ async function run() {
 
 	// resolve evolutions to IDs
 	for (const d of Object.values(bySlug)) {
-		d.pre_evolutions = d.pre_evolutions
-			.map((s: string) => bySlug[s]?.id)
-			.filter(Boolean);
+		d.pre_evolutions = d.pre_evolutions.map((s: string) => bySlug[s]?.id).filter(Boolean);
 
-		d.evolutions = d.evolutions
-			.map((s: string) => bySlug[s]?.id)
-			.filter(Boolean);
+		d.evolutions = d.evolutions.map((s: string) => bySlug[s]?.id).filter(Boolean);
 	}
 
 	for (const skill of Object.values(skills)) {

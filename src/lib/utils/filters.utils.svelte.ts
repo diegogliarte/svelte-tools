@@ -11,7 +11,7 @@ export function sortNoneLast(list: string[]) {
 }
 
 export function makeFilter(list: string[], checked: boolean = false) {
-	return Object.fromEntries(list.map(v => [v, checked])) as Record<string, boolean>;
+	return Object.fromEntries(list.map((v) => [v, checked])) as Record<string, boolean>;
 }
 
 export type FilterGroup = {

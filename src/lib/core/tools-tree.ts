@@ -15,6 +15,7 @@ import { tool as InazumaElevenVRVisualizer } from '$lib/tools/inazuma-eleven-vr-
 import { tool as DigimonStoryTSStats } from '$lib/tools/digimon-story-ts-stats';
 import { tool as DigimonStoryTSTeamBuilder } from '$lib/tools/digimon-story-ts-team-builder';
 import { tool as DigimonStoryTSShortestRoute } from '$lib/tools/digimon-story-ts-shortest-route';
+import { tool as ImageCompressor } from '$lib/tools/image-compressor';
 
 function applyHref(category: ToolCategory, parentPath = ''): ToolCategory {
 	const categorySlug = slugify(category.name);
@@ -39,6 +40,11 @@ export const rawTree: ToolCategory[] = [
 	{
 		name: 'Productivity',
 		tools: [ChronoTool, CompoundInterestCalculator],
+		subgroups: []
+	},
+	{
+		name: 'Image',
+		tools: [ImageCompressor],
 		subgroups: []
 	},
 	{

@@ -12,6 +12,7 @@
 	import ProgressBar from '$lib/components/ui/progress-bar.svelte';
 	import SelectInput from '$lib/components/ui/select-input.svelte';
 	import TextArea from '$lib/components/ui/text-area.svelte';
+	import Button from '$lib/components/ui/button.svelte';
 
 	// Demo state
 	let textValue = $state('');
@@ -46,6 +47,9 @@
 		{ value: 'two', label: 'Two' },
 		{ value: 'three', label: 'Three' }
 	];
+
+	let buttonActive = $state(false);
+	let buttonClicks = $state(0);
 </script>
 
 <!-- REUSABLE GALLERY CARD SNIPPET -->
@@ -166,6 +170,29 @@
 	/>
 {/snippet}
 
+{#snippet demoButton()}
+<Button onClick={() => buttonClicks++}>
+	Default
+</Button>
+
+<Button
+	active={buttonActive}
+	onClick={() => (buttonActive = !buttonActive)}
+>
+	{buttonActive ? 'Active' : 'Inactive'}
+</Button>
+
+<Button disabled>
+	Disabled
+</Button>
+{/snippet}
+
+{#snippet footerButton()}
+	<span>clicks = {buttonClicks}</span>
+	<span>active = {buttonActive}</span>
+{/snippet}
+
+
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 	{@render galleryItem("TextInput", demoTextInput, footerTextInput)}
 	{@render galleryItem("NumberInput", demoNumberInput, footerNumberInput)}
@@ -177,4 +204,6 @@
 	{@render galleryItem("DataTable", demoDataTable)}
 	{@render galleryItem("LineChart", demoLineChart)}
 	{@render galleryItem("ProgressBar", demoProgressBar)}
+	{@render galleryItem("Button", demoButton, footerButton)}
+
 </div>

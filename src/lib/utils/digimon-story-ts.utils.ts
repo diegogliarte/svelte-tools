@@ -41,26 +41,20 @@ export interface Digimon {
 
 	evolution_conditions: DigimonEvolutionCondition[];
 	pre_evolutions: number[]; // Digimon IDs
-	evolutions: number[];     // Digimon IDs
+	evolutions: number[]; // Digimon IDs
 
 	skills: DigimonSkillSet;
 }
 
 export type SkillCategory = 'special' | 'attachment';
 
-export type SkillTarget =
-	| 'enemy-single'
-	| 'enemy-all'
-	| 'ally-single'
-	| 'ally-all'
-	| 'self'
-	| 'unknown';
+export type SkillTarget = 'enemy-single' | 'enemy-all' | 'ally-single' | 'ally-all' | 'self' | 'unknown';
 
 export interface Skill {
 	slug: string;
 	url: string;
 	category: SkillCategory;
-	type: string
+	type: string;
 	name: string;
 	damage_type?: 'physical' | 'magic';
 	sp_cost?: number;
@@ -93,43 +87,31 @@ export function parseSkillTarget(description: string): SkillTarget {
 
 export function formatSkillTarget(target: SkillTarget): string {
 	switch (target) {
-		case 'enemy-single': return '1 enemy';
-		case 'enemy-all': return 'All enemies';
-		case 'ally-single': return '1 ally';
-		case 'ally-all': return 'All allies';
-		default: return '—';
+		case 'enemy-single':
+			return '1 enemy';
+		case 'enemy-all':
+			return 'All enemies';
+		case 'ally-single':
+			return '1 ally';
+		case 'ally-all':
+			return 'All allies';
+		default:
+			return '—';
 	}
 }
 
 export function indexDigimonById(digimon: Digimon[]): Map<number, Digimon> {
-	return new Map(digimon.map(d => [d.id, d]));
+	return new Map(digimon.map((d) => [d.id, d]));
 }
 
-export function getPreEvolutions(
-	digimon: Digimon,
-	byId: Map<number, Digimon>
-): Digimon[] {
-	return digimon.pre_evolutions
-		.map(id => byId.get(id))
-		.filter(Boolean) as Digimon[];
+export function getPreEvolutions(digimon: Digimon, byId: Map<number, Digimon>): Digimon[] {
+	return digimon.pre_evolutions.map((id) => byId.get(id)).filter(Boolean) as Digimon[];
 }
 
-export function getEvolutions(
-	digimon: Digimon,
-	byId: Map<number, Digimon>
-): Digimon[] {
-	return digimon.evolutions
-		.map(id => byId.get(id))
-		.filter(Boolean) as Digimon[];
+export function getEvolutions(digimon: Digimon, byId: Map<number, Digimon>): Digimon[] {
+	return digimon.evolutions.map((id) => byId.get(id)).filter(Boolean) as Digimon[];
 }
 
-export function getAdjacentDigimon(
-	digimon: Digimon,
-	byId: Map<number, Digimon>
-): Digimon[] {
-	return [
-		...getPreEvolutions(digimon, byId),
-		...getEvolutions(digimon, byId)
-	];
+export function getAdjacentDigimon(digimon: Digimon, byId: Map<number, Digimon>): Digimon[] {
+	return [...getPreEvolutions(digimon, byId), ...getEvolutions(digimon, byId)];
 }
-

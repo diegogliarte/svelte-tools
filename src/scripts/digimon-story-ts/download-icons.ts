@@ -2,18 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
-const DATA_DIR = path.join(
-	'src',
-	'lib',
-	'data',
-	'digimon-story-ts'
-);
+const DATA_DIR = path.join('src', 'lib', 'data', 'digimon-story-ts');
 
-const ICON_OUT_DIR = path.join(
-	'static',
-	'digimon-story-ts',
-	'icons'
-);
+const ICON_OUT_DIR = path.join('static', 'digimon-story-ts', 'icons');
 const DIGIMON_JSON = path.join(DATA_DIR, 'digimon.json');
 
 // -----------------------------------------------------
