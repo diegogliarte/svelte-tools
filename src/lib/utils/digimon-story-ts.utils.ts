@@ -70,6 +70,10 @@ export function getSkillIcon(type: string): string {
 	return `/digimon-story-ts/skills/${toKebabCase(type)}.png`;
 }
 
+export function getDigimonIcon(digimon: Digimon): string {
+	return `/digimon-story-ts/digimons/${digimon.id}-${digimon.slug}.webp`;
+}
+
 const TARGET_PATTERNS: [RegExp, SkillTarget][] = [
 	[/\[Target:\s*1 enemy\]/i, 'enemy-single'],
 	[/\[Target:\s*All enemies\]/i, 'enemy-all'],

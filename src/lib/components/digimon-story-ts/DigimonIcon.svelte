@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { tooltipAction} from '$lib/actions/tooltip';
 	import DigimonModal from '$lib/components/digimon-story-ts/DigimonModal.svelte';
-	import type { Digimon } from '$lib/utils/digimon-story-ts.utils';
+	import { type Digimon, getDigimonIcon } from '$lib/utils/digimon-story-ts.utils';
 	import { toKebabCase } from '$lib/utils/text.utils';
 
 	interface Props {
@@ -58,7 +58,7 @@
 		}}
 	>
 		<img
-			src={digimon.icon}
+			src={getDigimonIcon(digimon)}
 			alt={digimon.name}
 			loading="lazy"
 			class="w-full h-full object-cover aspect-square pointer-events-none"
@@ -85,7 +85,7 @@
 			onclick={() => onClick?.(digimon)}
 		>
 			<img
-				src={digimon.icon}
+				src={getDigimonIcon(digimon)}
 				alt={digimon.name}
 				loading="lazy"
 				class="w-full h-full object-cover pointer-events-none"
