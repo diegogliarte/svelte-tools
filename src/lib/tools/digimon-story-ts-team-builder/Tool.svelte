@@ -206,7 +206,7 @@
 <div class="flex items-center justify-between gap-2">
 	<div class="w-64">
 		<TextInput
-			placeholder="Search Digimon..."
+			placeholder="Agumon"
 			bind:value={search}
 		/>
 	</div>
@@ -320,7 +320,6 @@
 						>
 							<MdiChevronRight
 								class="transition hover:text-accent -mx-2 cursor-help"
-
 							/>
 						</div>
 

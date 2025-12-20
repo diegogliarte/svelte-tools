@@ -52,7 +52,7 @@
 {#if variant === 'default'}
 	<button
 		type="button"
-		class="w-full cursor-pointer p-0 border hover:border-accent"
+		class="w-full cursor-pointer p-0 border hover:border-accent transition"
 		onclick={() => {
 			if (openModal) showModal = true;
 		}}

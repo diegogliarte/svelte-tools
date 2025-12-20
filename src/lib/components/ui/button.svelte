@@ -1,14 +1,18 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
+
 	interface Props {
 		active?: boolean;
 		disabled?: boolean;
 		onClick?: () => void;
+		children: Snippet;
 	}
 
 	let {
 		active = false,
 		disabled = false,
-		onClick = undefined
+		onClick = undefined,
+		children
 	}: Props = $props();
 
 	function handleClick() {
@@ -26,5 +30,5 @@
 	onclick={handleClick}
 	{disabled}
 >
-	<slot />
+	{@render children()}
 </button>

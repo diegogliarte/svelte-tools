@@ -14,6 +14,7 @@ import { tool as JSONFormatter } from '$lib/tools/json-formatter';
 import { tool as InazumaElevenVRVisualizer } from '$lib/tools/inazuma-eleven-vr-visualizer';
 import { tool as DigimonStoryTSStats } from '$lib/tools/digimon-story-ts-stats';
 import { tool as DigimonStoryTSTeamBuilder } from '$lib/tools/digimon-story-ts-team-builder';
+import { tool as DigimonStoryTSShortestRoute } from '$lib/tools/digimon-story-ts-shortest-route';
 
 function applyHref(category: ToolCategory, parentPath = ''): ToolCategory {
 	const categorySlug = slugify(category.name);
@@ -52,7 +53,7 @@ export const rawTree: ToolCategory[] = [
 	},
 	{
 		name: 'Digimon Story TS',
-		tools: [DigimonStoryTSStats, DigimonStoryTSTeamBuilder],
+		tools: [DigimonStoryTSStats, DigimonStoryTSTeamBuilder, DigimonStoryTSShortestRoute],
 		subgroups: []
 	}
 ];

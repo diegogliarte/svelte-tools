@@ -185,7 +185,7 @@
 
 		<!-- Personalities -->
 		{#if digimon.possible_personalities}
-			<h3 class="font-bold mb-2">Possible Personalities</h3>
+			<h3 class="font-bold mb-2">Personalities</h3>
 
 			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 text-xs">
 				{#each Object.entries(digimon.possible_personalities) as [group, entries]}

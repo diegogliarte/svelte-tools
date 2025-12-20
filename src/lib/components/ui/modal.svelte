@@ -1,12 +1,14 @@
 <script lang="ts">
 	import Button from "$lib/components/ui/button.svelte";
+	import type { Snippet } from 'svelte';
+	import MdiClose from '~icons/mdi/close';
 
 	interface Props {
 		showModal?: boolean;
 		title?: string;
 		closable?: boolean;
 		onClose?: () => void;
-		children?;
+		children: Snippet;
 	}
 
 	let {
@@ -53,6 +55,7 @@
 			w-[min(90vw,800px)]
 			max-h-[90vh]
 			overflow-y-auto
+			relative
 		"
 	>
 		{#if title || closable}
@@ -62,12 +65,18 @@
 				{/if}
 
 				{#if closable}
-					<Button onClick={() => dialog.close()}>X</Button>
+					<button
+						type="button"
+						class="absolute top-2 right-2 text-large opacity-50 hover:opacity-100 hover:text-accent cursor-pointer"
+						onclick={() => dialog.close()}
+					>
+						<MdiClose />
+					</button>
 				{/if}
 			</div>
 		{/if}
 
-		{@render children?.()}
+		{@render children()}
 	</div>
 </dialog>
 
