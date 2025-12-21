@@ -30,7 +30,7 @@ export const tooltipAction: Action<HTMLElement, TooltipParams> = (node, params) 
 
 		el.className = `
             absolute z-50
-            px-2 py-1
+            px-3 py-2
             border bg-bg
             text-xs
             whitespace-nowrap

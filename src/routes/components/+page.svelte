@@ -18,6 +18,7 @@
 	let textValue = $state('');
 	let numValue = $state(10);
 	let checkValue = $state(false);
+	let checkValue2 = $state(true);
 	let selectVal = $state('');
 	let areaVal = $state('Line 1\nLine 2\nLine 3');
 
@@ -60,7 +61,7 @@
 		{@render Demo()}
 
 		{#if Footer}
-			<pre class="text-xs">{@render Footer()}</pre>
+			<pre class="text-xs flex flex-col">{@render Footer()}</pre>
 		{/if}
 	</section>
 {/snippet}
@@ -91,10 +92,16 @@
 
 {#snippet demoCheckbox()}
 	<CheckboxInput label="Enable Option" bind:checked={checkValue} />
+	<CheckboxInput label="Enable Option 2" bind:checked={checkValue2} />
 {/snippet}
 
 {#snippet footerCheckbox()}
+	<span>
 	checked = {checkValue}
+	</span>
+	<span>
+	checked2 = {checkValue2}
+	</span>
 {/snippet}
 
 {#snippet demoCopyButton()}
