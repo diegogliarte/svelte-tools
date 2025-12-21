@@ -196,11 +196,7 @@
 
 <!-- FILE INPUT -->
 <FileDrop label="Images" accept="image/*" bind:files>
-	<span class="text-sm">
-		{files?.length
-			? `${files.length} file(s) selected`
-			: 'Drop images here or click'}
-	</span>
+
 </FileDrop>
 
 <!-- CONTROLS -->

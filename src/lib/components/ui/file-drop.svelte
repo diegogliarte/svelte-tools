@@ -1,13 +1,10 @@
 <script lang="ts">
-	import type { Snippet } from 'svelte';
-
 	interface Props {
 		files?: File[] | null;
 		label?: string;
 		accept?: string;
 		multiple?: boolean;
 		disabled?: boolean;
-		children?: Snippet;
 	}
 
 	let {
@@ -16,7 +13,6 @@
 		accept = '',
 		multiple = true,
 		disabled = false,
-		children
 	}: Props = $props();
 
 	const uid = $props.id();
@@ -71,13 +67,11 @@
 		ondragleave={handleDragLeave}
 		ondrop={handleDrop}
 	>
-		{#if children}
-			{@render children()}
-		{:else}
-			<span class="text-sm">
-				Drop files here or click to select
-			</span>
-		{/if}
+		<span class="text-sm">
+			{files?.length
+				? `${files.length} file(s) selected`
+				: 'Drop images here or click'}
+		</span>
 	</label>
 
 	<input
