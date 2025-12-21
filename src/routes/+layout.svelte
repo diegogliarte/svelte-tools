@@ -23,9 +23,7 @@
 <div class="flex bg-bg text-text">
 	<Sidebar visible={isSidebarOpen} />
 
-	<div
-		class="flex flex-col flex-1 min-h-screen {isSidebarOpen ? 'pl-sidebar' : ''}"
-	>
+	<div class="flex flex-col flex-1 h-full">
 		<Navbar {toggleSidebar} />
 
 		<main class="p-4 flex-1">
