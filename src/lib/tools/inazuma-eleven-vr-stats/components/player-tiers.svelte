@@ -25,7 +25,7 @@
 						</h3>
 
 						<!-- 👇 4-column grid of players -->
-						<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1">
+						<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-1">
 							{#each tier.players as p (p.Image)}
 								<PlayerIcon
 									player={p}
