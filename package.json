@@ -28,7 +28,7 @@
 		"*.{json,md,css,html,yml,yaml}": "prettier --write"
 	},
 	"dependencies": {
-		"@netlify/blobs": "^10.7.10",
+		"@netlify/blobs": "^10.7.11",
 		"chart.js": "^4.5.1",
 		"crypto-js": "^4.2.0",
 		"jsqr": "^1.4.0",
