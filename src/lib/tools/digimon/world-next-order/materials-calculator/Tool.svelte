@@ -44,8 +44,8 @@
 
 	const materialStyles = {
 		liquid: 'bg-blue-400/10',
-		metal: 'bg-red-500/10',
-		stone: 'bg-yellow-300/10',
+		metal: 'bg-yellow-500/10',
+		stone: 'bg-red-300/10',
 		wood: 'bg-green-500/10'
 	} as const;
 
