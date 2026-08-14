@@ -79,15 +79,27 @@
 		});
 	}
 
+	function normalizeSearch(value: string) {
+		return value
+			.toLowerCase()
+			.normalize('NFKD')
+			.replace(/\p{Diacritic}/gu, '')
+			.replace(/['’]/g, '')
+			.replace(/\s+/g, ' ')
+			.trim();
+	}
+
 	let processed = $derived.by(() => {
 		let filtered = rows;
 
 		if (search.trim()) {
-			const q = search.toLowerCase();
+			const terms = normalizeSearch(search).split(' ').filter(Boolean);
 
-			filtered = rows.filter((row) =>
-				columns.some((col) => cellText(row, col).replace(/\s+/g, ' ').trim().toLowerCase().includes(q))
-			);
+			filtered = rows.filter((row) => {
+				const searchable = normalizeSearch(columns.map((col) => cellText(row, col)).join(' '));
+
+				return terms.every((term) => searchable.includes(term));
+			});
 		}
 
 		if (sortKey) {
