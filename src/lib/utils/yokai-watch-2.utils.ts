@@ -1,4 +1,4 @@
-import type { BaffleBoard } from '$lib/data/yokai-watch-2/data';
+import type { Yokai } from '$lib/data/yokai-watch-2/data';
 
 const tribeClasses: Record<string, string> = {
 	Brave: 'bg-red-900',
@@ -28,6 +28,16 @@ export function getYokaiRankClass(rank: string) {
 	return rankClasses[rank] ?? 'bg-neutral-700';
 }
 
-export function getYokaiSearchText(yokai: BaffleBoard) {
-	return `${yokai.name} ${yokai.tribe} ${yokai.rank}`;
+export function getYokaiSearchText(yokai: Yokai) {
+	return `${yokai.number} ${yokai.name} ${yokai.tribe} ${yokai.rank} ${yokai.element} ${yokai.favouriteFood}`;
+}
+
+export function getFavouriteFoodIcon(food: string) {
+	const slug = food
+		.toLowerCase()
+		.replace(/['’]/g, '')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+
+	return `/yokai-watch-2/foods/${slug}.png`;
 }

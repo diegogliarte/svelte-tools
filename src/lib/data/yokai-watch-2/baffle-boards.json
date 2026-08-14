@@ -1,380 +1,184 @@
 [
 	{
 		"id": 1,
-		"name": "Hungramps",
-		"image": "/yokai-watch-2/yokais/hungramps.png",
-		"tribe": "Heartful",
-		"rank": "E",
+		"yokaiId": 166,
 		"boardLocation": "Uptown Springdale: Outside Everymart (Story Mode)",
 		"clues": ["Wears traditional clothing", "Heartful Tribe", "Makes Inspirited people hungry"],
-		"effect": "30% discount at Everymart Uptown.",
-		"yokaiLocations": [
-			"Downtown Springdale - Brushwoods & Flowers",
-			"Downtown Springdale - Rivers & Sea",
-			"Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps",
-			"Story recruit."
-		]
+		"effect": "30% discount at Everymart Uptown."
 	},
 	{
 		"id": 2,
-		"name": "Blazion",
-		"image": "/yokai-watch-2/yokais/blazion.png",
-		"tribe": "Brave",
-		"rank": "C",
+		"yokaiId": 23,
 		"boardLocation": "Uptown Springdale: Outside Jungle Hunter",
 		"clues": ["Has a flaming mane", "Likes meat", "A fiery tough guy"],
-		"effect": "Allows certain bugs/fish to be traded in for 3x the amount of points.",
-		"yokaiLocations": [
-			"Excellent Tower - Garbages",
-			"Excellent Tower - Empty flats",
-			"Excellent Tower - Under cars & Distributors"
-		]
+		"effect": "Allows certain bugs/fish to be traded in for 3x the amount of points."
 	},
 	{
 		"id": 3,
-		"name": "Miradox",
-		"image": "/yokai-watch-2/yokais/miradox.png",
-		"tribe": "Mysterious",
-		"rank": "A",
+		"yokaiId": 69,
 		"boardLocation": "Uptown Springdale: Outside Community Center (Story Mode)",
 		"clues": ["Three-paneled mirror", "Transports people through time", "Reveal!"],
-		"effect": "Warp to Old Springdale.",
-		"yokaiLocations": ["Fusion.", "Story recruit."]
+		"effect": "Warp to Old Springdale."
 	},
 	{
 		"id": 4,
-		"name": "Robonyan",
-		"image": "/yokai-watch-2/yokais/robonyan.png",
-		"tribe": "Tough",
-		"rank": "A",
+		"yokaiId": 116,
 		"boardLocation": "Mount Wildwood: Abandoned Tunnel East",
 		"clues": ["Emissary from the future", "Resembles Jibanyan", "Says he'll 'be back'"],
-		"effect": "Allows access to the waterfall area.",
-		"yokaiLocations": ["Quest - From the Future!", "Quest - Watch the Skies"]
+		"effect": "Allows access to the waterfall area."
 	},
 	{
 		"id": 5,
-		"name": "Draaagin",
-		"image": "/yokai-watch-2/yokais/draaagin.png",
-		"tribe": "Slippery",
-		"rank": "B",
+		"yokaiId": 314,
 		"boardLocation": "Mount Wildwood: Abandoned Tunnel West",
 		"clues": ["Dragon Yo-kai", "Indecisive", "His favorite phrase is 'Hmmm...'"],
-		"effect": "Allows access to abandoned tunnel east after a few in-game days.",
-		"yokaiLocations": ["Downtown Springdale - Brushwoods & Flowers", "Gera Gera Land"]
+		"effect": "Allows access to abandoned tunnel east after a few in-game days."
 	},
 	{
 		"id": 6,
-		"name": "Ray O'Light",
-		"image": "/yokai-watch-2/yokais/ray-olight.png",
-		"tribe": "Heartful",
-		"rank": "C",
+		"yokaiId": 187,
 		"boardLocation": "Mount Wildwood: Summit",
 		"clues": ["White tuxedo", "Heartful Tribe", "My darling sweet pea"],
-		"effect": "Changes the weather to sunny.",
-		"yokaiLocations": ["Harrisville - Brushwoods", "Harrisville - Gravestones"]
+		"effect": "Changes the weather to sunny."
 	},
 	{
 		"id": 7,
-		"name": "Drizzelda",
-		"image": "/yokai-watch-2/yokais/drizzelda.png",
-		"tribe": "Charming",
-		"rank": "C",
+		"yokaiId": 148,
 		"boardLocation": "Mount Wildwood: Summit",
 		"clues": ["Drizzly drizzle...", "Dampy damp...", "Drizzly, drizzly drizzle..."],
-		"effect": "Changes the weather to rainy.",
-		"yokaiLocations": ["Mt. Wildwood - Brushwoods"]
+		"effect": "Changes the weather to rainy."
 	},
 	{
 		"id": 8,
-		"name": "High Gnomey",
-		"image": "/yokai-watch-2/yokais/high-gnomey.png",
-		"tribe": "Heartful",
-		"rank": "A",
+		"yokaiId": 179,
 		"boardLocation": "Breezy Hills: East of Eddie's house",
 		"clues": ["Holds bells in his right hand", "A classic Yo-kai", "Happy happy!"],
-		"effect": "Increases your daily Crank-a-kai attempts by one.",
-		"yokaiLocations": ["Gold-Gleaming Hwy. - Interchange", "Evolve Gnomey at Level 28."]
+		"effect": "Increases your daily Crank-a-kai attempts by one."
 	},
 	{
 		"id": 9,
-		"name": "Washogun",
-		"image": "/yokai-watch-2/yokais/washogun.png",
-		"tribe": "Brave",
-		"rank": "B",
+		"yokaiId": 7,
 		"boardLocation": "Blossom Heights: Outside the bath house",
 		"clues": ["Neat-freak shogun", "Loves his antibacterial spray", "Clean, clean!"],
-		"effect": "Sproink's Quest Activator.",
-		"yokaiLocations": ["Evolve Brushido at Level 19."]
+		"effect": "Sproink's Quest Activator."
 	},
 	{
 		"id": 10,
-		"name": "Master Oden",
-		"image": "/yokai-watch-2/yokais/master-oden.png",
-		"tribe": "Mysterious",
-		"rank": "A",
+		"yokaiId": 65,
 		"boardLocation": "Shopper's Row: East of Everymart (In Night Time)",
 		"clues": ["First-rate food stall", "Dashi stock", "Well den"],
-		"effect": "Oden can now be purchased from Shopper's Row Everymart.",
-		"yokaiLocations": ["Quest - Oden of the Soul"]
+		"effect": "Oden can now be purchased from Shopper's Row Everymart."
 	},
 	{
 		"id": 11,
-		"name": "Illoo",
-		"image": "/yokai-watch-2/yokais/illoo.png",
-		"tribe": "Mysterious",
-		"rank": "C",
+		"yokaiId": 71,
 		"boardLocation": "Downtown Springdale: East of the Springdale Business Tower",
 		"clues": ["Holds a small staff in one hand.", "Loves bread", "Conjures apparitions"],
-		"effect": "Allows access to 4F and 13F of the Springdale Business Tower",
-		"yokaiLocations": [
-			"Downtown Springdale - Construction Site",
-			"Breezy Hills - Gate Room - Compunzer's Zone",
-			"Harrisville - Trees",
-			"Harrisville - Telephone poles",
-			"Harrisville - Mt. Middleton",
-			"Gera Gera Land",
-			"Mystery Way - Route 3",
-			"Gold-Gleaming Hwy. - Inner Lane",
-			"Infinite Tunnel"
-		]
+		"effect": "Allows access to 4F and 13F of the Springdale Business Tower"
 	},
 	{
 		"id": 12,
-		"name": "Mochismo",
-		"image": "/yokai-watch-2/yokais/mochismo.png",
-		"tribe": "Brave",
-		"rank": "D",
+		"yokaiId": 13,
 		"boardLocation": "Downtown Springdale: Around the Construction Site",
 		"clues": ["Proud of soft skin", "Puffs up when angry", "Face pops out of his body"],
-		"effect": "After a few days in real time, the Sports Club will be built and accessible.",
-		"yokaiLocations": [
-			"Uptown Springdale - Elementary School 3F",
-			"Uptown Springdale - Elementary School 2F",
-			"Uptown Springdale - Elementary School 1F"
-		]
+		"effect": "After a few days in real time, the Sports Club will be built and accessible."
 	},
 	{
 		"id": 13,
-		"name": "Sgt. Burly",
-		"image": "/yokai-watch-2/yokais/sgt-burly.png",
-		"tribe": "Brave",
-		"rank": "C",
+		"yokaiId": 22,
 		"boardLocation": "Downtown Springdale: Sports Club 2F",
 		"clues": ["Yo-kai workout leader", "Peak physical condition", "Feel the burn!"],
-		"effect": "Increases GP gain rate.",
-		"yokaiLocations": ["Climb the flagpole every day until you see Sgt. Burly on the rooftop for a daily fight."]
+		"effect": "Increases GP gain rate."
 	},
 	{
 		"id": 14,
-		"name": "Wazzat",
-		"image": "/yokai-watch-2/yokais/wazzat.png",
-		"tribe": "Mysterious",
-		"rank": "E",
+		"yokaiId": 46,
 		"boardLocation": "Excellent Tower: Bottom left of the entrance",
 		"clues": ["Eats memories", "Mysterious Tribe", "Shaped like a hat"],
-		"effect": "Allows Yo-kai's nicknames to be changed.",
-		"yokaiLocations": [
-			"Downtown Springdale - Academy Shortcut",
-			"Downtown Springdale - Delivery Bay",
-			"Downtown Springdale - Springdale Business Tower",
-			"Downtown Springdale - Behind Frostia’s place",
-			"Downtown Springdale - Under cars, Distributors, Garbages & Dumps",
-			"Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps",
-			"Breezy Hills - Gate Room - Compunzer's Zone",
-			"Breezy Hills - Trees",
-			"Old Springdale - Gourd Pond - Trees",
-			"Infinite Tunnel"
-		]
+		"effect": "Allows Yo-kai's nicknames to be changed."
 	},
 	{
 		"id": 15,
-		"name": "Wiglin",
-		"image": "/yokai-watch-2/yokais/wiglin.png",
-		"tribe": "Heartful",
-		"rank": "E",
+		"yokaiId": 162,
 		"boardLocation": "San Fantastico: Seaside Cave (Story Mode)",
 		"clues": ["Healthy, thanks to seaweed", "One of a trio", "Views Steppa as a rival"],
-		"effect": "Allows the water level to be changed.",
-		"yokaiLocations": [
-			"Shopper's Row - Shopping Street Narrows",
-			"Shopper's Row - Rivers",
-			"Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
-			"San Fantastico - Seaside Cave",
-			"San Fantastico - Hidden Workshop",
-			"Gera Gera Land",
-			"Infinite Tunnel"
-		]
+		"effect": "Allows the water level to be changed."
 	},
 	{
 		"id": 16,
-		"name": "Steppa",
-		"image": "/yokai-watch-2/yokais/steppa.png",
-		"tribe": "Heartful",
-		"rank": "E",
+		"yokaiId": 164,
 		"boardLocation": "San Fantastico: Seaside Cave (Story Mode)",
 		"clues": ["Healthy, groovy seaweed", "One of a trio", "Views Wiglin as a rival"],
-		"effect": "Allows the water level to be changed.",
-		"yokaiLocations": [
-			"Shopper's Row - Shopping Street Narrows",
-			"Shopper's Row - Rivers",
-			"Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
-			"San Fantastico - Seaside Cave",
-			"San Fantastico - Hidden Workshop",
-			"Gera Gera Land"
-		]
+		"effect": "Allows the water level to be changed."
 	},
 	{
 		"id": 17,
-		"name": "Rhyth",
-		"image": "/yokai-watch-2/yokais/rhyth.png",
-		"tribe": "Heartful",
-		"rank": "D",
+		"yokaiId": 165,
 		"boardLocation": "San Fantastico: Seaside Cave (Story Mode)",
 		"clues": ["Loved by Wiglin", "Loved by Steppa", "Not interested in either"],
-		"effect": "Allows the water level to be changed",
-		"yokaiLocations": [
-			"Shopper's Row - Rivers",
-			"San Fantastico - Seaside Cave",
-			"San Fantastico - Hidden Workshop",
-			"Gera Gera Land"
-		]
+		"effect": "Allows the water level to be changed"
 	},
 	{
 		"id": 18,
-		"name": "Chummer",
-		"image": "/yokai-watch-2/yokais/chummer.png",
-		"tribe": "Slippery",
-		"rank": "C",
+		"yokaiId": 308,
 		"boardLocation": "San Fantastico: Parking lot outside station",
 		"clues": ["Likes taking detours", "Worries about scaly sharkskin", "Vegetarian"],
-		"effect": "Little Haven Station can now be accessed *.",
-		"yokaiLocations": ["San Fantastico - Hidden Workshop", "Mystery Way - Main Line"]
+		"effect": "Little Haven Station can now be accessed *."
 	},
 	{
 		"id": 19,
-		"name": "Ol' Fortune",
-		"image": "/yokai-watch-2/yokais/ol-fortune.png",
-		"tribe": "Heartful",
-		"rank": "B",
+		"yokaiId": 192,
 		"boardLocation": "San Fantastico: Briny Grotto (Entrance from beach underneath abandoned house)",
 		"clues": ["Green clothes", "Heartful Tribe", "Hoards things in bags"],
-		"effect": "Crank-a-kai Coin Fragments can now be exchanged.",
-		"yokaiLocations": ["Harrisville - Mt. Middleton"]
+		"effect": "Crank-a-kai Coin Fragments can now be exchanged."
 	},
 	{
 		"id": 20,
-		"name": "Vacuumory",
-		"image": "/yokai-watch-2/yokais/vacuumory.png",
-		"tribe": "Slippery",
-		"rank": "A",
+		"yokaiId": 296,
 		"boardLocation": "Old Springdale: Outside the station",
 		"clues": ["Travels atop a cloud", "Wields a vacuum cleaner", "Sucks up memories"],
-		"effect": "Allows Dame Dedtime (Dame Demona) to be re-battled.",
-		"yokaiLocations": ["Fusion."]
+		"effect": "Allows Dame Dedtime (Dame Demona) to be re-battled."
 	},
 	{
 		"id": 21,
-		"name": "Mircle",
-		"image": "/yokai-watch-2/yokais/mircle.png",
-		"tribe": "Mysterious",
-		"rank": "A",
+		"yokaiId": 70,
 		"boardLocation": "Yo-kai World: Lord's Gate",
 		"clues": ["Reflective", "Power of darkness", "Summons spirits from his mirror"],
-		"effect": "Allows McKraken to be battled.",
-		"yokaiLocations": [
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F"
-		]
+		"effect": "Allows McKraken to be battled."
 	},
 	{
 		"id": 22,
-		"name": "Wondernyan",
-		"image": "/yokai-watch-2/yokais/wondernyan.png",
-		"tribe": "Charming",
-		"rank": "B",
+		"yokaiId": 346,
 		"boardLocation": "Old Springdale: The Burbs (Next to the school)",
 		"clues": ["Won", "...der...", "...nyan!"],
-		"effect": "Once a day he will give you a random Crank-a-kai coin.",
-		"yokaiLocations": ["Scan QR Code for a daily fight on Mt. Middleton."]
+		"effect": "Once a day he will give you a random Crank-a-kai coin."
 	},
 	{
 		"id": 23,
-		"name": "Elder Bloom",
-		"image": "/yokai-watch-2/yokais/elder-bloom.png",
-		"tribe": "Heartful",
-		"rank": "S",
+		"yokaiId": 325,
 		"boardLocation": "Cherry Hill station",
 		"clues": ["Traditional Japanese clothes", "Likes big flowers", "Cherry blossoms"],
-		"effect": "Makes cherry trees bloom.",
-		"yokaiLocations": ["Medallium."]
+		"effect": "Makes cherry trees bloom."
 	},
 	{
 		"id": 24,
-		"name": "Cupistol",
-		"image": "/yokai-watch-2/yokais/cupistol.png",
-		"tribe": "Mysterious",
-		"rank": "D",
+		"yokaiId": 55,
 		"boardLocation": "Gate of Whimsy: Quiz Room",
 		"clues": ["Flying", "Long hair", "Love"],
-		"effect": "Quiz-only board; no Yo-kai Hot Spot effect.",
-		"yokaiLocations": [
-			"Downtown Springdale - Springdale Business Tower",
-			"Downtown Springdale - Rivers & Sea",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
-			"Infinite Tunnel"
-		]
+		"effect": "Quiz-only board; no Yo-kai Hot Spot effect."
 	},
 	{
 		"id": 25,
-		"name": "Cadin",
-		"image": "/yokai-watch-2/yokais/cadin.png",
-		"tribe": "Charming",
-		"rank": "E",
+		"yokaiId": 126,
 		"boardLocation": "Gate of Whimsy: Quiz Room",
 		"clues": ["Not in the left row of trees", "Not in the middle tree", "Not the tree on the corner"],
-		"effect": "Quiz-only board; no Yo-kai Hot Spot effect.",
-		"yokaiLocations": [
-			"Uptown Springdale - Trees",
-			"Mt. Wildwood - Trees",
-			"Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Trees",
-			"Blossom Heights - Trees",
-			"Shopper's Row - Trees",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
-			"San Fantastico - Trees",
-			"Harrisville - Trees",
-			"Old Springdale - Trees",
-			"Old Springdale - Well Road - Trees",
-			"Old Springdale - Gourd Pond - Trees",
-			"Old Harrisville - Trees",
-			"Sawayama-jo - Area 1 - Trees",
-			"Gold-Gleaming Hwy. - Eastbound",
-			"Infinite Tunnel"
-		]
+		"effect": "Quiz-only board; no Yo-kai Hot Spot effect."
 	},
 	{
 		"id": 26,
-		"name": "Peckpocket",
-		"image": "/yokai-watch-2/yokais/peckpocket.png",
-		"tribe": "Eerie",
-		"rank": "E",
+		"yokaiId": 250,
 		"boardLocation": "Gate of Whimsy: Quiz Room",
 		"clues": ["On the right", "No-left", "Wait-right"],
-		"effect": "Quiz-only board; no Yo-kai Hot Spot effect.",
-		"yokaiLocations": [
-			"Uptown Springdale - Shady Back Alley",
-			"Blossom Heights - Brushwoods & Flowers",
-			"Shopper's Row - Brushwoods & flowers",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
-			"Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
-			"Gera Gera Land",
-			"Gold-Gleaming Hwy. - Outer Lane",
-			"Infinite Inferno - 4th Circle",
-			"Infinite Inferno - 5th Circle",
-			"Infinite Tunnel"
-		]
+		"effect": "Quiz-only board; no Yo-kai Hot Spot effect."
 	}
 ]
