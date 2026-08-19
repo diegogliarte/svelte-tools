@@ -2,7 +2,7 @@
 	import Cell from '$lib/components/ui/cell.svelte';
 	import { openModal } from '$lib/states/modal.svelte';
 	import type { Move } from '$lib/data/pmd-blue/data';
-	import { getPokemonTypeColor } from '$lib/utils/pokemon.utils';
+	import TypeBadge from '$lib/components/pokemon/TypeBadge.svelte';
 
 	interface Props {
 		move: Move;
@@ -17,6 +17,6 @@
 </script>
 
 <Cell onClick={open}>
-	<div class="h-2.5 w-2.5 {getPokemonTypeColor(move.type)}"></div>
+	<TypeBadge type={move.type} />
 	<span>{move.name}</span>
 </Cell>

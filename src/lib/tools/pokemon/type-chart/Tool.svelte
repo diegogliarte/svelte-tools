@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SelectInput from '$lib/components/ui/select-input.svelte';
-	import TypeBadge from '$lib/components/pokemon-red-blue-yellow/TypeBadge.svelte';
+	import TypeBadge from '$lib/components/pokemon/TypeBadge.svelte';
 	import chart from '$lib/data/pokemon-red-blue-yellow/type-chart.json';
 
 	let generation = $state('1');

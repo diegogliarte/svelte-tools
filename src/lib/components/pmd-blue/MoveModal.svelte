@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 	import Modal from '$lib/components/ui/modal.svelte';
 	import FlagBadges from './FlagBadges.svelte';
-	import PokemonIcon from '$lib/components/pmd-blue/PokemonIcon.svelte';
+	import TypeBadge from '$lib/components/pokemon/TypeBadge.svelte';
+	import PokemonLearnerGrid from '$lib/components/pokemon/PokemonLearnerGrid.svelte';
+	import { openModal } from '$lib/states/modal.svelte';
 
 	import {
 		loadMoveFlags,
@@ -14,7 +17,7 @@
 	} from '$lib/data/pmd-blue/data';
 
 	import type { Pokemon } from '$lib/utils/pmd-blue.utils';
-	import { getPokemonTypeColor } from '$lib/utils/pokemon.utils';
+	import { getPokemonIcon } from '$lib/utils/pmd-blue.utils';
 
 	interface Props {
 		move: Move;
@@ -31,7 +34,7 @@
 		[moveFlags, pokemons, pokemonMoves] = await Promise.all([loadMoveFlags(), loadPokemons(), loadPokemonMoves()]);
 	});
 
-	const pokemonById = $derived(new Map(pokemons.map((p) => [p.game_id, p])));
+	const pokemonById = $derived(new SvelteMap(pokemons.map((p) => [p.game_id, p])));
 
 	const damageMap = $derived(Object.fromEntries(moveFlags.damageFlags.map((f) => [f.id, f.description])));
 	const otherMap = $derived(Object.fromEntries(moveFlags.otherFlags.map((f) => [f.id, f.description])));
@@ -74,12 +77,17 @@
 
 		return { levelUp, tm };
 	});
+
+	async function openPokemon(pokemon: Pokemon) {
+		const { default: PokemonModal } = await import('$lib/components/pmd-blue/PokemonModal.svelte');
+		openModal(PokemonModal, { pokemon });
+	}
 </script>
 
 <Modal title={move?.name} {onClose}>
 	<div class="mb-4 flex items-center gap-2">
-		<div class="h-3 w-3 {getPokemonTypeColor(move.type)}"></div>
-		<div class="text-sm">{move.type} · {move.class}</div>
+		<TypeBadge type={move.type} />
+		<div class="text-sm">{move.class}</div>
 	</div>
 
 	<h3 class="mb-1 font-bold">Stats</h3>
@@ -112,25 +120,35 @@
 	<div class="grid grid-cols-1 gap-4 text-xs sm:grid-cols-2">
 		{#if learnedBy.levelUp.length}
 			<div>
-				<div class="mb-1 font-semibold">Level Up</div>
-
-				<div class="grid grid-cols-3 gap-2 sm:grid-cols-4">
-					{#each learnedBy.levelUp as p (p.id)}
-						<PokemonIcon pokemon={p} />
-					{/each}
-				</div>
+				<div class="mb-1 text-sm text-accent">Level Up</div>
+				<PokemonLearnerGrid
+					learners={learnedBy.levelUp.map((pokemon) => ({
+						id: pokemon.id,
+						name: pokemon.name,
+						image: getPokemonIcon(pokemon)
+					}))}
+					onSelect={(learner) => {
+						const pokemon = learnedBy.levelUp.find((entry) => entry.id === learner.id);
+						if (pokemon) openPokemon(pokemon);
+					}}
+				/>
 			</div>
 		{/if}
 
 		{#if learnedBy.tm.length}
 			<div>
-				<div class="mb-1 font-semibold">TM</div>
-
-				<div class="grid grid-cols-3 gap-2 sm:grid-cols-4">
-					{#each learnedBy.tm as p (p.id)}
-						<PokemonIcon pokemon={p} />
-					{/each}
-				</div>
+				<div class="mb-1 text-sm text-accent">TM</div>
+				<PokemonLearnerGrid
+					learners={learnedBy.tm.map((pokemon) => ({
+						id: pokemon.id,
+						name: pokemon.name,
+						image: getPokemonIcon(pokemon)
+					}))}
+					onSelect={(learner) => {
+						const pokemon = learnedBy.tm.find((entry) => entry.id === learner.id);
+						if (pokemon) openPokemon(pokemon);
+					}}
+				/>
 			</div>
 		{/if}
 
