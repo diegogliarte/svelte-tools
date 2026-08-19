@@ -5,7 +5,6 @@
 	import PokemonIcon from '$lib/components/pmd-blue/PokemonIcon.svelte';
 
 	import {
-		getMoveTypeColor,
 		loadMoveFlags,
 		loadPokemonMoves,
 		loadPokemons,
@@ -15,6 +14,7 @@
 	} from '$lib/data/pmd-blue/data';
 
 	import type { Pokemon } from '$lib/utils/pmd-blue.utils';
+	import { getPokemonTypeColor } from '$lib/utils/pokemon.utils';
 
 	interface Props {
 		move: Move;
@@ -78,7 +78,7 @@
 
 <Modal title={move?.name} {onClose}>
 	<div class="mb-4 flex items-center gap-2">
-		<div class="h-3 w-3 rounded-sm {getMoveTypeColor(move.type)}"></div>
+		<div class="h-3 w-3 {getPokemonTypeColor(move.type)}"></div>
 		<div class="text-sm">{move.type} · {move.class}</div>
 	</div>
 

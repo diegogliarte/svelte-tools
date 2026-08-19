@@ -5,7 +5,13 @@
 	import ModalPortrait from '$lib/components/ui/modal-portrait.svelte';
 	import PokemonIcon from '$lib/components/pmd-blue/PokemonIcon.svelte';
 	import { loadPmdCoreData, type Ability, type Move, type PokemonMoves } from '$lib/data/pmd-blue/data';
-	import { type Pokemon, computeStatAtLevel, buildEvolvesFromMap, getPokemonIcon } from '$lib/utils/pmd-blue.utils';
+	import {
+		type Pokemon,
+		computeStatAtLevel,
+		buildEvolutionPaths,
+		buildEvolvesFromMap,
+		getPokemonIcon
+	} from '$lib/utils/pmd-blue.utils';
 	import { openModal } from '$lib/states/modal.svelte';
 
 	interface Props {
@@ -35,8 +41,7 @@
 	const abilityById = $derived(new Map(abilitiesRaw.map((a) => [a.id, a])));
 	const moveEntryByPokemonId = $derived(new Map(pokemonMovesRaw.map((m) => [m.pokemon_id, m])));
 
-	const evolvesFrom = $derived(evolvesFromMap[pokemon.name] ?? []);
-	const evolvesTo = $derived(pokemon.evolution ?? []);
+	const evolutionPaths = $derived(buildEvolutionPaths(pokemons, pokemon));
 
 	const ability_1 = $derived(abilityById.get(pokemon.ability_1_id));
 	const ability_2 = $derived(pokemon.ability_2_id ? abilityById.get(pokemon.ability_2_id) : null);
@@ -261,34 +266,21 @@
 			</ul>
 		{/if}
 
-		{#if evolvesFrom.length || evolvesTo.length}
+		{#if evolutionPaths.some((path) => path.length > 1)}
 			<h3 class="mb-1 font-bold">Evolution</h3>
-			<div class="mb-4 flex flex-wrap items-start justify-center gap-4 text-xs">
-				{#each evolvesFrom as e (e.from)}
-					{@const p = pokemonByName.get(e.from)}
-					{#if p}
-						<div class="flex w-20 flex-col items-center text-center">
-							<PokemonIcon pokemon={p} />
-							<div class="mt-1 w-full truncate">{p.name}</div>
-							<div class="text-xs opacity-70">{e.method}</div>
-						</div>
-					{/if}
-				{/each}
-
-				<div class="flex w-20 flex-col items-center text-center">
-					<PokemonIcon {pokemon} />
-					<div class="mt-1 w-full truncate font-bold">{pokemon.name}</div>
-				</div>
-
-				{#each evolvesTo as e (e.to)}
-					{@const p = pokemonByName.get(e.to)}
-					{#if p}
-						<div class="flex w-20 flex-col items-center text-center">
-							<PokemonIcon pokemon={p} />
-							<div class="mt-1 w-full truncate">{p.name}</div>
-							<div class="text-xs opacity-70">{e.method}</div>
-						</div>
-					{/if}
+			<div class="mb-4 flex flex-col items-center gap-3 text-xs">
+				{#each evolutionPaths as path, pathIndex (pathIndex)}
+					<div class="flex items-center justify-center gap-2">
+						{#each path as entry, index (entry.pokemon.id)}
+							{#if index}<div class="max-w-24 text-center opacity-70">→<br />{entry.method}</div>{/if}
+							<div class="flex w-20 flex-col items-center text-center">
+								<PokemonIcon pokemon={entry.pokemon} />
+								<div class="mt-1 w-full truncate {entry.pokemon.name === pokemon.name ? 'font-bold text-accent' : ''}">
+									{entry.pokemon.name}
+								</div>
+							</div>
+						{/each}
+					</div>
 				{/each}
 			</div>
 		{/if}

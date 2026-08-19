@@ -43,31 +43,6 @@ export type MoveFlags = {
 	otherFlags: { id: number; description: string }[];
 };
 
-const typeColor = {
-	Fire: 'bg-red-700',
-	Water: 'bg-blue-700',
-	Grass: 'bg-green-700',
-	Electric: 'bg-yellow-500',
-	Ice: 'bg-cyan-400',
-	Fighting: 'bg-orange-700',
-	Poison: 'bg-purple-700',
-	Ground: 'bg-yellow-700',
-	Flying: 'bg-sky-500',
-	Psychic: 'bg-pink-600',
-	Bug: 'bg-lime-600',
-	Rock: 'bg-yellow-800',
-	Ghost: 'bg-indigo-700',
-	Dragon: 'bg-indigo-900',
-	Dark: 'bg-neutral-800',
-	Steel: 'bg-gray-400',
-	Normal: 'bg-neutral-500',
-	Typeless: 'bg-neutral-400'
-} as const;
-
-export function getMoveTypeColor(type: string) {
-	return typeColor[type as keyof typeof typeColor] ?? 'bg-neutral-500';
-}
-
 export const loadAbilities = createJsonLoader<Ability[]>(abilitiesUrl);
 export const loadMoveFlags = createJsonLoader<MoveFlags>(moveFlagsUrl);
 export const loadMoves = createJsonLoader<Move[]>(movesUrl);
