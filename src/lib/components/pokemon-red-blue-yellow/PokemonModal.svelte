@@ -1,9 +1,16 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Modal from '$lib/components/ui/modal.svelte';
 	import ModalPortrait from '$lib/components/ui/modal-portrait.svelte';
 	import Button from '$lib/components/ui/button.svelte';
 	import TypeBadge from './TypeBadge.svelte';
-	import type { Gen1Move, Gen1Pokemon, LearnableMove } from '$lib/data/pokemon-red-blue-yellow/data';
+	import {
+		loadGen1Encounters,
+		type Gen1Encounter,
+		type Gen1Move,
+		type Gen1Pokemon,
+		type LearnableMove
+	} from '$lib/data/pokemon-red-blue-yellow/data';
 	import { openModal } from '$lib/states/modal.svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 
@@ -14,6 +21,7 @@
 		onClose
 	}: { pokemon: Gen1Pokemon; pokemonList: Gen1Pokemon[]; moves: Gen1Move[]; onClose?: () => void } = $props();
 	let version = $state<'red-blue' | 'yellow'>('red-blue');
+	let encounters = $state<Gen1Encounter[]>([]);
 	const byId = $derived(new SvelteMap(pokemonList.map((entry) => [entry.id, entry])));
 	const moveByName = $derived(new SvelteMap(moves.map((move) => [move.name, move])));
 	const evolutionPaths = $derived.by(() => {
@@ -58,6 +66,33 @@
 		for (const move of pokemon.learnset[version]) result.set(move.method, [...(result.get(move.method) ?? []), move]);
 		return [...result];
 	});
+	const locations = $derived.by(() => {
+		const grouped = new SvelteMap<string, { encounter: Gen1Encounter; versions: SvelteSet<string> }>();
+		for (const encounter of encounters.filter((entry) => entry.pokemonId === pokemon.id)) {
+			const key = `${encounter.location}-${encounter.method}-${encounter.minLevel}-${encounter.maxLevel}-${encounter.chance}`;
+			const current = grouped.get(key);
+			if (current) current.versions.add(encounter.version);
+			else grouped.set(key, { encounter, versions: new SvelteSet([encounter.version]) });
+		}
+		return [...grouped.values()].sort((a, b) => a.encounter.location.localeCompare(b.encounter.location));
+	});
+	const evolvesFrom = $derived.by(() => {
+		const entries = new SvelteMap<number, { pokemon: Gen1Pokemon; method: string }>();
+		for (const path of evolutionPaths) {
+			const index = path.findIndex((entry) => entry.pokemon.id === pokemon.id);
+			if (index > 0) {
+				entries.set(path[index - 1].pokemon.id, {
+					pokemon: path[index - 1].pokemon,
+					method: path[index].method ?? 'Evolve'
+				});
+			}
+		}
+		return [...entries.values()];
+	});
+
+	onMount(async () => {
+		encounters = await loadGen1Encounters();
+	});
 
 	async function openMove(name: string) {
 		const move = moveByName.get(name);
@@ -80,7 +115,6 @@
 				{#each pokemon.types as type (type)}<TypeBadge {type} />{/each}
 			</div>
 			<div>{pokemon.genus}</div>
-			<div>{pokemon.height} m · {pokemon.weight} kg</div>
 			<div>Catch rate: {pokemon.captureRate} · Growth: {pokemon.growthRate}</div>
 			<p class="max-w-xl opacity-70">{pokemon.description}</p>
 		</div>
@@ -117,6 +151,32 @@
 							<span class={entry.pokemon.id === pokemon.id ? 'font-bold text-accent' : ''}>{entry.pokemon.name}</span>
 						</button>
 					{/each}
+				</div>
+			{/each}
+		</div>
+	{/if}
+
+	{#if locations.length || evolvesFrom.length}
+		<h3 class="mb-2 font-bold">Locations</h3>
+		<div class="mb-5 max-h-44 overflow-auto text-xs">
+			{#each evolvesFrom as evolution (evolution.pokemon.id)}
+				<div class="grid grid-cols-[1fr_auto] gap-3 border-b border-text/15 py-1">
+					<span>Evolve {evolution.pokemon.name}</span>
+					<span class="opacity-60">{evolution.method}</span>
+				</div>
+			{/each}
+			{#each locations as location (`${location.encounter.location}-${location.encounter.method}-${[...location.versions].join()}`)}
+				<div class="grid grid-cols-[1fr_auto_auto_auto] gap-3 border-b border-text/15 py-1">
+					<span>{location.encounter.location}</span>
+					<span class="opacity-60"
+						>{[...location.versions].map((entry) => entry.charAt(0).toUpperCase() + entry.slice(1)).join(' / ')}</span
+					>
+					<span>{location.encounter.method}</span>
+					<span
+						>Lv. {location.encounter.minLevel}{location.encounter.maxLevel !== location.encounter.minLevel
+							? `–${location.encounter.maxLevel}`
+							: ''} · {location.encounter.chance}%</span
+					>
 				</div>
 			{/each}
 		</div>

@@ -47,12 +47,32 @@ type MoveResponse = {
 	effect_entries: { short_effect: string; language: NamedResource }[];
 };
 type LearnableMove = { name: string; method: string; level?: number };
+type EncounterResponse = {
+	location_area: NamedResource;
+	version_details: {
+		version: NamedResource;
+		encounter_details: { chance: number; min_level: number; max_level: number; method: NamedResource }[];
+	}[];
+}[];
+type Encounter = {
+	pokemonId: number;
+	location: string;
+	version: 'red' | 'blue' | 'yellow';
+	method: string;
+	minLevel: number;
+	maxLevel: number;
+	chance: number;
+};
 
 function title(value: string) {
 	return value
 		.split('-')
 		.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
 		.join(' ');
+}
+
+function locationName(value: string) {
+	return title(value.replace(/-area$/, '').replace(/^kanto-/, ''));
 }
 
 async function get<T>(url: string): Promise<T> {
@@ -220,9 +240,40 @@ const result = pokemon.map((entry, index) => {
 	};
 });
 
+const encounterResponses = await Promise.all(
+	ids.map((id) => get<EncounterResponse>(`${API}/pokemon/${id}/encounters`))
+);
+const encounters: Encounter[] = [];
+for (const [index, areas] of encounterResponses.entries()) {
+	for (const area of areas) {
+		for (const versionDetails of area.version_details) {
+			const version = versionDetails.version.name;
+			if (version !== 'red' && version !== 'blue' && version !== 'yellow') continue;
+			const grouped = new Map<string, Encounter>();
+			for (const detail of versionDetails.encounter_details) {
+				const method = title(detail.method.name);
+				const current = grouped.get(method);
+				grouped.set(method, {
+					pokemonId: ids[index],
+					location: locationName(area.location_area.name),
+					version,
+					method,
+					minLevel: Math.min(current?.minLevel ?? detail.min_level, detail.min_level),
+					maxLevel: Math.max(current?.maxLevel ?? detail.max_level, detail.max_level),
+					chance: Math.min(100, (current?.chance ?? 0) + detail.chance)
+				});
+			}
+			encounters.push(...grouped.values());
+		}
+	}
+}
+
 await mkdir(outputDirectory, { recursive: true });
 await Promise.all([
 	writeFile(new URL('pokemon.json', outputDirectory), `${JSON.stringify(result, null, '\t')}\n`),
-	writeFile(new URL('moves.json', outputDirectory), `${JSON.stringify(moves, null, '\t')}\n`)
+	writeFile(new URL('moves.json', outputDirectory), `${JSON.stringify(moves, null, '\t')}\n`),
+	writeFile(new URL('encounters.json', outputDirectory), `${JSON.stringify(encounters, null, '\t')}\n`)
 ]);
-console.log(`Wrote ${result.length} Pokémon and ${moves.length} moves to ${outputDirectory.pathname}`);
+console.log(
+	`Wrote ${result.length} Pokémon, ${moves.length} moves, and ${encounters.length} encounters to ${outputDirectory.pathname}`
+);
