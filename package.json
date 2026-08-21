@@ -17,7 +17,9 @@
 		"scrape:digimon-story-ts:digimons": "tsx src/scripts/digimon-story-ts/digimons.ts",
 		"scrape:digimon-story-ts:download-icons": "tsx src/scripts/digimon-story-ts/download-icons.ts",
 		"scrape:pmd-blue:download-icons": "tsx src/scripts/pmd-blue/download-icons.ts",
-		"scrape:pokemon-main-series": "tsx src/scripts/pokemon-main-series/data.ts",
+		"scrape:pokemon-main-series": "tsx src/scripts/pokemon-main-series/data.ts && tsx src/scripts/pokemon-main-series/normalize-sprites.ts --write",
+		"check:pokemon-main-series:sprites": "tsx src/scripts/pokemon-main-series/normalize-sprites.ts",
+		"normalize:pokemon-main-series:sprites": "tsx src/scripts/pokemon-main-series/normalize-sprites.ts --write",
 		"scrape:yokai-watch-2:baffle-boards": "tsx src/scripts/yokai-watch-2/baffle-boards.ts",
 		"generate:emojis": "tsx src/scripts/emojis/generate.ts",
 		"generate-og-images": "tsx src/scripts/generate-og-images.ts"

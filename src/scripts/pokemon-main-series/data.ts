@@ -193,7 +193,6 @@ function sprite(pokemon: Pokemon, generation: number) {
 	return (generation <= 2 ? sprites?.front_transparent : sprites?.front_default) ?? pokemon.sprites.front_default;
 }
 async function localizeSprites(entries: { id: number; sprite: string }[], generation: number) {
-	if (generation > 2) return;
 	const directory = new URL(`generation-${generation}/`, STATIC);
 	await mkdir(directory, { recursive: true });
 	await batches(entries, async (entry) => {
@@ -201,7 +200,7 @@ async function localizeSprites(entries: { id: number; sprite: string }[], genera
 		const response = await fetch(entry.sprite);
 		if (!response.ok) throw new Error(`${response.status} ${entry.sprite}`);
 		await writeFile(destination, Buffer.from(await response.arrayBuffer()));
-		entry.sprite = `/pokemon/main-series/generation-${generation}/${entry.id}.png`;
+		entry.sprite = `/pokemon/main-series/generation-${generation}/${entry.id}.webp`;
 	});
 }
 

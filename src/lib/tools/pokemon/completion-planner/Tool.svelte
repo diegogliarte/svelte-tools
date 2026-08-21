@@ -71,14 +71,10 @@
 				aria-pressed={owned}
 				class="flex min-h-24 cursor-pointer flex-col items-center justify-center border p-1 text-xxs transition {owned
 					? 'border-accent bg-accent-dark text-accent'
-					: 'border-text/15 hover:border-accent'} {available.has(entry.id) ? '' : 'opacity-35'}"
+					: 'border-text/15 hover:border-accent'} {available.has(entry.id) ? '' : 'opacity-15'}"
 				onclick={() => toggle(entry.id)}
-				><span class="h-14 w-14 {getPokemonTypeColor(entry.types[0])}"
-					><img
-						src={entry.sprite}
-						alt=""
-						class="h-full w-full object-contain [image-rendering:pixelated] {owned ? '' : 'grayscale'}"
-					/></span
+				><span class="h-16 w-16 {getPokemonTypeColor(entry.types[0])}"
+					><img src={entry.sprite} alt="" class="h-full w-full object-contain {owned ? '' : 'grayscale'}" /></span
 				><span class="max-w-full truncate">{entry.name}</span></button
 			>{/each}
 	</div>{:else}<p class="text-center opacity-60">Loading game…</p>{/if}

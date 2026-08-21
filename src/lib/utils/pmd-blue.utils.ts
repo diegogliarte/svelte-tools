@@ -52,7 +52,7 @@ export type Pokemon = {
 };
 
 export function getPokemonIcon(pokemon: Pokemon): string {
-	return `/pokemon-mystery-dungeon/icons/${pokemon.icon}`;
+	return `/pokemon/mystery-dungeon/icons/${pokemon.icon}`;
 }
 
 // --- STATS HELPERS ---

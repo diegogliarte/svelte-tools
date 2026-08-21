@@ -44,7 +44,10 @@ function toDigimonVisual(digimon: Digimon): EntityVisual {
 
 function createPokemonRecruitmentResolver(index: EntityIndex): TransferVisualResolver {
 	return {
-		matches: (key) => key.includes('/pokemon-mystery-dungeon/blue-rescue-team/recruitment-checklist'),
+		matches: (key) =>
+			['/pokemon/mystery-dungeon/', '/pokemon-mystery-dungeon/'].some((path) =>
+				key.includes(`${path}blue-rescue-team/recruitment-checklist`)
+			),
 		resolve: (change) => {
 			const [group, field, name] = change.pathSegments;
 			if (group !== 'collection' || !['owned', 'readyToEvolve'].includes(field) || !name) return null;

@@ -21,7 +21,7 @@
 		{
 			"id": 1,
 			"name": "Bulbasaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/1.png",
+			"sprite": "/pokemon/main-series/generation-4/1.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -813,7 +813,7 @@
 		{
 			"id": 2,
 			"name": "Ivysaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/2.png",
+			"sprite": "/pokemon/main-series/generation-4/2.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -1488,7 +1488,7 @@
 		{
 			"id": 3,
 			"name": "Venusaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/3.png",
+			"sprite": "/pokemon/main-series/generation-4/3.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -2272,7 +2272,7 @@
 		{
 			"id": 4,
 			"name": "Charmander",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/4.png",
+			"sprite": "/pokemon/main-series/generation-4/4.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -3084,7 +3084,7 @@
 		{
 			"id": 5,
 			"name": "Charmeleon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/5.png",
+			"sprite": "/pokemon/main-series/generation-4/5.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -3768,7 +3768,7 @@
 		{
 			"id": 6,
 			"name": "Charizard",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/6.png",
+			"sprite": "/pokemon/main-series/generation-4/6.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 78,
@@ -4728,7 +4728,7 @@
 		{
 			"id": 7,
 			"name": "Squirtle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/7.png",
+			"sprite": "/pokemon/main-series/generation-4/7.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 44,
@@ -5591,7 +5591,7 @@
 		{
 			"id": 8,
 			"name": "Wartortle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/8.png",
+			"sprite": "/pokemon/main-series/generation-4/8.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 59,
@@ -6341,7 +6341,7 @@
 		{
 			"id": 9,
 			"name": "Blastoise",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/9.png",
+			"sprite": "/pokemon/main-series/generation-4/9.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 79,
@@ -7252,7 +7252,7 @@
 		{
 			"id": 10,
 			"name": "Caterpie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/10.png",
+			"sprite": "/pokemon/main-series/generation-4/10.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 45,
@@ -7342,7 +7342,7 @@
 		{
 			"id": 11,
 			"name": "Metapod",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/11.png",
+			"sprite": "/pokemon/main-series/generation-4/11.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -7427,7 +7427,7 @@
 		{
 			"id": 12,
 			"name": "Butterfree",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/12.png",
+			"sprite": "/pokemon/main-series/generation-4/12.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -8159,7 +8159,7 @@
 		{
 			"id": 13,
 			"name": "Weedle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/13.png",
+			"sprite": "/pokemon/main-series/generation-4/13.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -8241,7 +8241,7 @@
 		{
 			"id": 14,
 			"name": "Kakuna",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/14.png",
+			"sprite": "/pokemon/main-series/generation-4/14.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -8326,7 +8326,7 @@
 		{
 			"id": 15,
 			"name": "Beedrill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/15.png",
+			"sprite": "/pokemon/main-series/generation-4/15.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -9048,7 +9048,7 @@
 		{
 			"id": 16,
 			"name": "Pidgey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/16.png",
+			"sprite": "/pokemon/main-series/generation-4/16.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -9749,7 +9749,7 @@
 		{
 			"id": 17,
 			"name": "Pidgeotto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/17.png",
+			"sprite": "/pokemon/main-series/generation-4/17.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 63,
@@ -10389,7 +10389,7 @@
 		{
 			"id": 18,
 			"name": "Pidgeot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/18.png",
+			"sprite": "/pokemon/main-series/generation-4/18.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 83,
@@ -11067,7 +11067,7 @@
 		{
 			"id": 19,
 			"name": "Rattata",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/19.png",
+			"sprite": "/pokemon/main-series/generation-4/19.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 30,
@@ -11908,7 +11908,7 @@
 		{
 			"id": 20,
 			"name": "Raticate",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/20.png",
+			"sprite": "/pokemon/main-series/generation-4/20.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -12749,7 +12749,7 @@
 		{
 			"id": 21,
 			"name": "Spearow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/21.png",
+			"sprite": "/pokemon/main-series/generation-4/21.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -13428,7 +13428,7 @@
 		{
 			"id": 22,
 			"name": "Fearow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/22.png",
+			"sprite": "/pokemon/main-series/generation-4/22.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -14068,7 +14068,7 @@
 		{
 			"id": 23,
 			"name": "Ekans",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/23.png",
+			"sprite": "/pokemon/main-series/generation-4/23.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 35,
@@ -14848,7 +14848,7 @@
 		{
 			"id": 24,
 			"name": "Arbok",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/24.png",
+			"sprite": "/pokemon/main-series/generation-4/24.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 60,
@@ -15642,7 +15642,7 @@
 		{
 			"id": 25,
 			"name": "Pikachu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/25.png",
+			"sprite": "/pokemon/main-series/generation-4/25.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 35,
@@ -16336,7 +16336,7 @@
 		{
 			"id": 26,
 			"name": "Raichu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/26.png",
+			"sprite": "/pokemon/main-series/generation-4/26.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -16938,7 +16938,7 @@
 		{
 			"id": 27,
 			"name": "Sandshrew",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/27.png",
+			"sprite": "/pokemon/main-series/generation-4/27.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -17799,7 +17799,7 @@
 		{
 			"id": 28,
 			"name": "Sandslash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/28.png",
+			"sprite": "/pokemon/main-series/generation-4/28.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 75,
@@ -18641,7 +18641,7 @@
 		{
 			"id": 29,
 			"name": "Nidoran♀",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/29.png",
+			"sprite": "/pokemon/main-series/generation-4/29.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 55,
@@ -19410,7 +19410,7 @@
 		{
 			"id": 30,
 			"name": "Nidorina",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/30.png",
+			"sprite": "/pokemon/main-series/generation-4/30.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 70,
@@ -20084,7 +20084,7 @@
 		{
 			"id": 31,
 			"name": "Nidoqueen",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/31.png",
+			"sprite": "/pokemon/main-series/generation-4/31.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 90,
@@ -21011,7 +21011,7 @@
 		{
 			"id": 32,
 			"name": "Nidoran♂",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/32.png",
+			"sprite": "/pokemon/main-series/generation-4/32.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 46,
@@ -21776,7 +21776,7 @@
 		{
 			"id": 33,
 			"name": "Nidorino",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/33.png",
+			"sprite": "/pokemon/main-series/generation-4/33.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 61,
@@ -22446,7 +22446,7 @@
 		{
 			"id": 34,
 			"name": "Nidoking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/34.png",
+			"sprite": "/pokemon/main-series/generation-4/34.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 81,
@@ -23369,7 +23369,7 @@
 		{
 			"id": 35,
 			"name": "Clefairy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/35.png",
+			"sprite": "/pokemon/main-series/generation-4/35.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -24403,7 +24403,7 @@
 		{
 			"id": 36,
 			"name": "Clefable",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/36.png",
+			"sprite": "/pokemon/main-series/generation-4/36.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -25273,7 +25273,7 @@
 		{
 			"id": 37,
 			"name": "Vulpix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/37.png",
+			"sprite": "/pokemon/main-series/generation-4/37.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 38,
@@ -26064,7 +26064,7 @@
 		{
 			"id": 38,
 			"name": "Ninetales",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/38.png",
+			"sprite": "/pokemon/main-series/generation-4/38.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 73,
@@ -26629,7 +26629,7 @@
 		{
 			"id": 39,
 			"name": "Jigglypuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/39.png",
+			"sprite": "/pokemon/main-series/generation-4/39.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 115,
@@ -27559,7 +27559,7 @@
 		{
 			"id": 40,
 			"name": "Wigglytuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/40.png",
+			"sprite": "/pokemon/main-series/generation-4/40.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 140,
@@ -28385,7 +28385,7 @@
 		{
 			"id": 41,
 			"name": "Zubat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/41.png",
+			"sprite": "/pokemon/main-series/generation-4/41.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -29168,7 +29168,7 @@
 		{
 			"id": 42,
 			"name": "Golbat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/42.png",
+			"sprite": "/pokemon/main-series/generation-4/42.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -29905,7 +29905,7 @@
 		{
 			"id": 43,
 			"name": "Oddish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/43.png",
+			"sprite": "/pokemon/main-series/generation-4/43.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -30555,7 +30555,7 @@
 		{
 			"id": 44,
 			"name": "Gloom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/44.png",
+			"sprite": "/pokemon/main-series/generation-4/44.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -31181,7 +31181,7 @@
 		{
 			"id": 45,
 			"name": "Vileplume",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/45.png",
+			"sprite": "/pokemon/main-series/generation-4/45.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 75,
@@ -31701,7 +31701,7 @@
 		{
 			"id": 46,
 			"name": "Paras",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/46.png",
+			"sprite": "/pokemon/main-series/generation-4/46.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 35,
@@ -32469,7 +32469,7 @@
 		{
 			"id": 47,
 			"name": "Parasect",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/47.png",
+			"sprite": "/pokemon/main-series/generation-4/47.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -33185,7 +33185,7 @@
 		{
 			"id": 48,
 			"name": "Venonat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/48.png",
+			"sprite": "/pokemon/main-series/generation-4/48.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -33853,7 +33853,7 @@
 		{
 			"id": 49,
 			"name": "Venomoth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/49.png",
+			"sprite": "/pokemon/main-series/generation-4/49.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -34605,7 +34605,7 @@
 		{
 			"id": 50,
 			"name": "Diglett",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/50.png",
+			"sprite": "/pokemon/main-series/generation-4/50.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 10,
@@ -35326,7 +35326,7 @@
 		{
 			"id": 51,
 			"name": "Dugtrio",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/51.png",
+			"sprite": "/pokemon/main-series/generation-4/51.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 35,
@@ -36031,7 +36031,7 @@
 		{
 			"id": 52,
 			"name": "Meowth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/52.png",
+			"sprite": "/pokemon/main-series/generation-4/52.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 40,
@@ -36949,7 +36949,7 @@
 		{
 			"id": 53,
 			"name": "Persian",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/53.png",
+			"sprite": "/pokemon/main-series/generation-4/53.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -37836,7 +37836,7 @@
 		{
 			"id": 54,
 			"name": "Psyduck",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/54.png",
+			"sprite": "/pokemon/main-series/generation-4/54.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -38733,7 +38733,7 @@
 		{
 			"id": 55,
 			"name": "Golduck",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/55.png",
+			"sprite": "/pokemon/main-series/generation-4/55.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -39594,7 +39594,7 @@
 		{
 			"id": 56,
 			"name": "Mankey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/56.png",
+			"sprite": "/pokemon/main-series/generation-4/56.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 40,
@@ -40561,7 +40561,7 @@
 		{
 			"id": 57,
 			"name": "Primeape",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/57.png",
+			"sprite": "/pokemon/main-series/generation-4/57.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 65,
@@ -41467,7 +41467,7 @@
 		{
 			"id": 58,
 			"name": "Growlithe",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/58.png",
+			"sprite": "/pokemon/main-series/generation-4/58.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 55,
@@ -42218,7 +42218,7 @@
 		{
 			"id": 59,
 			"name": "Arcanine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/59.png",
+			"sprite": "/pokemon/main-series/generation-4/59.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 90,
@@ -42790,7 +42790,7 @@
 		{
 			"id": 60,
 			"name": "Poliwag",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/60.png",
+			"sprite": "/pokemon/main-series/generation-4/60.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 40,
@@ -43495,7 +43495,7 @@
 		{
 			"id": 61,
 			"name": "Poliwhirl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/61.png",
+			"sprite": "/pokemon/main-series/generation-4/61.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -44204,7 +44204,7 @@
 		{
 			"id": 62,
 			"name": "Poliwrath",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/62.png",
+			"sprite": "/pokemon/main-series/generation-4/62.webp",
 			"types": ["Water", "Fighting"],
 			"stats": {
 				"hp": 90,
@@ -44884,7 +44884,7 @@
 		{
 			"id": 63,
 			"name": "Abra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/63.png",
+			"sprite": "/pokemon/main-series/generation-4/63.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 25,
@@ -45637,7 +45637,7 @@
 		{
 			"id": 64,
 			"name": "Kadabra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/64.png",
+			"sprite": "/pokemon/main-series/generation-4/64.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -46494,7 +46494,7 @@
 		{
 			"id": 65,
 			"name": "Alakazam",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/65.png",
+			"sprite": "/pokemon/main-series/generation-4/65.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 55,
@@ -47382,7 +47382,7 @@
 		{
 			"id": 66,
 			"name": "Machop",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/66.png",
+			"sprite": "/pokemon/main-series/generation-4/66.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 70,
@@ -48255,7 +48255,7 @@
 		{
 			"id": 67,
 			"name": "Machoke",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/67.png",
+			"sprite": "/pokemon/main-series/generation-4/67.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 80,
@@ -49000,7 +49000,7 @@
 		{
 			"id": 68,
 			"name": "Machamp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/68.png",
+			"sprite": "/pokemon/main-series/generation-4/68.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 90,
@@ -49776,7 +49776,7 @@
 		{
 			"id": 69,
 			"name": "Bellsprout",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/69.png",
+			"sprite": "/pokemon/main-series/generation-4/69.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 50,
@@ -50493,7 +50493,7 @@
 		{
 			"id": 70,
 			"name": "Weepinbell",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/70.png",
+			"sprite": "/pokemon/main-series/generation-4/70.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -51133,7 +51133,7 @@
 		{
 			"id": 71,
 			"name": "Victreebel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/71.png",
+			"sprite": "/pokemon/main-series/generation-4/71.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -51697,7 +51697,7 @@
 		{
 			"id": 72,
 			"name": "Tentacool",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/72.png",
+			"sprite": "/pokemon/main-series/generation-4/72.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -52438,7 +52438,7 @@
 		{
 			"id": 73,
 			"name": "Tentacruel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/73.png",
+			"sprite": "/pokemon/main-series/generation-4/73.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -53133,7 +53133,7 @@
 		{
 			"id": 74,
 			"name": "Geodude",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/74.png",
+			"sprite": "/pokemon/main-series/generation-4/74.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 40,
@@ -53926,7 +53926,7 @@
 		{
 			"id": 75,
 			"name": "Graveler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/75.png",
+			"sprite": "/pokemon/main-series/generation-4/75.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -54690,7 +54690,7 @@
 		{
 			"id": 76,
 			"name": "Golem",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/76.png",
+			"sprite": "/pokemon/main-series/generation-4/76.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 80,
@@ -55513,7 +55513,7 @@
 		{
 			"id": 77,
 			"name": "Ponyta",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/77.png",
+			"sprite": "/pokemon/main-series/generation-4/77.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 50,
@@ -56134,7 +56134,7 @@
 		{
 			"id": 78,
 			"name": "Rapidash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/78.png",
+			"sprite": "/pokemon/main-series/generation-4/78.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -56783,7 +56783,7 @@
 		{
 			"id": 79,
 			"name": "Slowpoke",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/79.png",
+			"sprite": "/pokemon/main-series/generation-4/79.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -57771,7 +57771,7 @@
 		{
 			"id": 80,
 			"name": "Slowbro",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/80.png",
+			"sprite": "/pokemon/main-series/generation-4/80.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -58796,7 +58796,7 @@
 		{
 			"id": 81,
 			"name": "Magnemite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/81.png",
+			"sprite": "/pokemon/main-series/generation-4/81.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 25,
@@ -59459,7 +59459,7 @@
 		{
 			"id": 82,
 			"name": "Magneton",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/82.png",
+			"sprite": "/pokemon/main-series/generation-4/82.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 50,
@@ -60196,7 +60196,7 @@
 		{
 			"id": 83,
 			"name": "Farfetch’d",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/83.png",
+			"sprite": "/pokemon/main-series/generation-4/83.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 52,
@@ -61055,7 +61055,7 @@
 		{
 			"id": 84,
 			"name": "Doduo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/84.png",
+			"sprite": "/pokemon/main-series/generation-4/84.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -61697,7 +61697,7 @@
 		{
 			"id": 85,
 			"name": "Dodrio",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/85.png",
+			"sprite": "/pokemon/main-series/generation-4/85.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -62352,7 +62352,7 @@
 		{
 			"id": 86,
 			"name": "Seel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/86.png",
+			"sprite": "/pokemon/main-series/generation-4/86.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -63118,7 +63118,7 @@
 		{
 			"id": 87,
 			"name": "Dewgong",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/87.png",
+			"sprite": "/pokemon/main-series/generation-4/87.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 90,
@@ -63860,7 +63860,7 @@
 		{
 			"id": 88,
 			"name": "Grimer",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/88.png",
+			"sprite": "/pokemon/main-series/generation-4/88.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 80,
@@ -64732,7 +64732,7 @@
 		{
 			"id": 89,
 			"name": "Muk",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/89.png",
+			"sprite": "/pokemon/main-series/generation-4/89.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 105,
@@ -65590,7 +65590,7 @@
 		{
 			"id": 90,
 			"name": "Shellder",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/90.png",
+			"sprite": "/pokemon/main-series/generation-4/90.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -66251,7 +66251,7 @@
 		{
 			"id": 91,
 			"name": "Cloyster",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/91.png",
+			"sprite": "/pokemon/main-series/generation-4/91.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 50,
@@ -66802,7 +66802,7 @@
 		{
 			"id": 92,
 			"name": "Gastly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/92.png",
+			"sprite": "/pokemon/main-series/generation-4/92.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 30,
@@ -67706,7 +67706,7 @@
 		{
 			"id": 93,
 			"name": "Haunter",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/93.png",
+			"sprite": "/pokemon/main-series/generation-4/93.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -68557,7 +68557,7 @@
 		{
 			"id": 94,
 			"name": "Gengar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/94.png",
+			"sprite": "/pokemon/main-series/generation-4/94.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -69519,7 +69519,7 @@
 		{
 			"id": 95,
 			"name": "Onix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/95.png",
+			"sprite": "/pokemon/main-series/generation-4/95.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 35,
@@ -70407,7 +70407,7 @@
 		{
 			"id": 96,
 			"name": "Drowzee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/96.png",
+			"sprite": "/pokemon/main-series/generation-4/96.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 60,
@@ -71322,7 +71322,7 @@
 		{
 			"id": 97,
 			"name": "Hypno",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/97.png",
+			"sprite": "/pokemon/main-series/generation-4/97.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 85,
@@ -72221,7 +72221,7 @@
 		{
 			"id": 98,
 			"name": "Krabby",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/98.png",
+			"sprite": "/pokemon/main-series/generation-4/98.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -73088,7 +73088,7 @@
 		{
 			"id": 99,
 			"name": "Kingler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/99.png",
+			"sprite": "/pokemon/main-series/generation-4/99.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -73882,7 +73882,7 @@
 		{
 			"id": 100,
 			"name": "Voltorb",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/100.png",
+			"sprite": "/pokemon/main-series/generation-4/100.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 40,
@@ -74506,7 +74506,7 @@
 		{
 			"id": 101,
 			"name": "Electrode",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/101.png",
+			"sprite": "/pokemon/main-series/generation-4/101.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -75199,7 +75199,7 @@
 		{
 			"id": 102,
 			"name": "Exeggcute",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/102.png",
+			"sprite": "/pokemon/main-series/generation-4/102.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -76043,7 +76043,7 @@
 		{
 			"id": 103,
 			"name": "Exeggutor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/103.png",
+			"sprite": "/pokemon/main-series/generation-4/103.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -76720,7 +76720,7 @@
 		{
 			"id": 104,
 			"name": "Cubone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/104.png",
+			"sprite": "/pokemon/main-series/generation-4/104.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -77628,7 +77628,7 @@
 		{
 			"id": 105,
 			"name": "Marowak",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/105.png",
+			"sprite": "/pokemon/main-series/generation-4/105.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 60,
@@ -78525,7 +78525,7 @@
 		{
 			"id": 106,
 			"name": "Hitmonlee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/106.png",
+			"sprite": "/pokemon/main-series/generation-4/106.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -79267,7 +79267,7 @@
 		{
 			"id": 107,
 			"name": "Hitmonchan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/107.png",
+			"sprite": "/pokemon/main-series/generation-4/107.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -80001,7 +80001,7 @@
 		{
 			"id": 108,
 			"name": "Lickitung",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/108.png",
+			"sprite": "/pokemon/main-series/generation-4/108.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -81033,7 +81033,7 @@
 		{
 			"id": 109,
 			"name": "Koffing",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/109.png",
+			"sprite": "/pokemon/main-series/generation-4/109.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 40,
@@ -81814,7 +81814,7 @@
 		{
 			"id": 110,
 			"name": "Weezing",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/110.png",
+			"sprite": "/pokemon/main-series/generation-4/110.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 65,
@@ -82541,7 +82541,7 @@
 		{
 			"id": 111,
 			"name": "Rhyhorn",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/111.png",
+			"sprite": "/pokemon/main-series/generation-4/111.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 80,
@@ -83496,7 +83496,7 @@
 		{
 			"id": 112,
 			"name": "Rhydon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/112.png",
+			"sprite": "/pokemon/main-series/generation-4/112.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 105,
@@ -84521,7 +84521,7 @@
 		{
 			"id": 113,
 			"name": "Chansey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/113.png",
+			"sprite": "/pokemon/main-series/generation-4/113.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 250,
@@ -85654,7 +85654,7 @@
 		{
 			"id": 114,
 			"name": "Tangela",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/114.png",
+			"sprite": "/pokemon/main-series/generation-4/114.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 65,
@@ -86503,7 +86503,7 @@
 		{
 			"id": 115,
 			"name": "Kangaskhan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/115.png",
+			"sprite": "/pokemon/main-series/generation-4/115.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 105,
@@ -87621,7 +87621,7 @@
 		{
 			"id": 116,
 			"name": "Horsea",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/116.png",
+			"sprite": "/pokemon/main-series/generation-4/116.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -88323,7 +88323,7 @@
 		{
 			"id": 117,
 			"name": "Seadra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/117.png",
+			"sprite": "/pokemon/main-series/generation-4/117.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -88995,7 +88995,7 @@
 		{
 			"id": 118,
 			"name": "Goldeen",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/118.png",
+			"sprite": "/pokemon/main-series/generation-4/118.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 45,
@@ -89676,7 +89676,7 @@
 		{
 			"id": 119,
 			"name": "Seaking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/119.png",
+			"sprite": "/pokemon/main-series/generation-4/119.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -90323,7 +90323,7 @@
 		{
 			"id": 120,
 			"name": "Staryu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/120.png",
+			"sprite": "/pokemon/main-series/generation-4/120.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -91035,7 +91035,7 @@
 		{
 			"id": 121,
 			"name": "Starmie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/121.png",
+			"sprite": "/pokemon/main-series/generation-4/121.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -91704,7 +91704,7 @@
 		{
 			"id": 122,
 			"name": "Mr. Mime",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/122.png",
+			"sprite": "/pokemon/main-series/generation-4/122.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -92854,7 +92854,7 @@
 		{
 			"id": 123,
 			"name": "Scyther",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/123.png",
+			"sprite": "/pokemon/main-series/generation-4/123.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -93712,7 +93712,7 @@
 		{
 			"id": 124,
 			"name": "Jynx",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/124.png",
+			"sprite": "/pokemon/main-series/generation-4/124.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 65,
@@ -94633,7 +94633,7 @@
 		{
 			"id": 125,
 			"name": "Electabuzz",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/125.png",
+			"sprite": "/pokemon/main-series/generation-4/125.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -95379,7 +95379,7 @@
 		{
 			"id": 126,
 			"name": "Magmar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/126.png",
+			"sprite": "/pokemon/main-series/generation-4/126.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -96065,7 +96065,7 @@
 		{
 			"id": 127,
 			"name": "Pinsir",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/127.png",
+			"sprite": "/pokemon/main-series/generation-4/127.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -96903,7 +96903,7 @@
 		{
 			"id": 128,
 			"name": "Tauros",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/128.png",
+			"sprite": "/pokemon/main-series/generation-4/128.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 75,
@@ -97690,7 +97690,7 @@
 		{
 			"id": 129,
 			"name": "Magikarp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/129.png",
+			"sprite": "/pokemon/main-series/generation-4/129.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 20,
@@ -97777,7 +97777,7 @@
 		{
 			"id": 130,
 			"name": "Gyarados",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/130.png",
+			"sprite": "/pokemon/main-series/generation-4/130.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 95,
@@ -98580,7 +98580,7 @@
 		{
 			"id": 131,
 			"name": "Lapras",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/131.png",
+			"sprite": "/pokemon/main-series/generation-4/131.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 130,
@@ -99509,7 +99509,7 @@
 		{
 			"id": 132,
 			"name": "Ditto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/132.png",
+			"sprite": "/pokemon/main-series/generation-4/132.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 48,
@@ -99552,7 +99552,7 @@
 		{
 			"id": 133,
 			"name": "Eevee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/133.png",
+			"sprite": "/pokemon/main-series/generation-4/133.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -100193,7 +100193,7 @@
 		{
 			"id": 134,
 			"name": "Vaporeon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/134.png",
+			"sprite": "/pokemon/main-series/generation-4/134.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 130,
@@ -100912,7 +100912,7 @@
 		{
 			"id": 135,
 			"name": "Jolteon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/135.png",
+			"sprite": "/pokemon/main-series/generation-4/135.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -101611,7 +101611,7 @@
 		{
 			"id": 136,
 			"name": "Flareon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/136.png",
+			"sprite": "/pokemon/main-series/generation-4/136.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -102274,7 +102274,7 @@
 		{
 			"id": 137,
 			"name": "Porygon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/137.png",
+			"sprite": "/pokemon/main-series/generation-4/137.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -103033,7 +103033,7 @@
 		{
 			"id": 138,
 			"name": "Omanyte",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/138.png",
+			"sprite": "/pokemon/main-series/generation-4/138.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 35,
@@ -103842,7 +103842,7 @@
 		{
 			"id": 139,
 			"name": "Omastar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/139.png",
+			"sprite": "/pokemon/main-series/generation-4/139.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 70,
@@ -104605,7 +104605,7 @@
 		{
 			"id": 140,
 			"name": "Kabuto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/140.png",
+			"sprite": "/pokemon/main-series/generation-4/140.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 30,
@@ -105403,7 +105403,7 @@
 		{
 			"id": 141,
 			"name": "Kabutops",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/141.png",
+			"sprite": "/pokemon/main-series/generation-4/141.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 60,
@@ -106294,7 +106294,7 @@
 		{
 			"id": 142,
 			"name": "Aerodactyl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/142.png",
+			"sprite": "/pokemon/main-series/generation-4/142.webp",
 			"types": ["Rock", "Flying"],
 			"stats": {
 				"hp": 80,
@@ -107262,7 +107262,7 @@
 		{
 			"id": 143,
 			"name": "Snorlax",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/143.png",
+			"sprite": "/pokemon/main-series/generation-4/143.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 160,
@@ -108258,7 +108258,7 @@
 		{
 			"id": 144,
 			"name": "Articuno",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/144.png",
+			"sprite": "/pokemon/main-series/generation-4/144.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -108980,7 +108980,7 @@
 		{
 			"id": 145,
 			"name": "Zapdos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/145.png",
+			"sprite": "/pokemon/main-series/generation-4/145.webp",
 			"types": ["Electric", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -109714,7 +109714,7 @@
 		{
 			"id": 146,
 			"name": "Moltres",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/146.png",
+			"sprite": "/pokemon/main-series/generation-4/146.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -110428,7 +110428,7 @@
 		{
 			"id": 147,
 			"name": "Dratini",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/147.png",
+			"sprite": "/pokemon/main-series/generation-4/147.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 41,
@@ -111221,7 +111221,7 @@
 		{
 			"id": 148,
 			"name": "Dragonair",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/148.png",
+			"sprite": "/pokemon/main-series/generation-4/148.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 61,
@@ -111961,7 +111961,7 @@
 		{
 			"id": 149,
 			"name": "Dragonite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/149.png",
+			"sprite": "/pokemon/main-series/generation-4/149.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 91,
@@ -113084,7 +113084,7 @@
 		{
 			"id": 150,
 			"name": "Mewtwo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/150.png",
+			"sprite": "/pokemon/main-series/generation-4/150.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 106,
@@ -114279,7 +114279,7 @@
 		{
 			"id": 151,
 			"name": "Mew",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/151.png",
+			"sprite": "/pokemon/main-series/generation-4/151.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 100,
@@ -116047,7 +116047,7 @@
 		{
 			"id": 152,
 			"name": "Chikorita",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/152.png",
+			"sprite": "/pokemon/main-series/generation-4/152.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 45,
@@ -116835,7 +116835,7 @@
 		{
 			"id": 153,
 			"name": "Bayleef",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/153.png",
+			"sprite": "/pokemon/main-series/generation-4/153.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 60,
@@ -117546,7 +117546,7 @@
 		{
 			"id": 154,
 			"name": "Meganium",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/154.png",
+			"sprite": "/pokemon/main-series/generation-4/154.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 80,
@@ -118335,7 +118335,7 @@
 		{
 			"id": 155,
 			"name": "Cyndaquil",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/155.png",
+			"sprite": "/pokemon/main-series/generation-4/155.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -119032,7 +119032,7 @@
 		{
 			"id": 156,
 			"name": "Quilava",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/156.png",
+			"sprite": "/pokemon/main-series/generation-4/156.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -119681,7 +119681,7 @@
 		{
 			"id": 157,
 			"name": "Typhlosion",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/157.png",
+			"sprite": "/pokemon/main-series/generation-4/157.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 78,
@@ -120519,7 +120519,7 @@
 		{
 			"id": 158,
 			"name": "Totodile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/158.png",
+			"sprite": "/pokemon/main-series/generation-4/158.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -121409,7 +121409,7 @@
 		{
 			"id": 159,
 			"name": "Croconaw",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/159.png",
+			"sprite": "/pokemon/main-series/generation-4/159.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -122219,7 +122219,7 @@
 		{
 			"id": 160,
 			"name": "Feraligatr",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/160.png",
+			"sprite": "/pokemon/main-series/generation-4/160.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 85,
@@ -123178,7 +123178,7 @@
 		{
 			"id": 161,
 			"name": "Sentret",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/161.png",
+			"sprite": "/pokemon/main-series/generation-4/161.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -124122,7 +124122,7 @@
 		{
 			"id": 162,
 			"name": "Furret",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/162.png",
+			"sprite": "/pokemon/main-series/generation-4/162.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -125048,7 +125048,7 @@
 		{
 			"id": 163,
 			"name": "Hoothoot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/163.png",
+			"sprite": "/pokemon/main-series/generation-4/163.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -125862,7 +125862,7 @@
 		{
 			"id": 164,
 			"name": "Noctowl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/164.png",
+			"sprite": "/pokemon/main-series/generation-4/164.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 100,
@@ -126631,7 +126631,7 @@
 		{
 			"id": 165,
 			"name": "Ledyba",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/165.png",
+			"sprite": "/pokemon/main-series/generation-4/165.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -127452,7 +127452,7 @@
 		{
 			"id": 166,
 			"name": "Ledian",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/166.png",
+			"sprite": "/pokemon/main-series/generation-4/166.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -128267,7 +128267,7 @@
 		{
 			"id": 167,
 			"name": "Spinarak",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/167.png",
+			"sprite": "/pokemon/main-series/generation-4/167.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -128939,7 +128939,7 @@
 		{
 			"id": 168,
 			"name": "Ariados",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/168.png",
+			"sprite": "/pokemon/main-series/generation-4/168.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -129584,7 +129584,7 @@
 		{
 			"id": 169,
 			"name": "Crobat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/169.png",
+			"sprite": "/pokemon/main-series/generation-4/169.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -130359,7 +130359,7 @@
 		{
 			"id": 170,
 			"name": "Chinchou",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/170.png",
+			"sprite": "/pokemon/main-series/generation-4/170.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 75,
@@ -131103,7 +131103,7 @@
 		{
 			"id": 171,
 			"name": "Lanturn",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/171.png",
+			"sprite": "/pokemon/main-series/generation-4/171.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 125,
@@ -131855,7 +131855,7 @@
 		{
 			"id": 172,
 			"name": "Pichu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/172.png",
+			"sprite": "/pokemon/main-series/generation-4/172.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 20,
@@ -132507,7 +132507,7 @@
 		{
 			"id": 173,
 			"name": "Cleffa",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/173.png",
+			"sprite": "/pokemon/main-series/generation-4/173.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -133318,7 +133318,7 @@
 		{
 			"id": 174,
 			"name": "Igglybuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/174.png",
+			"sprite": "/pokemon/main-series/generation-4/174.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -134066,7 +134066,7 @@
 		{
 			"id": 175,
 			"name": "Togepi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/175.png",
+			"sprite": "/pokemon/main-series/generation-4/175.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -134939,7 +134939,7 @@
 		{
 			"id": 176,
 			"name": "Togetic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/176.png",
+			"sprite": "/pokemon/main-series/generation-4/176.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -135894,7 +135894,7 @@
 		{
 			"id": 177,
 			"name": "Natu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/177.png",
+			"sprite": "/pokemon/main-series/generation-4/177.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -136833,7 +136833,7 @@
 		{
 			"id": 178,
 			"name": "Xatu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/178.png",
+			"sprite": "/pokemon/main-series/generation-4/178.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -137715,7 +137715,7 @@
 		{
 			"id": 179,
 			"name": "Mareep",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/179.png",
+			"sprite": "/pokemon/main-series/generation-4/179.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 55,
@@ -138362,7 +138362,7 @@
 		{
 			"id": 180,
 			"name": "Flaaffy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/180.png",
+			"sprite": "/pokemon/main-series/generation-4/180.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 70,
@@ -139012,7 +139012,7 @@
 		{
 			"id": 181,
 			"name": "Ampharos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/181.png",
+			"sprite": "/pokemon/main-series/generation-4/181.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -139758,7 +139758,7 @@
 		{
 			"id": 182,
 			"name": "Bellossom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/182.png",
+			"sprite": "/pokemon/main-series/generation-4/182.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -140308,7 +140308,7 @@
 		{
 			"id": 183,
 			"name": "Marill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/183.png",
+			"sprite": "/pokemon/main-series/generation-4/183.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 70,
@@ -141116,7 +141116,7 @@
 		{
 			"id": 184,
 			"name": "Azumarill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/184.png",
+			"sprite": "/pokemon/main-series/generation-4/184.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -141864,7 +141864,7 @@
 		{
 			"id": 185,
 			"name": "Sudowoodo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/185.png",
+			"sprite": "/pokemon/main-series/generation-4/185.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 70,
@@ -142745,7 +142745,7 @@
 		{
 			"id": 186,
 			"name": "Politoed",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/186.png",
+			"sprite": "/pokemon/main-series/generation-4/186.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 90,
@@ -143367,7 +143367,7 @@
 		{
 			"id": 187,
 			"name": "Hoppip",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/187.png",
+			"sprite": "/pokemon/main-series/generation-4/187.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -144121,7 +144121,7 @@
 		{
 			"id": 188,
 			"name": "Skiploom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/188.png",
+			"sprite": "/pokemon/main-series/generation-4/188.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -144817,7 +144817,7 @@
 		{
 			"id": 189,
 			"name": "Jumpluff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/189.png",
+			"sprite": "/pokemon/main-series/generation-4/189.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -145532,7 +145532,7 @@
 		{
 			"id": 190,
 			"name": "Aipom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/190.png",
+			"sprite": "/pokemon/main-series/generation-4/190.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -146536,7 +146536,7 @@
 		{
 			"id": 191,
 			"name": "Sunkern",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/191.png",
+			"sprite": "/pokemon/main-series/generation-4/191.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 30,
@@ -147253,7 +147253,7 @@
 		{
 			"id": 192,
 			"name": "Sunflora",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/192.png",
+			"sprite": "/pokemon/main-series/generation-4/192.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -147913,7 +147913,7 @@
 		{
 			"id": 193,
 			"name": "Yanma",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/193.png",
+			"sprite": "/pokemon/main-series/generation-4/193.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -148711,7 +148711,7 @@
 		{
 			"id": 194,
 			"name": "Wooper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/194.png",
+			"sprite": "/pokemon/main-series/generation-4/194.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -149516,7 +149516,7 @@
 		{
 			"id": 195,
 			"name": "Quagsire",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/195.png",
+			"sprite": "/pokemon/main-series/generation-4/195.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 95,
@@ -150320,7 +150320,7 @@
 		{
 			"id": 196,
 			"name": "Espeon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/196.png",
+			"sprite": "/pokemon/main-series/generation-4/196.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 65,
@@ -151043,7 +151043,7 @@
 		{
 			"id": 197,
 			"name": "Umbreon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/197.png",
+			"sprite": "/pokemon/main-series/generation-4/197.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 95,
@@ -151742,7 +151742,7 @@
 		{
 			"id": 198,
 			"name": "Murkrow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/198.png",
+			"sprite": "/pokemon/main-series/generation-4/198.webp",
 			"types": ["Dark", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -152601,7 +152601,7 @@
 		{
 			"id": 199,
 			"name": "Slowking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/199.png",
+			"sprite": "/pokemon/main-series/generation-4/199.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -153621,7 +153621,7 @@
 		{
 			"id": 200,
 			"name": "Misdreavus",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/200.png",
+			"sprite": "/pokemon/main-series/generation-4/200.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 60,
@@ -154529,7 +154529,7 @@
 		{
 			"id": 201,
 			"name": "Unown",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/201.png",
+			"sprite": "/pokemon/main-series/generation-4/201.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 48,
@@ -154572,7 +154572,7 @@
 		{
 			"id": 202,
 			"name": "Wobbuffet",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/202.png",
+			"sprite": "/pokemon/main-series/generation-4/202.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 190,
@@ -154666,7 +154666,7 @@
 		{
 			"id": 203,
 			"name": "Girafarig",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/203.png",
+			"sprite": "/pokemon/main-series/generation-4/203.webp",
 			"types": ["Normal", "Psychic"],
 			"stats": {
 				"hp": 70,
@@ -155626,7 +155626,7 @@
 		{
 			"id": 204,
 			"name": "Pineco",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/204.png",
+			"sprite": "/pokemon/main-series/generation-4/204.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -156405,7 +156405,7 @@
 		{
 			"id": 205,
 			"name": "Forretress",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/205.png",
+			"sprite": "/pokemon/main-series/generation-4/205.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 75,
@@ -157230,7 +157230,7 @@
 		{
 			"id": 206,
 			"name": "Dunsparce",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/206.png",
+			"sprite": "/pokemon/main-series/generation-4/206.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 100,
@@ -158216,7 +158216,7 @@
 		{
 			"id": 207,
 			"name": "Gligar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/207.png",
+			"sprite": "/pokemon/main-series/generation-4/207.webp",
 			"types": ["Ground", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -159197,7 +159197,7 @@
 		{
 			"id": 208,
 			"name": "Steelix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/208.png",
+			"sprite": "/pokemon/main-series/generation-4/208.webp",
 			"types": ["Steel", "Ground"],
 			"stats": {
 				"hp": 75,
@@ -160110,7 +160110,7 @@
 		{
 			"id": 209,
 			"name": "Snubbull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/209.png",
+			"sprite": "/pokemon/main-series/generation-4/209.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -161089,7 +161089,7 @@
 		{
 			"id": 210,
 			"name": "Granbull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/210.png",
+			"sprite": "/pokemon/main-series/generation-4/210.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -162020,7 +162020,7 @@
 		{
 			"id": 211,
 			"name": "Qwilfish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/211.png",
+			"sprite": "/pokemon/main-series/generation-4/211.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -162878,7 +162878,7 @@
 		{
 			"id": 212,
 			"name": "Scizor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/212.png",
+			"sprite": "/pokemon/main-series/generation-4/212.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 70,
@@ -163688,7 +163688,7 @@
 		{
 			"id": 213,
 			"name": "Shuckle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/213.png",
+			"sprite": "/pokemon/main-series/generation-4/213.webp",
 			"types": ["Bug", "Rock"],
 			"stats": {
 				"hp": 20,
@@ -164373,7 +164373,7 @@
 		{
 			"id": 214,
 			"name": "Heracross",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/214.png",
+			"sprite": "/pokemon/main-series/generation-4/214.webp",
 			"types": ["Bug", "Fighting"],
 			"stats": {
 				"hp": 80,
@@ -165199,7 +165199,7 @@
 		{
 			"id": 215,
 			"name": "Sneasel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/215.png",
+			"sprite": "/pokemon/main-series/generation-4/215.webp",
 			"types": ["Dark", "Ice"],
 			"stats": {
 				"hp": 55,
@@ -166228,7 +166228,7 @@
 		{
 			"id": 216,
 			"name": "Teddiursa",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/216.png",
+			"sprite": "/pokemon/main-series/generation-4/216.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -167164,7 +167164,7 @@
 		{
 			"id": 217,
 			"name": "Ursaring",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/217.png",
+			"sprite": "/pokemon/main-series/generation-4/217.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -168036,7 +168036,7 @@
 		{
 			"id": 218,
 			"name": "Slugma",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/218.png",
+			"sprite": "/pokemon/main-series/generation-4/218.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 40,
@@ -168733,7 +168733,7 @@
 		{
 			"id": 219,
 			"name": "Magcargo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/219.png",
+			"sprite": "/pokemon/main-series/generation-4/219.webp",
 			"types": ["Fire", "Rock"],
 			"stats": {
 				"hp": 60,
@@ -169496,7 +169496,7 @@
 		{
 			"id": 220,
 			"name": "Swinub",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/220.png",
+			"sprite": "/pokemon/main-series/generation-4/220.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -170292,7 +170292,7 @@
 		{
 			"id": 221,
 			"name": "Piloswine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/221.png",
+			"sprite": "/pokemon/main-series/generation-4/221.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 100,
@@ -171081,7 +171081,7 @@
 		{
 			"id": 222,
 			"name": "Corsola",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/222.png",
+			"sprite": "/pokemon/main-series/generation-4/222.webp",
 			"types": ["Water", "Rock"],
 			"stats": {
 				"hp": 65,
@@ -172011,7 +172011,7 @@
 		{
 			"id": 223,
 			"name": "Remoraid",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/223.png",
+			"sprite": "/pokemon/main-series/generation-4/223.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 35,
@@ -172786,7 +172786,7 @@
 		{
 			"id": 224,
 			"name": "Octillery",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/224.png",
+			"sprite": "/pokemon/main-series/generation-4/224.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 75,
@@ -173599,7 +173599,7 @@
 		{
 			"id": 225,
 			"name": "Delibird",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/225.png",
+			"sprite": "/pokemon/main-series/generation-4/225.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -174182,7 +174182,7 @@
 		{
 			"id": 226,
 			"name": "Mantine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/226.png",
+			"sprite": "/pokemon/main-series/generation-4/226.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -175094,7 +175094,7 @@
 		{
 			"id": 227,
 			"name": "Skarmory",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/227.png",
+			"sprite": "/pokemon/main-series/generation-4/227.webp",
 			"types": ["Steel", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -175959,7 +175959,7 @@
 		{
 			"id": 228,
 			"name": "Houndour",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/228.png",
+			"sprite": "/pokemon/main-series/generation-4/228.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 45,
@@ -176839,7 +176839,7 @@
 		{
 			"id": 229,
 			"name": "Houndoom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/229.png",
+			"sprite": "/pokemon/main-series/generation-4/229.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 75,
@@ -177652,7 +177652,7 @@
 		{
 			"id": 230,
 			"name": "Kingdra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/230.png",
+			"sprite": "/pokemon/main-series/generation-4/230.webp",
 			"types": ["Water", "Dragon"],
 			"stats": {
 				"hp": 75,
@@ -178354,7 +178354,7 @@
 		{
 			"id": 231,
 			"name": "Phanpy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/231.png",
+			"sprite": "/pokemon/main-series/generation-4/231.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -179079,7 +179079,7 @@
 		{
 			"id": 232,
 			"name": "Donphan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/232.png",
+			"sprite": "/pokemon/main-series/generation-4/232.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -179841,7 +179841,7 @@
 		{
 			"id": 233,
 			"name": "Porygon2",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/233.png",
+			"sprite": "/pokemon/main-series/generation-4/233.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -180620,7 +180620,7 @@
 		{
 			"id": 234,
 			"name": "Stantler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/234.png",
+			"sprite": "/pokemon/main-series/generation-4/234.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 73,
@@ -181542,7 +181542,7 @@
 		{
 			"id": 235,
 			"name": "Smeargle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/235.png",
+			"sprite": "/pokemon/main-series/generation-4/235.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -181720,7 +181720,7 @@
 		{
 			"id": 236,
 			"name": "Tyrogue",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/236.png",
+			"sprite": "/pokemon/main-series/generation-4/236.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 35,
@@ -182275,7 +182275,7 @@
 		{
 			"id": 237,
 			"name": "Hitmontop",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/237.png",
+			"sprite": "/pokemon/main-series/generation-4/237.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -182963,7 +182963,7 @@
 		{
 			"id": 238,
 			"name": "Smoochum",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/238.png",
+			"sprite": "/pokemon/main-series/generation-4/238.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 45,
@@ -183811,7 +183811,7 @@
 		{
 			"id": 239,
 			"name": "Elekid",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/239.png",
+			"sprite": "/pokemon/main-series/generation-4/239.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 45,
@@ -184573,7 +184573,7 @@
 		{
 			"id": 240,
 			"name": "Magby",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/240.png",
+			"sprite": "/pokemon/main-series/generation-4/240.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 45,
@@ -185295,7 +185295,7 @@
 		{
 			"id": 241,
 			"name": "Miltank",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/241.png",
+			"sprite": "/pokemon/main-series/generation-4/241.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -186286,7 +186286,7 @@
 		{
 			"id": 242,
 			"name": "Blissey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/242.png",
+			"sprite": "/pokemon/main-series/generation-4/242.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 255,
@@ -187342,7 +187342,7 @@
 		{
 			"id": 243,
 			"name": "Raikou",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/243.png",
+			"sprite": "/pokemon/main-series/generation-4/243.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -188071,7 +188071,7 @@
 		{
 			"id": 244,
 			"name": "Entei",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/244.png",
+			"sprite": "/pokemon/main-series/generation-4/244.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 115,
@@ -188792,7 +188792,7 @@
 		{
 			"id": 245,
 			"name": "Suicune",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/245.png",
+			"sprite": "/pokemon/main-series/generation-4/245.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -189545,7 +189545,7 @@
 		{
 			"id": 246,
 			"name": "Larvitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/246.png",
+			"sprite": "/pokemon/main-series/generation-4/246.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -190358,7 +190358,7 @@
 		{
 			"id": 247,
 			"name": "Pupitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/247.png",
+			"sprite": "/pokemon/main-series/generation-4/247.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -191094,7 +191094,7 @@
 		{
 			"id": 248,
 			"name": "Tyranitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/248.png",
+			"sprite": "/pokemon/main-series/generation-4/248.webp",
 			"types": ["Rock", "Dark"],
 			"stats": {
 				"hp": 100,
@@ -192210,7 +192210,7 @@
 		{
 			"id": 249,
 			"name": "Lugia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/249.png",
+			"sprite": "/pokemon/main-series/generation-4/249.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -193248,7 +193248,7 @@
 		{
 			"id": 250,
 			"name": "Ho-Oh",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/250.png",
+			"sprite": "/pokemon/main-series/generation-4/250.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -194194,7 +194194,7 @@
 		{
 			"id": 251,
 			"name": "Celebi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/251.png",
+			"sprite": "/pokemon/main-series/generation-4/251.webp",
 			"types": ["Psychic", "Grass"],
 			"stats": {
 				"hp": 100,
@@ -195096,7 +195096,7 @@
 		{
 			"id": 252,
 			"name": "Treecko",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/252.png",
+			"sprite": "/pokemon/main-series/generation-4/252.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 40,
@@ -195978,7 +195978,7 @@
 		{
 			"id": 253,
 			"name": "Grovyle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/253.png",
+			"sprite": "/pokemon/main-series/generation-4/253.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 50,
@@ -196786,7 +196786,7 @@
 		{
 			"id": 254,
 			"name": "Sceptile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/254.png",
+			"sprite": "/pokemon/main-series/generation-4/254.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 70,
@@ -197720,7 +197720,7 @@
 		{
 			"id": 255,
 			"name": "Torchic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/255.png",
+			"sprite": "/pokemon/main-series/generation-4/255.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 45,
@@ -198487,7 +198487,7 @@
 		{
 			"id": 256,
 			"name": "Combusken",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/256.png",
+			"sprite": "/pokemon/main-series/generation-4/256.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 60,
@@ -199279,7 +199279,7 @@
 		{
 			"id": 257,
 			"name": "Blaziken",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/257.png",
+			"sprite": "/pokemon/main-series/generation-4/257.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 80,
@@ -200212,7 +200212,7 @@
 		{
 			"id": 258,
 			"name": "Mudkip",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/258.png",
+			"sprite": "/pokemon/main-series/generation-4/258.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -201018,7 +201018,7 @@
 		{
 			"id": 259,
 			"name": "Marshtomp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/259.png",
+			"sprite": "/pokemon/main-series/generation-4/259.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -201778,7 +201778,7 @@
 		{
 			"id": 260,
 			"name": "Swampert",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/260.png",
+			"sprite": "/pokemon/main-series/generation-4/260.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 100,
@@ -202664,7 +202664,7 @@
 		{
 			"id": 261,
 			"name": "Poochyena",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/261.png",
+			"sprite": "/pokemon/main-series/generation-4/261.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 35,
@@ -203436,7 +203436,7 @@
 		{
 			"id": 262,
 			"name": "Mightyena",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/262.png",
+			"sprite": "/pokemon/main-series/generation-4/262.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 70,
@@ -204169,7 +204169,7 @@
 		{
 			"id": 263,
 			"name": "Zigzagoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/263.png",
+			"sprite": "/pokemon/main-series/generation-4/263.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 38,
@@ -205002,7 +205002,7 @@
 		{
 			"id": 264,
 			"name": "Linoone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/264.png",
+			"sprite": "/pokemon/main-series/generation-4/264.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 78,
@@ -205856,7 +205856,7 @@
 		{
 			"id": 265,
 			"name": "Wurmple",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/265.png",
+			"sprite": "/pokemon/main-series/generation-4/265.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 45,
@@ -205966,7 +205966,7 @@
 		{
 			"id": 266,
 			"name": "Silcoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/266.png",
+			"sprite": "/pokemon/main-series/generation-4/266.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -206051,7 +206051,7 @@
 		{
 			"id": 267,
 			"name": "Beautifly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/267.png",
+			"sprite": "/pokemon/main-series/generation-4/267.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -206690,7 +206690,7 @@
 		{
 			"id": 268,
 			"name": "Cascoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/268.png",
+			"sprite": "/pokemon/main-series/generation-4/268.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -206775,7 +206775,7 @@
 		{
 			"id": 269,
 			"name": "Dustox",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/269.png",
+			"sprite": "/pokemon/main-series/generation-4/269.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -207426,7 +207426,7 @@
 		{
 			"id": 270,
 			"name": "Lotad",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/270.png",
+			"sprite": "/pokemon/main-series/generation-4/270.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 40,
@@ -208136,7 +208136,7 @@
 		{
 			"id": 271,
 			"name": "Lombre",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/271.png",
+			"sprite": "/pokemon/main-series/generation-4/271.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -208875,7 +208875,7 @@
 		{
 			"id": 272,
 			"name": "Ludicolo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/272.png",
+			"sprite": "/pokemon/main-series/generation-4/272.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 80,
@@ -209569,7 +209569,7 @@
 		{
 			"id": 273,
 			"name": "Seedot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/273.png",
+			"sprite": "/pokemon/main-series/generation-4/273.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 40,
@@ -210192,7 +210192,7 @@
 		{
 			"id": 274,
 			"name": "Nuzleaf",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/274.png",
+			"sprite": "/pokemon/main-series/generation-4/274.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -210964,7 +210964,7 @@
 		{
 			"id": 275,
 			"name": "Shiftry",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/275.png",
+			"sprite": "/pokemon/main-series/generation-4/275.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 90,
@@ -211769,7 +211769,7 @@
 		{
 			"id": 276,
 			"name": "Taillow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/276.png",
+			"sprite": "/pokemon/main-series/generation-4/276.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -212425,7 +212425,7 @@
 		{
 			"id": 277,
 			"name": "Swellow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/277.png",
+			"sprite": "/pokemon/main-series/generation-4/277.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -213058,7 +213058,7 @@
 		{
 			"id": 278,
 			"name": "Wingull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/278.png",
+			"sprite": "/pokemon/main-series/generation-4/278.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -213800,7 +213800,7 @@
 		{
 			"id": 279,
 			"name": "Pelipper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/279.png",
+			"sprite": "/pokemon/main-series/generation-4/279.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -214617,7 +214617,7 @@
 		{
 			"id": 280,
 			"name": "Ralts",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/280.png",
+			"sprite": "/pokemon/main-series/generation-4/280.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 28,
@@ -215526,7 +215526,7 @@
 		{
 			"id": 281,
 			"name": "Kirlia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/281.png",
+			"sprite": "/pokemon/main-series/generation-4/281.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 38,
@@ -216390,7 +216390,7 @@
 		{
 			"id": 282,
 			"name": "Gardevoir",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/282.png",
+			"sprite": "/pokemon/main-series/generation-4/282.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 68,
@@ -217311,7 +217311,7 @@
 		{
 			"id": 283,
 			"name": "Surskit",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/283.png",
+			"sprite": "/pokemon/main-series/generation-4/283.webp",
 			"types": ["Bug", "Water"],
 			"stats": {
 				"hp": 40,
@@ -217936,7 +217936,7 @@
 		{
 			"id": 284,
 			"name": "Masquerain",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/284.png",
+			"sprite": "/pokemon/main-series/generation-4/284.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -218687,7 +218687,7 @@
 		{
 			"id": 285,
 			"name": "Shroomish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/285.png",
+			"sprite": "/pokemon/main-series/generation-4/285.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 60,
@@ -219361,7 +219361,7 @@
 		{
 			"id": 286,
 			"name": "Breloom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/286.png",
+			"sprite": "/pokemon/main-series/generation-4/286.webp",
 			"types": ["Grass", "Fighting"],
 			"stats": {
 				"hp": 60,
@@ -220219,7 +220219,7 @@
 		{
 			"id": 287,
 			"name": "Slakoth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/287.png",
+			"sprite": "/pokemon/main-series/generation-4/287.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -221040,7 +221040,7 @@
 		{
 			"id": 288,
 			"name": "Vigoroth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/288.png",
+			"sprite": "/pokemon/main-series/generation-4/288.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 80,
@@ -221867,7 +221867,7 @@
 		{
 			"id": 289,
 			"name": "Slaking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/289.png",
+			"sprite": "/pokemon/main-series/generation-4/289.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 150,
@@ -222762,7 +222762,7 @@
 		{
 			"id": 290,
 			"name": "Nincada",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/290.png",
+			"sprite": "/pokemon/main-series/generation-4/290.webp",
 			"types": ["Bug", "Ground"],
 			"stats": {
 				"hp": 31,
@@ -223375,7 +223375,7 @@
 		{
 			"id": 291,
 			"name": "Ninjask",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/291.png",
+			"sprite": "/pokemon/main-series/generation-4/291.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 61,
@@ -224152,7 +224152,7 @@
 		{
 			"id": 292,
 			"name": "Shedinja",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/292.png",
+			"sprite": "/pokemon/main-series/generation-4/292.webp",
 			"types": ["Bug", "Ghost"],
 			"stats": {
 				"hp": 1,
@@ -224794,7 +224794,7 @@
 		{
 			"id": 293,
 			"name": "Whismur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/293.png",
+			"sprite": "/pokemon/main-series/generation-4/293.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 64,
@@ -225493,7 +225493,7 @@
 		{
 			"id": 294,
 			"name": "Loudred",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/294.png",
+			"sprite": "/pokemon/main-series/generation-4/294.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 84,
@@ -226281,7 +226281,7 @@
 		{
 			"id": 295,
 			"name": "Exploud",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/295.png",
+			"sprite": "/pokemon/main-series/generation-4/295.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 104,
@@ -227223,7 +227223,7 @@
 		{
 			"id": 296,
 			"name": "Makuhita",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/296.png",
+			"sprite": "/pokemon/main-series/generation-4/296.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 72,
@@ -228093,7 +228093,7 @@
 		{
 			"id": 297,
 			"name": "Hariyama",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/297.png",
+			"sprite": "/pokemon/main-series/generation-4/297.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 144,
@@ -228952,7 +228952,7 @@
 		{
 			"id": 298,
 			"name": "Azurill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/298.png",
+			"sprite": "/pokemon/main-series/generation-4/298.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -229512,7 +229512,7 @@
 		{
 			"id": 299,
 			"name": "Nosepass",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/299.png",
+			"sprite": "/pokemon/main-series/generation-4/299.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 30,
@@ -230311,7 +230311,7 @@
 		{
 			"id": 300,
 			"name": "Skitty",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/300.png",
+			"sprite": "/pokemon/main-series/generation-4/300.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -231267,7 +231267,7 @@
 		{
 			"id": 301,
 			"name": "Delcatty",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/301.png",
+			"sprite": "/pokemon/main-series/generation-4/301.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -231933,7 +231933,7 @@
 		{
 			"id": 302,
 			"name": "Sableye",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/302.png",
+			"sprite": "/pokemon/main-series/generation-4/302.webp",
 			"types": ["Dark", "Ghost"],
 			"stats": {
 				"hp": 50,
@@ -232959,7 +232959,7 @@
 		{
 			"id": 303,
 			"name": "Mawile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/303.png",
+			"sprite": "/pokemon/main-series/generation-4/303.webp",
 			"types": ["Steel"],
 			"stats": {
 				"hp": 50,
@@ -233961,7 +233961,7 @@
 		{
 			"id": 304,
 			"name": "Aron",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/304.png",
+			"sprite": "/pokemon/main-series/generation-4/304.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 50,
@@ -234821,7 +234821,7 @@
 		{
 			"id": 305,
 			"name": "Lairon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/305.png",
+			"sprite": "/pokemon/main-series/generation-4/305.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 60,
@@ -235643,7 +235643,7 @@
 		{
 			"id": 306,
 			"name": "Aggron",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/306.png",
+			"sprite": "/pokemon/main-series/generation-4/306.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 70,
@@ -236796,7 +236796,7 @@
 		{
 			"id": 307,
 			"name": "Meditite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/307.png",
+			"sprite": "/pokemon/main-series/generation-4/307.webp",
 			"types": ["Fighting", "Psychic"],
 			"stats": {
 				"hp": 30,
@@ -237752,7 +237752,7 @@
 		{
 			"id": 308,
 			"name": "Medicham",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/308.png",
+			"sprite": "/pokemon/main-series/generation-4/308.webp",
 			"types": ["Fighting", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -238702,7 +238702,7 @@
 		{
 			"id": 309,
 			"name": "Electrike",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/309.png",
+			"sprite": "/pokemon/main-series/generation-4/309.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 40,
@@ -239435,7 +239435,7 @@
 		{
 			"id": 310,
 			"name": "Manectric",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/310.png",
+			"sprite": "/pokemon/main-series/generation-4/310.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 70,
@@ -240152,7 +240152,7 @@
 		{
 			"id": 311,
 			"name": "Plusle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/311.png",
+			"sprite": "/pokemon/main-series/generation-4/311.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -240880,7 +240880,7 @@
 		{
 			"id": 312,
 			"name": "Minun",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/312.png",
+			"sprite": "/pokemon/main-series/generation-4/312.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -241608,7 +241608,7 @@
 		{
 			"id": 313,
 			"name": "Volbeat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/313.png",
+			"sprite": "/pokemon/main-series/generation-4/313.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -242439,7 +242439,7 @@
 		{
 			"id": 314,
 			"name": "Illumise",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/314.png",
+			"sprite": "/pokemon/main-series/generation-4/314.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -243247,7 +243247,7 @@
 		{
 			"id": 315,
 			"name": "Roselia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/315.png",
+			"sprite": "/pokemon/main-series/generation-4/315.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 50,
@@ -244034,7 +244034,7 @@
 		{
 			"id": 316,
 			"name": "Gulpin",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/316.png",
+			"sprite": "/pokemon/main-series/generation-4/316.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 70,
@@ -244802,7 +244802,7 @@
 		{
 			"id": 317,
 			"name": "Swalot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/317.png",
+			"sprite": "/pokemon/main-series/generation-4/317.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 100,
@@ -245598,7 +245598,7 @@
 		{
 			"id": 318,
 			"name": "Carvanha",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/318.png",
+			"sprite": "/pokemon/main-series/generation-4/318.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 45,
@@ -246319,7 +246319,7 @@
 		{
 			"id": 319,
 			"name": "Sharpedo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/319.png",
+			"sprite": "/pokemon/main-series/generation-4/319.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -247185,7 +247185,7 @@
 		{
 			"id": 320,
 			"name": "Wailmer",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/320.png",
+			"sprite": "/pokemon/main-series/generation-4/320.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 130,
@@ -247976,7 +247976,7 @@
 		{
 			"id": 321,
 			"name": "Wailord",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/321.png",
+			"sprite": "/pokemon/main-series/generation-4/321.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 170,
@@ -248724,7 +248724,7 @@
 		{
 			"id": 322,
 			"name": "Numel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/322.png",
+			"sprite": "/pokemon/main-series/generation-4/322.webp",
 			"types": ["Fire", "Ground"],
 			"stats": {
 				"hp": 60,
@@ -249462,7 +249462,7 @@
 		{
 			"id": 323,
 			"name": "Camerupt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/323.png",
+			"sprite": "/pokemon/main-series/generation-4/323.webp",
 			"types": ["Fire", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -250217,7 +250217,7 @@
 		{
 			"id": 324,
 			"name": "Torkoal",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/324.png",
+			"sprite": "/pokemon/main-series/generation-4/324.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 70,
@@ -251018,7 +251018,7 @@
 		{
 			"id": 325,
 			"name": "Spoink",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/325.png",
+			"sprite": "/pokemon/main-series/generation-4/325.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 60,
@@ -251886,7 +251886,7 @@
 		{
 			"id": 326,
 			"name": "Grumpig",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/326.png",
+			"sprite": "/pokemon/main-series/generation-4/326.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 80,
@@ -252843,7 +252843,7 @@
 		{
 			"id": 327,
 			"name": "Spinda",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/327.png",
+			"sprite": "/pokemon/main-series/generation-4/327.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -253806,7 +253806,7 @@
 		{
 			"id": 328,
 			"name": "Trapinch",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/328.png",
+			"sprite": "/pokemon/main-series/generation-4/328.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 45,
@@ -254448,7 +254448,7 @@
 		{
 			"id": 329,
 			"name": "Vibrava",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/329.png",
+			"sprite": "/pokemon/main-series/generation-4/329.webp",
 			"types": ["Ground", "Dragon"],
 			"stats": {
 				"hp": 50,
@@ -255175,7 +255175,7 @@
 		{
 			"id": 330,
 			"name": "Flygon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/330.png",
+			"sprite": "/pokemon/main-series/generation-4/330.webp",
 			"types": ["Ground", "Dragon"],
 			"stats": {
 				"hp": 80,
@@ -256012,7 +256012,7 @@
 		{
 			"id": 331,
 			"name": "Cacnea",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/331.png",
+			"sprite": "/pokemon/main-series/generation-4/331.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 50,
@@ -256874,7 +256874,7 @@
 		{
 			"id": 332,
 			"name": "Cacturne",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/332.png",
+			"sprite": "/pokemon/main-series/generation-4/332.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -257737,7 +257737,7 @@
 		{
 			"id": 333,
 			"name": "Swablu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/333.png",
+			"sprite": "/pokemon/main-series/generation-4/333.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -258482,7 +258482,7 @@
 		{
 			"id": 334,
 			"name": "Altaria",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/334.png",
+			"sprite": "/pokemon/main-series/generation-4/334.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -259350,7 +259350,7 @@
 		{
 			"id": 335,
 			"name": "Zangoose",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/335.png",
+			"sprite": "/pokemon/main-series/generation-4/335.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 73,
@@ -260428,7 +260428,7 @@
 		{
 			"id": 336,
 			"name": "Seviper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/336.png",
+			"sprite": "/pokemon/main-series/generation-4/336.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 73,
@@ -261195,7 +261195,7 @@
 		{
 			"id": 337,
 			"name": "Lunatone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/337.png",
+			"sprite": "/pokemon/main-series/generation-4/337.webp",
 			"types": ["Rock", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -262018,7 +262018,7 @@
 		{
 			"id": 338,
 			"name": "Solrock",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/338.png",
+			"sprite": "/pokemon/main-series/generation-4/338.webp",
 			"types": ["Rock", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -262885,7 +262885,7 @@
 		{
 			"id": 339,
 			"name": "Barboach",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/339.png",
+			"sprite": "/pokemon/main-series/generation-4/339.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -263581,7 +263581,7 @@
 		{
 			"id": 340,
 			"name": "Whiscash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/340.png",
+			"sprite": "/pokemon/main-series/generation-4/340.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 110,
@@ -264341,7 +264341,7 @@
 		{
 			"id": 341,
 			"name": "Corphish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/341.png",
+			"sprite": "/pokemon/main-series/generation-4/341.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 43,
@@ -265198,7 +265198,7 @@
 		{
 			"id": 342,
 			"name": "Crawdaunt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/342.png",
+			"sprite": "/pokemon/main-series/generation-4/342.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 63,
@@ -266091,7 +266091,7 @@
 		{
 			"id": 343,
 			"name": "Baltoy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/343.png",
+			"sprite": "/pokemon/main-series/generation-4/343.webp",
 			"types": ["Ground", "Psychic"],
 			"stats": {
 				"hp": 40,
@@ -266895,7 +266895,7 @@
 		{
 			"id": 344,
 			"name": "Claydol",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/344.png",
+			"sprite": "/pokemon/main-series/generation-4/344.webp",
 			"types": ["Ground", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -267819,7 +267819,7 @@
 		{
 			"id": 345,
 			"name": "Lileep",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/345.png",
+			"sprite": "/pokemon/main-series/generation-4/345.webp",
 			"types": ["Rock", "Grass"],
 			"stats": {
 				"hp": 66,
@@ -268552,7 +268552,7 @@
 		{
 			"id": 346,
 			"name": "Cradily",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/346.png",
+			"sprite": "/pokemon/main-series/generation-4/346.webp",
 			"types": ["Rock", "Grass"],
 			"stats": {
 				"hp": 86,
@@ -269319,7 +269319,7 @@
 		{
 			"id": 347,
 			"name": "Anorith",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/347.png",
+			"sprite": "/pokemon/main-series/generation-4/347.webp",
 			"types": ["Rock", "Bug"],
 			"stats": {
 				"hp": 45,
@@ -270057,7 +270057,7 @@
 		{
 			"id": 348,
 			"name": "Armaldo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/348.png",
+			"sprite": "/pokemon/main-series/generation-4/348.webp",
 			"types": ["Rock", "Bug"],
 			"stats": {
 				"hp": 75,
@@ -270845,7 +270845,7 @@
 		{
 			"id": 349,
 			"name": "Feebas",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/349.png",
+			"sprite": "/pokemon/main-series/generation-4/349.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 20,
@@ -271344,7 +271344,7 @@
 		{
 			"id": 350,
 			"name": "Milotic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/350.png",
+			"sprite": "/pokemon/main-series/generation-4/350.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 95,
@@ -272020,7 +272020,7 @@
 		{
 			"id": 351,
 			"name": "Castform",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/351.png",
+			"sprite": "/pokemon/main-series/generation-4/351.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -272716,7 +272716,7 @@
 		{
 			"id": 352,
 			"name": "Kecleon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/352.png",
+			"sprite": "/pokemon/main-series/generation-4/352.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -273830,7 +273830,7 @@
 		{
 			"id": 353,
 			"name": "Shuppet",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/353.png",
+			"sprite": "/pokemon/main-series/generation-4/353.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 44,
@@ -274714,7 +274714,7 @@
 		{
 			"id": 354,
 			"name": "Banette",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/354.png",
+			"sprite": "/pokemon/main-series/generation-4/354.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 64,
@@ -275591,7 +275591,7 @@
 		{
 			"id": 355,
 			"name": "Duskull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/355.png",
+			"sprite": "/pokemon/main-series/generation-4/355.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 20,
@@ -276420,7 +276420,7 @@
 		{
 			"id": 356,
 			"name": "Dusclops",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/356.png",
+			"sprite": "/pokemon/main-series/generation-4/356.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 40,
@@ -277415,7 +277415,7 @@
 		{
 			"id": 357,
 			"name": "Tropius",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/357.png",
+			"sprite": "/pokemon/main-series/generation-4/357.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 99,
@@ -278293,7 +278293,7 @@
 		{
 			"id": 358,
 			"name": "Chimecho",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/358.png",
+			"sprite": "/pokemon/main-series/generation-4/358.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 75,
@@ -279142,7 +279142,7 @@
 		{
 			"id": 359,
 			"name": "Absol",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/359.png",
+			"sprite": "/pokemon/main-series/generation-4/359.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 65,
@@ -280355,7 +280355,7 @@
 		{
 			"id": 360,
 			"name": "Wynaut",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/360.png",
+			"sprite": "/pokemon/main-series/generation-4/360.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 95,
@@ -280494,7 +280494,7 @@
 		{
 			"id": 361,
 			"name": "Snorunt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/361.png",
+			"sprite": "/pokemon/main-series/generation-4/361.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 50,
@@ -281129,7 +281129,7 @@
 		{
 			"id": 362,
 			"name": "Glalie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/362.png",
+			"sprite": "/pokemon/main-series/generation-4/362.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 80,
@@ -281868,7 +281868,7 @@
 		{
 			"id": 363,
 			"name": "Spheal",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/363.png",
+			"sprite": "/pokemon/main-series/generation-4/363.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 70,
@@ -282637,7 +282637,7 @@
 		{
 			"id": 364,
 			"name": "Sealeo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/364.png",
+			"sprite": "/pokemon/main-series/generation-4/364.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 90,
@@ -283326,7 +283326,7 @@
 		{
 			"id": 365,
 			"name": "Walrein",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/365.png",
+			"sprite": "/pokemon/main-series/generation-4/365.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 110,
@@ -284096,7 +284096,7 @@
 		{
 			"id": 366,
 			"name": "Clamperl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/366.png",
+			"sprite": "/pokemon/main-series/generation-4/366.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 35,
@@ -284607,7 +284607,7 @@
 		{
 			"id": 367,
 			"name": "Huntail",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/367.png",
+			"sprite": "/pokemon/main-series/generation-4/367.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -285229,7 +285229,7 @@
 		{
 			"id": 368,
 			"name": "Gorebyss",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/368.png",
+			"sprite": "/pokemon/main-series/generation-4/368.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -285871,7 +285871,7 @@
 		{
 			"id": 369,
 			"name": "Relicanth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/369.png",
+			"sprite": "/pokemon/main-series/generation-4/369.webp",
 			"types": ["Water", "Rock"],
 			"stats": {
 				"hp": 100,
@@ -286722,7 +286722,7 @@
 		{
 			"id": 370,
 			"name": "Luvdisc",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/370.png",
+			"sprite": "/pokemon/main-series/generation-4/370.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 43,
@@ -287377,7 +287377,7 @@
 		{
 			"id": 371,
 			"name": "Bagon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/371.png",
+			"sprite": "/pokemon/main-series/generation-4/371.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 45,
@@ -288123,7 +288123,7 @@
 		{
 			"id": 372,
 			"name": "Shelgon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/372.png",
+			"sprite": "/pokemon/main-series/generation-4/372.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 65,
@@ -288854,7 +288854,7 @@
 		{
 			"id": 373,
 			"name": "Salamence",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/373.png",
+			"sprite": "/pokemon/main-series/generation-4/373.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 95,
@@ -289765,7 +289765,7 @@
 		{
 			"id": 374,
 			"name": "Beldum",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/374.png",
+			"sprite": "/pokemon/main-series/generation-4/374.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 40,
@@ -289842,7 +289842,7 @@
 		{
 			"id": 375,
 			"name": "Metang",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/375.png",
+			"sprite": "/pokemon/main-series/generation-4/375.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -290694,7 +290694,7 @@
 		{
 			"id": 376,
 			"name": "Metagross",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/376.png",
+			"sprite": "/pokemon/main-series/generation-4/376.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -291572,7 +291572,7 @@
 		{
 			"id": 377,
 			"name": "Regirock",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/377.png",
+			"sprite": "/pokemon/main-series/generation-4/377.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 80,
@@ -292374,7 +292374,7 @@
 		{
 			"id": 378,
 			"name": "Regice",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/378.png",
+			"sprite": "/pokemon/main-series/generation-4/378.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 80,
@@ -293176,7 +293176,7 @@
 		{
 			"id": 379,
 			"name": "Registeel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/379.png",
+			"sprite": "/pokemon/main-series/generation-4/379.webp",
 			"types": ["Steel"],
 			"stats": {
 				"hp": 80,
@@ -294020,7 +294020,7 @@
 		{
 			"id": 380,
 			"name": "Latias",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/380.png",
+			"sprite": "/pokemon/main-series/generation-4/380.webp",
 			"types": ["Dragon", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -295037,7 +295037,7 @@
 		{
 			"id": 381,
 			"name": "Latios",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/381.png",
+			"sprite": "/pokemon/main-series/generation-4/381.webp",
 			"types": ["Dragon", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -296042,7 +296042,7 @@
 		{
 			"id": 382,
 			"name": "Kyogre",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/382.png",
+			"sprite": "/pokemon/main-series/generation-4/382.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -296815,7 +296815,7 @@
 		{
 			"id": 383,
 			"name": "Groudon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/383.png",
+			"sprite": "/pokemon/main-series/generation-4/383.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 100,
@@ -297724,7 +297724,7 @@
 		{
 			"id": 384,
 			"name": "Rayquaza",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/384.png",
+			"sprite": "/pokemon/main-series/generation-4/384.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 105,
@@ -298713,7 +298713,7 @@
 		{
 			"id": 385,
 			"name": "Jirachi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/385.png",
+			"sprite": "/pokemon/main-series/generation-4/385.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 100,
@@ -299661,7 +299661,7 @@
 		{
 			"id": 386,
 			"name": "Deoxys",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/386.png",
+			"sprite": "/pokemon/main-series/generation-4/386.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 50,
@@ -300703,7 +300703,7 @@
 		{
 			"id": 387,
 			"name": "Turtwig",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/387.png",
+			"sprite": "/pokemon/main-series/generation-4/387.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 55,
@@ -301501,7 +301501,7 @@
 		{
 			"id": 388,
 			"name": "Grotle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/388.png",
+			"sprite": "/pokemon/main-series/generation-4/388.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -302187,7 +302187,7 @@
 		{
 			"id": 389,
 			"name": "Torterra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/389.png",
+			"sprite": "/pokemon/main-series/generation-4/389.webp",
 			"types": ["Grass", "Ground"],
 			"stats": {
 				"hp": 95,
@@ -303068,7 +303068,7 @@
 		{
 			"id": 390,
 			"name": "Chimchar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/390.png",
+			"sprite": "/pokemon/main-series/generation-4/390.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 44,
@@ -303982,7 +303982,7 @@
 		{
 			"id": 391,
 			"name": "Monferno",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/391.png",
+			"sprite": "/pokemon/main-series/generation-4/391.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 64,
@@ -304847,7 +304847,7 @@
 		{
 			"id": 392,
 			"name": "Infernape",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/392.png",
+			"sprite": "/pokemon/main-series/generation-4/392.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 76,
@@ -305818,7 +305818,7 @@
 		{
 			"id": 393,
 			"name": "Piplup",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/393.png",
+			"sprite": "/pokemon/main-series/generation-4/393.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 53,
@@ -306623,7 +306623,7 @@
 		{
 			"id": 394,
 			"name": "Prinplup",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/394.png",
+			"sprite": "/pokemon/main-series/generation-4/394.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 64,
@@ -307375,7 +307375,7 @@
 		{
 			"id": 395,
 			"name": "Empoleon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/395.png",
+			"sprite": "/pokemon/main-series/generation-4/395.webp",
 			"types": ["Water", "Steel"],
 			"stats": {
 				"hp": 84,
@@ -308308,7 +308308,7 @@
 		{
 			"id": 396,
 			"name": "Starly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/396.png",
+			"sprite": "/pokemon/main-series/generation-4/396.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -308967,7 +308967,7 @@
 		{
 			"id": 397,
 			"name": "Staravia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/397.png",
+			"sprite": "/pokemon/main-series/generation-4/397.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -309562,7 +309562,7 @@
 		{
 			"id": 398,
 			"name": "Staraptor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/398.png",
+			"sprite": "/pokemon/main-series/generation-4/398.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -310210,7 +310210,7 @@
 		{
 			"id": 399,
 			"name": "Bidoof",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/399.png",
+			"sprite": "/pokemon/main-series/generation-4/399.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 59,
@@ -311015,7 +311015,7 @@
 		{
 			"id": 400,
 			"name": "Bibarel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/400.png",
+			"sprite": "/pokemon/main-series/generation-4/400.webp",
 			"types": ["Normal", "Water"],
 			"stats": {
 				"hp": 79,
@@ -311874,7 +311874,7 @@
 		{
 			"id": 401,
 			"name": "Kricketot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/401.png",
+			"sprite": "/pokemon/main-series/generation-4/401.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 37,
@@ -311988,7 +311988,7 @@
 		{
 			"id": 402,
 			"name": "Kricketune",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/402.png",
+			"sprite": "/pokemon/main-series/generation-4/402.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 77,
@@ -312622,7 +312622,7 @@
 		{
 			"id": 403,
 			"name": "Shinx",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/403.png",
+			"sprite": "/pokemon/main-series/generation-4/403.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 45,
@@ -313285,7 +313285,7 @@
 		{
 			"id": 404,
 			"name": "Luxio",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/404.png",
+			"sprite": "/pokemon/main-series/generation-4/404.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -313892,7 +313892,7 @@
 		{
 			"id": 405,
 			"name": "Luxray",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/405.png",
+			"sprite": "/pokemon/main-series/generation-4/405.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 80,
@@ -314541,7 +314541,7 @@
 		{
 			"id": 406,
 			"name": "Budew",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/406.png",
+			"sprite": "/pokemon/main-series/generation-4/406.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -315173,7 +315173,7 @@
 		{
 			"id": 407,
 			"name": "Roserade",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/407.png",
+			"sprite": "/pokemon/main-series/generation-4/407.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -315718,7 +315718,7 @@
 		{
 			"id": 408,
 			"name": "Cranidos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/408.png",
+			"sprite": "/pokemon/main-series/generation-4/408.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 67,
@@ -316633,7 +316633,7 @@
 		{
 			"id": 409,
 			"name": "Rampardos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/409.png",
+			"sprite": "/pokemon/main-series/generation-4/409.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 97,
@@ -317575,7 +317575,7 @@
 		{
 			"id": 410,
 			"name": "Shieldon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/410.png",
+			"sprite": "/pokemon/main-series/generation-4/410.webp",
 			"types": ["Rock", "Steel"],
 			"stats": {
 				"hp": 30,
@@ -318426,7 +318426,7 @@
 		{
 			"id": 411,
 			"name": "Bastiodon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/411.png",
+			"sprite": "/pokemon/main-series/generation-4/411.webp",
 			"types": ["Rock", "Steel"],
 			"stats": {
 				"hp": 60,
@@ -319262,7 +319262,7 @@
 		{
 			"id": 412,
 			"name": "Burmy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/412.png",
+			"sprite": "/pokemon/main-series/generation-4/412.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 40,
@@ -319372,7 +319372,7 @@
 		{
 			"id": 413,
 			"name": "Wormadam",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/413.png",
+			"sprite": "/pokemon/main-series/generation-4/413.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -320060,7 +320060,7 @@
 		{
 			"id": 414,
 			"name": "Mothim",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/414.png",
+			"sprite": "/pokemon/main-series/generation-4/414.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -320780,7 +320780,7 @@
 		{
 			"id": 415,
 			"name": "Combee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/415.png",
+			"sprite": "/pokemon/main-series/generation-4/415.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 30,
@@ -320914,7 +320914,7 @@
 		{
 			"id": 416,
 			"name": "Vespiquen",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/416.png",
+			"sprite": "/pokemon/main-series/generation-4/416.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -321632,7 +321632,7 @@
 		{
 			"id": 417,
 			"name": "Pachirisu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/417.png",
+			"sprite": "/pokemon/main-series/generation-4/417.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -322365,7 +322365,7 @@
 		{
 			"id": 418,
 			"name": "Buizel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/418.png",
+			"sprite": "/pokemon/main-series/generation-4/418.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -323100,7 +323100,7 @@
 		{
 			"id": 419,
 			"name": "Floatzel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/419.png",
+			"sprite": "/pokemon/main-series/generation-4/419.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 85,
@@ -323880,7 +323880,7 @@
 		{
 			"id": 420,
 			"name": "Cherubi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/420.png",
+			"sprite": "/pokemon/main-series/generation-4/420.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 45,
@@ -324484,7 +324484,7 @@
 		{
 			"id": 421,
 			"name": "Cherrim",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/421.png",
+			"sprite": "/pokemon/main-series/generation-4/421.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 70,
@@ -325066,7 +325066,7 @@
 		{
 			"id": 422,
 			"name": "Shellos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/422.png",
+			"sprite": "/pokemon/main-series/generation-4/422.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 76,
@@ -325718,7 +325718,7 @@
 		{
 			"id": 423,
 			"name": "Gastrodon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/423.png",
+			"sprite": "/pokemon/main-series/generation-4/423.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 111,
@@ -326447,7 +326447,7 @@
 		{
 			"id": 424,
 			"name": "Ambipom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/424.png",
+			"sprite": "/pokemon/main-series/generation-4/424.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 75,
@@ -327373,7 +327373,7 @@
 		{
 			"id": 425,
 			"name": "Drifloon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/425.png",
+			"sprite": "/pokemon/main-series/generation-4/425.webp",
 			"types": ["Ghost", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -328254,7 +328254,7 @@
 		{
 			"id": 426,
 			"name": "Drifblim",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/426.png",
+			"sprite": "/pokemon/main-series/generation-4/426.webp",
 			"types": ["Ghost", "Flying"],
 			"stats": {
 				"hp": 150,
@@ -329125,7 +329125,7 @@
 		{
 			"id": 427,
 			"name": "Buneary",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/427.png",
+			"sprite": "/pokemon/main-series/generation-4/427.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -330005,7 +330005,7 @@
 		{
 			"id": 428,
 			"name": "Lopunny",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/428.png",
+			"sprite": "/pokemon/main-series/generation-4/428.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -330871,7 +330871,7 @@
 		{
 			"id": 429,
 			"name": "Mismagius",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/429.png",
+			"sprite": "/pokemon/main-series/generation-4/429.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 60,
@@ -331591,7 +331591,7 @@
 		{
 			"id": 430,
 			"name": "Honchkrow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/430.png",
+			"sprite": "/pokemon/main-series/generation-4/430.webp",
 			"types": ["Dark", "Flying"],
 			"stats": {
 				"hp": 100,
@@ -332297,7 +332297,7 @@
 		{
 			"id": 431,
 			"name": "Glameow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/431.png",
+			"sprite": "/pokemon/main-series/generation-4/431.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 49,
@@ -333095,7 +333095,7 @@
 		{
 			"id": 432,
 			"name": "Purugly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/432.png",
+			"sprite": "/pokemon/main-series/generation-4/432.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 71,
@@ -333906,7 +333906,7 @@
 		{
 			"id": 433,
 			"name": "Chingling",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/433.png",
+			"sprite": "/pokemon/main-series/generation-4/433.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 45,
@@ -334658,7 +334658,7 @@
 		{
 			"id": 434,
 			"name": "Stunky",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/434.png",
+			"sprite": "/pokemon/main-series/generation-4/434.webp",
 			"types": ["Poison", "Dark"],
 			"stats": {
 				"hp": 63,
@@ -335439,7 +335439,7 @@
 		{
 			"id": 435,
 			"name": "Skuntank",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/435.png",
+			"sprite": "/pokemon/main-series/generation-4/435.webp",
 			"types": ["Poison", "Dark"],
 			"stats": {
 				"hp": 103,
@@ -336198,7 +336198,7 @@
 		{
 			"id": 436,
 			"name": "Bronzor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/436.png",
+			"sprite": "/pokemon/main-series/generation-4/436.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 57,
@@ -336951,7 +336951,7 @@
 		{
 			"id": 437,
 			"name": "Bronzong",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/437.png",
+			"sprite": "/pokemon/main-series/generation-4/437.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 67,
@@ -337859,7 +337859,7 @@
 		{
 			"id": 438,
 			"name": "Bonsly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/438.png",
+			"sprite": "/pokemon/main-series/generation-4/438.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 50,
@@ -338560,7 +338560,7 @@
 		{
 			"id": 439,
 			"name": "Mime Jr.",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/439.png",
+			"sprite": "/pokemon/main-series/generation-4/439.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 20,
@@ -339600,7 +339600,7 @@
 		{
 			"id": 440,
 			"name": "Happiny",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/440.png",
+			"sprite": "/pokemon/main-series/generation-4/440.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 100,
@@ -340337,7 +340337,7 @@
 		{
 			"id": 441,
 			"name": "Chatot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/441.png",
+			"sprite": "/pokemon/main-series/generation-4/441.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 76,
@@ -341013,7 +341013,7 @@
 		{
 			"id": 442,
 			"name": "Spiritomb",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/442.png",
+			"sprite": "/pokemon/main-series/generation-4/442.webp",
 			"types": ["Ghost", "Dark"],
 			"stats": {
 				"hp": 50,
@@ -341812,7 +341812,7 @@
 		{
 			"id": 443,
 			"name": "Gible",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/443.png",
+			"sprite": "/pokemon/main-series/generation-4/443.webp",
 			"types": ["Dragon", "Ground"],
 			"stats": {
 				"hp": 58,
@@ -342632,7 +342632,7 @@
 		{
 			"id": 444,
 			"name": "Gabite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/444.png",
+			"sprite": "/pokemon/main-series/generation-4/444.webp",
 			"types": ["Dragon", "Ground"],
 			"stats": {
 				"hp": 68,
@@ -343360,7 +343360,7 @@
 		{
 			"id": 445,
 			"name": "Garchomp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/445.png",
+			"sprite": "/pokemon/main-series/generation-4/445.webp",
 			"types": ["Dragon", "Ground"],
 			"stats": {
 				"hp": 108,
@@ -344251,7 +344251,7 @@
 		{
 			"id": 446,
 			"name": "Munchlax",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/446.png",
+			"sprite": "/pokemon/main-series/generation-4/446.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 135,
@@ -345214,7 +345214,7 @@
 		{
 			"id": 447,
 			"name": "Riolu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/447.png",
+			"sprite": "/pokemon/main-series/generation-4/447.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 40,
@@ -346075,7 +346075,7 @@
 		{
 			"id": 448,
 			"name": "Lucario",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/448.png",
+			"sprite": "/pokemon/main-series/generation-4/448.webp",
 			"types": ["Fighting", "Steel"],
 			"stats": {
 				"hp": 70,
@@ -347013,7 +347013,7 @@
 		{
 			"id": 449,
 			"name": "Hippopotas",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/449.png",
+			"sprite": "/pokemon/main-series/generation-4/449.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 68,
@@ -347654,7 +347654,7 @@
 		{
 			"id": 450,
 			"name": "Hippowdon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/450.png",
+			"sprite": "/pokemon/main-series/generation-4/450.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 108,
@@ -348326,7 +348326,7 @@
 		{
 			"id": 451,
 			"name": "Skorupi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/451.png",
+			"sprite": "/pokemon/main-series/generation-4/451.webp",
 			"types": ["Poison", "Bug"],
 			"stats": {
 				"hp": 40,
@@ -349159,7 +349159,7 @@
 		{
 			"id": 452,
 			"name": "Drapion",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/452.png",
+			"sprite": "/pokemon/main-series/generation-4/452.webp",
 			"types": ["Poison", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -350021,7 +350021,7 @@
 		{
 			"id": 453,
 			"name": "Croagunk",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/453.png",
+			"sprite": "/pokemon/main-series/generation-4/453.webp",
 			"types": ["Poison", "Fighting"],
 			"stats": {
 				"hp": 48,
@@ -351013,7 +351013,7 @@
 		{
 			"id": 454,
 			"name": "Toxicroak",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/454.png",
+			"sprite": "/pokemon/main-series/generation-4/454.webp",
 			"types": ["Poison", "Fighting"],
 			"stats": {
 				"hp": 83,
@@ -351959,7 +351959,7 @@
 		{
 			"id": 455,
 			"name": "Carnivine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/455.png",
+			"sprite": "/pokemon/main-series/generation-4/455.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 74,
@@ -352714,7 +352714,7 @@
 		{
 			"id": 456,
 			"name": "Finneon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/456.png",
+			"sprite": "/pokemon/main-series/generation-4/456.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 49,
@@ -353487,7 +353487,7 @@
 		{
 			"id": 457,
 			"name": "Lumineon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/457.png",
+			"sprite": "/pokemon/main-series/generation-4/457.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 69,
@@ -354218,7 +354218,7 @@
 		{
 			"id": 458,
 			"name": "Mantyke",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/458.png",
+			"sprite": "/pokemon/main-series/generation-4/458.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -354939,7 +354939,7 @@
 		{
 			"id": 459,
 			"name": "Snover",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/459.png",
+			"sprite": "/pokemon/main-series/generation-4/459.webp",
 			"types": ["Grass", "Ice"],
 			"stats": {
 				"hp": 60,
@@ -355697,7 +355697,7 @@
 		{
 			"id": 460,
 			"name": "Abomasnow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/460.png",
+			"sprite": "/pokemon/main-series/generation-4/460.webp",
 			"types": ["Grass", "Ice"],
 			"stats": {
 				"hp": 90,
@@ -356568,7 +356568,7 @@
 		{
 			"id": 461,
 			"name": "Weavile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/461.png",
+			"sprite": "/pokemon/main-series/generation-4/461.webp",
 			"types": ["Dark", "Ice"],
 			"stats": {
 				"hp": 70,
@@ -357545,7 +357545,7 @@
 		{
 			"id": 462,
 			"name": "Magnezone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/462.png",
+			"sprite": "/pokemon/main-series/generation-4/462.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 70,
@@ -358300,7 +358300,7 @@
 		{
 			"id": 463,
 			"name": "Lickilicky",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/463.png",
+			"sprite": "/pokemon/main-series/generation-4/463.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 110,
@@ -359263,7 +359263,7 @@
 		{
 			"id": 464,
 			"name": "Rhyperior",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/464.png",
+			"sprite": "/pokemon/main-series/generation-4/464.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 115,
@@ -360333,7 +360333,7 @@
 		{
 			"id": 465,
 			"name": "Tangrowth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/465.png",
+			"sprite": "/pokemon/main-series/generation-4/465.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 100,
@@ -361217,7 +361217,7 @@
 		{
 			"id": 466,
 			"name": "Electivire",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/466.png",
+			"sprite": "/pokemon/main-series/generation-4/466.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 75,
@@ -362087,7 +362087,7 @@
 		{
 			"id": 467,
 			"name": "Magmortar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/467.png",
+			"sprite": "/pokemon/main-series/generation-4/467.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 75,
@@ -362897,7 +362897,7 @@
 		{
 			"id": 468,
 			"name": "Togekiss",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/468.png",
+			"sprite": "/pokemon/main-series/generation-4/468.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -363683,7 +363683,7 @@
 		{
 			"id": 469,
 			"name": "Yanmega",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/469.png",
+			"sprite": "/pokemon/main-series/generation-4/469.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 86,
@@ -364484,7 +364484,7 @@
 		{
 			"id": 470,
 			"name": "Leafeon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/470.png",
+			"sprite": "/pokemon/main-series/generation-4/470.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 65,
@@ -365227,7 +365227,7 @@
 		{
 			"id": 471,
 			"name": "Glaceon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/471.png",
+			"sprite": "/pokemon/main-series/generation-4/471.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 65,
@@ -365910,7 +365910,7 @@
 		{
 			"id": 472,
 			"name": "Gliscor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/472.png",
+			"sprite": "/pokemon/main-series/generation-4/472.webp",
 			"types": ["Ground", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -366881,7 +366881,7 @@
 		{
 			"id": 473,
 			"name": "Mamoswine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/473.png",
+			"sprite": "/pokemon/main-series/generation-4/473.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 110,
@@ -367705,7 +367705,7 @@
 		{
 			"id": 474,
 			"name": "Porygon-Z",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/474.png",
+			"sprite": "/pokemon/main-series/generation-4/474.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -368526,7 +368526,7 @@
 		{
 			"id": 475,
 			"name": "Gallade",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/475.png",
+			"sprite": "/pokemon/main-series/generation-4/475.webp",
 			"types": ["Psychic", "Fighting"],
 			"stats": {
 				"hp": 68,
@@ -369658,7 +369658,7 @@
 		{
 			"id": 476,
 			"name": "Probopass",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/476.png",
+			"sprite": "/pokemon/main-series/generation-4/476.webp",
 			"types": ["Rock", "Steel"],
 			"stats": {
 				"hp": 60,
@@ -370512,7 +370512,7 @@
 		{
 			"id": 477,
 			"name": "Dusknoir",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/477.png",
+			"sprite": "/pokemon/main-series/generation-4/477.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 45,
@@ -371514,7 +371514,7 @@
 		{
 			"id": 478,
 			"name": "Froslass",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/478.png",
+			"sprite": "/pokemon/main-series/generation-4/478.webp",
 			"types": ["Ice", "Ghost"],
 			"stats": {
 				"hp": 70,
@@ -372357,7 +372357,7 @@
 		{
 			"id": 479,
 			"name": "Rotom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/479.png",
+			"sprite": "/pokemon/main-series/generation-4/479.webp",
 			"types": ["Electric", "Ghost"],
 			"stats": {
 				"hp": 50,
@@ -373021,7 +373021,7 @@
 		{
 			"id": 480,
 			"name": "Uxie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/480.png",
+			"sprite": "/pokemon/main-series/generation-4/480.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 75,
@@ -373868,7 +373868,7 @@
 		{
 			"id": 481,
 			"name": "Mesprit",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/481.png",
+			"sprite": "/pokemon/main-series/generation-4/481.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 80,
@@ -374711,7 +374711,7 @@
 		{
 			"id": 482,
 			"name": "Azelf",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/482.png",
+			"sprite": "/pokemon/main-series/generation-4/482.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 75,
@@ -375618,7 +375618,7 @@
 		{
 			"id": 483,
 			"name": "Dialga",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/483.png",
+			"sprite": "/pokemon/main-series/generation-4/483.webp",
 			"types": ["Steel", "Dragon"],
 			"stats": {
 				"hp": 100,
@@ -376512,7 +376512,7 @@
 		{
 			"id": 484,
 			"name": "Palkia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/484.png",
+			"sprite": "/pokemon/main-series/generation-4/484.webp",
 			"types": ["Water", "Dragon"],
 			"stats": {
 				"hp": 90,
@@ -377438,7 +377438,7 @@
 		{
 			"id": 485,
 			"name": "Heatran",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/485.png",
+			"sprite": "/pokemon/main-series/generation-4/485.webp",
 			"types": ["Fire", "Steel"],
 			"stats": {
 				"hp": 91,
@@ -378225,7 +378225,7 @@
 		{
 			"id": 486,
 			"name": "Regigigas",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/486.png",
+			"sprite": "/pokemon/main-series/generation-4/486.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 110,
@@ -378962,7 +378962,7 @@
 		{
 			"id": 487,
 			"name": "Giratina",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/487.png",
+			"sprite": "/pokemon/main-series/generation-4/487.webp",
 			"types": ["Ghost", "Dragon"],
 			"stats": {
 				"hp": 150,
@@ -379880,7 +379880,7 @@
 		{
 			"id": 488,
 			"name": "Cresselia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/488.png",
+			"sprite": "/pokemon/main-series/generation-4/488.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 120,
@@ -380624,7 +380624,7 @@
 		{
 			"id": 489,
 			"name": "Phione",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/489.png",
+			"sprite": "/pokemon/main-series/generation-4/489.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -381251,7 +381251,7 @@
 		{
 			"id": 490,
 			"name": "Manaphy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/490.png",
+			"sprite": "/pokemon/main-series/generation-4/490.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -382028,7 +382028,7 @@
 		{
 			"id": 491,
 			"name": "Darkrai",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/491.png",
+			"sprite": "/pokemon/main-series/generation-4/491.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 70,
@@ -382992,7 +382992,7 @@
 		{
 			"id": 492,
 			"name": "Shaymin",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/492.png",
+			"sprite": "/pokemon/main-series/generation-4/492.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 100,
@@ -383604,7 +383604,7 @@
 		{
 			"id": 493,
 			"name": "Arceus",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/493.png",
+			"sprite": "/pokemon/main-series/generation-4/493.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 120,

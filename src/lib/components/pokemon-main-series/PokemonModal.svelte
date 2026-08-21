@@ -5,16 +5,33 @@
 	import SelectInput from '$lib/components/ui/select-input.svelte';
 	import TypeBadge from '$lib/components/pokemon/TypeBadge.svelte';
 	import { openModal } from '$lib/states/modal.svelte';
-	import type { GenerationData, MainPokemon } from '$lib/data/pokemon-main-series/data';
+	import { gameOptions, type GenerationData, type MainPokemon } from '$lib/data/pokemon-main-series/data';
 	import { getPokemonTypeColor } from '$lib/utils/pokemon.utils';
 	let { pokemon, data, onClose }: { pokemon: MainPokemon; data: GenerationData; onClose?: () => void } = $props();
 	let group = $state(data.versionGroups[0].value);
 	const byId = $derived(new SvelteMap(data.pokemon.map((entry) => [entry.id, entry])));
 	const moveByName = $derived(new SvelteMap(data.moves.map((move) => [move.name, move])));
 	const selectedVersions = $derived(data.versionGroups.find((entry) => entry.value === group)?.versions ?? []);
-	const locations = $derived(
-		data.encounters.filter((entry) => entry.pokemonId === pokemon.id && selectedVersions.includes(entry.version))
-	);
+	const versionLabels = new SvelteMap(gameOptions.map(({ value, label }) => [value, label]));
+	const locations = $derived.by(() => {
+		const grouped = new SvelteMap<string, (typeof data.encounters)[number] & { versions: string[] }>();
+		for (const entry of data.encounters) {
+			if (entry.pokemonId !== pokemon.id || !selectedVersions.includes(entry.version)) continue;
+			const key = JSON.stringify([entry.location, entry.method, entry.minLevel, entry.maxLevel, entry.chance]);
+			const existing = grouped.get(key);
+			if (existing) {
+				if (!existing.versions.includes(entry.version)) existing.versions.push(entry.version);
+			} else grouped.set(key, { ...entry, versions: [entry.version] });
+		}
+		return [...grouped.entries()].map(([key, entry]) => ({
+			...entry,
+			key,
+			version: entry.versions
+				.toSorted((a, b) => selectedVersions.indexOf(a) - selectedVersions.indexOf(b))
+				.map((version) => versionLabels.get(version) ?? version)
+				.join(' / ')
+		}));
+	});
 	const edges = $derived.by(() => {
 		const found = new SvelteMap<string, MainPokemon['evolutions'][number]>();
 		for (const entry of data.pokemon)
@@ -144,7 +161,7 @@
 		<div class="mb-5 max-h-44 overflow-auto text-xs">
 			{#each evolvesFrom as entry (entry.pokemon.id)}<div class="border-b border-text/15 py-1">
 					Evolve {entry.pokemon.name}
-				</div>{/each}{#each locations as location (`${location.location}-${location.version}-${location.method}`)}<div
+				</div>{/each}{#each locations as location (location.key)}<div
 					class="grid grid-cols-[1fr_auto_auto_auto] gap-3 border-b border-text/15 py-1"
 				>
 					<span>{location.location}</span><span class="opacity-60">{location.version}</span><span

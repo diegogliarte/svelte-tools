@@ -21,7 +21,7 @@
 		{
 			"id": 1,
 			"name": "Bulbasaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/1.png",
+			"sprite": "/pokemon/main-series/generation-3/1.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -612,7 +612,7 @@
 		{
 			"id": 2,
 			"name": "Ivysaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/2.png",
+			"sprite": "/pokemon/main-series/generation-3/2.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -1142,7 +1142,7 @@
 		{
 			"id": 3,
 			"name": "Venusaur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/3.png",
+			"sprite": "/pokemon/main-series/generation-3/3.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -1722,7 +1722,7 @@
 		{
 			"id": 4,
 			"name": "Charmander",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/4.png",
+			"sprite": "/pokemon/main-series/generation-3/4.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -2398,7 +2398,7 @@
 		{
 			"id": 5,
 			"name": "Charmeleon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/5.png",
+			"sprite": "/pokemon/main-series/generation-3/5.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -2998,7 +2998,7 @@
 		{
 			"id": 6,
 			"name": "Charizard",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/6.png",
+			"sprite": "/pokemon/main-series/generation-3/6.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 78,
@@ -3692,7 +3692,7 @@
 		{
 			"id": 7,
 			"name": "Squirtle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/7.png",
+			"sprite": "/pokemon/main-series/generation-3/7.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 44,
@@ -4379,7 +4379,7 @@
 		{
 			"id": 8,
 			"name": "Wartortle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/8.png",
+			"sprite": "/pokemon/main-series/generation-3/8.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 59,
@@ -5005,7 +5005,7 @@
 		{
 			"id": 9,
 			"name": "Blastoise",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/9.png",
+			"sprite": "/pokemon/main-series/generation-3/9.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 79,
@@ -5681,7 +5681,7 @@
 		{
 			"id": 10,
 			"name": "Caterpie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/10.png",
+			"sprite": "/pokemon/main-series/generation-3/10.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 45,
@@ -5745,7 +5745,7 @@
 		{
 			"id": 11,
 			"name": "Metapod",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/11.png",
+			"sprite": "/pokemon/main-series/generation-3/11.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -5814,7 +5814,7 @@
 		{
 			"id": 12,
 			"name": "Butterfree",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/12.png",
+			"sprite": "/pokemon/main-series/generation-3/12.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -6329,7 +6329,7 @@
 		{
 			"id": 13,
 			"name": "Weedle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/13.png",
+			"sprite": "/pokemon/main-series/generation-3/13.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -6393,7 +6393,7 @@
 		{
 			"id": 14,
 			"name": "Kakuna",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/14.png",
+			"sprite": "/pokemon/main-series/generation-3/14.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -6462,7 +6462,7 @@
 		{
 			"id": 15,
 			"name": "Beedrill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/15.png",
+			"sprite": "/pokemon/main-series/generation-3/15.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -6927,7 +6927,7 @@
 		{
 			"id": 16,
 			"name": "Pidgey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/16.png",
+			"sprite": "/pokemon/main-series/generation-3/16.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -7396,7 +7396,7 @@
 		{
 			"id": 17,
 			"name": "Pidgeotto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/17.png",
+			"sprite": "/pokemon/main-series/generation-3/17.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 63,
@@ -7840,7 +7840,7 @@
 		{
 			"id": 18,
 			"name": "Pidgeot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/18.png",
+			"sprite": "/pokemon/main-series/generation-3/18.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 83,
@@ -8306,7 +8306,7 @@
 		{
 			"id": 19,
 			"name": "Rattata",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/19.png",
+			"sprite": "/pokemon/main-series/generation-3/19.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 30,
@@ -8924,7 +8924,7 @@
 		{
 			"id": 20,
 			"name": "Raticate",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/20.png",
+			"sprite": "/pokemon/main-series/generation-3/20.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -9497,7 +9497,7 @@
 		{
 			"id": 21,
 			"name": "Spearow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/21.png",
+			"sprite": "/pokemon/main-series/generation-3/21.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -9990,7 +9990,7 @@
 		{
 			"id": 22,
 			"name": "Fearow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/22.png",
+			"sprite": "/pokemon/main-series/generation-3/22.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -10426,7 +10426,7 @@
 		{
 			"id": 23,
 			"name": "Ekans",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/23.png",
+			"sprite": "/pokemon/main-series/generation-3/23.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 35,
@@ -10993,7 +10993,7 @@
 		{
 			"id": 24,
 			"name": "Arbok",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/24.png",
+			"sprite": "/pokemon/main-series/generation-3/24.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 60,
@@ -11542,7 +11542,7 @@
 		{
 			"id": 25,
 			"name": "Pikachu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/25.png",
+			"sprite": "/pokemon/main-series/generation-3/25.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 35,
@@ -12122,7 +12122,7 @@
 		{
 			"id": 26,
 			"name": "Raichu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/26.png",
+			"sprite": "/pokemon/main-series/generation-3/26.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -12616,7 +12616,7 @@
 		{
 			"id": 27,
 			"name": "Sandshrew",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/27.png",
+			"sprite": "/pokemon/main-series/generation-3/27.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -13261,7 +13261,7 @@
 		{
 			"id": 28,
 			"name": "Sandslash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/28.png",
+			"sprite": "/pokemon/main-series/generation-3/28.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 75,
@@ -13852,7 +13852,7 @@
 		{
 			"id": 29,
 			"name": "Nidoran♀",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/29.png",
+			"sprite": "/pokemon/main-series/generation-3/29.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 55,
@@ -14496,7 +14496,7 @@
 		{
 			"id": 30,
 			"name": "Nidorina",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/30.png",
+			"sprite": "/pokemon/main-series/generation-3/30.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 70,
@@ -15061,7 +15061,7 @@
 		{
 			"id": 31,
 			"name": "Nidoqueen",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/31.png",
+			"sprite": "/pokemon/main-series/generation-3/31.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 90,
@@ -15763,7 +15763,7 @@
 		{
 			"id": 32,
 			"name": "Nidoran♂",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/32.png",
+			"sprite": "/pokemon/main-series/generation-3/32.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 46,
@@ -16395,7 +16395,7 @@
 		{
 			"id": 33,
 			"name": "Nidorino",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/33.png",
+			"sprite": "/pokemon/main-series/generation-3/33.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 61,
@@ -16948,7 +16948,7 @@
 		{
 			"id": 34,
 			"name": "Nidoking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/34.png",
+			"sprite": "/pokemon/main-series/generation-3/34.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 81,
@@ -17638,7 +17638,7 @@
 		{
 			"id": 35,
 			"name": "Clefairy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/35.png",
+			"sprite": "/pokemon/main-series/generation-3/35.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -18424,7 +18424,7 @@
 		{
 			"id": 36,
 			"name": "Clefable",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/36.png",
+			"sprite": "/pokemon/main-series/generation-3/36.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -19082,7 +19082,7 @@
 		{
 			"id": 37,
 			"name": "Vulpix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/37.png",
+			"sprite": "/pokemon/main-series/generation-3/37.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 38,
@@ -19645,7 +19645,7 @@
 		{
 			"id": 38,
 			"name": "Ninetales",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/38.png",
+			"sprite": "/pokemon/main-series/generation-3/38.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 73,
@@ -20034,7 +20034,7 @@
 		{
 			"id": 39,
 			"name": "Jigglypuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/39.png",
+			"sprite": "/pokemon/main-series/generation-3/39.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 115,
@@ -20750,7 +20750,7 @@
 		{
 			"id": 40,
 			"name": "Wigglytuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/40.png",
+			"sprite": "/pokemon/main-series/generation-3/40.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 140,
@@ -21368,7 +21368,7 @@
 		{
 			"id": 41,
 			"name": "Zubat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/41.png",
+			"sprite": "/pokemon/main-series/generation-3/41.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -21920,7 +21920,7 @@
 		{
 			"id": 42,
 			"name": "Golbat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/42.png",
+			"sprite": "/pokemon/main-series/generation-3/42.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -22462,7 +22462,7 @@
 		{
 			"id": 43,
 			"name": "Oddish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/43.png",
+			"sprite": "/pokemon/main-series/generation-3/43.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -22940,7 +22940,7 @@
 		{
 			"id": 44,
 			"name": "Gloom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/44.png",
+			"sprite": "/pokemon/main-series/generation-3/44.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -23386,7 +23386,7 @@
 		{
 			"id": 45,
 			"name": "Vileplume",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/45.png",
+			"sprite": "/pokemon/main-series/generation-3/45.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 75,
@@ -23767,7 +23767,7 @@
 		{
 			"id": 46,
 			"name": "Paras",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/46.png",
+			"sprite": "/pokemon/main-series/generation-3/46.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 35,
@@ -24352,7 +24352,7 @@
 		{
 			"id": 47,
 			"name": "Parasect",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/47.png",
+			"sprite": "/pokemon/main-series/generation-3/47.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -24883,7 +24883,7 @@
 		{
 			"id": 48,
 			"name": "Venonat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/48.png",
+			"sprite": "/pokemon/main-series/generation-3/48.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -25390,7 +25390,7 @@
 		{
 			"id": 49,
 			"name": "Venomoth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/49.png",
+			"sprite": "/pokemon/main-series/generation-3/49.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -25918,7 +25918,7 @@
 		{
 			"id": 50,
 			"name": "Diglett",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/50.png",
+			"sprite": "/pokemon/main-series/generation-3/50.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 10,
@@ -26464,7 +26464,7 @@
 		{
 			"id": 51,
 			"name": "Dugtrio",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/51.png",
+			"sprite": "/pokemon/main-series/generation-3/51.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 35,
@@ -26983,7 +26983,7 @@
 		{
 			"id": 52,
 			"name": "Meowth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/52.png",
+			"sprite": "/pokemon/main-series/generation-3/52.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 40,
@@ -27617,7 +27617,7 @@
 		{
 			"id": 53,
 			"name": "Persian",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/53.png",
+			"sprite": "/pokemon/main-series/generation-3/53.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -28218,7 +28218,7 @@
 		{
 			"id": 54,
 			"name": "Psyduck",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/54.png",
+			"sprite": "/pokemon/main-series/generation-3/54.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -28911,7 +28911,7 @@
 		{
 			"id": 55,
 			"name": "Golduck",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/55.png",
+			"sprite": "/pokemon/main-series/generation-3/55.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -29554,7 +29554,7 @@
 		{
 			"id": 56,
 			"name": "Mankey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/56.png",
+			"sprite": "/pokemon/main-series/generation-3/56.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 40,
@@ -30291,7 +30291,7 @@
 		{
 			"id": 57,
 			"name": "Primeape",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/57.png",
+			"sprite": "/pokemon/main-series/generation-3/57.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 65,
@@ -30989,7 +30989,7 @@
 		{
 			"id": 58,
 			"name": "Growlithe",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/58.png",
+			"sprite": "/pokemon/main-series/generation-3/58.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 55,
@@ -31561,7 +31561,7 @@
 		{
 			"id": 59,
 			"name": "Arcanine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/59.png",
+			"sprite": "/pokemon/main-series/generation-3/59.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 90,
@@ -31986,7 +31986,7 @@
 		{
 			"id": 60,
 			"name": "Poliwag",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/60.png",
+			"sprite": "/pokemon/main-series/generation-3/60.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 40,
@@ -32532,7 +32532,7 @@
 		{
 			"id": 61,
 			"name": "Poliwhirl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/61.png",
+			"sprite": "/pokemon/main-series/generation-3/61.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -33142,7 +33142,7 @@
 		{
 			"id": 62,
 			"name": "Poliwrath",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/62.png",
+			"sprite": "/pokemon/main-series/generation-3/62.webp",
 			"types": ["Water", "Fighting"],
 			"stats": {
 				"hp": 90,
@@ -33722,7 +33722,7 @@
 		{
 			"id": 63,
 			"name": "Abra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/63.png",
+			"sprite": "/pokemon/main-series/generation-3/63.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 25,
@@ -34291,7 +34291,7 @@
 		{
 			"id": 64,
 			"name": "Kadabra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/64.png",
+			"sprite": "/pokemon/main-series/generation-3/64.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -34958,7 +34958,7 @@
 		{
 			"id": 65,
 			"name": "Alakazam",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/65.png",
+			"sprite": "/pokemon/main-series/generation-3/65.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 55,
@@ -35632,7 +35632,7 @@
 		{
 			"id": 66,
 			"name": "Machop",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/66.png",
+			"sprite": "/pokemon/main-series/generation-3/66.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 70,
@@ -36322,7 +36322,7 @@
 		{
 			"id": 67,
 			"name": "Machoke",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/67.png",
+			"sprite": "/pokemon/main-series/generation-3/67.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 80,
@@ -36948,7 +36948,7 @@
 		{
 			"id": 68,
 			"name": "Machamp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/68.png",
+			"sprite": "/pokemon/main-series/generation-3/68.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 90,
@@ -37581,7 +37581,7 @@
 		{
 			"id": 69,
 			"name": "Bellsprout",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/69.png",
+			"sprite": "/pokemon/main-series/generation-3/69.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 50,
@@ -38113,7 +38113,7 @@
 		{
 			"id": 70,
 			"name": "Weepinbell",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/70.png",
+			"sprite": "/pokemon/main-series/generation-3/70.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -38596,7 +38596,7 @@
 		{
 			"id": 71,
 			"name": "Victreebel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/71.png",
+			"sprite": "/pokemon/main-series/generation-3/71.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -38989,7 +38989,7 @@
 		{
 			"id": 72,
 			"name": "Tentacool",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/72.png",
+			"sprite": "/pokemon/main-series/generation-3/72.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -39546,7 +39546,7 @@
 		{
 			"id": 73,
 			"name": "Tentacruel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/73.png",
+			"sprite": "/pokemon/main-series/generation-3/73.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -40073,7 +40073,7 @@
 		{
 			"id": 74,
 			"name": "Geodude",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/74.png",
+			"sprite": "/pokemon/main-series/generation-3/74.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 40,
@@ -40676,7 +40676,7 @@
 		{
 			"id": 75,
 			"name": "Graveler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/75.png",
+			"sprite": "/pokemon/main-series/generation-3/75.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -41278,7 +41278,7 @@
 		{
 			"id": 76,
 			"name": "Golem",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/76.png",
+			"sprite": "/pokemon/main-series/generation-3/76.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 80,
@@ -41911,7 +41911,7 @@
 		{
 			"id": 77,
 			"name": "Ponyta",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/77.png",
+			"sprite": "/pokemon/main-series/generation-3/77.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 50,
@@ -42423,7 +42423,7 @@
 		{
 			"id": 78,
 			"name": "Rapidash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/78.png",
+			"sprite": "/pokemon/main-series/generation-3/78.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -42935,7 +42935,7 @@
 		{
 			"id": 79,
 			"name": "Slowpoke",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/79.png",
+			"sprite": "/pokemon/main-series/generation-3/79.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -43653,7 +43653,7 @@
 		{
 			"id": 80,
 			"name": "Slowbro",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/80.png",
+			"sprite": "/pokemon/main-series/generation-3/80.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -44404,7 +44404,7 @@
 		{
 			"id": 81,
 			"name": "Magnemite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/81.png",
+			"sprite": "/pokemon/main-series/generation-3/81.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 25,
@@ -44851,7 +44851,7 @@
 		{
 			"id": 82,
 			"name": "Magneton",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/82.png",
+			"sprite": "/pokemon/main-series/generation-3/82.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 50,
@@ -45340,7 +45340,7 @@
 		{
 			"id": 83,
 			"name": "Farfetch’d",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/83.png",
+			"sprite": "/pokemon/main-series/generation-3/83.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 52,
@@ -45886,7 +45886,7 @@
 		{
 			"id": 84,
 			"name": "Doduo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/84.png",
+			"sprite": "/pokemon/main-series/generation-3/84.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -46363,7 +46363,7 @@
 		{
 			"id": 85,
 			"name": "Dodrio",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/85.png",
+			"sprite": "/pokemon/main-series/generation-3/85.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -46834,7 +46834,7 @@
 		{
 			"id": 86,
 			"name": "Seel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/86.png",
+			"sprite": "/pokemon/main-series/generation-3/86.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -47376,7 +47376,7 @@
 		{
 			"id": 87,
 			"name": "Dewgong",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/87.png",
+			"sprite": "/pokemon/main-series/generation-3/87.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 90,
@@ -47899,7 +47899,7 @@
 		{
 			"id": 88,
 			"name": "Grimer",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/88.png",
+			"sprite": "/pokemon/main-series/generation-3/88.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 80,
@@ -48523,7 +48523,7 @@
 		{
 			"id": 89,
 			"name": "Muk",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/89.png",
+			"sprite": "/pokemon/main-series/generation-3/89.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 105,
@@ -49138,7 +49138,7 @@
 		{
 			"id": 90,
 			"name": "Shellder",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/90.png",
+			"sprite": "/pokemon/main-series/generation-3/90.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -49629,7 +49629,7 @@
 		{
 			"id": 91,
 			"name": "Cloyster",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/91.png",
+			"sprite": "/pokemon/main-series/generation-3/91.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 50,
@@ -50037,7 +50037,7 @@
 		{
 			"id": 92,
 			"name": "Gastly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/92.png",
+			"sprite": "/pokemon/main-series/generation-3/92.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 30,
@@ -50616,7 +50616,7 @@
 		{
 			"id": 93,
 			"name": "Haunter",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/93.png",
+			"sprite": "/pokemon/main-series/generation-3/93.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -51146,7 +51146,7 @@
 		{
 			"id": 94,
 			"name": "Gengar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/94.png",
+			"sprite": "/pokemon/main-series/generation-3/94.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -51815,7 +51815,7 @@
 		{
 			"id": 95,
 			"name": "Onix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/95.png",
+			"sprite": "/pokemon/main-series/generation-3/95.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 35,
@@ -52391,7 +52391,7 @@
 		{
 			"id": 96,
 			"name": "Drowzee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/96.png",
+			"sprite": "/pokemon/main-series/generation-3/96.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 60,
@@ -53088,7 +53088,7 @@
 		{
 			"id": 97,
 			"name": "Hypno",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/97.png",
+			"sprite": "/pokemon/main-series/generation-3/97.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 85,
@@ -53760,7 +53760,7 @@
 		{
 			"id": 98,
 			"name": "Krabby",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/98.png",
+			"sprite": "/pokemon/main-series/generation-3/98.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -54362,7 +54362,7 @@
 		{
 			"id": 99,
 			"name": "Kingler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/99.png",
+			"sprite": "/pokemon/main-series/generation-3/99.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -54932,7 +54932,7 @@
 		{
 			"id": 100,
 			"name": "Voltorb",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/100.png",
+			"sprite": "/pokemon/main-series/generation-3/100.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 40,
@@ -55403,7 +55403,7 @@
 		{
 			"id": 101,
 			"name": "Electrode",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/101.png",
+			"sprite": "/pokemon/main-series/generation-3/101.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -55916,7 +55916,7 @@
 		{
 			"id": 102,
 			"name": "Exeggcute",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/102.png",
+			"sprite": "/pokemon/main-series/generation-3/102.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -56512,7 +56512,7 @@
 		{
 			"id": 103,
 			"name": "Exeggutor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/103.png",
+			"sprite": "/pokemon/main-series/generation-3/103.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -56961,7 +56961,7 @@
 		{
 			"id": 104,
 			"name": "Cubone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/104.png",
+			"sprite": "/pokemon/main-series/generation-3/104.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -57687,7 +57687,7 @@
 		{
 			"id": 105,
 			"name": "Marowak",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/105.png",
+			"sprite": "/pokemon/main-series/generation-3/105.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 60,
@@ -58386,7 +58386,7 @@
 		{
 			"id": 106,
 			"name": "Hitmonlee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/106.png",
+			"sprite": "/pokemon/main-series/generation-3/106.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -58963,7 +58963,7 @@
 		{
 			"id": 107,
 			"name": "Hitmonchan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/107.png",
+			"sprite": "/pokemon/main-series/generation-3/107.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -59537,7 +59537,7 @@
 		{
 			"id": 108,
 			"name": "Lickitung",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/108.png",
+			"sprite": "/pokemon/main-series/generation-3/108.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -60371,7 +60371,7 @@
 		{
 			"id": 109,
 			"name": "Koffing",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/109.png",
+			"sprite": "/pokemon/main-series/generation-3/109.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 40,
@@ -60947,7 +60947,7 @@
 		{
 			"id": 110,
 			"name": "Weezing",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/110.png",
+			"sprite": "/pokemon/main-series/generation-3/110.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 65,
@@ -61493,7 +61493,7 @@
 		{
 			"id": 111,
 			"name": "Rhyhorn",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/111.png",
+			"sprite": "/pokemon/main-series/generation-3/111.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 80,
@@ -62193,7 +62193,7 @@
 		{
 			"id": 112,
 			"name": "Rhydon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/112.png",
+			"sprite": "/pokemon/main-series/generation-3/112.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 105,
@@ -62927,7 +62927,7 @@
 		{
 			"id": 113,
 			"name": "Chansey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/113.png",
+			"sprite": "/pokemon/main-series/generation-3/113.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 250,
@@ -63805,7 +63805,7 @@
 		{
 			"id": 114,
 			"name": "Tangela",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/114.png",
+			"sprite": "/pokemon/main-series/generation-3/114.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 65,
@@ -64397,7 +64397,7 @@
 		{
 			"id": 115,
 			"name": "Kangaskhan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/115.png",
+			"sprite": "/pokemon/main-series/generation-3/115.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 105,
@@ -65243,7 +65243,7 @@
 		{
 			"id": 116,
 			"name": "Horsea",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/116.png",
+			"sprite": "/pokemon/main-series/generation-3/116.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -65745,7 +65745,7 @@
 		{
 			"id": 117,
 			"name": "Seadra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/117.png",
+			"sprite": "/pokemon/main-series/generation-3/117.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -66225,7 +66225,7 @@
 		{
 			"id": 118,
 			"name": "Goldeen",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/118.png",
+			"sprite": "/pokemon/main-series/generation-3/118.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 45,
@@ -66738,7 +66738,7 @@
 		{
 			"id": 119,
 			"name": "Seaking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/119.png",
+			"sprite": "/pokemon/main-series/generation-3/119.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -67218,7 +67218,7 @@
 		{
 			"id": 120,
 			"name": "Staryu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/120.png",
+			"sprite": "/pokemon/main-series/generation-3/120.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -67768,7 +67768,7 @@
 		{
 			"id": 121,
 			"name": "Starmie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/121.png",
+			"sprite": "/pokemon/main-series/generation-3/121.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -68245,7 +68245,7 @@
 		{
 			"id": 122,
 			"name": "Mr. Mime",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/122.png",
+			"sprite": "/pokemon/main-series/generation-3/122.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -69071,7 +69071,7 @@
 		{
 			"id": 123,
 			"name": "Scyther",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/123.png",
+			"sprite": "/pokemon/main-series/generation-3/123.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -69646,7 +69646,7 @@
 		{
 			"id": 124,
 			"name": "Jynx",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/124.png",
+			"sprite": "/pokemon/main-series/generation-3/124.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 65,
@@ -70327,7 +70327,7 @@
 		{
 			"id": 125,
 			"name": "Electabuzz",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/125.png",
+			"sprite": "/pokemon/main-series/generation-3/125.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -70896,7 +70896,7 @@
 		{
 			"id": 126,
 			"name": "Magmar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/126.png",
+			"sprite": "/pokemon/main-series/generation-3/126.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -71458,7 +71458,7 @@
 		{
 			"id": 127,
 			"name": "Pinsir",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/127.png",
+			"sprite": "/pokemon/main-series/generation-3/127.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -72036,7 +72036,7 @@
 		{
 			"id": 128,
 			"name": "Tauros",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/128.png",
+			"sprite": "/pokemon/main-series/generation-3/128.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 75,
@@ -72604,7 +72604,7 @@
 		{
 			"id": 129,
 			"name": "Magikarp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/129.png",
+			"sprite": "/pokemon/main-series/generation-3/129.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 20,
@@ -72683,7 +72683,7 @@
 		{
 			"id": 130,
 			"name": "Gyarados",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/130.png",
+			"sprite": "/pokemon/main-series/generation-3/130.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 95,
@@ -73272,7 +73272,7 @@
 		{
 			"id": 131,
 			"name": "Lapras",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/131.png",
+			"sprite": "/pokemon/main-series/generation-3/131.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 130,
@@ -73972,7 +73972,7 @@
 		{
 			"id": 132,
 			"name": "Ditto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/132.png",
+			"sprite": "/pokemon/main-series/generation-3/132.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 48,
@@ -74015,7 +74015,7 @@
 		{
 			"id": 133,
 			"name": "Eevee",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/133.png",
+			"sprite": "/pokemon/main-series/generation-3/133.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -74512,7 +74512,7 @@
 		{
 			"id": 134,
 			"name": "Vaporeon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/134.png",
+			"sprite": "/pokemon/main-series/generation-3/134.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 130,
@@ -75059,7 +75059,7 @@
 		{
 			"id": 135,
 			"name": "Jolteon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/135.png",
+			"sprite": "/pokemon/main-series/generation-3/135.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -75574,7 +75574,7 @@
 		{
 			"id": 136,
 			"name": "Flareon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/136.png",
+			"sprite": "/pokemon/main-series/generation-3/136.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -76069,7 +76069,7 @@
 		{
 			"id": 137,
 			"name": "Porygon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/137.png",
+			"sprite": "/pokemon/main-series/generation-3/137.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -76624,7 +76624,7 @@
 		{
 			"id": 138,
 			"name": "Omanyte",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/138.png",
+			"sprite": "/pokemon/main-series/generation-3/138.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 35,
@@ -77220,7 +77220,7 @@
 		{
 			"id": 139,
 			"name": "Omastar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/139.png",
+			"sprite": "/pokemon/main-series/generation-3/139.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 70,
@@ -77787,7 +77787,7 @@
 		{
 			"id": 140,
 			"name": "Kabuto",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/140.png",
+			"sprite": "/pokemon/main-series/generation-3/140.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 30,
@@ -78407,7 +78407,7 @@
 		{
 			"id": 141,
 			"name": "Kabutops",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/141.png",
+			"sprite": "/pokemon/main-series/generation-3/141.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 60,
@@ -79059,7 +79059,7 @@
 		{
 			"id": 142,
 			"name": "Aerodactyl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/142.png",
+			"sprite": "/pokemon/main-series/generation-3/142.webp",
 			"types": ["Rock", "Flying"],
 			"stats": {
 				"hp": 80,
@@ -79679,7 +79679,7 @@
 		{
 			"id": 143,
 			"name": "Snorlax",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/143.png",
+			"sprite": "/pokemon/main-series/generation-3/143.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 160,
@@ -80483,7 +80483,7 @@
 		{
 			"id": 144,
 			"name": "Articuno",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/144.png",
+			"sprite": "/pokemon/main-series/generation-3/144.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -80974,7 +80974,7 @@
 		{
 			"id": 145,
 			"name": "Zapdos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/145.png",
+			"sprite": "/pokemon/main-series/generation-3/145.webp",
 			"types": ["Electric", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -81469,7 +81469,7 @@
 		{
 			"id": 146,
 			"name": "Moltres",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/146.png",
+			"sprite": "/pokemon/main-series/generation-3/146.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -81944,7 +81944,7 @@
 		{
 			"id": 147,
 			"name": "Dratini",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/147.png",
+			"sprite": "/pokemon/main-series/generation-3/147.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 41,
@@ -82576,7 +82576,7 @@
 		{
 			"id": 148,
 			"name": "Dragonair",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/148.png",
+			"sprite": "/pokemon/main-series/generation-3/148.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 61,
@@ -83171,7 +83171,7 @@
 		{
 			"id": 149,
 			"name": "Dragonite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/149.png",
+			"sprite": "/pokemon/main-series/generation-3/149.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 91,
@@ -83968,7 +83968,7 @@
 		{
 			"id": 150,
 			"name": "Mewtwo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/150.png",
+			"sprite": "/pokemon/main-series/generation-3/150.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 106,
@@ -84813,7 +84813,7 @@
 		{
 			"id": 151,
 			"name": "Mew",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/151.png",
+			"sprite": "/pokemon/main-series/generation-3/151.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 100,
@@ -85807,7 +85807,7 @@
 		{
 			"id": 152,
 			"name": "Chikorita",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/152.png",
+			"sprite": "/pokemon/main-series/generation-3/152.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 45,
@@ -86395,7 +86395,7 @@
 		{
 			"id": 153,
 			"name": "Bayleef",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/153.png",
+			"sprite": "/pokemon/main-series/generation-3/153.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 60,
@@ -86950,7 +86950,7 @@
 		{
 			"id": 154,
 			"name": "Meganium",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/154.png",
+			"sprite": "/pokemon/main-series/generation-3/154.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 80,
@@ -87524,7 +87524,7 @@
 		{
 			"id": 155,
 			"name": "Cyndaquil",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/155.png",
+			"sprite": "/pokemon/main-series/generation-3/155.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -88042,7 +88042,7 @@
 		{
 			"id": 156,
 			"name": "Quilava",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/156.png",
+			"sprite": "/pokemon/main-series/generation-3/156.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -88548,7 +88548,7 @@
 		{
 			"id": 157,
 			"name": "Typhlosion",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/157.png",
+			"sprite": "/pokemon/main-series/generation-3/157.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 78,
@@ -89140,7 +89140,7 @@
 		{
 			"id": 158,
 			"name": "Totodile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/158.png",
+			"sprite": "/pokemon/main-series/generation-3/158.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -89805,7 +89805,7 @@
 		{
 			"id": 159,
 			"name": "Croconaw",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/159.png",
+			"sprite": "/pokemon/main-series/generation-3/159.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -90434,7 +90434,7 @@
 		{
 			"id": 160,
 			"name": "Feraligatr",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/160.png",
+			"sprite": "/pokemon/main-series/generation-3/160.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 85,
@@ -91109,7 +91109,7 @@
 		{
 			"id": 161,
 			"name": "Sentret",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/161.png",
+			"sprite": "/pokemon/main-series/generation-3/161.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -91770,7 +91770,7 @@
 		{
 			"id": 162,
 			"name": "Furret",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/162.png",
+			"sprite": "/pokemon/main-series/generation-3/162.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -92425,7 +92425,7 @@
 		{
 			"id": 163,
 			"name": "Hoothoot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/163.png",
+			"sprite": "/pokemon/main-series/generation-3/163.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -92974,7 +92974,7 @@
 		{
 			"id": 164,
 			"name": "Noctowl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/164.png",
+			"sprite": "/pokemon/main-series/generation-3/164.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 100,
@@ -93481,7 +93481,7 @@
 		{
 			"id": 165,
 			"name": "Ledyba",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/165.png",
+			"sprite": "/pokemon/main-series/generation-3/165.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -94041,7 +94041,7 @@
 		{
 			"id": 166,
 			"name": "Ledian",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/166.png",
+			"sprite": "/pokemon/main-series/generation-3/166.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -94592,7 +94592,7 @@
 		{
 			"id": 167,
 			"name": "Spinarak",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/167.png",
+			"sprite": "/pokemon/main-series/generation-3/167.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -95112,7 +95112,7 @@
 		{
 			"id": 168,
 			"name": "Ariados",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/168.png",
+			"sprite": "/pokemon/main-series/generation-3/168.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -95602,7 +95602,7 @@
 		{
 			"id": 169,
 			"name": "Crobat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/169.png",
+			"sprite": "/pokemon/main-series/generation-3/169.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -96151,7 +96151,7 @@
 		{
 			"id": 170,
 			"name": "Chinchou",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/170.png",
+			"sprite": "/pokemon/main-series/generation-3/170.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 75,
@@ -96683,7 +96683,7 @@
 		{
 			"id": 171,
 			"name": "Lanturn",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/171.png",
+			"sprite": "/pokemon/main-series/generation-3/171.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 125,
@@ -97206,7 +97206,7 @@
 		{
 			"id": 172,
 			"name": "Pichu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/172.png",
+			"sprite": "/pokemon/main-series/generation-3/172.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 20,
@@ -97711,7 +97711,7 @@
 		{
 			"id": 173,
 			"name": "Cleffa",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/173.png",
+			"sprite": "/pokemon/main-series/generation-3/173.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -98353,7 +98353,7 @@
 		{
 			"id": 174,
 			"name": "Igglybuff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/174.png",
+			"sprite": "/pokemon/main-series/generation-3/174.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -98926,7 +98926,7 @@
 		{
 			"id": 175,
 			"name": "Togepi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/175.png",
+			"sprite": "/pokemon/main-series/generation-3/175.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -99624,7 +99624,7 @@
 		{
 			"id": 176,
 			"name": "Togetic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/176.png",
+			"sprite": "/pokemon/main-series/generation-3/176.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -100325,7 +100325,7 @@
 		{
 			"id": 177,
 			"name": "Natu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/177.png",
+			"sprite": "/pokemon/main-series/generation-3/177.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -100927,7 +100927,7 @@
 		{
 			"id": 178,
 			"name": "Xatu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/178.png",
+			"sprite": "/pokemon/main-series/generation-3/178.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -101457,7 +101457,7 @@
 		{
 			"id": 179,
 			"name": "Mareep",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/179.png",
+			"sprite": "/pokemon/main-series/generation-3/179.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 55,
@@ -101948,7 +101948,7 @@
 		{
 			"id": 180,
 			"name": "Flaaffy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/180.png",
+			"sprite": "/pokemon/main-series/generation-3/180.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 70,
@@ -102467,7 +102467,7 @@
 		{
 			"id": 181,
 			"name": "Ampharos",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/181.png",
+			"sprite": "/pokemon/main-series/generation-3/181.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -103023,7 +103023,7 @@
 		{
 			"id": 182,
 			"name": "Bellossom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/182.png",
+			"sprite": "/pokemon/main-series/generation-3/182.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -103423,7 +103423,7 @@
 		{
 			"id": 183,
 			"name": "Marill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/183.png",
+			"sprite": "/pokemon/main-series/generation-3/183.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 70,
@@ -104081,7 +104081,7 @@
 		{
 			"id": 184,
 			"name": "Azumarill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/184.png",
+			"sprite": "/pokemon/main-series/generation-3/184.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -104695,7 +104695,7 @@
 		{
 			"id": 185,
 			"name": "Sudowoodo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/185.png",
+			"sprite": "/pokemon/main-series/generation-3/185.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 70,
@@ -105262,7 +105262,7 @@
 		{
 			"id": 186,
 			"name": "Politoed",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/186.png",
+			"sprite": "/pokemon/main-series/generation-3/186.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 90,
@@ -105814,7 +105814,7 @@
 		{
 			"id": 187,
 			"name": "Hoppip",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/187.png",
+			"sprite": "/pokemon/main-series/generation-3/187.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -106326,7 +106326,7 @@
 		{
 			"id": 188,
 			"name": "Skiploom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/188.png",
+			"sprite": "/pokemon/main-series/generation-3/188.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -106804,7 +106804,7 @@
 		{
 			"id": 189,
 			"name": "Jumpluff",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/189.png",
+			"sprite": "/pokemon/main-series/generation-3/189.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -107289,7 +107289,7 @@
 		{
 			"id": 190,
 			"name": "Aipom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/190.png",
+			"sprite": "/pokemon/main-series/generation-3/190.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -108047,7 +108047,7 @@
 		{
 			"id": 191,
 			"name": "Sunkern",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/191.png",
+			"sprite": "/pokemon/main-series/generation-3/191.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 30,
@@ -108549,7 +108549,7 @@
 		{
 			"id": 192,
 			"name": "Sunflora",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/192.png",
+			"sprite": "/pokemon/main-series/generation-3/192.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -109006,7 +109006,7 @@
 		{
 			"id": 193,
 			"name": "Yanma",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/193.png",
+			"sprite": "/pokemon/main-series/generation-3/193.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -109529,7 +109529,7 @@
 		{
 			"id": 194,
 			"name": "Wooper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/194.png",
+			"sprite": "/pokemon/main-series/generation-3/194.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -110177,7 +110177,7 @@
 		{
 			"id": 195,
 			"name": "Quagsire",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/195.png",
+			"sprite": "/pokemon/main-series/generation-3/195.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 95,
@@ -110821,7 +110821,7 @@
 		{
 			"id": 196,
 			"name": "Espeon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/196.png",
+			"sprite": "/pokemon/main-series/generation-3/196.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 65,
@@ -111364,7 +111364,7 @@
 		{
 			"id": 197,
 			"name": "Umbreon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/197.png",
+			"sprite": "/pokemon/main-series/generation-3/197.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 95,
@@ -111895,7 +111895,7 @@
 		{
 			"id": 198,
 			"name": "Murkrow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/198.png",
+			"sprite": "/pokemon/main-series/generation-3/198.webp",
 			"types": ["Dark", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -112463,7 +112463,7 @@
 		{
 			"id": 199,
 			"name": "Slowking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/199.png",
+			"sprite": "/pokemon/main-series/generation-3/199.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -113184,7 +113184,7 @@
 		{
 			"id": 200,
 			"name": "Misdreavus",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/200.png",
+			"sprite": "/pokemon/main-series/generation-3/200.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 60,
@@ -113778,7 +113778,7 @@
 		{
 			"id": 201,
 			"name": "Unown",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/201.png",
+			"sprite": "/pokemon/main-series/generation-3/201.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 48,
@@ -113821,7 +113821,7 @@
 		{
 			"id": 202,
 			"name": "Wobbuffet",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/202.png",
+			"sprite": "/pokemon/main-series/generation-3/202.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 190,
@@ -113915,7 +113915,7 @@
 		{
 			"id": 203,
 			"name": "Girafarig",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/203.png",
+			"sprite": "/pokemon/main-series/generation-3/203.webp",
 			"types": ["Normal", "Psychic"],
 			"stats": {
 				"hp": 70,
@@ -114589,7 +114589,7 @@
 		{
 			"id": 204,
 			"name": "Pineco",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/204.png",
+			"sprite": "/pokemon/main-series/generation-3/204.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -115150,7 +115150,7 @@
 		{
 			"id": 205,
 			"name": "Forretress",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/205.png",
+			"sprite": "/pokemon/main-series/generation-3/205.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 75,
@@ -115671,7 +115671,7 @@
 		{
 			"id": 206,
 			"name": "Dunsparce",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/206.png",
+			"sprite": "/pokemon/main-series/generation-3/206.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 100,
@@ -116384,7 +116384,7 @@
 		{
 			"id": 207,
 			"name": "Gligar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/207.png",
+			"sprite": "/pokemon/main-series/generation-3/207.webp",
 			"types": ["Ground", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -116960,7 +116960,7 @@
 		{
 			"id": 208,
 			"name": "Steelix",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/208.png",
+			"sprite": "/pokemon/main-series/generation-3/208.webp",
 			"types": ["Steel", "Ground"],
 			"stats": {
 				"hp": 75,
@@ -117516,7 +117516,7 @@
 		{
 			"id": 209,
 			"name": "Snubbull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/209.png",
+			"sprite": "/pokemon/main-series/generation-3/209.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -118312,7 +118312,7 @@
 		{
 			"id": 210,
 			"name": "Granbull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/210.png",
+			"sprite": "/pokemon/main-series/generation-3/210.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -119056,7 +119056,7 @@
 		{
 			"id": 211,
 			"name": "Qwilfish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/211.png",
+			"sprite": "/pokemon/main-series/generation-3/211.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -119613,7 +119613,7 @@
 		{
 			"id": 212,
 			"name": "Scizor",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/212.png",
+			"sprite": "/pokemon/main-series/generation-3/212.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 70,
@@ -120116,7 +120116,7 @@
 		{
 			"id": 213,
 			"name": "Shuckle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/213.png",
+			"sprite": "/pokemon/main-series/generation-3/213.webp",
 			"types": ["Bug", "Rock"],
 			"stats": {
 				"hp": 20,
@@ -120569,7 +120569,7 @@
 		{
 			"id": 214,
 			"name": "Heracross",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/214.png",
+			"sprite": "/pokemon/main-series/generation-3/214.webp",
 			"types": ["Bug", "Fighting"],
 			"stats": {
 				"hp": 80,
@@ -121155,7 +121155,7 @@
 		{
 			"id": 215,
 			"name": "Sneasel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/215.png",
+			"sprite": "/pokemon/main-series/generation-3/215.webp",
 			"types": ["Dark", "Ice"],
 			"stats": {
 				"hp": 55,
@@ -121903,7 +121903,7 @@
 		{
 			"id": 216,
 			"name": "Teddiursa",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/216.png",
+			"sprite": "/pokemon/main-series/generation-3/216.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -122615,7 +122615,7 @@
 		{
 			"id": 217,
 			"name": "Ursaring",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/217.png",
+			"sprite": "/pokemon/main-series/generation-3/217.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -123293,7 +123293,7 @@
 		{
 			"id": 218,
 			"name": "Slugma",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/218.png",
+			"sprite": "/pokemon/main-series/generation-3/218.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 40,
@@ -123758,7 +123758,7 @@
 		{
 			"id": 219,
 			"name": "Magcargo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/219.png",
+			"sprite": "/pokemon/main-series/generation-3/219.webp",
 			"types": ["Fire", "Rock"],
 			"stats": {
 				"hp": 60,
@@ -124289,7 +124289,7 @@
 		{
 			"id": 220,
 			"name": "Swinub",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/220.png",
+			"sprite": "/pokemon/main-series/generation-3/220.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -124883,7 +124883,7 @@
 		{
 			"id": 221,
 			"name": "Piloswine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/221.png",
+			"sprite": "/pokemon/main-series/generation-3/221.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 100,
@@ -125438,7 +125438,7 @@
 		{
 			"id": 222,
 			"name": "Corsola",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/222.png",
+			"sprite": "/pokemon/main-series/generation-3/222.webp",
 			"types": ["Water", "Rock"],
 			"stats": {
 				"hp": 65,
@@ -126136,7 +126136,7 @@
 		{
 			"id": 223,
 			"name": "Remoraid",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/223.png",
+			"sprite": "/pokemon/main-series/generation-3/223.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 35,
@@ -126710,7 +126710,7 @@
 		{
 			"id": 224,
 			"name": "Octillery",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/224.png",
+			"sprite": "/pokemon/main-series/generation-3/224.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 75,
@@ -127247,7 +127247,7 @@
 		{
 			"id": 225,
 			"name": "Delibird",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/225.png",
+			"sprite": "/pokemon/main-series/generation-3/225.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -127682,7 +127682,7 @@
 		{
 			"id": 226,
 			"name": "Mantine",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/226.png",
+			"sprite": "/pokemon/main-series/generation-3/226.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -128217,7 +128217,7 @@
 		{
 			"id": 227,
 			"name": "Skarmory",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/227.png",
+			"sprite": "/pokemon/main-series/generation-3/227.webp",
 			"types": ["Steel", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -128771,7 +128771,7 @@
 		{
 			"id": 228,
 			"name": "Houndour",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/228.png",
+			"sprite": "/pokemon/main-series/generation-3/228.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 45,
@@ -129411,7 +129411,7 @@
 		{
 			"id": 229,
 			"name": "Houndoom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/229.png",
+			"sprite": "/pokemon/main-series/generation-3/229.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 75,
@@ -129994,7 +129994,7 @@
 		{
 			"id": 230,
 			"name": "Kingdra",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/230.png",
+			"sprite": "/pokemon/main-series/generation-3/230.webp",
 			"types": ["Water", "Dragon"],
 			"stats": {
 				"hp": 75,
@@ -130477,7 +130477,7 @@
 		{
 			"id": 231,
 			"name": "Phanpy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/231.png",
+			"sprite": "/pokemon/main-series/generation-3/231.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -131002,7 +131002,7 @@
 		{
 			"id": 232,
 			"name": "Donphan",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/232.png",
+			"sprite": "/pokemon/main-series/generation-3/232.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -131475,7 +131475,7 @@
 		{
 			"id": 233,
 			"name": "Porygon2",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/233.png",
+			"sprite": "/pokemon/main-series/generation-3/233.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -132034,7 +132034,7 @@
 		{
 			"id": 234,
 			"name": "Stantler",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/234.png",
+			"sprite": "/pokemon/main-series/generation-3/234.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 73,
@@ -132674,7 +132674,7 @@
 		{
 			"id": 235,
 			"name": "Smeargle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/235.png",
+			"sprite": "/pokemon/main-series/generation-3/235.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -132852,7 +132852,7 @@
 		{
 			"id": 236,
 			"name": "Tyrogue",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/236.png",
+			"sprite": "/pokemon/main-series/generation-3/236.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 35,
@@ -133275,7 +133275,7 @@
 		{
 			"id": 237,
 			"name": "Hitmontop",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/237.png",
+			"sprite": "/pokemon/main-series/generation-3/237.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -133802,7 +133802,7 @@
 		{
 			"id": 238,
 			"name": "Smoochum",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/238.png",
+			"sprite": "/pokemon/main-series/generation-3/238.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 45,
@@ -134453,7 +134453,7 @@
 		{
 			"id": 239,
 			"name": "Elekid",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/239.png",
+			"sprite": "/pokemon/main-series/generation-3/239.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 45,
@@ -135055,7 +135055,7 @@
 		{
 			"id": 240,
 			"name": "Magby",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/240.png",
+			"sprite": "/pokemon/main-series/generation-3/240.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 45,
@@ -135620,7 +135620,7 @@
 		{
 			"id": 241,
 			"name": "Miltank",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/241.png",
+			"sprite": "/pokemon/main-series/generation-3/241.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -136379,7 +136379,7 @@
 		{
 			"id": 242,
 			"name": "Blissey",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/242.png",
+			"sprite": "/pokemon/main-series/generation-3/242.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 255,
@@ -137193,7 +137193,7 @@
 		{
 			"id": 243,
 			"name": "Raikou",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/243.png",
+			"sprite": "/pokemon/main-series/generation-3/243.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -137739,7 +137739,7 @@
 		{
 			"id": 244,
 			"name": "Entei",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/244.png",
+			"sprite": "/pokemon/main-series/generation-3/244.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 115,
@@ -138277,7 +138277,7 @@
 		{
 			"id": 245,
 			"name": "Suicune",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/245.png",
+			"sprite": "/pokemon/main-series/generation-3/245.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -138843,7 +138843,7 @@
 		{
 			"id": 246,
 			"name": "Larvitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/246.png",
+			"sprite": "/pokemon/main-series/generation-3/246.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -139411,7 +139411,7 @@
 		{
 			"id": 247,
 			"name": "Pupitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/247.png",
+			"sprite": "/pokemon/main-series/generation-3/247.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -139930,7 +139930,7 @@
 		{
 			"id": 248,
 			"name": "Tyranitar",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/248.png",
+			"sprite": "/pokemon/main-series/generation-3/248.webp",
 			"types": ["Rock", "Dark"],
 			"stats": {
 				"hp": 100,
@@ -140700,7 +140700,7 @@
 		{
 			"id": 249,
 			"name": "Lugia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/249.png",
+			"sprite": "/pokemon/main-series/generation-3/249.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -141426,7 +141426,7 @@
 		{
 			"id": 250,
 			"name": "Ho-Oh",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/250.png",
+			"sprite": "/pokemon/main-series/generation-3/250.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -142092,7 +142092,7 @@
 		{
 			"id": 251,
 			"name": "Celebi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/251.png",
+			"sprite": "/pokemon/main-series/generation-3/251.webp",
 			"types": ["Psychic", "Grass"],
 			"stats": {
 				"hp": 100,
@@ -142659,7 +142659,7 @@
 		{
 			"id": 252,
 			"name": "Treecko",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/252.png",
+			"sprite": "/pokemon/main-series/generation-3/252.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 40,
@@ -143338,7 +143338,7 @@
 		{
 			"id": 253,
 			"name": "Grovyle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/253.png",
+			"sprite": "/pokemon/main-series/generation-3/253.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 50,
@@ -143995,7 +143995,7 @@
 		{
 			"id": 254,
 			"name": "Sceptile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/254.png",
+			"sprite": "/pokemon/main-series/generation-3/254.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 70,
@@ -144695,7 +144695,7 @@
 		{
 			"id": 255,
 			"name": "Torchic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/255.png",
+			"sprite": "/pokemon/main-series/generation-3/255.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 45,
@@ -145310,7 +145310,7 @@
 		{
 			"id": 256,
 			"name": "Combusken",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/256.png",
+			"sprite": "/pokemon/main-series/generation-3/256.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 60,
@@ -145955,7 +145955,7 @@
 		{
 			"id": 257,
 			"name": "Blaziken",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/257.png",
+			"sprite": "/pokemon/main-series/generation-3/257.webp",
 			"types": ["Fire", "Fighting"],
 			"stats": {
 				"hp": 80,
@@ -146661,7 +146661,7 @@
 		{
 			"id": 258,
 			"name": "Mudkip",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/258.png",
+			"sprite": "/pokemon/main-series/generation-3/258.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -147287,7 +147287,7 @@
 		{
 			"id": 259,
 			"name": "Marshtomp",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/259.png",
+			"sprite": "/pokemon/main-series/generation-3/259.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -147951,7 +147951,7 @@
 		{
 			"id": 260,
 			"name": "Swampert",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/260.png",
+			"sprite": "/pokemon/main-series/generation-3/260.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 100,
@@ -148658,7 +148658,7 @@
 		{
 			"id": 261,
 			"name": "Poochyena",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/261.png",
+			"sprite": "/pokemon/main-series/generation-3/261.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 35,
@@ -149248,7 +149248,7 @@
 		{
 			"id": 262,
 			"name": "Mightyena",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/262.png",
+			"sprite": "/pokemon/main-series/generation-3/262.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 70,
@@ -149847,7 +149847,7 @@
 		{
 			"id": 263,
 			"name": "Zigzagoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/263.png",
+			"sprite": "/pokemon/main-series/generation-3/263.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 38,
@@ -150501,7 +150501,7 @@
 		{
 			"id": 264,
 			"name": "Linoone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/264.png",
+			"sprite": "/pokemon/main-series/generation-3/264.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 78,
@@ -151161,7 +151161,7 @@
 		{
 			"id": 265,
 			"name": "Wurmple",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/265.png",
+			"sprite": "/pokemon/main-series/generation-3/265.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 45,
@@ -151245,7 +151245,7 @@
 		{
 			"id": 266,
 			"name": "Silcoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/266.png",
+			"sprite": "/pokemon/main-series/generation-3/266.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -151314,7 +151314,7 @@
 		{
 			"id": 267,
 			"name": "Beautifly",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/267.png",
+			"sprite": "/pokemon/main-series/generation-3/267.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -151782,7 +151782,7 @@
 		{
 			"id": 268,
 			"name": "Cascoon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/268.png",
+			"sprite": "/pokemon/main-series/generation-3/268.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -151851,7 +151851,7 @@
 		{
 			"id": 269,
 			"name": "Dustox",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/269.png",
+			"sprite": "/pokemon/main-series/generation-3/269.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -152331,7 +152331,7 @@
 		{
 			"id": 270,
 			"name": "Lotad",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/270.png",
+			"sprite": "/pokemon/main-series/generation-3/270.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 40,
@@ -152866,7 +152866,7 @@
 		{
 			"id": 271,
 			"name": "Lombre",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/271.png",
+			"sprite": "/pokemon/main-series/generation-3/271.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -153459,7 +153459,7 @@
 		{
 			"id": 272,
 			"name": "Ludicolo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/272.png",
+			"sprite": "/pokemon/main-series/generation-3/272.webp",
 			"types": ["Water", "Grass"],
 			"stats": {
 				"hp": 80,
@@ -154021,7 +154021,7 @@
 		{
 			"id": 273,
 			"name": "Seedot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/273.png",
+			"sprite": "/pokemon/main-series/generation-3/273.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 40,
@@ -154520,7 +154520,7 @@
 		{
 			"id": 274,
 			"name": "Nuzleaf",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/274.png",
+			"sprite": "/pokemon/main-series/generation-3/274.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -155105,7 +155105,7 @@
 		{
 			"id": 275,
 			"name": "Shiftry",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/275.png",
+			"sprite": "/pokemon/main-series/generation-3/275.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 90,
@@ -155607,7 +155607,7 @@
 		{
 			"id": 276,
 			"name": "Taillow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/276.png",
+			"sprite": "/pokemon/main-series/generation-3/276.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -156096,7 +156096,7 @@
 		{
 			"id": 277,
 			"name": "Swellow",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/277.png",
+			"sprite": "/pokemon/main-series/generation-3/277.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -156555,7 +156555,7 @@
 		{
 			"id": 278,
 			"name": "Wingull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/278.png",
+			"sprite": "/pokemon/main-series/generation-3/278.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -157061,7 +157061,7 @@
 		{
 			"id": 279,
 			"name": "Pelipper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/279.png",
+			"sprite": "/pokemon/main-series/generation-3/279.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -157606,7 +157606,7 @@
 		{
 			"id": 280,
 			"name": "Ralts",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/280.png",
+			"sprite": "/pokemon/main-series/generation-3/280.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 28,
@@ -158254,7 +158254,7 @@
 		{
 			"id": 281,
 			"name": "Kirlia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/281.png",
+			"sprite": "/pokemon/main-series/generation-3/281.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 38,
@@ -158897,7 +158897,7 @@
 		{
 			"id": 282,
 			"name": "Gardevoir",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/282.png",
+			"sprite": "/pokemon/main-series/generation-3/282.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 68,
@@ -159542,7 +159542,7 @@
 		{
 			"id": 283,
 			"name": "Surskit",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/283.png",
+			"sprite": "/pokemon/main-series/generation-3/283.webp",
 			"types": ["Bug", "Water"],
 			"stats": {
 				"hp": 40,
@@ -160048,7 +160048,7 @@
 		{
 			"id": 284,
 			"name": "Masquerain",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/284.png",
+			"sprite": "/pokemon/main-series/generation-3/284.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -160578,7 +160578,7 @@
 		{
 			"id": 285,
 			"name": "Shroomish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/285.png",
+			"sprite": "/pokemon/main-series/generation-3/285.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 60,
@@ -161094,7 +161094,7 @@
 		{
 			"id": 286,
 			"name": "Breloom",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/286.png",
+			"sprite": "/pokemon/main-series/generation-3/286.webp",
 			"types": ["Grass", "Fighting"],
 			"stats": {
 				"hp": 60,
@@ -161754,7 +161754,7 @@
 		{
 			"id": 287,
 			"name": "Slakoth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/287.png",
+			"sprite": "/pokemon/main-series/generation-3/287.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -162471,7 +162471,7 @@
 		{
 			"id": 288,
 			"name": "Vigoroth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/288.png",
+			"sprite": "/pokemon/main-series/generation-3/288.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 80,
@@ -163190,7 +163190,7 @@
 		{
 			"id": 289,
 			"name": "Slaking",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/289.png",
+			"sprite": "/pokemon/main-series/generation-3/289.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 150,
@@ -163916,7 +163916,7 @@
 		{
 			"id": 290,
 			"name": "Nincada",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/290.png",
+			"sprite": "/pokemon/main-series/generation-3/290.webp",
 			"types": ["Bug", "Ground"],
 			"stats": {
 				"hp": 31,
@@ -164417,7 +164417,7 @@
 		{
 			"id": 291,
 			"name": "Ninjask",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/291.png",
+			"sprite": "/pokemon/main-series/generation-3/291.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 61,
@@ -164988,7 +164988,7 @@
 		{
 			"id": 292,
 			"name": "Shedinja",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/292.png",
+			"sprite": "/pokemon/main-series/generation-3/292.webp",
 			"types": ["Bug", "Ghost"],
 			"stats": {
 				"hp": 1,
@@ -165468,7 +165468,7 @@
 		{
 			"id": 293,
 			"name": "Whismur",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/293.png",
+			"sprite": "/pokemon/main-series/generation-3/293.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 64,
@@ -166095,7 +166095,7 @@
 		{
 			"id": 294,
 			"name": "Loudred",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/294.png",
+			"sprite": "/pokemon/main-series/generation-3/294.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 84,
@@ -166804,7 +166804,7 @@
 		{
 			"id": 295,
 			"name": "Exploud",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/295.png",
+			"sprite": "/pokemon/main-series/generation-3/295.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 104,
@@ -167535,7 +167535,7 @@
 		{
 			"id": 296,
 			"name": "Makuhita",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/296.png",
+			"sprite": "/pokemon/main-series/generation-3/296.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 72,
@@ -168228,7 +168228,7 @@
 		{
 			"id": 297,
 			"name": "Hariyama",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/297.png",
+			"sprite": "/pokemon/main-series/generation-3/297.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 144,
@@ -168867,7 +168867,7 @@
 		{
 			"id": 298,
 			"name": "Azurill",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/298.png",
+			"sprite": "/pokemon/main-series/generation-3/298.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -169335,7 +169335,7 @@
 		{
 			"id": 299,
 			"name": "Nosepass",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/299.png",
+			"sprite": "/pokemon/main-series/generation-3/299.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 30,
@@ -169901,7 +169901,7 @@
 		{
 			"id": 300,
 			"name": "Skitty",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/300.png",
+			"sprite": "/pokemon/main-series/generation-3/300.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -170599,7 +170599,7 @@
 		{
 			"id": 301,
 			"name": "Delcatty",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/301.png",
+			"sprite": "/pokemon/main-series/generation-3/301.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -171117,7 +171117,7 @@
 		{
 			"id": 302,
 			"name": "Sableye",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/302.png",
+			"sprite": "/pokemon/main-series/generation-3/302.webp",
 			"types": ["Dark", "Ghost"],
 			"stats": {
 				"hp": 50,
@@ -171848,7 +171848,7 @@
 		{
 			"id": 303,
 			"name": "Mawile",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/303.png",
+			"sprite": "/pokemon/main-series/generation-3/303.webp",
 			"types": ["Steel"],
 			"stats": {
 				"hp": 50,
@@ -172560,7 +172560,7 @@
 		{
 			"id": 304,
 			"name": "Aron",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/304.png",
+			"sprite": "/pokemon/main-series/generation-3/304.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 50,
@@ -173182,7 +173182,7 @@
 		{
 			"id": 305,
 			"name": "Lairon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/305.png",
+			"sprite": "/pokemon/main-series/generation-3/305.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 60,
@@ -173806,7 +173806,7 @@
 		{
 			"id": 306,
 			"name": "Aggron",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/306.png",
+			"sprite": "/pokemon/main-series/generation-3/306.webp",
 			"types": ["Steel", "Rock"],
 			"stats": {
 				"hp": 70,
@@ -174641,7 +174641,7 @@
 		{
 			"id": 307,
 			"name": "Meditite",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/307.png",
+			"sprite": "/pokemon/main-series/generation-3/307.webp",
 			"types": ["Fighting", "Psychic"],
 			"stats": {
 				"hp": 30,
@@ -175341,7 +175341,7 @@
 		{
 			"id": 308,
 			"name": "Medicham",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/308.png",
+			"sprite": "/pokemon/main-series/generation-3/308.webp",
 			"types": ["Fighting", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -176067,7 +176067,7 @@
 		{
 			"id": 309,
 			"name": "Electrike",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/309.png",
+			"sprite": "/pokemon/main-series/generation-3/309.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 40,
@@ -176618,7 +176618,7 @@
 		{
 			"id": 310,
 			"name": "Manectric",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/310.png",
+			"sprite": "/pokemon/main-series/generation-3/310.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 70,
@@ -177166,7 +177166,7 @@
 		{
 			"id": 311,
 			"name": "Plusle",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/311.png",
+			"sprite": "/pokemon/main-series/generation-3/311.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -177707,7 +177707,7 @@
 		{
 			"id": 312,
 			"name": "Minun",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/312.png",
+			"sprite": "/pokemon/main-series/generation-3/312.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -178248,7 +178248,7 @@
 		{
 			"id": 313,
 			"name": "Volbeat",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/313.png",
+			"sprite": "/pokemon/main-series/generation-3/313.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -178882,7 +178882,7 @@
 		{
 			"id": 314,
 			"name": "Illumise",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/314.png",
+			"sprite": "/pokemon/main-series/generation-3/314.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -179516,7 +179516,7 @@
 		{
 			"id": 315,
 			"name": "Roselia",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/315.png",
+			"sprite": "/pokemon/main-series/generation-3/315.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 50,
@@ -180105,7 +180105,7 @@
 		{
 			"id": 316,
 			"name": "Gulpin",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/316.png",
+			"sprite": "/pokemon/main-series/generation-3/316.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 70,
@@ -180728,7 +180728,7 @@
 		{
 			"id": 317,
 			"name": "Swalot",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/317.png",
+			"sprite": "/pokemon/main-series/generation-3/317.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 100,
@@ -181375,7 +181375,7 @@
 		{
 			"id": 318,
 			"name": "Carvanha",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/318.png",
+			"sprite": "/pokemon/main-series/generation-3/318.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 45,
@@ -181903,7 +181903,7 @@
 		{
 			"id": 319,
 			"name": "Sharpedo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/319.png",
+			"sprite": "/pokemon/main-series/generation-3/319.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -182527,7 +182527,7 @@
 		{
 			"id": 320,
 			"name": "Wailmer",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/320.png",
+			"sprite": "/pokemon/main-series/generation-3/320.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 130,
@@ -183173,7 +183173,7 @@
 		{
 			"id": 321,
 			"name": "Wailord",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/321.png",
+			"sprite": "/pokemon/main-series/generation-3/321.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 170,
@@ -183780,7 +183780,7 @@
 		{
 			"id": 322,
 			"name": "Numel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/322.png",
+			"sprite": "/pokemon/main-series/generation-3/322.webp",
 			"types": ["Fire", "Ground"],
 			"stats": {
 				"hp": 60,
@@ -184344,7 +184344,7 @@
 		{
 			"id": 323,
 			"name": "Camerupt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/323.png",
+			"sprite": "/pokemon/main-series/generation-3/323.webp",
 			"types": ["Fire", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -184913,7 +184913,7 @@
 		{
 			"id": 324,
 			"name": "Torkoal",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/324.png",
+			"sprite": "/pokemon/main-series/generation-3/324.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 70,
@@ -185453,7 +185453,7 @@
 		{
 			"id": 325,
 			"name": "Spoink",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/325.png",
+			"sprite": "/pokemon/main-series/generation-3/325.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 60,
@@ -186068,7 +186068,7 @@
 		{
 			"id": 326,
 			"name": "Grumpig",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/326.png",
+			"sprite": "/pokemon/main-series/generation-3/326.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 80,
@@ -186756,7 +186756,7 @@
 		{
 			"id": 327,
 			"name": "Spinda",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/327.png",
+			"sprite": "/pokemon/main-series/generation-3/327.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -187525,7 +187525,7 @@
 		{
 			"id": 328,
 			"name": "Trapinch",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/328.png",
+			"sprite": "/pokemon/main-series/generation-3/328.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 45,
@@ -188015,7 +188015,7 @@
 		{
 			"id": 329,
 			"name": "Vibrava",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/329.png",
+			"sprite": "/pokemon/main-series/generation-3/329.webp",
 			"types": ["Ground", "Dragon"],
 			"stats": {
 				"hp": 50,
@@ -188562,7 +188562,7 @@
 		{
 			"id": 330,
 			"name": "Flygon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/330.png",
+			"sprite": "/pokemon/main-series/generation-3/330.webp",
 			"types": ["Ground", "Dragon"],
 			"stats": {
 				"hp": 80,
@@ -189160,7 +189160,7 @@
 		{
 			"id": 331,
 			"name": "Cacnea",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/331.png",
+			"sprite": "/pokemon/main-series/generation-3/331.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 50,
@@ -189766,7 +189766,7 @@
 		{
 			"id": 332,
 			"name": "Cacturne",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/332.png",
+			"sprite": "/pokemon/main-series/generation-3/332.webp",
 			"types": ["Grass", "Dark"],
 			"stats": {
 				"hp": 70,
@@ -190379,7 +190379,7 @@
 		{
 			"id": 333,
 			"name": "Swablu",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/333.png",
+			"sprite": "/pokemon/main-series/generation-3/333.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -190922,7 +190922,7 @@
 		{
 			"id": 334,
 			"name": "Altaria",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/334.png",
+			"sprite": "/pokemon/main-series/generation-3/334.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -191573,7 +191573,7 @@
 		{
 			"id": 335,
 			"name": "Zangoose",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/335.png",
+			"sprite": "/pokemon/main-series/generation-3/335.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 73,
@@ -192378,7 +192378,7 @@
 		{
 			"id": 336,
 			"name": "Seviper",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/336.png",
+			"sprite": "/pokemon/main-series/generation-3/336.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 73,
@@ -192940,7 +192940,7 @@
 		{
 			"id": 337,
 			"name": "Lunatone",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/337.png",
+			"sprite": "/pokemon/main-series/generation-3/337.webp",
 			"types": ["Rock", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -193482,7 +193482,7 @@
 		{
 			"id": 338,
 			"name": "Solrock",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/338.png",
+			"sprite": "/pokemon/main-series/generation-3/338.webp",
 			"types": ["Rock", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -194060,7 +194060,7 @@
 		{
 			"id": 339,
 			"name": "Barboach",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/339.png",
+			"sprite": "/pokemon/main-series/generation-3/339.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -194595,7 +194595,7 @@
 		{
 			"id": 340,
 			"name": "Whiscash",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/340.png",
+			"sprite": "/pokemon/main-series/generation-3/340.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 110,
@@ -195183,7 +195183,7 @@
 		{
 			"id": 341,
 			"name": "Corphish",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/341.png",
+			"sprite": "/pokemon/main-series/generation-3/341.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 43,
@@ -195823,7 +195823,7 @@
 		{
 			"id": 342,
 			"name": "Crawdaunt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/342.png",
+			"sprite": "/pokemon/main-series/generation-3/342.webp",
 			"types": ["Water", "Dark"],
 			"stats": {
 				"hp": 63,
@@ -196488,7 +196488,7 @@
 		{
 			"id": 343,
 			"name": "Baltoy",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/343.png",
+			"sprite": "/pokemon/main-series/generation-3/343.webp",
 			"types": ["Ground", "Psychic"],
 			"stats": {
 				"hp": 40,
@@ -197035,7 +197035,7 @@
 		{
 			"id": 344,
 			"name": "Claydol",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/344.png",
+			"sprite": "/pokemon/main-series/generation-3/344.webp",
 			"types": ["Ground", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -197678,7 +197678,7 @@
 		{
 			"id": 345,
 			"name": "Lileep",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/345.png",
+			"sprite": "/pokemon/main-series/generation-3/345.webp",
 			"types": ["Rock", "Grass"],
 			"stats": {
 				"hp": 66,
@@ -198166,7 +198166,7 @@
 		{
 			"id": 346,
 			"name": "Cradily",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/346.png",
+			"sprite": "/pokemon/main-series/generation-3/346.webp",
 			"types": ["Rock", "Grass"],
 			"stats": {
 				"hp": 86,
@@ -198711,7 +198711,7 @@
 		{
 			"id": 347,
 			"name": "Anorith",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/347.png",
+			"sprite": "/pokemon/main-series/generation-3/347.webp",
 			"types": ["Rock", "Bug"],
 			"stats": {
 				"hp": 45,
@@ -199243,7 +199243,7 @@
 		{
 			"id": 348,
 			"name": "Armaldo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/348.png",
+			"sprite": "/pokemon/main-series/generation-3/348.webp",
 			"types": ["Rock", "Bug"],
 			"stats": {
 				"hp": 75,
@@ -199828,7 +199828,7 @@
 		{
 			"id": 349,
 			"name": "Feebas",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/349.png",
+			"sprite": "/pokemon/main-series/generation-3/349.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 20,
@@ -200243,7 +200243,7 @@
 		{
 			"id": 350,
 			"name": "Milotic",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/350.png",
+			"sprite": "/pokemon/main-series/generation-3/350.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 95,
@@ -200758,7 +200758,7 @@
 		{
 			"id": 351,
 			"name": "Castform",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/351.png",
+			"sprite": "/pokemon/main-series/generation-3/351.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -201314,7 +201314,7 @@
 		{
 			"id": 352,
 			"name": "Kecleon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/352.png",
+			"sprite": "/pokemon/main-series/generation-3/352.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -202141,7 +202141,7 @@
 		{
 			"id": 353,
 			"name": "Shuppet",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/353.png",
+			"sprite": "/pokemon/main-series/generation-3/353.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 44,
@@ -202745,7 +202745,7 @@
 		{
 			"id": 354,
 			"name": "Banette",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/354.png",
+			"sprite": "/pokemon/main-series/generation-3/354.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 64,
@@ -203358,7 +203358,7 @@
 		{
 			"id": 355,
 			"name": "Duskull",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/355.png",
+			"sprite": "/pokemon/main-series/generation-3/355.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 20,
@@ -203969,7 +203969,7 @@
 		{
 			"id": 356,
 			"name": "Dusclops",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/356.png",
+			"sprite": "/pokemon/main-series/generation-3/356.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 40,
@@ -204693,7 +204693,7 @@
 		{
 			"id": 357,
 			"name": "Tropius",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/357.png",
+			"sprite": "/pokemon/main-series/generation-3/357.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 99,
@@ -205310,7 +205310,7 @@
 		{
 			"id": 358,
 			"name": "Chimecho",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/358.png",
+			"sprite": "/pokemon/main-series/generation-3/358.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 75,
@@ -205918,7 +205918,7 @@
 		{
 			"id": 359,
 			"name": "Absol",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/359.png",
+			"sprite": "/pokemon/main-series/generation-3/359.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 65,
@@ -206711,7 +206711,7 @@
 		{
 			"id": 360,
 			"name": "Wynaut",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/360.png",
+			"sprite": "/pokemon/main-series/generation-3/360.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 95,
@@ -206850,7 +206850,7 @@
 		{
 			"id": 361,
 			"name": "Snorunt",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/361.png",
+			"sprite": "/pokemon/main-series/generation-3/361.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 50,
@@ -207353,7 +207353,7 @@
 		{
 			"id": 362,
 			"name": "Glalie",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/362.png",
+			"sprite": "/pokemon/main-series/generation-3/362.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 80,
@@ -207941,7 +207941,7 @@
 		{
 			"id": 363,
 			"name": "Spheal",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/363.png",
+			"sprite": "/pokemon/main-series/generation-3/363.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 70,
@@ -208604,7 +208604,7 @@
 		{
 			"id": 364,
 			"name": "Sealeo",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/364.png",
+			"sprite": "/pokemon/main-series/generation-3/364.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 90,
@@ -209198,7 +209198,7 @@
 		{
 			"id": 365,
 			"name": "Walrein",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/365.png",
+			"sprite": "/pokemon/main-series/generation-3/365.webp",
 			"types": ["Ice", "Water"],
 			"stats": {
 				"hp": 110,
@@ -209799,7 +209799,7 @@
 		{
 			"id": 366,
 			"name": "Clamperl",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/366.png",
+			"sprite": "/pokemon/main-series/generation-3/366.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 35,
@@ -210238,7 +210238,7 @@
 		{
 			"id": 367,
 			"name": "Huntail",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/367.png",
+			"sprite": "/pokemon/main-series/generation-3/367.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -210704,7 +210704,7 @@
 		{
 			"id": 368,
 			"name": "Gorebyss",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/368.png",
+			"sprite": "/pokemon/main-series/generation-3/368.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -211182,7 +211182,7 @@
 		{
 			"id": 369,
 			"name": "Relicanth",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/369.png",
+			"sprite": "/pokemon/main-series/generation-3/369.webp",
 			"types": ["Water", "Rock"],
 			"stats": {
 				"hp": 100,
@@ -211815,7 +211815,7 @@
 		{
 			"id": 370,
 			"name": "Luvdisc",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/370.png",
+			"sprite": "/pokemon/main-series/generation-3/370.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 43,
@@ -212306,7 +212306,7 @@
 		{
 			"id": 371,
 			"name": "Bagon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/371.png",
+			"sprite": "/pokemon/main-series/generation-3/371.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 45,
@@ -212893,7 +212893,7 @@
 		{
 			"id": 372,
 			"name": "Shelgon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/372.png",
+			"sprite": "/pokemon/main-series/generation-3/372.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 65,
@@ -213493,7 +213493,7 @@
 		{
 			"id": 373,
 			"name": "Salamence",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/373.png",
+			"sprite": "/pokemon/main-series/generation-3/373.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 95,
@@ -214167,7 +214167,7 @@
 		{
 			"id": 374,
 			"name": "Beldum",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/374.png",
+			"sprite": "/pokemon/main-series/generation-3/374.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 40,
@@ -214216,7 +214216,7 @@
 		{
 			"id": 375,
 			"name": "Metang",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/375.png",
+			"sprite": "/pokemon/main-series/generation-3/375.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -214821,7 +214821,7 @@
 		{
 			"id": 376,
 			"name": "Metagross",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/376.png",
+			"sprite": "/pokemon/main-series/generation-3/376.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -215466,7 +215466,7 @@
 		{
 			"id": 377,
 			"name": "Regirock",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/377.png",
+			"sprite": "/pokemon/main-series/generation-3/377.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 80,
@@ -216041,7 +216041,7 @@
 		{
 			"id": 378,
 			"name": "Regice",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/378.png",
+			"sprite": "/pokemon/main-series/generation-3/378.webp",
 			"types": ["Ice"],
 			"stats": {
 				"hp": 80,
@@ -216616,7 +216616,7 @@
 		{
 			"id": 379,
 			"name": "Registeel",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/379.png",
+			"sprite": "/pokemon/main-series/generation-3/379.webp",
 			"types": ["Steel"],
 			"stats": {
 				"hp": 80,
@@ -217214,7 +217214,7 @@
 		{
 			"id": 380,
 			"name": "Latias",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/380.png",
+			"sprite": "/pokemon/main-series/generation-3/380.webp",
 			"types": ["Dragon", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -217935,7 +217935,7 @@
 		{
 			"id": 381,
 			"name": "Latios",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/381.png",
+			"sprite": "/pokemon/main-series/generation-3/381.webp",
 			"types": ["Dragon", "Psychic"],
 			"stats": {
 				"hp": 80,
@@ -218656,7 +218656,7 @@
 		{
 			"id": 382,
 			"name": "Kyogre",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/382.png",
+			"sprite": "/pokemon/main-series/generation-3/382.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -219281,7 +219281,7 @@
 		{
 			"id": 383,
 			"name": "Groudon",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/383.png",
+			"sprite": "/pokemon/main-series/generation-3/383.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 100,
@@ -219998,7 +219998,7 @@
 		{
 			"id": 384,
 			"name": "Rayquaza",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/384.png",
+			"sprite": "/pokemon/main-series/generation-3/384.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 105,
@@ -220707,7 +220707,7 @@
 		{
 			"id": 385,
 			"name": "Jirachi",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/385.png",
+			"sprite": "/pokemon/main-series/generation-3/385.webp",
 			"types": ["Steel", "Psychic"],
 			"stats": {
 				"hp": 100,
@@ -221335,7 +221335,7 @@
 		{
 			"id": 386,
 			"name": "Deoxys",
-			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/386.png",
+			"sprite": "/pokemon/main-series/generation-3/386.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 50,

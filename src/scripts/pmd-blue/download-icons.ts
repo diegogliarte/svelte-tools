@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const OUT_DIR = path.join('static', 'pokemon-mystery-dungeon', 'icons');
+const OUT_DIR = path.join('static', 'pokemon', 'mystery-dungeon', 'icons');
 
 const BASE_URL = 'https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait';
 

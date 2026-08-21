@@ -16,7 +16,7 @@
 		{
 			"id": 1,
 			"name": "Bulbasaur",
-			"sprite": "/pokemon/main-series/generation-2/1.png",
+			"sprite": "/pokemon/main-series/generation-2/1.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -386,7 +386,7 @@
 		{
 			"id": 2,
 			"name": "Ivysaur",
-			"sprite": "/pokemon/main-series/generation-2/2.png",
+			"sprite": "/pokemon/main-series/generation-2/2.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -737,7 +737,7 @@
 		{
 			"id": 3,
 			"name": "Venusaur",
-			"sprite": "/pokemon/main-series/generation-2/3.png",
+			"sprite": "/pokemon/main-series/generation-2/3.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -1109,7 +1109,7 @@
 		{
 			"id": 4,
 			"name": "Charmander",
-			"sprite": "/pokemon/main-series/generation-2/4.png",
+			"sprite": "/pokemon/main-series/generation-2/4.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -1517,7 +1517,7 @@
 		{
 			"id": 5,
 			"name": "Charmeleon",
-			"sprite": "/pokemon/main-series/generation-2/5.png",
+			"sprite": "/pokemon/main-series/generation-2/5.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -1892,7 +1892,7 @@
 		{
 			"id": 6,
 			"name": "Charizard",
-			"sprite": "/pokemon/main-series/generation-2/6.png",
+			"sprite": "/pokemon/main-series/generation-2/6.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 78,
@@ -2330,7 +2330,7 @@
 		{
 			"id": 7,
 			"name": "Squirtle",
-			"sprite": "/pokemon/main-series/generation-2/7.png",
+			"sprite": "/pokemon/main-series/generation-2/7.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 44,
@@ -2756,7 +2756,7 @@
 		{
 			"id": 8,
 			"name": "Wartortle",
-			"sprite": "/pokemon/main-series/generation-2/8.png",
+			"sprite": "/pokemon/main-series/generation-2/8.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 59,
@@ -3159,7 +3159,7 @@
 		{
 			"id": 9,
 			"name": "Blastoise",
-			"sprite": "/pokemon/main-series/generation-2/9.png",
+			"sprite": "/pokemon/main-series/generation-2/9.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 79,
@@ -3591,7 +3591,7 @@
 		{
 			"id": 10,
 			"name": "Caterpie",
-			"sprite": "/pokemon/main-series/generation-2/10.png",
+			"sprite": "/pokemon/main-series/generation-2/10.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 45,
@@ -3643,7 +3643,7 @@
 		{
 			"id": 11,
 			"name": "Metapod",
-			"sprite": "/pokemon/main-series/generation-2/11.png",
+			"sprite": "/pokemon/main-series/generation-2/11.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -3700,7 +3700,7 @@
 		{
 			"id": 12,
 			"name": "Butterfree",
-			"sprite": "/pokemon/main-series/generation-2/12.png",
+			"sprite": "/pokemon/main-series/generation-2/12.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -4008,7 +4008,7 @@
 		{
 			"id": 13,
 			"name": "Weedle",
-			"sprite": "/pokemon/main-series/generation-2/13.png",
+			"sprite": "/pokemon/main-series/generation-2/13.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -4060,7 +4060,7 @@
 		{
 			"id": 14,
 			"name": "Kakuna",
-			"sprite": "/pokemon/main-series/generation-2/14.png",
+			"sprite": "/pokemon/main-series/generation-2/14.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -4117,7 +4117,7 @@
 		{
 			"id": 15,
 			"name": "Beedrill",
-			"sprite": "/pokemon/main-series/generation-2/15.png",
+			"sprite": "/pokemon/main-series/generation-2/15.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -4397,7 +4397,7 @@
 		{
 			"id": 16,
 			"name": "Pidgey",
-			"sprite": "/pokemon/main-series/generation-2/16.png",
+			"sprite": "/pokemon/main-series/generation-2/16.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -4697,7 +4697,7 @@
 		{
 			"id": 17,
 			"name": "Pidgeotto",
-			"sprite": "/pokemon/main-series/generation-2/17.png",
+			"sprite": "/pokemon/main-series/generation-2/17.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 63,
@@ -4994,7 +4994,7 @@
 		{
 			"id": 18,
 			"name": "Pidgeot",
-			"sprite": "/pokemon/main-series/generation-2/18.png",
+			"sprite": "/pokemon/main-series/generation-2/18.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 83,
@@ -5304,7 +5304,7 @@
 		{
 			"id": 19,
 			"name": "Rattata",
-			"sprite": "/pokemon/main-series/generation-2/19.png",
+			"sprite": "/pokemon/main-series/generation-2/19.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 30,
@@ -5662,7 +5662,7 @@
 		{
 			"id": 20,
 			"name": "Raticate",
-			"sprite": "/pokemon/main-series/generation-2/20.png",
+			"sprite": "/pokemon/main-series/generation-2/20.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -6022,7 +6022,7 @@
 		{
 			"id": 21,
 			"name": "Spearow",
-			"sprite": "/pokemon/main-series/generation-2/21.png",
+			"sprite": "/pokemon/main-series/generation-2/21.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -6334,7 +6334,7 @@
 		{
 			"id": 22,
 			"name": "Fearow",
-			"sprite": "/pokemon/main-series/generation-2/22.png",
+			"sprite": "/pokemon/main-series/generation-2/22.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -6634,7 +6634,7 @@
 		{
 			"id": 23,
 			"name": "Ekans",
-			"sprite": "/pokemon/main-series/generation-2/23.png",
+			"sprite": "/pokemon/main-series/generation-2/23.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 35,
@@ -6950,7 +6950,7 @@
 		{
 			"id": 24,
 			"name": "Arbok",
-			"sprite": "/pokemon/main-series/generation-2/24.png",
+			"sprite": "/pokemon/main-series/generation-2/24.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 60,
@@ -7258,7 +7258,7 @@
 		{
 			"id": 25,
 			"name": "Pikachu",
-			"sprite": "/pokemon/main-series/generation-2/25.png",
+			"sprite": "/pokemon/main-series/generation-2/25.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 35,
@@ -7625,7 +7625,7 @@
 		{
 			"id": 26,
 			"name": "Raichu",
-			"sprite": "/pokemon/main-series/generation-2/26.png",
+			"sprite": "/pokemon/main-series/generation-2/26.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -7933,7 +7933,7 @@
 		{
 			"id": 27,
 			"name": "Sandshrew",
-			"sprite": "/pokemon/main-series/generation-2/27.png",
+			"sprite": "/pokemon/main-series/generation-2/27.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -8321,7 +8321,7 @@
 		{
 			"id": 28,
 			"name": "Sandslash",
-			"sprite": "/pokemon/main-series/generation-2/28.png",
+			"sprite": "/pokemon/main-series/generation-2/28.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 75,
@@ -8701,7 +8701,7 @@
 		{
 			"id": 29,
 			"name": "Nidoran♀",
-			"sprite": "/pokemon/main-series/generation-2/29.png",
+			"sprite": "/pokemon/main-series/generation-2/29.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 55,
@@ -9057,7 +9057,7 @@
 		{
 			"id": 30,
 			"name": "Nidorina",
-			"sprite": "/pokemon/main-series/generation-2/30.png",
+			"sprite": "/pokemon/main-series/generation-2/30.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 70,
@@ -9382,7 +9382,7 @@
 		{
 			"id": 31,
 			"name": "Nidoqueen",
-			"sprite": "/pokemon/main-series/generation-2/31.png",
+			"sprite": "/pokemon/main-series/generation-2/31.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 90,
@@ -9780,7 +9780,7 @@
 		{
 			"id": 32,
 			"name": "Nidoran♂",
-			"sprite": "/pokemon/main-series/generation-2/32.png",
+			"sprite": "/pokemon/main-series/generation-2/32.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 46,
@@ -10136,7 +10136,7 @@
 		{
 			"id": 33,
 			"name": "Nidorino",
-			"sprite": "/pokemon/main-series/generation-2/33.png",
+			"sprite": "/pokemon/main-series/generation-2/33.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 61,
@@ -10461,7 +10461,7 @@
 		{
 			"id": 34,
 			"name": "Nidoking",
-			"sprite": "/pokemon/main-series/generation-2/34.png",
+			"sprite": "/pokemon/main-series/generation-2/34.webp",
 			"types": ["Poison", "Ground"],
 			"stats": {
 				"hp": 81,
@@ -10859,7 +10859,7 @@
 		{
 			"id": 35,
 			"name": "Clefairy",
-			"sprite": "/pokemon/main-series/generation-2/35.png",
+			"sprite": "/pokemon/main-series/generation-2/35.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 70,
@@ -11304,7 +11304,7 @@
 		{
 			"id": 36,
 			"name": "Clefable",
-			"sprite": "/pokemon/main-series/generation-2/36.png",
+			"sprite": "/pokemon/main-series/generation-2/36.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -11692,7 +11692,7 @@
 		{
 			"id": 37,
 			"name": "Vulpix",
-			"sprite": "/pokemon/main-series/generation-2/37.png",
+			"sprite": "/pokemon/main-series/generation-2/37.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 38,
@@ -12000,7 +12000,7 @@
 		{
 			"id": 38,
 			"name": "Ninetales",
-			"sprite": "/pokemon/main-series/generation-2/38.png",
+			"sprite": "/pokemon/main-series/generation-2/38.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 73,
@@ -12254,7 +12254,7 @@
 		{
 			"id": 39,
 			"name": "Jigglypuff",
-			"sprite": "/pokemon/main-series/generation-2/39.png",
+			"sprite": "/pokemon/main-series/generation-2/39.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 115,
@@ -12681,7 +12681,7 @@
 		{
 			"id": 40,
 			"name": "Wigglytuff",
-			"sprite": "/pokemon/main-series/generation-2/40.png",
+			"sprite": "/pokemon/main-series/generation-2/40.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 140,
@@ -13061,7 +13061,7 @@
 		{
 			"id": 41,
 			"name": "Zubat",
-			"sprite": "/pokemon/main-series/generation-2/41.png",
+			"sprite": "/pokemon/main-series/generation-2/41.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -13355,7 +13355,7 @@
 		{
 			"id": 42,
 			"name": "Golbat",
-			"sprite": "/pokemon/main-series/generation-2/42.png",
+			"sprite": "/pokemon/main-series/generation-2/42.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -13642,7 +13642,7 @@
 		{
 			"id": 43,
 			"name": "Oddish",
-			"sprite": "/pokemon/main-series/generation-2/43.png",
+			"sprite": "/pokemon/main-series/generation-2/43.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -13950,7 +13950,7 @@
 		{
 			"id": 44,
 			"name": "Gloom",
-			"sprite": "/pokemon/main-series/generation-2/44.png",
+			"sprite": "/pokemon/main-series/generation-2/44.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -14252,7 +14252,7 @@
 		{
 			"id": 45,
 			"name": "Vileplume",
-			"sprite": "/pokemon/main-series/generation-2/45.png",
+			"sprite": "/pokemon/main-series/generation-2/45.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 75,
@@ -14492,7 +14492,7 @@
 		{
 			"id": 46,
 			"name": "Paras",
-			"sprite": "/pokemon/main-series/generation-2/46.png",
+			"sprite": "/pokemon/main-series/generation-2/46.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 35,
@@ -14856,7 +14856,7 @@
 		{
 			"id": 47,
 			"name": "Parasect",
-			"sprite": "/pokemon/main-series/generation-2/47.png",
+			"sprite": "/pokemon/main-series/generation-2/47.webp",
 			"types": ["Bug", "Grass"],
 			"stats": {
 				"hp": 60,
@@ -15188,7 +15188,7 @@
 		{
 			"id": 48,
 			"name": "Venonat",
-			"sprite": "/pokemon/main-series/generation-2/48.png",
+			"sprite": "/pokemon/main-series/generation-2/48.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -15522,7 +15522,7 @@
 		{
 			"id": 49,
 			"name": "Venomoth",
-			"sprite": "/pokemon/main-series/generation-2/49.png",
+			"sprite": "/pokemon/main-series/generation-2/49.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -15868,7 +15868,7 @@
 		{
 			"id": 50,
 			"name": "Diglett",
-			"sprite": "/pokemon/main-series/generation-2/50.png",
+			"sprite": "/pokemon/main-series/generation-2/50.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 10,
@@ -16188,7 +16188,7 @@
 		{
 			"id": 51,
 			"name": "Dugtrio",
-			"sprite": "/pokemon/main-series/generation-2/51.png",
+			"sprite": "/pokemon/main-series/generation-2/51.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 35,
@@ -16501,7 +16501,7 @@
 		{
 			"id": 52,
 			"name": "Meowth",
-			"sprite": "/pokemon/main-series/generation-2/52.png",
+			"sprite": "/pokemon/main-series/generation-2/52.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 40,
@@ -16873,7 +16873,7 @@
 		{
 			"id": 53,
 			"name": "Persian",
-			"sprite": "/pokemon/main-series/generation-2/53.png",
+			"sprite": "/pokemon/main-series/generation-2/53.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -17239,7 +17239,7 @@
 		{
 			"id": 54,
 			"name": "Psyduck",
-			"sprite": "/pokemon/main-series/generation-2/54.png",
+			"sprite": "/pokemon/main-series/generation-2/54.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -17655,7 +17655,7 @@
 		{
 			"id": 55,
 			"name": "Golduck",
-			"sprite": "/pokemon/main-series/generation-2/55.png",
+			"sprite": "/pokemon/main-series/generation-2/55.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -18057,7 +18057,7 @@
 		{
 			"id": 56,
 			"name": "Mankey",
-			"sprite": "/pokemon/main-series/generation-2/56.png",
+			"sprite": "/pokemon/main-series/generation-2/56.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 40,
@@ -18481,7 +18481,7 @@
 		{
 			"id": 57,
 			"name": "Primeape",
-			"sprite": "/pokemon/main-series/generation-2/57.png",
+			"sprite": "/pokemon/main-series/generation-2/57.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 65,
@@ -18895,7 +18895,7 @@
 		{
 			"id": 58,
 			"name": "Growlithe",
-			"sprite": "/pokemon/main-series/generation-2/58.png",
+			"sprite": "/pokemon/main-series/generation-2/58.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 55,
@@ -19227,7 +19227,7 @@
 		{
 			"id": 59,
 			"name": "Arcanine",
-			"sprite": "/pokemon/main-series/generation-2/59.png",
+			"sprite": "/pokemon/main-series/generation-2/59.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 90,
@@ -19497,7 +19497,7 @@
 		{
 			"id": 60,
 			"name": "Poliwag",
-			"sprite": "/pokemon/main-series/generation-2/60.png",
+			"sprite": "/pokemon/main-series/generation-2/60.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 40,
@@ -19837,7 +19837,7 @@
 		{
 			"id": 61,
 			"name": "Poliwhirl",
-			"sprite": "/pokemon/main-series/generation-2/61.png",
+			"sprite": "/pokemon/main-series/generation-2/61.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -20215,7 +20215,7 @@
 		{
 			"id": 62,
 			"name": "Poliwrath",
-			"sprite": "/pokemon/main-series/generation-2/62.png",
+			"sprite": "/pokemon/main-series/generation-2/62.webp",
 			"types": ["Water", "Fighting"],
 			"stats": {
 				"hp": 90,
@@ -20559,7 +20559,7 @@
 		{
 			"id": 63,
 			"name": "Abra",
-			"sprite": "/pokemon/main-series/generation-2/63.png",
+			"sprite": "/pokemon/main-series/generation-2/63.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 25,
@@ -20849,7 +20849,7 @@
 		{
 			"id": 64,
 			"name": "Kadabra",
-			"sprite": "/pokemon/main-series/generation-2/64.png",
+			"sprite": "/pokemon/main-series/generation-2/64.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -21218,7 +21218,7 @@
 		{
 			"id": 65,
 			"name": "Alakazam",
-			"sprite": "/pokemon/main-series/generation-2/65.png",
+			"sprite": "/pokemon/main-series/generation-2/65.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 55,
@@ -21590,7 +21590,7 @@
 		{
 			"id": 66,
 			"name": "Machop",
-			"sprite": "/pokemon/main-series/generation-2/66.png",
+			"sprite": "/pokemon/main-series/generation-2/66.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 70,
@@ -21974,7 +21974,7 @@
 		{
 			"id": 67,
 			"name": "Machoke",
-			"sprite": "/pokemon/main-series/generation-2/67.png",
+			"sprite": "/pokemon/main-series/generation-2/67.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 80,
@@ -22341,7 +22341,7 @@
 		{
 			"id": 68,
 			"name": "Machamp",
-			"sprite": "/pokemon/main-series/generation-2/68.png",
+			"sprite": "/pokemon/main-series/generation-2/68.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 90,
@@ -22711,7 +22711,7 @@
 		{
 			"id": 69,
 			"name": "Bellsprout",
-			"sprite": "/pokemon/main-series/generation-2/69.png",
+			"sprite": "/pokemon/main-series/generation-2/69.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 50,
@@ -23043,7 +23043,7 @@
 		{
 			"id": 70,
 			"name": "Weepinbell",
-			"sprite": "/pokemon/main-series/generation-2/70.png",
+			"sprite": "/pokemon/main-series/generation-2/70.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -23360,7 +23360,7 @@
 		{
 			"id": 71,
 			"name": "Victreebel",
-			"sprite": "/pokemon/main-series/generation-2/71.png",
+			"sprite": "/pokemon/main-series/generation-2/71.webp",
 			"types": ["Grass", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -23600,7 +23600,7 @@
 		{
 			"id": 72,
 			"name": "Tentacool",
-			"sprite": "/pokemon/main-series/generation-2/72.png",
+			"sprite": "/pokemon/main-series/generation-2/72.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -23934,7 +23934,7 @@
 		{
 			"id": 73,
 			"name": "Tentacruel",
-			"sprite": "/pokemon/main-series/generation-2/73.png",
+			"sprite": "/pokemon/main-series/generation-2/73.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 80,
@@ -24256,7 +24256,7 @@
 		{
 			"id": 74,
 			"name": "Geodude",
-			"sprite": "/pokemon/main-series/generation-2/74.png",
+			"sprite": "/pokemon/main-series/generation-2/74.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 40,
@@ -24606,7 +24606,7 @@
 		{
 			"id": 75,
 			"name": "Graveler",
-			"sprite": "/pokemon/main-series/generation-2/75.png",
+			"sprite": "/pokemon/main-series/generation-2/75.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -24965,7 +24965,7 @@
 		{
 			"id": 76,
 			"name": "Golem",
-			"sprite": "/pokemon/main-series/generation-2/76.png",
+			"sprite": "/pokemon/main-series/generation-2/76.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 80,
@@ -25353,7 +25353,7 @@
 		{
 			"id": 77,
 			"name": "Ponyta",
-			"sprite": "/pokemon/main-series/generation-2/77.png",
+			"sprite": "/pokemon/main-series/generation-2/77.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 50,
@@ -25671,7 +25671,7 @@
 		{
 			"id": 78,
 			"name": "Rapidash",
-			"sprite": "/pokemon/main-series/generation-2/78.png",
+			"sprite": "/pokemon/main-series/generation-2/78.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -25989,7 +25989,7 @@
 		{
 			"id": 79,
 			"name": "Slowpoke",
-			"sprite": "/pokemon/main-series/generation-2/79.png",
+			"sprite": "/pokemon/main-series/generation-2/79.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 90,
@@ -26420,7 +26420,7 @@
 		{
 			"id": 80,
 			"name": "Slowbro",
-			"sprite": "/pokemon/main-series/generation-2/80.png",
+			"sprite": "/pokemon/main-series/generation-2/80.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -26884,7 +26884,7 @@
 		{
 			"id": 81,
 			"name": "Magnemite",
-			"sprite": "/pokemon/main-series/generation-2/81.png",
+			"sprite": "/pokemon/main-series/generation-2/81.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 25,
@@ -27154,7 +27154,7 @@
 		{
 			"id": 82,
 			"name": "Magneton",
-			"sprite": "/pokemon/main-series/generation-2/82.png",
+			"sprite": "/pokemon/main-series/generation-2/82.webp",
 			"types": ["Electric", "Steel"],
 			"stats": {
 				"hp": 50,
@@ -27462,7 +27462,7 @@
 		{
 			"id": 83,
 			"name": "Farfetch’d",
-			"sprite": "/pokemon/main-series/generation-2/83.png",
+			"sprite": "/pokemon/main-series/generation-2/83.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 52,
@@ -27804,7 +27804,7 @@
 		{
 			"id": 84,
 			"name": "Doduo",
-			"sprite": "/pokemon/main-series/generation-2/84.png",
+			"sprite": "/pokemon/main-series/generation-2/84.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -28108,7 +28108,7 @@
 		{
 			"id": 85,
 			"name": "Dodrio",
-			"sprite": "/pokemon/main-series/generation-2/85.png",
+			"sprite": "/pokemon/main-series/generation-2/85.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -28400,7 +28400,7 @@
 		{
 			"id": 86,
 			"name": "Seel",
-			"sprite": "/pokemon/main-series/generation-2/86.png",
+			"sprite": "/pokemon/main-series/generation-2/86.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -28714,7 +28714,7 @@
 		{
 			"id": 87,
 			"name": "Dewgong",
-			"sprite": "/pokemon/main-series/generation-2/87.png",
+			"sprite": "/pokemon/main-series/generation-2/87.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 90,
@@ -29008,7 +29008,7 @@
 		{
 			"id": 88,
 			"name": "Grimer",
-			"sprite": "/pokemon/main-series/generation-2/88.png",
+			"sprite": "/pokemon/main-series/generation-2/88.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 80,
@@ -29362,7 +29362,7 @@
 		{
 			"id": 89,
 			"name": "Muk",
-			"sprite": "/pokemon/main-series/generation-2/89.png",
+			"sprite": "/pokemon/main-series/generation-2/89.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 105,
@@ -29710,7 +29710,7 @@
 		{
 			"id": 90,
 			"name": "Shellder",
-			"sprite": "/pokemon/main-series/generation-2/90.png",
+			"sprite": "/pokemon/main-series/generation-2/90.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -30018,7 +30018,7 @@
 		{
 			"id": 91,
 			"name": "Cloyster",
-			"sprite": "/pokemon/main-series/generation-2/91.png",
+			"sprite": "/pokemon/main-series/generation-2/91.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 50,
@@ -30269,7 +30269,7 @@
 		{
 			"id": 92,
 			"name": "Gastly",
-			"sprite": "/pokemon/main-series/generation-2/92.png",
+			"sprite": "/pokemon/main-series/generation-2/92.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 30,
@@ -30611,7 +30611,7 @@
 		{
 			"id": 93,
 			"name": "Haunter",
-			"sprite": "/pokemon/main-series/generation-2/93.png",
+			"sprite": "/pokemon/main-series/generation-2/93.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 45,
@@ -30944,7 +30944,7 @@
 		{
 			"id": 94,
 			"name": "Gengar",
-			"sprite": "/pokemon/main-series/generation-2/94.png",
+			"sprite": "/pokemon/main-series/generation-2/94.webp",
 			"types": ["Ghost", "Poison"],
 			"stats": {
 				"hp": 60,
@@ -31336,7 +31336,7 @@
 		{
 			"id": 95,
 			"name": "Onix",
-			"sprite": "/pokemon/main-series/generation-2/95.png",
+			"sprite": "/pokemon/main-series/generation-2/95.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 35,
@@ -31648,7 +31648,7 @@
 		{
 			"id": 96,
 			"name": "Drowzee",
-			"sprite": "/pokemon/main-series/generation-2/96.png",
+			"sprite": "/pokemon/main-series/generation-2/96.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 60,
@@ -32012,7 +32012,7 @@
 		{
 			"id": 97,
 			"name": "Hypno",
-			"sprite": "/pokemon/main-series/generation-2/97.png",
+			"sprite": "/pokemon/main-series/generation-2/97.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 85,
@@ -32388,7 +32388,7 @@
 		{
 			"id": 98,
 			"name": "Krabby",
-			"sprite": "/pokemon/main-series/generation-2/98.png",
+			"sprite": "/pokemon/main-series/generation-2/98.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -32736,7 +32736,7 @@
 		{
 			"id": 99,
 			"name": "Kingler",
-			"sprite": "/pokemon/main-series/generation-2/99.png",
+			"sprite": "/pokemon/main-series/generation-2/99.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -33072,7 +33072,7 @@
 		{
 			"id": 100,
 			"name": "Voltorb",
-			"sprite": "/pokemon/main-series/generation-2/100.png",
+			"sprite": "/pokemon/main-series/generation-2/100.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 40,
@@ -33350,7 +33350,7 @@
 		{
 			"id": 101,
 			"name": "Electrode",
-			"sprite": "/pokemon/main-series/generation-2/101.png",
+			"sprite": "/pokemon/main-series/generation-2/101.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 60,
@@ -33666,7 +33666,7 @@
 		{
 			"id": 102,
 			"name": "Exeggcute",
-			"sprite": "/pokemon/main-series/generation-2/102.png",
+			"sprite": "/pokemon/main-series/generation-2/102.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -34028,7 +34028,7 @@
 		{
 			"id": 103,
 			"name": "Exeggutor",
-			"sprite": "/pokemon/main-series/generation-2/103.png",
+			"sprite": "/pokemon/main-series/generation-2/103.webp",
 			"types": ["Grass", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -34326,7 +34326,7 @@
 		{
 			"id": 104,
 			"name": "Cubone",
-			"sprite": "/pokemon/main-series/generation-2/104.png",
+			"sprite": "/pokemon/main-series/generation-2/104.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 50,
@@ -34768,7 +34768,7 @@
 		{
 			"id": 105,
 			"name": "Marowak",
-			"sprite": "/pokemon/main-series/generation-2/105.png",
+			"sprite": "/pokemon/main-series/generation-2/105.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 60,
@@ -35196,7 +35196,7 @@
 		{
 			"id": 106,
 			"name": "Hitmonlee",
-			"sprite": "/pokemon/main-series/generation-2/106.png",
+			"sprite": "/pokemon/main-series/generation-2/106.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -35514,7 +35514,7 @@
 		{
 			"id": 107,
 			"name": "Hitmonchan",
-			"sprite": "/pokemon/main-series/generation-2/107.png",
+			"sprite": "/pokemon/main-series/generation-2/107.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -35846,7 +35846,7 @@
 		{
 			"id": 108,
 			"name": "Lickitung",
-			"sprite": "/pokemon/main-series/generation-2/108.png",
+			"sprite": "/pokemon/main-series/generation-2/108.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -36308,7 +36308,7 @@
 		{
 			"id": 109,
 			"name": "Koffing",
-			"sprite": "/pokemon/main-series/generation-2/109.png",
+			"sprite": "/pokemon/main-series/generation-2/109.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 40,
@@ -36638,7 +36638,7 @@
 		{
 			"id": 110,
 			"name": "Weezing",
-			"sprite": "/pokemon/main-series/generation-2/110.png",
+			"sprite": "/pokemon/main-series/generation-2/110.webp",
 			"types": ["Poison"],
 			"stats": {
 				"hp": 65,
@@ -36956,7 +36956,7 @@
 		{
 			"id": 111,
 			"name": "Rhyhorn",
-			"sprite": "/pokemon/main-series/generation-2/111.png",
+			"sprite": "/pokemon/main-series/generation-2/111.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 80,
@@ -37368,7 +37368,7 @@
 		{
 			"id": 112,
 			"name": "Rhydon",
-			"sprite": "/pokemon/main-series/generation-2/112.png",
+			"sprite": "/pokemon/main-series/generation-2/112.webp",
 			"types": ["Ground", "Rock"],
 			"stats": {
 				"hp": 105,
@@ -37792,7 +37792,7 @@
 		{
 			"id": 113,
 			"name": "Chansey",
-			"sprite": "/pokemon/main-series/generation-2/113.png",
+			"sprite": "/pokemon/main-series/generation-2/113.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 250,
@@ -38258,7 +38258,7 @@
 		{
 			"id": 114,
 			"name": "Tangela",
-			"sprite": "/pokemon/main-series/generation-2/114.png",
+			"sprite": "/pokemon/main-series/generation-2/114.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 65,
@@ -38616,7 +38616,7 @@
 		{
 			"id": 115,
 			"name": "Kangaskhan",
-			"sprite": "/pokemon/main-series/generation-2/115.png",
+			"sprite": "/pokemon/main-series/generation-2/115.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 105,
@@ -39072,7 +39072,7 @@
 		{
 			"id": 116,
 			"name": "Horsea",
-			"sprite": "/pokemon/main-series/generation-2/116.png",
+			"sprite": "/pokemon/main-series/generation-2/116.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -39402,7 +39402,7 @@
 		{
 			"id": 117,
 			"name": "Seadra",
-			"sprite": "/pokemon/main-series/generation-2/117.png",
+			"sprite": "/pokemon/main-series/generation-2/117.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 55,
@@ -39727,7 +39727,7 @@
 		{
 			"id": 118,
 			"name": "Goldeen",
-			"sprite": "/pokemon/main-series/generation-2/118.png",
+			"sprite": "/pokemon/main-series/generation-2/118.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 45,
@@ -40029,7 +40029,7 @@
 		{
 			"id": 119,
 			"name": "Seaking",
-			"sprite": "/pokemon/main-series/generation-2/119.png",
+			"sprite": "/pokemon/main-series/generation-2/119.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 80,
@@ -40315,7 +40315,7 @@
 		{
 			"id": 120,
 			"name": "Staryu",
-			"sprite": "/pokemon/main-series/generation-2/120.png",
+			"sprite": "/pokemon/main-series/generation-2/120.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 30,
@@ -40667,7 +40667,7 @@
 		{
 			"id": 121,
 			"name": "Starmie",
-			"sprite": "/pokemon/main-series/generation-2/121.png",
+			"sprite": "/pokemon/main-series/generation-2/121.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 60,
@@ -40981,7 +40981,7 @@
 		{
 			"id": 122,
 			"name": "Mr. Mime",
-			"sprite": "/pokemon/main-series/generation-2/122.png",
+			"sprite": "/pokemon/main-series/generation-2/122.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 40,
@@ -41393,7 +41393,7 @@
 		{
 			"id": 123,
 			"name": "Scyther",
-			"sprite": "/pokemon/main-series/generation-2/123.png",
+			"sprite": "/pokemon/main-series/generation-2/123.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 70,
@@ -41757,7 +41757,7 @@
 		{
 			"id": 124,
 			"name": "Jynx",
-			"sprite": "/pokemon/main-series/generation-2/124.png",
+			"sprite": "/pokemon/main-series/generation-2/124.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 65,
@@ -42137,7 +42137,7 @@
 		{
 			"id": 125,
 			"name": "Electabuzz",
-			"sprite": "/pokemon/main-series/generation-2/125.png",
+			"sprite": "/pokemon/main-series/generation-2/125.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -42511,7 +42511,7 @@
 		{
 			"id": 126,
 			"name": "Magmar",
-			"sprite": "/pokemon/main-series/generation-2/126.png",
+			"sprite": "/pokemon/main-series/generation-2/126.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -42883,7 +42883,7 @@
 		{
 			"id": 127,
 			"name": "Pinsir",
-			"sprite": "/pokemon/main-series/generation-2/127.png",
+			"sprite": "/pokemon/main-series/generation-2/127.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 65,
@@ -43173,7 +43173,7 @@
 		{
 			"id": 128,
 			"name": "Tauros",
-			"sprite": "/pokemon/main-series/generation-2/128.png",
+			"sprite": "/pokemon/main-series/generation-2/128.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 75,
@@ -43509,7 +43509,7 @@
 		{
 			"id": 129,
 			"name": "Magikarp",
-			"sprite": "/pokemon/main-series/generation-2/129.png",
+			"sprite": "/pokemon/main-series/generation-2/129.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 20,
@@ -43571,7 +43571,7 @@
 		{
 			"id": 130,
 			"name": "Gyarados",
-			"sprite": "/pokemon/main-series/generation-2/130.png",
+			"sprite": "/pokemon/main-series/generation-2/130.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 95,
@@ -43927,7 +43927,7 @@
 		{
 			"id": 131,
 			"name": "Lapras",
-			"sprite": "/pokemon/main-series/generation-2/131.png",
+			"sprite": "/pokemon/main-series/generation-2/131.webp",
 			"types": ["Water", "Ice"],
 			"stats": {
 				"hp": 130,
@@ -44319,7 +44319,7 @@
 		{
 			"id": 132,
 			"name": "Ditto",
-			"sprite": "/pokemon/main-series/generation-2/132.png",
+			"sprite": "/pokemon/main-series/generation-2/132.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 48,
@@ -44355,7 +44355,7 @@
 		{
 			"id": 133,
 			"name": "Eevee",
-			"sprite": "/pokemon/main-series/generation-2/133.png",
+			"sprite": "/pokemon/main-series/generation-2/133.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -44671,7 +44671,7 @@
 		{
 			"id": 134,
 			"name": "Vaporeon",
-			"sprite": "/pokemon/main-series/generation-2/134.png",
+			"sprite": "/pokemon/main-series/generation-2/134.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 130,
@@ -45031,7 +45031,7 @@
 		{
 			"id": 135,
 			"name": "Jolteon",
-			"sprite": "/pokemon/main-series/generation-2/135.png",
+			"sprite": "/pokemon/main-series/generation-2/135.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 65,
@@ -45375,7 +45375,7 @@
 		{
 			"id": 136,
 			"name": "Flareon",
-			"sprite": "/pokemon/main-series/generation-2/136.png",
+			"sprite": "/pokemon/main-series/generation-2/136.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 65,
@@ -45711,7 +45711,7 @@
 		{
 			"id": 137,
 			"name": "Porygon",
-			"sprite": "/pokemon/main-series/generation-2/137.png",
+			"sprite": "/pokemon/main-series/generation-2/137.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 65,
@@ -46067,7 +46067,7 @@
 		{
 			"id": 138,
 			"name": "Omanyte",
-			"sprite": "/pokemon/main-series/generation-2/138.png",
+			"sprite": "/pokemon/main-series/generation-2/138.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 35,
@@ -46407,7 +46407,7 @@
 		{
 			"id": 139,
 			"name": "Omastar",
-			"sprite": "/pokemon/main-series/generation-2/139.png",
+			"sprite": "/pokemon/main-series/generation-2/139.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 70,
@@ -46735,7 +46735,7 @@
 		{
 			"id": 140,
 			"name": "Kabuto",
-			"sprite": "/pokemon/main-series/generation-2/140.png",
+			"sprite": "/pokemon/main-series/generation-2/140.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 30,
@@ -47059,7 +47059,7 @@
 		{
 			"id": 141,
 			"name": "Kabutops",
-			"sprite": "/pokemon/main-series/generation-2/141.png",
+			"sprite": "/pokemon/main-series/generation-2/141.webp",
 			"types": ["Rock", "Water"],
 			"stats": {
 				"hp": 60,
@@ -47411,7 +47411,7 @@
 		{
 			"id": 142,
 			"name": "Aerodactyl",
-			"sprite": "/pokemon/main-series/generation-2/142.png",
+			"sprite": "/pokemon/main-series/generation-2/142.webp",
 			"types": ["Rock", "Flying"],
 			"stats": {
 				"hp": 80,
@@ -47765,7 +47765,7 @@
 		{
 			"id": 143,
 			"name": "Snorlax",
-			"sprite": "/pokemon/main-series/generation-2/143.png",
+			"sprite": "/pokemon/main-series/generation-2/143.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 160,
@@ -48219,7 +48219,7 @@
 		{
 			"id": 144,
 			"name": "Articuno",
-			"sprite": "/pokemon/main-series/generation-2/144.png",
+			"sprite": "/pokemon/main-series/generation-2/144.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -48529,7 +48529,7 @@
 		{
 			"id": 145,
 			"name": "Zapdos",
-			"sprite": "/pokemon/main-series/generation-2/145.png",
+			"sprite": "/pokemon/main-series/generation-2/145.webp",
 			"types": ["Electric", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -48847,7 +48847,7 @@
 		{
 			"id": 146,
 			"name": "Moltres",
-			"sprite": "/pokemon/main-series/generation-2/146.png",
+			"sprite": "/pokemon/main-series/generation-2/146.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 90,
@@ -49149,7 +49149,7 @@
 		{
 			"id": 147,
 			"name": "Dratini",
-			"sprite": "/pokemon/main-series/generation-2/147.png",
+			"sprite": "/pokemon/main-series/generation-2/147.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 41,
@@ -49533,7 +49533,7 @@
 		{
 			"id": 148,
 			"name": "Dragonair",
-			"sprite": "/pokemon/main-series/generation-2/148.png",
+			"sprite": "/pokemon/main-series/generation-2/148.webp",
 			"types": ["Dragon"],
 			"stats": {
 				"hp": 61,
@@ -49910,7 +49910,7 @@
 		{
 			"id": 149,
 			"name": "Dragonite",
-			"sprite": "/pokemon/main-series/generation-2/149.png",
+			"sprite": "/pokemon/main-series/generation-2/149.webp",
 			"types": ["Dragon", "Flying"],
 			"stats": {
 				"hp": 91,
@@ -50396,7 +50396,7 @@
 		{
 			"id": 150,
 			"name": "Mewtwo",
-			"sprite": "/pokemon/main-series/generation-2/150.png",
+			"sprite": "/pokemon/main-series/generation-2/150.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 106,
@@ -50848,7 +50848,7 @@
 		{
 			"id": 151,
 			"name": "Mew",
-			"sprite": "/pokemon/main-series/generation-2/151.png",
+			"sprite": "/pokemon/main-series/generation-2/151.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 100,
@@ -51402,7 +51402,7 @@
 		{
 			"id": 152,
 			"name": "Chikorita",
-			"sprite": "/pokemon/main-series/generation-2/152.png",
+			"sprite": "/pokemon/main-series/generation-2/152.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 45,
@@ -51762,7 +51762,7 @@
 		{
 			"id": 153,
 			"name": "Bayleef",
-			"sprite": "/pokemon/main-series/generation-2/153.png",
+			"sprite": "/pokemon/main-series/generation-2/153.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 60,
@@ -52127,7 +52127,7 @@
 		{
 			"id": 154,
 			"name": "Meganium",
-			"sprite": "/pokemon/main-series/generation-2/154.png",
+			"sprite": "/pokemon/main-series/generation-2/154.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 80,
@@ -52503,7 +52503,7 @@
 		{
 			"id": 155,
 			"name": "Cyndaquil",
-			"sprite": "/pokemon/main-series/generation-2/155.png",
+			"sprite": "/pokemon/main-series/generation-2/155.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 39,
@@ -52855,7 +52855,7 @@
 		{
 			"id": 156,
 			"name": "Quilava",
-			"sprite": "/pokemon/main-series/generation-2/156.png",
+			"sprite": "/pokemon/main-series/generation-2/156.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 58,
@@ -53210,7 +53210,7 @@
 		{
 			"id": 157,
 			"name": "Typhlosion",
-			"sprite": "/pokemon/main-series/generation-2/157.png",
+			"sprite": "/pokemon/main-series/generation-2/157.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 78,
@@ -53610,7 +53610,7 @@
 		{
 			"id": 158,
 			"name": "Totodile",
-			"sprite": "/pokemon/main-series/generation-2/158.png",
+			"sprite": "/pokemon/main-series/generation-2/158.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 50,
@@ -53992,7 +53992,7 @@
 		{
 			"id": 159,
 			"name": "Croconaw",
-			"sprite": "/pokemon/main-series/generation-2/159.png",
+			"sprite": "/pokemon/main-series/generation-2/159.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 65,
@@ -54373,7 +54373,7 @@
 		{
 			"id": 160,
 			"name": "Feraligatr",
-			"sprite": "/pokemon/main-series/generation-2/160.png",
+			"sprite": "/pokemon/main-series/generation-2/160.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 85,
@@ -54775,7 +54775,7 @@
 		{
 			"id": 161,
 			"name": "Sentret",
-			"sprite": "/pokemon/main-series/generation-2/161.png",
+			"sprite": "/pokemon/main-series/generation-2/161.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -55165,7 +55165,7 @@
 		{
 			"id": 162,
 			"name": "Furret",
-			"sprite": "/pokemon/main-series/generation-2/162.png",
+			"sprite": "/pokemon/main-series/generation-2/162.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -55551,7 +55551,7 @@
 		{
 			"id": 163,
 			"name": "Hoothoot",
-			"sprite": "/pokemon/main-series/generation-2/163.png",
+			"sprite": "/pokemon/main-series/generation-2/163.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -55901,7 +55901,7 @@
 		{
 			"id": 164,
 			"name": "Noctowl",
-			"sprite": "/pokemon/main-series/generation-2/164.png",
+			"sprite": "/pokemon/main-series/generation-2/164.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 100,
@@ -56235,7 +56235,7 @@
 		{
 			"id": 165,
 			"name": "Ledyba",
-			"sprite": "/pokemon/main-series/generation-2/165.png",
+			"sprite": "/pokemon/main-series/generation-2/165.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -56599,7 +56599,7 @@
 		{
 			"id": 166,
 			"name": "Ledian",
-			"sprite": "/pokemon/main-series/generation-2/166.png",
+			"sprite": "/pokemon/main-series/generation-2/166.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -56957,7 +56957,7 @@
 		{
 			"id": 167,
 			"name": "Spinarak",
-			"sprite": "/pokemon/main-series/generation-2/167.png",
+			"sprite": "/pokemon/main-series/generation-2/167.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 40,
@@ -57297,7 +57297,7 @@
 		{
 			"id": 168,
 			"name": "Ariados",
-			"sprite": "/pokemon/main-series/generation-2/168.png",
+			"sprite": "/pokemon/main-series/generation-2/168.webp",
 			"types": ["Bug", "Poison"],
 			"stats": {
 				"hp": 70,
@@ -57625,7 +57625,7 @@
 		{
 			"id": 169,
 			"name": "Crobat",
-			"sprite": "/pokemon/main-series/generation-2/169.png",
+			"sprite": "/pokemon/main-series/generation-2/169.webp",
 			"types": ["Poison", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -57915,7 +57915,7 @@
 		{
 			"id": 170,
 			"name": "Chinchou",
-			"sprite": "/pokemon/main-series/generation-2/170.png",
+			"sprite": "/pokemon/main-series/generation-2/170.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 75,
@@ -58229,7 +58229,7 @@
 		{
 			"id": 171,
 			"name": "Lanturn",
-			"sprite": "/pokemon/main-series/generation-2/171.png",
+			"sprite": "/pokemon/main-series/generation-2/171.webp",
 			"types": ["Water", "Electric"],
 			"stats": {
 				"hp": 125,
@@ -58537,7 +58537,7 @@
 		{
 			"id": 172,
 			"name": "Pichu",
-			"sprite": "/pokemon/main-series/generation-2/172.png",
+			"sprite": "/pokemon/main-series/generation-2/172.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 20,
@@ -58855,7 +58855,7 @@
 		{
 			"id": 173,
 			"name": "Cleffa",
-			"sprite": "/pokemon/main-series/generation-2/173.png",
+			"sprite": "/pokemon/main-series/generation-2/173.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 50,
@@ -59237,7 +59237,7 @@
 		{
 			"id": 174,
 			"name": "Igglybuff",
-			"sprite": "/pokemon/main-series/generation-2/174.png",
+			"sprite": "/pokemon/main-series/generation-2/174.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -59587,7 +59587,7 @@
 		{
 			"id": 175,
 			"name": "Togepi",
-			"sprite": "/pokemon/main-series/generation-2/175.png",
+			"sprite": "/pokemon/main-series/generation-2/175.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 35,
@@ -59973,7 +59973,7 @@
 		{
 			"id": 176,
 			"name": "Togetic",
-			"sprite": "/pokemon/main-series/generation-2/176.png",
+			"sprite": "/pokemon/main-series/generation-2/176.webp",
 			"types": ["Normal", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -60343,7 +60343,7 @@
 		{
 			"id": 177,
 			"name": "Natu",
-			"sprite": "/pokemon/main-series/generation-2/177.png",
+			"sprite": "/pokemon/main-series/generation-2/177.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 40,
@@ -60677,7 +60677,7 @@
 		{
 			"id": 178,
 			"name": "Xatu",
-			"sprite": "/pokemon/main-series/generation-2/178.png",
+			"sprite": "/pokemon/main-series/generation-2/178.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -60997,7 +60997,7 @@
 		{
 			"id": 179,
 			"name": "Mareep",
-			"sprite": "/pokemon/main-series/generation-2/179.png",
+			"sprite": "/pokemon/main-series/generation-2/179.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 55,
@@ -61319,7 +61319,7 @@
 		{
 			"id": 180,
 			"name": "Flaaffy",
-			"sprite": "/pokemon/main-series/generation-2/180.png",
+			"sprite": "/pokemon/main-series/generation-2/180.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 70,
@@ -61648,7 +61648,7 @@
 		{
 			"id": 181,
 			"name": "Ampharos",
-			"sprite": "/pokemon/main-series/generation-2/181.png",
+			"sprite": "/pokemon/main-series/generation-2/181.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -62000,7 +62000,7 @@
 		{
 			"id": 182,
 			"name": "Bellossom",
-			"sprite": "/pokemon/main-series/generation-2/182.png",
+			"sprite": "/pokemon/main-series/generation-2/182.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -62242,7 +62242,7 @@
 		{
 			"id": 183,
 			"name": "Marill",
-			"sprite": "/pokemon/main-series/generation-2/183.png",
+			"sprite": "/pokemon/main-series/generation-2/183.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 70,
@@ -62638,7 +62638,7 @@
 		{
 			"id": 184,
 			"name": "Azumarill",
-			"sprite": "/pokemon/main-series/generation-2/184.png",
+			"sprite": "/pokemon/main-series/generation-2/184.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -63024,7 +63024,7 @@
 		{
 			"id": 185,
 			"name": "Sudowoodo",
-			"sprite": "/pokemon/main-series/generation-2/185.png",
+			"sprite": "/pokemon/main-series/generation-2/185.webp",
 			"types": ["Rock"],
 			"stats": {
 				"hp": 70,
@@ -63360,7 +63360,7 @@
 		{
 			"id": 186,
 			"name": "Politoed",
-			"sprite": "/pokemon/main-series/generation-2/186.png",
+			"sprite": "/pokemon/main-series/generation-2/186.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 90,
@@ -63704,7 +63704,7 @@
 		{
 			"id": 187,
 			"name": "Hoppip",
-			"sprite": "/pokemon/main-series/generation-2/187.png",
+			"sprite": "/pokemon/main-series/generation-2/187.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 35,
@@ -64052,7 +64052,7 @@
 		{
 			"id": 188,
 			"name": "Skiploom",
-			"sprite": "/pokemon/main-series/generation-2/188.png",
+			"sprite": "/pokemon/main-series/generation-2/188.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 55,
@@ -64374,7 +64374,7 @@
 		{
 			"id": 189,
 			"name": "Jumpluff",
-			"sprite": "/pokemon/main-series/generation-2/189.png",
+			"sprite": "/pokemon/main-series/generation-2/189.webp",
 			"types": ["Grass", "Flying"],
 			"stats": {
 				"hp": 75,
@@ -64699,7 +64699,7 @@
 		{
 			"id": 190,
 			"name": "Aipom",
-			"sprite": "/pokemon/main-series/generation-2/190.png",
+			"sprite": "/pokemon/main-series/generation-2/190.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -65145,7 +65145,7 @@
 		{
 			"id": 191,
 			"name": "Sunkern",
-			"sprite": "/pokemon/main-series/generation-2/191.png",
+			"sprite": "/pokemon/main-series/generation-2/191.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 30,
@@ -65397,7 +65397,7 @@
 		{
 			"id": 192,
 			"name": "Sunflora",
-			"sprite": "/pokemon/main-series/generation-2/192.png",
+			"sprite": "/pokemon/main-series/generation-2/192.webp",
 			"types": ["Grass"],
 			"stats": {
 				"hp": 75,
@@ -65667,7 +65667,7 @@
 		{
 			"id": 193,
 			"name": "Yanma",
-			"sprite": "/pokemon/main-series/generation-2/193.png",
+			"sprite": "/pokemon/main-series/generation-2/193.webp",
 			"types": ["Bug", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -65975,7 +65975,7 @@
 		{
 			"id": 194,
 			"name": "Wooper",
-			"sprite": "/pokemon/main-series/generation-2/194.png",
+			"sprite": "/pokemon/main-series/generation-2/194.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 55,
@@ -66347,7 +66347,7 @@
 		{
 			"id": 195,
 			"name": "Quagsire",
-			"sprite": "/pokemon/main-series/generation-2/195.png",
+			"sprite": "/pokemon/main-series/generation-2/195.webp",
 			"types": ["Water", "Ground"],
 			"stats": {
 				"hp": 95,
@@ -66711,7 +66711,7 @@
 		{
 			"id": 196,
 			"name": "Espeon",
-			"sprite": "/pokemon/main-series/generation-2/196.png",
+			"sprite": "/pokemon/main-series/generation-2/196.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 65,
@@ -67075,7 +67075,7 @@
 		{
 			"id": 197,
 			"name": "Umbreon",
-			"sprite": "/pokemon/main-series/generation-2/197.png",
+			"sprite": "/pokemon/main-series/generation-2/197.webp",
 			"types": ["Dark"],
 			"stats": {
 				"hp": 95,
@@ -67439,7 +67439,7 @@
 		{
 			"id": 198,
 			"name": "Murkrow",
-			"sprite": "/pokemon/main-series/generation-2/198.png",
+			"sprite": "/pokemon/main-series/generation-2/198.webp",
 			"types": ["Dark", "Flying"],
 			"stats": {
 				"hp": 60,
@@ -67769,7 +67769,7 @@
 		{
 			"id": 199,
 			"name": "Slowking",
-			"sprite": "/pokemon/main-series/generation-2/199.png",
+			"sprite": "/pokemon/main-series/generation-2/199.webp",
 			"types": ["Water", "Psychic"],
 			"stats": {
 				"hp": 95,
@@ -68211,7 +68211,7 @@
 		{
 			"id": 200,
 			"name": "Misdreavus",
-			"sprite": "/pokemon/main-series/generation-2/200.png",
+			"sprite": "/pokemon/main-series/generation-2/200.webp",
 			"types": ["Ghost"],
 			"stats": {
 				"hp": 60,
@@ -68553,7 +68553,7 @@
 		{
 			"id": 201,
 			"name": "Unown",
-			"sprite": "/pokemon/main-series/generation-2/201.png",
+			"sprite": "/pokemon/main-series/generation-2/201.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 48,
@@ -68589,7 +68589,7 @@
 		{
 			"id": 202,
 			"name": "Wobbuffet",
-			"sprite": "/pokemon/main-series/generation-2/202.png",
+			"sprite": "/pokemon/main-series/generation-2/202.webp",
 			"types": ["Psychic"],
 			"stats": {
 				"hp": 190,
@@ -68655,7 +68655,7 @@
 		{
 			"id": 203,
 			"name": "Girafarig",
-			"sprite": "/pokemon/main-series/generation-2/203.png",
+			"sprite": "/pokemon/main-series/generation-2/203.webp",
 			"types": ["Normal", "Psychic"],
 			"stats": {
 				"hp": 70,
@@ -69057,7 +69057,7 @@
 		{
 			"id": 204,
 			"name": "Pineco",
-			"sprite": "/pokemon/main-series/generation-2/204.png",
+			"sprite": "/pokemon/main-series/generation-2/204.webp",
 			"types": ["Bug"],
 			"stats": {
 				"hp": 50,
@@ -69387,7 +69387,7 @@
 		{
 			"id": 205,
 			"name": "Forretress",
-			"sprite": "/pokemon/main-series/generation-2/205.png",
+			"sprite": "/pokemon/main-series/generation-2/205.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 75,
@@ -69711,7 +69711,7 @@
 		{
 			"id": 206,
 			"name": "Dunsparce",
-			"sprite": "/pokemon/main-series/generation-2/206.png",
+			"sprite": "/pokemon/main-series/generation-2/206.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 100,
@@ -70095,7 +70095,7 @@
 		{
 			"id": 207,
 			"name": "Gligar",
-			"sprite": "/pokemon/main-series/generation-2/207.png",
+			"sprite": "/pokemon/main-series/generation-2/207.webp",
 			"types": ["Ground", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -70433,7 +70433,7 @@
 		{
 			"id": 208,
 			"name": "Steelix",
-			"sprite": "/pokemon/main-series/generation-2/208.png",
+			"sprite": "/pokemon/main-series/generation-2/208.webp",
 			"types": ["Steel", "Ground"],
 			"stats": {
 				"hp": 75,
@@ -70779,7 +70779,7 @@
 		{
 			"id": 209,
 			"name": "Snubbull",
-			"sprite": "/pokemon/main-series/generation-2/209.png",
+			"sprite": "/pokemon/main-series/generation-2/209.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -71217,7 +71217,7 @@
 		{
 			"id": 210,
 			"name": "Granbull",
-			"sprite": "/pokemon/main-series/generation-2/210.png",
+			"sprite": "/pokemon/main-series/generation-2/210.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -71599,7 +71599,7 @@
 		{
 			"id": 211,
 			"name": "Qwilfish",
-			"sprite": "/pokemon/main-series/generation-2/211.png",
+			"sprite": "/pokemon/main-series/generation-2/211.webp",
 			"types": ["Water", "Poison"],
 			"stats": {
 				"hp": 65,
@@ -71938,7 +71938,7 @@
 		{
 			"id": 212,
 			"name": "Scizor",
-			"sprite": "/pokemon/main-series/generation-2/212.png",
+			"sprite": "/pokemon/main-series/generation-2/212.webp",
 			"types": ["Bug", "Steel"],
 			"stats": {
 				"hp": 70,
@@ -72270,7 +72270,7 @@
 		{
 			"id": 213,
 			"name": "Shuckle",
-			"sprite": "/pokemon/main-series/generation-2/213.png",
+			"sprite": "/pokemon/main-series/generation-2/213.webp",
 			"types": ["Bug", "Rock"],
 			"stats": {
 				"hp": 20,
@@ -72574,7 +72574,7 @@
 		{
 			"id": 214,
 			"name": "Heracross",
-			"sprite": "/pokemon/main-series/generation-2/214.png",
+			"sprite": "/pokemon/main-series/generation-2/214.webp",
 			"types": ["Bug", "Fighting"],
 			"stats": {
 				"hp": 80,
@@ -72890,7 +72890,7 @@
 		{
 			"id": 215,
 			"name": "Sneasel",
-			"sprite": "/pokemon/main-series/generation-2/215.png",
+			"sprite": "/pokemon/main-series/generation-2/215.webp",
 			"types": ["Dark", "Ice"],
 			"stats": {
 				"hp": 55,
@@ -73335,7 +73335,7 @@
 		{
 			"id": 216,
 			"name": "Teddiursa",
-			"sprite": "/pokemon/main-series/generation-2/216.png",
+			"sprite": "/pokemon/main-series/generation-2/216.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 60,
@@ -73757,7 +73757,7 @@
 		{
 			"id": 217,
 			"name": "Ursaring",
-			"sprite": "/pokemon/main-series/generation-2/217.png",
+			"sprite": "/pokemon/main-series/generation-2/217.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 90,
@@ -74163,7 +74163,7 @@
 		{
 			"id": 218,
 			"name": "Slugma",
-			"sprite": "/pokemon/main-series/generation-2/218.png",
+			"sprite": "/pokemon/main-series/generation-2/218.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 40,
@@ -74439,7 +74439,7 @@
 		{
 			"id": 219,
 			"name": "Magcargo",
-			"sprite": "/pokemon/main-series/generation-2/219.png",
+			"sprite": "/pokemon/main-series/generation-2/219.webp",
 			"types": ["Fire", "Rock"],
 			"stats": {
 				"hp": 60,
@@ -74751,7 +74751,7 @@
 		{
 			"id": 220,
 			"name": "Swinub",
-			"sprite": "/pokemon/main-series/generation-2/220.png",
+			"sprite": "/pokemon/main-series/generation-2/220.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -75084,7 +75084,7 @@
 		{
 			"id": 221,
 			"name": "Piloswine",
-			"sprite": "/pokemon/main-series/generation-2/221.png",
+			"sprite": "/pokemon/main-series/generation-2/221.webp",
 			"types": ["Ice", "Ground"],
 			"stats": {
 				"hp": 100,
@@ -75415,7 +75415,7 @@
 		{
 			"id": 222,
 			"name": "Corsola",
-			"sprite": "/pokemon/main-series/generation-2/222.png",
+			"sprite": "/pokemon/main-series/generation-2/222.webp",
 			"types": ["Water", "Rock"],
 			"stats": {
 				"hp": 65,
@@ -75773,7 +75773,7 @@
 		{
 			"id": 223,
 			"name": "Remoraid",
-			"sprite": "/pokemon/main-series/generation-2/223.png",
+			"sprite": "/pokemon/main-series/generation-2/223.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 35,
@@ -76101,7 +76101,7 @@
 		{
 			"id": 224,
 			"name": "Octillery",
-			"sprite": "/pokemon/main-series/generation-2/224.png",
+			"sprite": "/pokemon/main-series/generation-2/224.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 75,
@@ -76399,7 +76399,7 @@
 		{
 			"id": 225,
 			"name": "Delibird",
-			"sprite": "/pokemon/main-series/generation-2/225.png",
+			"sprite": "/pokemon/main-series/generation-2/225.webp",
 			"types": ["Ice", "Flying"],
 			"stats": {
 				"hp": 45,
@@ -76655,7 +76655,7 @@
 		{
 			"id": 226,
 			"name": "Mantine",
-			"sprite": "/pokemon/main-series/generation-2/226.png",
+			"sprite": "/pokemon/main-series/generation-2/226.webp",
 			"types": ["Water", "Flying"],
 			"stats": {
 				"hp": 85,
@@ -76973,7 +76973,7 @@
 		{
 			"id": 227,
 			"name": "Skarmory",
-			"sprite": "/pokemon/main-series/generation-2/227.png",
+			"sprite": "/pokemon/main-series/generation-2/227.webp",
 			"types": ["Steel", "Flying"],
 			"stats": {
 				"hp": 65,
@@ -77273,7 +77273,7 @@
 		{
 			"id": 228,
 			"name": "Houndour",
-			"sprite": "/pokemon/main-series/generation-2/228.png",
+			"sprite": "/pokemon/main-series/generation-2/228.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 45,
@@ -77669,7 +77669,7 @@
 		{
 			"id": 229,
 			"name": "Houndoom",
-			"sprite": "/pokemon/main-series/generation-2/229.png",
+			"sprite": "/pokemon/main-series/generation-2/229.webp",
 			"types": ["Dark", "Fire"],
 			"stats": {
 				"hp": 75,
@@ -78025,7 +78025,7 @@
 		{
 			"id": 230,
 			"name": "Kingdra",
-			"sprite": "/pokemon/main-series/generation-2/230.png",
+			"sprite": "/pokemon/main-series/generation-2/230.webp",
 			"types": ["Water", "Dragon"],
 			"stats": {
 				"hp": 75,
@@ -78345,7 +78345,7 @@
 		{
 			"id": 231,
 			"name": "Phanpy",
-			"sprite": "/pokemon/main-series/generation-2/231.png",
+			"sprite": "/pokemon/main-series/generation-2/231.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -78669,7 +78669,7 @@
 		{
 			"id": 232,
 			"name": "Donphan",
-			"sprite": "/pokemon/main-series/generation-2/232.png",
+			"sprite": "/pokemon/main-series/generation-2/232.webp",
 			"types": ["Ground"],
 			"stats": {
 				"hp": 90,
@@ -78973,7 +78973,7 @@
 		{
 			"id": 233,
 			"name": "Porygon2",
-			"sprite": "/pokemon/main-series/generation-2/233.png",
+			"sprite": "/pokemon/main-series/generation-2/233.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 85,
@@ -79337,7 +79337,7 @@
 		{
 			"id": 234,
 			"name": "Stantler",
-			"sprite": "/pokemon/main-series/generation-2/234.png",
+			"sprite": "/pokemon/main-series/generation-2/234.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 73,
@@ -79689,7 +79689,7 @@
 		{
 			"id": 235,
 			"name": "Smeargle",
-			"sprite": "/pokemon/main-series/generation-2/235.png",
+			"sprite": "/pokemon/main-series/generation-2/235.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 55,
@@ -79815,7 +79815,7 @@
 		{
 			"id": 236,
 			"name": "Tyrogue",
-			"sprite": "/pokemon/main-series/generation-2/236.png",
+			"sprite": "/pokemon/main-series/generation-2/236.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 35,
@@ -80067,7 +80067,7 @@
 		{
 			"id": 237,
 			"name": "Hitmontop",
-			"sprite": "/pokemon/main-series/generation-2/237.png",
+			"sprite": "/pokemon/main-series/generation-2/237.webp",
 			"types": ["Fighting"],
 			"stats": {
 				"hp": 50,
@@ -80365,7 +80365,7 @@
 		{
 			"id": 238,
 			"name": "Smoochum",
-			"sprite": "/pokemon/main-series/generation-2/238.png",
+			"sprite": "/pokemon/main-series/generation-2/238.webp",
 			"types": ["Ice", "Psychic"],
 			"stats": {
 				"hp": 45,
@@ -80721,7 +80721,7 @@
 		{
 			"id": 239,
 			"name": "Elekid",
-			"sprite": "/pokemon/main-series/generation-2/239.png",
+			"sprite": "/pokemon/main-series/generation-2/239.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 45,
@@ -81089,7 +81089,7 @@
 		{
 			"id": 240,
 			"name": "Magby",
-			"sprite": "/pokemon/main-series/generation-2/240.png",
+			"sprite": "/pokemon/main-series/generation-2/240.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 45,
@@ -81443,7 +81443,7 @@
 		{
 			"id": 241,
 			"name": "Miltank",
-			"sprite": "/pokemon/main-series/generation-2/241.png",
+			"sprite": "/pokemon/main-series/generation-2/241.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 95,
@@ -81887,7 +81887,7 @@
 		{
 			"id": 242,
 			"name": "Blissey",
-			"sprite": "/pokemon/main-series/generation-2/242.png",
+			"sprite": "/pokemon/main-series/generation-2/242.webp",
 			"types": ["Normal"],
 			"stats": {
 				"hp": 255,
@@ -82313,7 +82313,7 @@
 		{
 			"id": 243,
 			"name": "Raikou",
-			"sprite": "/pokemon/main-series/generation-2/243.png",
+			"sprite": "/pokemon/main-series/generation-2/243.webp",
 			"types": ["Electric"],
 			"stats": {
 				"hp": 90,
@@ -82673,7 +82673,7 @@
 		{
 			"id": 244,
 			"name": "Entei",
-			"sprite": "/pokemon/main-series/generation-2/244.png",
+			"sprite": "/pokemon/main-series/generation-2/244.webp",
 			"types": ["Fire"],
 			"stats": {
 				"hp": 115,
@@ -83033,7 +83033,7 @@
 		{
 			"id": 245,
 			"name": "Suicune",
-			"sprite": "/pokemon/main-series/generation-2/245.png",
+			"sprite": "/pokemon/main-series/generation-2/245.webp",
 			"types": ["Water"],
 			"stats": {
 				"hp": 100,
@@ -83401,7 +83401,7 @@
 		{
 			"id": 246,
 			"name": "Larvitar",
-			"sprite": "/pokemon/main-series/generation-2/246.png",
+			"sprite": "/pokemon/main-series/generation-2/246.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 50,
@@ -83749,7 +83749,7 @@
 		{
 			"id": 247,
 			"name": "Pupitar",
-			"sprite": "/pokemon/main-series/generation-2/247.png",
+			"sprite": "/pokemon/main-series/generation-2/247.webp",
 			"types": ["Rock", "Ground"],
 			"stats": {
 				"hp": 70,
@@ -84082,7 +84082,7 @@
 		{
 			"id": 248,
 			"name": "Tyranitar",
-			"sprite": "/pokemon/main-series/generation-2/248.png",
+			"sprite": "/pokemon/main-series/generation-2/248.webp",
 			"types": ["Rock", "Dark"],
 			"stats": {
 				"hp": 100,
@@ -84518,7 +84518,7 @@
 		{
 			"id": 249,
 			"name": "Lugia",
-			"sprite": "/pokemon/main-series/generation-2/249.png",
+			"sprite": "/pokemon/main-series/generation-2/249.webp",
 			"types": ["Psychic", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -84980,7 +84980,7 @@
 		{
 			"id": 250,
 			"name": "Ho-Oh",
-			"sprite": "/pokemon/main-series/generation-2/250.png",
+			"sprite": "/pokemon/main-series/generation-2/250.webp",
 			"types": ["Fire", "Flying"],
 			"stats": {
 				"hp": 106,
@@ -85410,7 +85410,7 @@
 		{
 			"id": 251,
 			"name": "Celebi",
-			"sprite": "/pokemon/main-series/generation-2/251.png",
+			"sprite": "/pokemon/main-series/generation-2/251.webp",
 			"types": ["Psychic", "Grass"],
 			"stats": {
 				"hp": 100,
