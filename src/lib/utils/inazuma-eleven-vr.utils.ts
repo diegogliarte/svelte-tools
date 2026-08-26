@@ -68,6 +68,20 @@ export interface Player {
 	HowToObtain: HowToObtain[];
 }
 
+export interface Hissatsu {
+	Name: string;
+	'Japanese Name': string;
+	Power: number | string;
+	Tension: number | string;
+	Type: string;
+	'Sub-Type': string;
+	Element: string;
+	'Shop 1': string;
+	'Shop 2': string;
+	'Duration (s)'?: number;
+	Movie?: string | null;
+}
+
 const PLAYER_ELEMENT_CLASS: Record<string, string> = {
 	Mountain: 'bg-yellow-800/75',
 	Fire: 'bg-red-800/75',

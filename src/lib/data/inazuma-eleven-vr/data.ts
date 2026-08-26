@@ -1,5 +1,5 @@
 import { createJsonLoader } from '$lib/data/json-loader';
-import type { Player } from '$lib/utils/inazuma-eleven-vr.utils';
+import type { Hissatsu, Player } from '$lib/utils/inazuma-eleven-vr.utils';
 
 import braceletsUrl from './bracelets.json?url';
 import bootsUrl from './boots.json?url';
@@ -12,7 +12,7 @@ export type EquipmentItem = Record<string, string | number>;
 
 export const loadBracelets = createJsonLoader<EquipmentItem[]>(braceletsUrl);
 export const loadBoots = createJsonLoader<EquipmentItem[]>(bootsUrl);
-export const loadHissatsu = createJsonLoader<Record<string, unknown>[]>(hissatsuUrl);
+export const loadHissatsu = createJsonLoader<Hissatsu[]>(hissatsuUrl);
 export const loadMisc = createJsonLoader<EquipmentItem[]>(miscUrl);
 export const loadPendants = createJsonLoader<EquipmentItem[]>(pendantsUrl);
 export const loadPlayers = createJsonLoader<Player[]>(playersUrl);
