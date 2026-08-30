@@ -3,6 +3,7 @@
 </script>
 
 <script lang="ts" generics="RowType extends object">
+	import { tooltipAction } from '$lib/actions/tooltip';
 	import TextInput from '$lib/components/ui/text-input.svelte';
 	import MdiChevronUp from '~icons/mdi/chevron-up';
 	import MdiChevronDown from '~icons/mdi/chevron-down';
@@ -15,6 +16,8 @@
 		pageSize?: number;
 		onRowClick?: (row: RowType) => void;
 		rowKey?: (row: RowType) => string | number;
+		rowClass?: string | ((row: RowType) => string | undefined);
+		rowTooltip?: string | ((row: RowType) => string | undefined);
 		resetPageOnRowsChange?: boolean;
 	}
 
@@ -24,6 +27,8 @@
 		pageSize = 50,
 		onRowClick,
 		rowKey = undefined,
+		rowClass = undefined,
+		rowTooltip = undefined,
 		resetPageOnRowsChange = true
 	}: Props<RowType> = $props();
 
@@ -62,6 +67,14 @@
 		const value = typeof col.image === 'function' ? col.image(row) : col.image;
 		if (!value) return [];
 		return Array.isArray(value) ? value : [value];
+	}
+
+	function getRowClass(row: RowType) {
+		return typeof rowClass === 'function' ? rowClass(row) : rowClass;
+	}
+
+	function getRowTooltip(row: RowType) {
+		return (typeof rowTooltip === 'function' ? rowTooltip(row) : rowTooltip) ?? '';
 	}
 
 	function compareValues(a: SortValue, b: SortValue) {
@@ -226,8 +239,15 @@
 			{:else}
 				{#each visibleRows as row (rowKey ? rowKey(row) : row)}
 					<tr
-						class="border-b border-text/25 transition hover:bg-accent-dark/20 {onRowClick ? 'cursor-pointer' : ''}"
+						class="border-b border-text/25 transition hover:bg-accent-dark/20 {onRowClick
+							? 'cursor-pointer'
+							: ''} {getRowClass(row) ?? ''}"
 						onclick={(event) => handleRowClick(event, row)}
+						use:tooltipAction={{
+							text: getRowTooltip(row),
+							position: 'top',
+							disabled: !getRowTooltip(row)
+						}}
 					>
 						{#each columns as col (col)}
 							{@const images = cellImages(row, col)}

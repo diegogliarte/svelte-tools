@@ -21,6 +21,7 @@
 		"check:pokemon-main-series:sprites": "tsx src/scripts/pokemon-main-series/normalize-sprites.ts",
 		"normalize:pokemon-main-series:sprites": "tsx src/scripts/pokemon-main-series/normalize-sprites.ts --write",
 		"scrape:yokai-watch-2:baffle-boards": "tsx src/scripts/yokai-watch-2/baffle-boards.ts",
+		"scrape:osrs:slayer-tasks": "tsx src/scripts/osrs/slayer-tasks.ts",
 		"generate:emojis": "tsx src/scripts/emojis/generate.ts",
 		"generate-og-images": "tsx src/scripts/generate-og-images.ts"
 	},
