@@ -384978,6 +384978,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -384989,6 +384990,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -385000,6 +385002,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -385011,6 +385014,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User Or Ally",
+			"machines": {},
 			"description": "Raises one of a friendly Pokémon’s stats at random by two stages."
 		},
 		{
@@ -385022,6 +385026,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM40",
+				"platinum": "TM40",
+				"heartgold-soulsilver": "TM40"
+			},
 			"description": "Never misses."
 		},
 		{
@@ -385033,6 +385042,7 @@
 			"accuracy": 95,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -385044,6 +385054,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Speed by two stages."
 		},
 		{
@@ -385055,6 +385066,7 @@
 			"accuracy": 95,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -385066,6 +385078,7 @@
 			"accuracy": 95,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -385077,6 +385090,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Defense by two stages."
 		},
 		{
@@ -385088,6 +385102,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise all of the user’s stats by one stage."
 		},
 		{
@@ -385099,6 +385114,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -385110,6 +385126,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Restores 1/16 of the user’s max HP each turn."
 		},
 		{
@@ -385121,6 +385138,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -385132,6 +385150,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -385143,6 +385162,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Cures the entire party of major status effects."
 		},
 		{
@@ -385154,6 +385174,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Randomly selects and uses one of the trainer’s other Pokémon’s moves."
 		},
 		{
@@ -385165,6 +385186,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power is doubled if the target has already received damage this turn."
 		},
 		{
@@ -385176,6 +385198,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -385187,6 +385210,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -385198,6 +385222,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM45",
+				"platinum": "TM45",
+				"heartgold-soulsilver": "TM45"
+			},
 			"description": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
 		},
 		{
@@ -385209,6 +385238,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -385220,6 +385250,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Attack by one stage."
 		},
 		{
@@ -385231,6 +385262,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM72",
+				"platinum": "TM72",
+				"heartgold-soulsilver": "TM72"
+			},
 			"description": "Inflicts double damage if the user takes damage before attacking this turn."
 		},
 		{
@@ -385242,6 +385278,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -385253,6 +385290,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -385264,6 +385302,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Allows the trainer to switch out the user and pass effects along to its replacement."
 		},
 		{
@@ -385275,6 +385314,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits once for every conscious Pokémon the trainer has."
 		},
 		{
@@ -385286,6 +385326,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User pays half its max HP to max out its Attack."
 		},
 		{
@@ -385297,6 +385338,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User waits for two turns, then hits back for twice the damage it took."
 		},
 		{
@@ -385308,6 +385350,7 @@
 			"accuracy": 75,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -385319,6 +385362,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -385330,6 +385374,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -385341,6 +385386,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit and a chance to burn the target."
 		},
 		{
@@ -385352,6 +385398,11 @@
 			"accuracy": 70,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {
+				"diamond-pearl": "TM14",
+				"platinum": "TM14",
+				"heartgold-soulsilver": "TM14"
+			},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -385363,6 +385414,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -385374,6 +385426,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -385385,6 +385438,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -385396,6 +385450,7 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -385407,6 +385462,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in one turn."
 		},
 		{
@@ -385418,6 +385474,7 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User bounces high into the air, dodging all attacks, and hits next turn."
 		},
 		{
@@ -385429,6 +385486,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/3 the damage inflicted in recoil."
 		},
 		{
@@ -385440,6 +385498,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM31",
+				"platinum": "TM31",
+				"heartgold-soulsilver": "TM31"
+			},
 			"description": "Destroys Reflect and Light Screen."
 		},
 		{
@@ -385451,6 +385514,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM55",
+				"platinum": "TM55",
+				"heartgold-soulsilver": "TM55"
+			},
 			"description": "Has double power against Pokémon that have less than half their max HP remaining."
 		},
 		{
@@ -385462,6 +385530,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -385473,6 +385542,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -385484,6 +385554,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If target has a berry, inflicts double damage and uses the berry."
 		},
 		{
@@ -385495,6 +385566,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -385506,6 +385578,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM08",
+				"platinum": "TM08",
+				"heartgold-soulsilver": "TM08"
+			},
 			"description": "Raises the user’s Attack and Defense by one stage."
 		},
 		{
@@ -385517,6 +385594,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -385528,6 +385606,11 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM09",
+				"platinum": "TM09",
+				"heartgold-soulsilver": "TM09"
+			},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -385539,6 +385622,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM04",
+				"platinum": "TM04",
+				"heartgold-soulsilver": "TM04"
+			},
 			"description": "Raises the user’s Special Attack and Special Defense by one stage."
 		},
 		{
@@ -385550,6 +385638,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "User’s type changes to match the terrain."
 		},
 		{
@@ -385561,6 +385650,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {
+				"diamond-pearl": "TM78",
+				"platinum": "TM78",
+				"heartgold-soulsilver": "TM78"
+			},
 			"description": "Lowers the target’s Special Attack by two stages if it’s the opposite gender."
 		},
 		{
@@ -385572,6 +385666,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Defense by one stage.  User’s Electric moves have doubled power next turn."
 		},
 		{
@@ -385583,6 +385678,11 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM57",
+				"platinum": "TM57",
+				"heartgold-soulsilver": "TM57"
+			},
 			"description": "Has a chance to raise the user’s Special Attack by one stage."
 		},
 		{
@@ -385594,6 +385694,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack by two stages."
 		},
 		{
@@ -385605,6 +385706,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a higher chance to confuse the target when the recorded sound is louder."
 		},
 		{
@@ -385616,6 +385718,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -385627,6 +385730,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Defense and Special Defense by one stage after inflicting damage."
 		},
 		{
@@ -385638,6 +385742,7 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -385649,6 +385754,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -385660,6 +385766,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -385671,6 +385778,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -385682,6 +385790,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "User’s type changes to the type of one of its moves at random."
 		},
 		{
@@ -385693,6 +385802,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Changes the user’s type to a random type either resistant or immune to the last move used against it."
 		},
 		{
@@ -385704,6 +385814,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Uses the target’s last used move."
 		},
 		{
@@ -385715,6 +385826,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense and Special Defense by one stage."
 		},
 		{
@@ -385726,6 +385838,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -385737,6 +385850,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Inflicts twice the damage the user received from the last physical hit it took."
 		},
 		{
@@ -385748,6 +385862,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Takes the target’s item."
 		},
 		{
@@ -385759,6 +385874,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -385770,6 +385886,7 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -385781,6 +385898,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit and a chance to poison the target."
 		},
 		{
@@ -385792,6 +385910,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -385803,6 +385922,7 @@
 			"accuracy": 95,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -385814,6 +385934,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
 		},
 		{
@@ -385825,6 +385946,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
 		},
 		{
@@ -385836,6 +385958,11 @@
 			"accuracy": 95,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM01",
+				"platinum": "HM01",
+				"heartgold-soulsilver": "HM01"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -385847,6 +385974,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM79",
+				"platinum": "TM79",
+				"heartgold-soulsilver": "TM79"
+			},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -385858,6 +385990,7 @@
 			"accuracy": 50,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -385869,6 +386002,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense and Special Defense by one stage."
 		},
 		{
@@ -385880,6 +386014,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises user’s Defense by one stage."
 		},
 		{
@@ -385891,6 +386026,10 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM05",
+				"platinum": "HM05"
+			},
 			"description": "Lowers the target’s evasion by one stage.  Removes field effects from the enemy field."
 		},
 		{
@@ -385902,6 +386041,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "If the user faints this turn, the target automatically will, too."
 		},
 		{
@@ -385913,6 +386053,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents any moves from hitting the user this turn."
 		},
 		{
@@ -385924,6 +386065,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM28",
+				"platinum": "TM28",
+				"heartgold-soulsilver": "TM28"
+			},
 			"description": "User digs underground, dodging all attacks, and hits next turn."
 		},
 		{
@@ -385935,6 +386081,7 @@
 			"accuracy": 80,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Disables the target’s last used move for 1-8 turns."
 		},
 		{
@@ -385946,6 +386093,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -385957,6 +386105,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User dives underwater, dodging all attacks, and hits next turn."
 		},
 		{
@@ -385968,6 +386117,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -385979,6 +386129,7 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits the target two turns later."
 		},
 		{
@@ -385990,6 +386141,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in one turn."
 		},
 		{
@@ -386001,6 +386153,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in one turn."
 		},
 		{
@@ -386012,6 +386165,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -386023,6 +386177,11 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM32",
+				"platinum": "TM32",
+				"heartgold-soulsilver": "TM32"
+			},
 			"description": "Raises the user’s evasion by one stage."
 		},
 		{
@@ -386034,6 +386193,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/3 the damage inflicted in recoil."
 		},
 		{
@@ -386045,6 +386205,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -386056,6 +386217,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -386067,6 +386229,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM02",
+				"platinum": "TM02",
+				"heartgold-soulsilver": "TM02"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -386078,6 +386245,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack and Speed by one stage."
 		},
 		{
@@ -386089,6 +386257,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM59",
+				"platinum": "TM59",
+				"heartgold-soulsilver": "TM59"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -386100,6 +386273,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts 40 points of damage."
 		},
 		{
@@ -386111,6 +386285,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -386122,6 +386297,11 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM60",
+				"platinum": "TM60",
+				"heartgold-soulsilver": "TM60"
+			},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -386133,6 +386313,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM85",
+				"platinum": "TM85",
+				"heartgold-soulsilver": "TM85"
+			},
 			"description": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -386144,6 +386329,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -386155,6 +386341,7 @@
 			"accuracy": 50,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -386166,6 +386353,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -386177,6 +386365,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Other Pokemon",
+			"machines": {
+				"diamond-pearl": "TM26",
+				"platinum": "TM26",
+				"heartgold-soulsilver": "TM26"
+			},
 			"description": "Inflicts regular damage and can hit Dig users."
 		},
 		{
@@ -386188,6 +386381,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -386199,6 +386393,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM63",
+				"platinum": "TM63",
+				"heartgold-soulsilver": "TM63"
+			},
 			"description": "Target cannot use held items."
 		},
 		{
@@ -386210,6 +386409,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -386221,6 +386421,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to repeat its last used move every turn for 2 to 6 turns."
 		},
 		{
@@ -386232,6 +386433,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s HP to equal the user’s."
 		},
 		{
@@ -386243,6 +386445,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM58",
+				"platinum": "TM58",
+				"heartgold-soulsilver": "TM58"
+			},
 			"description": "Prevents the user’s HP from lowering below 1 this turn."
 		},
 		{
@@ -386254,6 +386461,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM53",
+				"platinum": "TM53",
+				"heartgold-soulsilver": "TM53"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -386265,6 +386477,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
 		},
 		{
@@ -386276,6 +386489,11 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Other Pokemon",
+			"machines": {
+				"diamond-pearl": "TM64",
+				"platinum": "TM64",
+				"heartgold-soulsilver": "TM64"
+			},
 			"description": "User faints."
 		},
 		{
@@ -386287,6 +386505,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -386298,6 +386517,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -386309,6 +386529,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM42",
+				"platinum": "TM42",
+				"heartgold-soulsilver": "TM42"
+			},
 			"description": "Power doubles if user is burned, paralyzed, or poisoned."
 		},
 		{
@@ -386320,6 +386545,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
 		},
 		{
@@ -386331,6 +386557,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Special Defense by two stages."
 		},
 		{
@@ -386342,6 +386569,11 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM54",
+				"platinum": "TM54",
+				"heartgold-soulsilver": "TM54"
+			},
 			"description": "Cannot lower the target’s HP below 1."
 		},
 		{
@@ -386353,6 +386585,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack by two stages."
 		},
 		{
@@ -386364,6 +386597,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits through Protect and Detect."
 		},
 		{
@@ -386375,6 +386609,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -386386,6 +386621,11 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM38",
+				"platinum": "TM38",
+				"heartgold-soulsilver": "TM38"
+			},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -386397,6 +386637,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target and a chance to make the target flinch."
 		},
 		{
@@ -386408,6 +386649,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -386419,6 +386661,7 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -386430,6 +386673,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -386441,6 +386685,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
 		},
 		{
@@ -386452,6 +386697,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
 		},
 		{
@@ -386463,6 +386709,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM35",
+				"platinum": "TM35",
+				"heartgold-soulsilver": "TM35"
+			},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -386474,6 +386725,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User takes 1/3 the damage inflicted in recoil.  Has a chance to burn the target."
 		},
 		{
@@ -386485,6 +386737,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM70",
+				"platinum": "TM70",
+				"heartgold-soulsilver": "TM70"
+			},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -386496,6 +386753,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM91",
+				"platinum": "TM91",
+				"heartgold-soulsilver": "TM91"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -386507,6 +386769,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Raises the target’s Special Attack by one stage and confuses the target."
 		},
 		{
@@ -386518,6 +386781,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM56",
+				"platinum": "TM56",
+				"heartgold-soulsilver": "TM56"
+			},
 			"description": "Throws held item at the target; power depends on the item."
 		},
 		{
@@ -386529,6 +386797,11 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM02",
+				"platinum": "HM02",
+				"heartgold-soulsilver": "HM02"
+			},
 			"description": "User flies high into the air, dodging all attacks, and hits next turn."
 		},
 		{
@@ -386540,6 +386813,11 @@
 			"accuracy": 70,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM52",
+				"platinum": "TM52",
+				"heartgold-soulsilver": "TM52"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -386551,6 +386829,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Increases the user’s chance to score a critical hit."
 		},
 		{
@@ -386562,6 +386841,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM01",
+				"platinum": "TM01",
+				"heartgold-soulsilver": "TM01"
+			},
 			"description": "If the user takes damage before attacking, the attack is canceled."
 		},
 		{
@@ -386573,6 +386857,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Redirects the target’s single-target effects to the user for this turn."
 		},
 		{
@@ -386584,6 +386869,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -386595,6 +386881,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
 		},
 		{
@@ -386606,6 +386893,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -386617,6 +386905,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM21",
+				"platinum": "TM21",
+				"heartgold-soulsilver": "TM21"
+			},
 			"description": "Power increases as happiness decreases, up to a maximum of 102."
 		},
 		{
@@ -386628,6 +386921,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -386639,6 +386933,7 @@
 			"accuracy": 95,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
 		},
 		{
@@ -386650,6 +386945,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -386661,6 +386957,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits the target two turns later."
 		},
 		{
@@ -386672,6 +386969,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Nullifies target’s ability until it leaves battle."
 		},
 		{
@@ -386683,6 +386981,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM19",
+				"platinum": "TM19",
+				"heartgold-soulsilver": "TM19"
+			},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -386694,6 +386997,11 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM68",
+				"platinum": "TM68",
+				"heartgold-soulsilver": "TM68"
+			},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -386705,6 +387013,7 @@
 			"accuracy": 75,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -386716,6 +387025,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM86",
+				"platinum": "TM86",
+				"heartgold-soulsilver": "TM86"
+			},
 			"description": "Inflicts more damage to heavier targets, with a maximum of 120 power."
 		},
 		{
@@ -386727,6 +387041,7 @@
 			"accuracy": 55,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -386738,6 +387053,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Disables moves and immunities that involve flying or levitating for five turns."
 		},
 		{
@@ -386749,6 +387065,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Attack by one stage."
 		},
 		{
@@ -386760,6 +387077,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack and Special Attack by one stage."
 		},
 		{
@@ -386771,6 +387089,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "If the user faints this turn, the PP of the move that fainted it drops to 0."
 		},
 		{
@@ -386782,6 +387101,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User swaps Defense and Special Defense changes with the target."
 		},
 		{
@@ -386793,6 +387113,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -386804,6 +387125,7 @@
 			"accuracy": 70,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -386815,6 +387137,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage and can hit Pokémon in the air."
 		},
 		{
@@ -386826,6 +387149,11 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM74",
+				"platinum": "TM74",
+				"heartgold-soulsilver": "TM74"
+			},
 			"description": "Power raises when the user has lower Speed, up to a maximum of 150."
 		},
 		{
@@ -386837,6 +387165,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Entire Field",
+			"machines": {
+				"diamond-pearl": "TM07",
+				"platinum": "TM07",
+				"heartgold-soulsilver": "TM07"
+			},
 			"description": "Changes the weather to a hailstorm for five turns."
 		},
 		{
@@ -386848,6 +387181,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers user’s Speed by one stage."
 		},
 		{
@@ -386859,6 +387193,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage."
 		},
 		{
@@ -386870,6 +387205,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Resets all Pokémon’s stats, accuracy, and evasion."
 		},
 		{
@@ -386881,6 +387217,7 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/2 the damage inflicted in recoil."
 		},
 		{
@@ -386892,6 +387229,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -386903,6 +387241,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Cures the entire party of major status effects."
 		},
 		{
@@ -386914,6 +387253,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Prevents target from restoring its HP for five turns."
 		},
 		{
@@ -386925,6 +387265,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -386936,6 +387277,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User faints.  Its replacement has its HP fully restored and any major status effect removed."
 		},
 		{
@@ -386947,6 +387289,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User and target swap stat changes."
 		},
 		{
@@ -386958,6 +387301,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -386969,6 +387313,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Ally",
+			"machines": {},
 			"description": "Ally’s next move inflicts half more damage."
 		},
 		{
@@ -386980,6 +387325,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM10",
+				"platinum": "TM10",
+				"heartgold-soulsilver": "TM10"
+			},
 			"description": "Power and type depend upon user’s IVs.  Power can range from 30 to 70."
 		},
 		{
@@ -386991,6 +387341,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user misses, it takes half the damage it would have inflicted in recoil."
 		},
 		{
@@ -387002,6 +387353,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387013,6 +387365,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -387024,6 +387377,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -387035,6 +387389,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -387046,6 +387401,7 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387057,6 +387413,11 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM15",
+				"platinum": "TM15",
+				"heartgold-soulsilver": "TM15"
+			},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -387068,6 +387429,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -387079,6 +387441,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387090,6 +387453,7 @@
 			"accuracy": 60,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -387101,6 +387465,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
 		},
 		{
@@ -387112,6 +387477,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM13",
+				"platinum": "TM13",
+				"heartgold-soulsilver": "TM13"
+			},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -387123,6 +387493,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to freeze the target and a chance to make the target flinch."
 		},
 		{
@@ -387134,6 +387505,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -387145,6 +387517,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387156,6 +387529,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -387167,6 +387541,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -387178,6 +387553,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents the target from using any moves that the user also knows."
 		},
 		{
@@ -387189,6 +387565,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
 		},
 		{
@@ -387200,6 +387577,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -387211,6 +387589,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -387222,6 +387601,11 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM23",
+				"platinum": "TM23",
+				"heartgold-soulsilver": "TM23"
+			},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -387233,6 +387617,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
 		},
 		{
@@ -387244,6 +387629,7 @@
 			"accuracy": 95,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user misses, it takes half the damage it would have inflicted in recoil."
 		},
 		{
@@ -387255,6 +387641,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -387266,6 +387653,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -387277,6 +387665,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target drops its held item."
 		},
 		{
@@ -387288,6 +387677,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Can only be used after all of the user’s other moves have been used."
 		},
 		{
@@ -387299,6 +387689,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -387310,6 +387701,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -387321,6 +387713,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -387332,6 +387725,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -387343,6 +387737,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Seeds the target, stealing HP from it every turn."
 		},
 		{
@@ -387354,6 +387749,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Defense by one stage."
 		},
 		{
@@ -387365,6 +387761,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -387376,6 +387773,11 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {
+				"diamond-pearl": "TM16",
+				"platinum": "TM16",
+				"heartgold-soulsilver": "TM16"
+			},
 			"description": "Reduces damage from special attacks by 50% for five turns."
 		},
 		{
@@ -387387,6 +387789,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Ensures that the user’s next move will hit the target."
 		},
 		{
@@ -387398,6 +387801,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -387409,6 +387813,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage to heavier targets, with a maximum of 120 power."
 		},
 		{
@@ -387420,6 +387825,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {},
 			"description": "Prevents the target from scoring critical hits for five turns."
 		},
 		{
@@ -387431,6 +387837,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User faints, and its replacement is fully healed."
 		},
 		{
@@ -387442,6 +387849,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -387453,6 +387861,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387464,6 +387873,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {},
 			"description": "Reflects back the first effect move used on the user this turn."
 		},
 		{
@@ -387475,6 +387885,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -387486,6 +387897,7 @@
 			"accuracy": 70,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -387497,6 +387909,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -387508,6 +387921,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User is immune to Ground moves and effects for five turns."
 		},
 		{
@@ -387519,6 +387933,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Power varies randomly from 10 to 150."
 		},
 		{
@@ -387530,6 +387945,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon Me First",
+			"machines": {},
 			"description": "Uses the target’s move against it before it attacks, with power increased by half."
 		},
 		{
@@ -387541,6 +387957,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -387552,6 +387969,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -387563,6 +387981,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -387574,6 +387993,7 @@
 			"accuracy": 75,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387585,6 +388005,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387596,6 +388017,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -387607,6 +388029,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack and Special Attack by two stages.  User faints."
 		},
 		{
@@ -387618,6 +388041,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage."
 		},
 		{
@@ -387629,6 +388053,7 @@
 			"accuracy": 95,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise the user’s Attack by one stage."
 		},
 		{
@@ -387640,6 +388065,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Special Defense by two stages."
 		},
 		{
@@ -387651,6 +388077,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise the user’s Attack by one stage."
 		},
 		{
@@ -387662,6 +388089,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Randomly selects and uses any move in the game."
 		},
 		{
@@ -387673,6 +388101,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -387684,6 +388113,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Copies the target’s last used move."
 		},
 		{
@@ -387695,6 +388125,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Ensures that the user’s next move will hit the target."
 		},
 		{
@@ -387706,6 +388137,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s evasion by two stages."
 		},
 		{
@@ -387717,6 +388149,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it’s Dark."
 		},
 		{
@@ -387728,6 +388161,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Inflicts twice the damage the user received from the last special hit it took."
 		},
 		{
@@ -387739,6 +388173,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Uses the target’s last used move."
 		},
 		{
@@ -387750,6 +388185,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -387761,6 +388197,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {},
 			"description": "Protects the user’s stats from being changed by enemy moves."
 		},
 		{
@@ -387772,6 +388209,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Attack by one stage."
 		},
 		{
@@ -387783,6 +388221,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -387794,6 +388233,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -387805,6 +388245,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -387816,6 +388257,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -387827,6 +388269,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Halves all Electric-type damage."
 		},
 		{
@@ -387838,6 +388281,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -387849,6 +388293,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -387860,6 +388305,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Attack by two stages."
 		},
 		{
@@ -387871,6 +388317,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM83",
+				"platinum": "TM83",
+				"heartgold-soulsilver": "TM83"
+			},
 			"description": "Power and type depend on the held berry."
 		},
 		{
@@ -387882,6 +388333,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Uses a move which depends upon the terrain."
 		},
 		{
@@ -387893,6 +388345,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -387904,6 +388357,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to the user’s level."
 		},
 		{
@@ -387915,6 +388369,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -387926,6 +388381,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target loses 1/4 its max HP every turn as long as it’s asleep."
 		},
 		{
@@ -387937,6 +388393,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -387948,6 +388405,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
 		},
 		{
@@ -387959,6 +388417,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise all of the user’s stats by one stage."
 		},
 		{
@@ -387970,6 +388429,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -387981,6 +388441,11 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM50",
+				"platinum": "TM50",
+				"heartgold-soulsilver": "TM50"
+			},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -387992,6 +388457,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Sets the user’s and targets’s HP to the average of their current HP."
 		},
 		{
@@ -388003,6 +388469,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Scatters money on the ground worth five times the user’s level."
 		},
 		{
@@ -388014,6 +388481,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM66",
+				"platinum": "TM66",
+				"heartgold-soulsilver": "TM66"
+			},
 			"description": "Power is doubled if the target has already moved this turn."
 		},
 		{
@@ -388025,6 +388497,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388036,6 +388509,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "All Pokemon",
+			"machines": {},
 			"description": "User and target both faint after three turns."
 		},
 		{
@@ -388047,6 +388521,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -388058,6 +388533,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -388069,6 +388545,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM88",
+				"platinum": "TM88",
+				"heartgold-soulsilver": "TM88"
+			},
 			"description": "If target has a berry, inflicts double damage and uses the berry."
 		},
 		{
@@ -388080,6 +388561,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to badly poison the target."
 		},
 		{
@@ -388091,6 +388573,7 @@
 			"accuracy": 55,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Poisons the target."
 		},
 		{
@@ -388102,6 +388585,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM84",
+				"platinum": "TM84",
+				"heartgold-soulsilver": "TM84"
+			},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -388113,6 +388601,7 @@
 			"accuracy": 75,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Poisons the target."
 		},
 		{
@@ -388124,6 +388613,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -388135,6 +388625,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit and a chance to poison the target."
 		},
 		{
@@ -388146,6 +388637,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388157,6 +388649,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -388168,6 +388661,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388179,6 +388673,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User swaps Attack and Special Attack changes with the target."
 		},
 		{
@@ -388190,6 +388685,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User swaps Attack and Defense."
 		},
 		{
@@ -388201,6 +388697,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388212,6 +388709,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP."
 		},
 		{
@@ -388223,6 +388721,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM17",
+				"platinum": "TM17",
+				"heartgold-soulsilver": "TM17"
+			},
 			"description": "Prevents any moves from hitting the user this turn."
 		},
 		{
@@ -388234,6 +388737,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -388245,6 +388749,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM77",
+				"platinum": "TM77",
+				"heartgold-soulsilver": "TM77"
+			},
 			"description": "Discards the user’s stat changes and copies the target’s."
 		},
 		{
@@ -388256,6 +388765,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM29",
+				"platinum": "TM29",
+				"heartgold-soulsilver": "TM29"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -388267,6 +388781,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -388278,6 +388793,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -388289,6 +388805,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Transfers the user’s major status effect to the target."
 		},
 		{
@@ -388300,6 +388817,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage between 50% and 150% of the user’s level."
 		},
 		{
@@ -388311,6 +388829,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power increases against targets with more raised stats, up to a maximum of 200."
 		},
 		{
@@ -388322,6 +388841,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has double power against, and can hit, Pokémon attempting to switch out."
 		},
 		{
@@ -388333,6 +388853,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388344,6 +388865,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user is hit after using this move, its Attack rises by one stage."
 		},
 		{
@@ -388355,6 +388877,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {
+				"diamond-pearl": "TM18",
+				"platinum": "TM18",
+				"heartgold-soulsilver": "TM18"
+			},
 			"description": "Changes the weather to rain for five turns."
 		},
 		{
@@ -388366,6 +388893,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
 		},
 		{
@@ -388377,6 +388905,7 @@
 			"accuracy": 95,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -388388,6 +388917,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Requires a turn to charge before attacking."
 		},
 		{
@@ -388399,6 +388929,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -388410,6 +388941,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM67",
+				"platinum": "TM67",
+				"heartgold-soulsilver": "TM67"
+			},
 			"description": "User recovers the item it last used up."
 		},
 		{
@@ -388421,6 +388957,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Users Field",
+			"machines": {
+				"diamond-pearl": "TM33",
+				"platinum": "TM33",
+				"heartgold-soulsilver": "TM33"
+			},
 			"description": "Reduces damage from physical attacks by half."
 		},
 		{
@@ -388432,6 +388973,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Cleanses the user of a burn, paralysis, or poison."
 		},
 		{
@@ -388443,6 +388985,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM44",
+				"platinum": "TM44",
+				"heartgold-soulsilver": "TM44"
+			},
 			"description": "User sleeps for two turns, completely healing itself."
 		},
 		{
@@ -388454,6 +389001,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM27",
+				"platinum": "TM27",
+				"heartgold-soulsilver": "TM27"
+			},
 			"description": "Power increases with happiness, up to a maximum of 102."
 		},
 		{
@@ -388465,6 +389017,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts double damage if the user takes damage before attacking this turn."
 		},
 		{
@@ -388476,6 +389029,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
 		},
 		{
@@ -388487,6 +389041,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM05",
+				"platinum": "TM05",
+				"heartgold-soulsilver": "TM05"
+			},
 			"description": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
 		},
 		{
@@ -388498,6 +389057,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -388509,6 +389069,7 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -388520,6 +389081,11 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM08",
+				"platinum": "HM08",
+				"heartgold-soulsilver": "HM08"
+			},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -388531,6 +389097,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM69",
+				"platinum": "TM69",
+				"heartgold-soulsilver": "TM69"
+			},
 			"description": "Raises the user’s Speed by two stages."
 		},
 		{
@@ -388542,6 +389113,11 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {
+				"diamond-pearl": "TM80",
+				"platinum": "TM80",
+				"heartgold-soulsilver": "TM80"
+			},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -388553,6 +389129,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM06",
+				"platinum": "HM06",
+				"heartgold-soulsilver": "HM06"
+			},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -388564,6 +389145,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388575,6 +389157,11 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM39",
+				"platinum": "TM39",
+				"heartgold-soulsilver": "TM39"
+			},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -388586,6 +389173,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -388597,6 +389185,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Copies the target’s ability."
 		},
 		{
@@ -388608,6 +389197,7 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -388619,6 +389209,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
 		},
 		{
@@ -388630,6 +389221,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM51",
+				"platinum": "TM51",
+				"heartgold-soulsilver": "TM51"
+			},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -388641,6 +389237,7 @@
 			"accuracy": 95,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
 		},
 		{
@@ -388652,6 +389249,11 @@
 			"accuracy": null,
 			"pp": 25,
 			"target": "Users Field",
+			"machines": {
+				"diamond-pearl": "TM20",
+				"platinum": "TM20",
+				"heartgold-soulsilver": "TM20"
+			},
 			"description": "Protects the user’s field from major status ailments and confusion for five turns."
 		},
 		{
@@ -388663,6 +389265,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -388674,6 +389277,7 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -388685,6 +389289,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Entire Field",
+			"machines": {
+				"diamond-pearl": "TM37",
+				"platinum": "TM37",
+				"heartgold-soulsilver": "TM37"
+			},
 			"description": "Changes the weather to a sandstorm for five turns."
 		},
 		{
@@ -388696,6 +389305,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -388707,6 +389317,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388718,6 +389329,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Defense by two stages."
 		},
 		{
@@ -388729,6 +389341,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM43",
+				"platinum": "TM43",
+				"heartgold-soulsilver": "TM43"
+			},
 			"description": "Has a chance to inflict a status effect which depends upon the terrain."
 		},
 		{
@@ -388740,6 +389357,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388751,6 +389369,7 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by two stages."
 		},
 		{
@@ -388762,6 +389381,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to the user’s level."
 		},
 		{
@@ -388773,6 +389393,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "User faints."
 		},
 		{
@@ -388784,6 +389405,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM30",
+				"platinum": "TM30",
+				"heartgold-soulsilver": "TM30"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -388795,6 +389421,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM65",
+				"platinum": "TM65",
+				"heartgold-soulsilver": "TM65"
+			},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -388806,6 +389437,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
 		},
 		{
@@ -388817,6 +389449,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -388828,6 +389461,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388839,6 +389473,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -388850,6 +389485,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -388861,6 +389497,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM34",
+				"platinum": "TM34",
+				"heartgold-soulsilver": "TM34"
+			},
 			"description": "Never misses."
 		},
 		{
@@ -388872,6 +389513,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -388883,6 +389525,11 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM62",
+				"platinum": "TM62",
+				"heartgold-soulsilver": "TM62"
+			},
 			"description": "Has a chance to raise all of the user’s stats by one stage."
 		},
 		{
@@ -388894,6 +389541,7 @@
 			"accuracy": 55,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -388905,6 +389553,7 @@
 			"accuracy": null,
 			"pp": 1,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Permanently becomes the target’s last used move."
 		},
 		{
@@ -388916,6 +389565,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM48",
+				"platinum": "TM48",
+				"heartgold-soulsilver": "TM48"
+			},
 			"description": "User and target swap abilities."
 		},
 		{
@@ -388927,6 +389581,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage.  User charges for one turn before attacking."
 		},
 		{
@@ -388938,6 +389593,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User charges for one turn before attacking.  Has a chance to make the target flinch."
 		},
 		{
@@ -388949,6 +389605,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage and can hit Bounce and Fly users."
 		},
 		{
@@ -388960,6 +389617,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -388971,6 +389629,7 @@
 			"accuracy": 75,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -388982,6 +389641,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -388993,6 +389653,7 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -389004,6 +389665,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM82",
+				"platinum": "TM82",
+				"heartgold-soulsilver": "TM82"
+			},
 			"description": "Randomly uses one of the user’s other three moves.  Only works if the user is sleeping."
 		},
 		{
@@ -389015,6 +389681,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -389026,6 +389693,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM36",
+				"platinum": "TM36",
+				"heartgold-soulsilver": "TM36"
+			},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -389037,6 +389709,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the target is paralyzed, inflicts double damage and cures the paralysis."
 		},
 		{
@@ -389048,6 +389721,7 @@
 			"accuracy": 70,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -389059,6 +389733,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -389070,6 +389745,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM49",
+				"platinum": "TM49",
+				"heartgold-soulsilver": "TM49"
+			},
 			"description": "Steals the target’s move, if it’s self-targeted."
 		},
 		{
@@ -389081,6 +389761,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch.  Only works if the user is sleeping."
 		},
 		{
@@ -389092,6 +389773,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -389103,6 +389785,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM22",
+				"platinum": "TM22",
+				"heartgold-soulsilver": "TM22"
+			},
 			"description": "Requires a turn to charge before attacking."
 		},
 		{
@@ -389114,6 +389801,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts 20 points of damage."
 		},
 		{
@@ -389125,6 +389813,7 @@
 			"accuracy": 95,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -389136,6 +389825,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -389147,6 +389837,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -389158,6 +389849,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -389169,6 +389861,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Opponents Field",
+			"machines": {},
 			"description": "Scatters Spikes, hurting opposing Pokémon that switch in."
 		},
 		{
@@ -389180,6 +389873,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power is 100 times the amount of energy Stockpiled."
 		},
 		{
@@ -389191,6 +389885,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the PP of the target’s last used move by 4."
 		},
 		{
@@ -389202,6 +389897,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Does nothing."
 		},
 		{
@@ -389213,6 +389909,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -389224,6 +389921,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Opponents Field",
+			"machines": {
+				"diamond-pearl": "TM76",
+				"platinum": "TM76",
+				"heartgold-soulsilver": "TM76"
+			},
 			"description": "Causes damage when opposing Pokémon switch in."
 		},
 		{
@@ -389235,6 +389937,11 @@
 			"accuracy": 90,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM47",
+				"platinum": "TM47",
+				"heartgold-soulsilver": "TM47"
+			},
 			"description": "Has a chance to raise the user’s Defense by one stage."
 		},
 		{
@@ -389246,6 +389953,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Stores energy up to three times for use with Spit Up and Swallow."
 		},
 		{
@@ -389257,6 +389965,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -389268,6 +389977,11 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM71",
+				"platinum": "TM71",
+				"heartgold-soulsilver": "TM71"
+			},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -389279,6 +389993,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM04",
+				"platinum": "HM04",
+				"heartgold-soulsilver": "HM04"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389290,6 +390009,7 @@
 			"accuracy": 95,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -389301,6 +390021,7 @@
 			"accuracy": 75,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -389312,6 +390033,7 @@
 			"accuracy": 80,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/4 the damage it inflicts in recoil."
 		},
 		{
@@ -389323,6 +390045,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM90",
+				"platinum": "TM90",
+				"heartgold-soulsilver": "TM90"
+			},
 			"description": "Transfers 1/4 of the user’s max HP into a doll, protecting the user from further damage or status changes until it breaks."
 		},
 		{
@@ -389334,6 +390061,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Only works if the target is about to use a damaging move."
 		},
 		{
@@ -389345,6 +390073,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {
+				"diamond-pearl": "TM11",
+				"platinum": "TM11",
+				"heartgold-soulsilver": "TM11"
+			},
 			"description": "Changes the weather to sunny for five turns."
 		},
 		{
@@ -389356,6 +390089,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to half the target’s HP."
 		},
 		{
@@ -389367,6 +390101,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Attack and Defense by one stage after inflicting damage."
 		},
 		{
@@ -389378,6 +390113,7 @@
 			"accuracy": 55,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -389389,6 +390125,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "All Other Pokemon",
+			"machines": {
+				"diamond-pearl": "HM03",
+				"platinum": "HM03",
+				"heartgold-soulsilver": "HM03"
+			},
 			"description": "Inflicts regular damage and can hit Dive users."
 		},
 		{
@@ -389400,6 +390141,11 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM87",
+				"platinum": "TM87",
+				"heartgold-soulsilver": "TM87"
+			},
 			"description": "Raises the target’s Attack by two stages and confuses the target."
 		},
 		{
@@ -389411,6 +390157,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
 		},
 		{
@@ -389422,6 +390169,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -389433,6 +390181,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s evasion by one stage."
 		},
 		{
@@ -389444,6 +390193,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -389455,6 +390205,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User and target swap items."
 		},
 		{
@@ -389466,6 +390217,11 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {
+				"diamond-pearl": "TM75",
+				"platinum": "TM75",
+				"heartgold-soulsilver": "TM75"
+			},
 			"description": "Raises the user’s Attack by two stages."
 		},
 		{
@@ -389477,6 +390233,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -389488,6 +390245,7 @@
 			"accuracy": 95,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389499,6 +390257,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Attack by three stages."
 		},
 		{
@@ -389510,6 +390269,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Defense by one stage."
 		},
 		{
@@ -389521,6 +390281,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {},
 			"description": "For three turns, friendly Pokémon have doubled Speed."
 		},
 		{
@@ -389532,6 +390293,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/4 the damage it inflicts in recoil."
 		},
 		{
@@ -389543,6 +390305,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM12",
+				"platinum": "TM12",
+				"heartgold-soulsilver": "TM12"
+			},
 			"description": "For the next few turns, the target can only use damaging moves."
 		},
 		{
@@ -389554,6 +390321,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -389565,6 +390333,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Immediately ends wild battles.  No effect otherwise."
 		},
 		{
@@ -389576,6 +390345,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM46",
+				"platinum": "TM46",
+				"heartgold-soulsilver": "TM46"
+			},
 			"description": "Takes the target’s item."
 		},
 		{
@@ -389587,6 +390361,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -389598,6 +390373,11 @@
 			"accuracy": 70,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM25",
+				"platinum": "TM25",
+				"heartgold-soulsilver": "TM25"
+			},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -389609,6 +390389,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target and a chance to make the target flinch."
 		},
 		{
@@ -389620,6 +390401,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -389631,6 +390413,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -389642,6 +390425,11 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM73",
+				"platinum": "TM73",
+				"heartgold-soulsilver": "TM73"
+			},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -389653,6 +390441,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM24",
+				"platinum": "TM24",
+				"heartgold-soulsilver": "TM24"
+			},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -389664,6 +390457,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack and Defense by one stage."
 		},
 		{
@@ -389675,6 +390469,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM41",
+				"platinum": "TM41",
+				"heartgold-soulsilver": "TM41"
+			},
 			"description": "Prevents the target from using the same move twice in a row."
 		},
 		{
@@ -389686,6 +390485,11 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM06",
+				"platinum": "TM06",
+				"heartgold-soulsilver": "TM06"
+			},
 			"description": "Badly poisons the target, inflicting more damage every turn."
 		},
 		{
@@ -389697,6 +390501,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Opponents Field",
+			"machines": {},
 			"description": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in."
 		},
 		{
@@ -389708,6 +390513,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User becomes a copy of the target until it leaves battle."
 		},
 		{
@@ -389719,6 +390525,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn, freeze, or paralyze the target."
 		},
 		{
@@ -389730,6 +390537,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User and target swap items."
 		},
 		{
@@ -389741,6 +390549,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {
+				"diamond-pearl": "TM92",
+				"platinum": "TM92",
+				"heartgold-soulsilver": "TM92"
+			},
 			"description": "For five turns, slower Pokémon will act before faster Pokémon."
 		},
 		{
@@ -389752,6 +390565,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits three times, increasing power by 100% with each successful hit."
 		},
 		{
@@ -389763,6 +390577,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power increases when this move has less PP, up to a maximum of 200."
 		},
 		{
@@ -389774,6 +390589,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in the same turn.  Has a chance to poison the target."
 		},
 		{
@@ -389785,6 +390601,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -389796,6 +390613,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM89",
+				"platinum": "TM89",
+				"heartgold-soulsilver": "TM89"
+			},
 			"description": "User must switch out after attacking."
 		},
 		{
@@ -389807,6 +390629,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
 		},
 		{
@@ -389818,6 +390641,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389829,6 +390653,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389840,6 +390665,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389851,6 +390677,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -389862,6 +390689,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User takes 1/3 the damage inflicted in recoil.  Has a chance to paralyze the target."
 		},
 		{
@@ -389873,6 +390701,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the target is asleep, has double power and wakes it up."
 		},
 		{
@@ -389884,6 +390713,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389895,6 +390725,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM03",
+				"platinum": "TM03",
+				"heartgold-soulsilver": "TM03"
+			},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -389906,6 +390741,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Halves all Fire-type damage."
 		},
 		{
@@ -389917,6 +390753,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
 		},
 		{
@@ -389928,6 +390765,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "HM07",
+				"platinum": "HM07",
+				"heartgold-soulsilver": "HM07"
+			},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -389939,6 +390781,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If there be weather, this move has doubled power and the weather’s type."
 		},
 		{
@@ -389950,6 +390793,9 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"heartgold-soulsilver": "HM05"
+			},
 			"description": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns."
 		},
 		{
@@ -389961,6 +390807,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
 		},
 		{
@@ -389972,6 +390819,11 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM61",
+				"platinum": "TM61",
+				"heartgold-soulsilver": "TM61"
+			},
 			"description": "Burns the target."
 		},
 		{
@@ -389983,6 +390835,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -389994,6 +390847,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User will recover half its max HP at the end of the next turn."
 		},
 		{
@@ -390005,6 +390859,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage."
 		},
 		{
@@ -390016,6 +390871,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/3 the damage inflicted in recoil."
 		},
 		{
@@ -390027,6 +390883,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Changes the target’s ability to Insomnia."
 		},
 		{
@@ -390038,6 +390895,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -390049,6 +390907,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
 		},
 		{
@@ -390060,6 +390919,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"diamond-pearl": "TM81",
+				"platinum": "TM81",
+				"heartgold-soulsilver": "TM81"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -390071,6 +390935,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target sleeps at the end of the next turn."
 		},
 		{
@@ -390082,6 +390947,7 @@
 			"accuracy": 50,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -390093,6 +390959,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		}
 	],
@@ -393453,6 +394320,24 @@
 			"minLevel": 4,
 			"maxLevel": 7,
 			"chance": 7
+		},
+		{
+			"pokemonId": 25,
+			"location": "Saffron City Magnet Train Station",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 2,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 25,
+			"location": "Saffron City Magnet Train Station",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 2,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 27,
@@ -403904,6 +404789,33 @@
 			"chance": 100
 		},
 		{
+			"pokemonId": 63,
+			"location": "Oreburgh City North West House",
+			"version": "diamond",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 63,
+			"location": "Oreburgh City North West House",
+			"version": "pearl",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 63,
+			"location": "Oreburgh City North West House",
+			"version": "platinum",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
 			"pokemonId": 64,
 			"location": "Sinnoh Victory Road 2f",
 			"version": "diamond",
@@ -404271,6 +405183,24 @@
 			"minLevel": 16,
 			"maxLevel": 17,
 			"chance": 40
+		},
+		{
+			"pokemonId": 66,
+			"location": "Goldenrod City Department Store 5f",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 66,
+			"location": "Goldenrod City Department Store 5f",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 67,
@@ -410628,6 +411558,24 @@
 		},
 		{
 			"pokemonId": 82,
+			"location": "Power Plant",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 19,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 82,
+			"location": "Power Plant",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 19,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 82,
 			"location": "Johto Safari Zone Peak",
 			"version": "heartgold",
 			"method": "Walk",
@@ -410931,6 +411879,24 @@
 			"minLevel": 45,
 			"maxLevel": 45,
 			"chance": 10
+		},
+		{
+			"pokemonId": 85,
+			"location": "Blackthorn City",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 30,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 85,
+			"location": "Blackthorn City",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 30,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 85,
@@ -413003,6 +413969,33 @@
 			"chance": 20
 		},
 		{
+			"pokemonId": 93,
+			"location": "Snowpoint City North West House",
+			"version": "diamond",
+			"method": "Npc Trade",
+			"minLevel": 37,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 93,
+			"location": "Snowpoint City North West House",
+			"version": "pearl",
+			"method": "Npc Trade",
+			"minLevel": 37,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 93,
+			"location": "Snowpoint City North West House",
+			"version": "platinum",
+			"method": "Npc Trade",
+			"minLevel": 37,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
 			"pokemonId": 94,
 			"location": "Old Chateau 2f Right Room",
 			"version": "diamond",
@@ -413487,6 +414480,24 @@
 			"minLevel": 32,
 			"maxLevel": 32,
 			"chance": 20
+		},
+		{
+			"pokemonId": 95,
+			"location": "Violet City",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 95,
+			"location": "Violet City",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 95,
@@ -414921,6 +415932,24 @@
 		},
 		{
 			"pokemonId": 100,
+			"location": "Olivine City",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 100,
+			"location": "Olivine City",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 100,
 			"location": "Route 10",
 			"version": "heartgold",
 			"method": "Walk",
@@ -416106,6 +417135,24 @@
 			"minLevel": 35,
 			"maxLevel": 35,
 			"chance": 5
+		},
+		{
+			"pokemonId": 111,
+			"location": "Digletts Cave",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 111,
+			"location": "Digletts Cave",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 111,
@@ -427943,6 +428990,33 @@
 			"chance": 60
 		},
 		{
+			"pokemonId": 129,
+			"location": "Sinnoh Sea Route 226 Island House",
+			"version": "diamond",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 129,
+			"location": "Sinnoh Sea Route 226 Island House",
+			"version": "pearl",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 129,
+			"location": "Sinnoh Sea Route 226 Island House",
+			"version": "platinum",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
 			"pokemonId": 130,
 			"location": "Canalave City",
 			"version": "diamond",
@@ -434261,6 +435335,24 @@
 			"chance": 40
 		},
 		{
+			"pokemonId": 178,
+			"location": "Pewter City",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 16,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 178,
+			"location": "Pewter City",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 16,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
 			"pokemonId": 179,
 			"location": "Valley Windworks",
 			"version": "diamond",
@@ -439929,6 +441021,24 @@
 			"minLevel": 23,
 			"maxLevel": 23,
 			"chance": 2
+		},
+		{
+			"pokemonId": 208,
+			"location": "Olivine City Gym",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 208,
+			"location": "Olivine City Gym",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 209,
@@ -458552,6 +459662,24 @@
 			"chance": 10
 		},
 		{
+			"pokemonId": 374,
+			"location": "Saffron City Silph Co",
+			"version": "heartgold",
+			"method": "Npc Trade",
+			"minLevel": 31,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 374,
+			"location": "Saffron City Silph Co",
+			"version": "soulsilver",
+			"method": "Npc Trade",
+			"minLevel": 31,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
 			"pokemonId": 375,
 			"location": "Johto Safari Zone Mountain",
 			"version": "heartgold",
@@ -468810,6 +469938,33 @@
 			"minLevel": 20,
 			"maxLevel": 21,
 			"chance": 20
+		},
+		{
+			"pokemonId": 441,
+			"location": "Eterna City Eterna Condominiums",
+			"version": "diamond",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 441,
+			"location": "Eterna City Eterna Condominiums",
+			"version": "pearl",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
+		},
+		{
+			"pokemonId": 441,
+			"location": "Eterna City Eterna Condominiums",
+			"version": "platinum",
+			"method": "Npc Trade",
+			"minLevel": 1,
+			"maxLevel": 100,
+			"chance": 100
 		},
 		{
 			"pokemonId": 442,

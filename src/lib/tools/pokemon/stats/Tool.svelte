@@ -37,6 +37,7 @@
 		});
 	});
 	const selected = (filter: Record<string, boolean>, options: string[]) => options.filter((key) => filter[key]);
+	const machineLabels = (move: MainMove) => [...new Set(Object.values(move.machines))].join(' / ');
 	const pokemonRows = $derived.by(() =>
 		(data?.pokemon ?? [])
 			.filter(
@@ -96,6 +97,13 @@
 			label: 'Move',
 			width: '240px',
 			renderComponent: (move) => ({ component: MoveCell, props: { move, data: data! } })
+		},
+		{
+			key: 'machines',
+			label: 'TM/HM',
+			width: '100px',
+			sortValue: machineLabels,
+			value: (move) => machineLabels(move) || '—'
 		},
 		{ key: 'type', label: 'Type' },
 		{ key: 'category', label: 'Category' },

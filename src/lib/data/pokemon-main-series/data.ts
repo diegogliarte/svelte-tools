@@ -30,6 +30,7 @@ export type MainMove = {
 	accuracy: number | null;
 	pp: number;
 	target: string;
+	machines: Record<string, string>;
 	description: string;
 };
 export type MainEncounter = {

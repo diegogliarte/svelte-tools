@@ -221573,6 +221573,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -221584,6 +221585,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -221595,6 +221597,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -221606,6 +221609,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM40",
+				"emerald": "TM40",
+				"firered-leafgreen": "TM40"
+			},
 			"description": "Never misses."
 		},
 		{
@@ -221617,6 +221625,7 @@
 			"accuracy": 95,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -221628,6 +221637,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Speed by two stages."
 		},
 		{
@@ -221639,6 +221649,7 @@
 			"accuracy": 95,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -221650,6 +221661,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Defense by two stages."
 		},
 		{
@@ -221661,6 +221673,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise all of the user’s stats by one stage."
 		},
 		{
@@ -221672,6 +221685,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -221683,6 +221697,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Cures the entire party of major status effects."
 		},
 		{
@@ -221694,6 +221709,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Randomly selects and uses one of the trainer’s other Pokémon’s moves."
 		},
 		{
@@ -221705,6 +221721,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -221716,6 +221733,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM45",
+				"emerald": "TM45",
+				"firered-leafgreen": "TM45"
+			},
 			"description": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
 		},
 		{
@@ -221727,6 +221749,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Attack by one stage."
 		},
 		{
@@ -221738,6 +221761,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -221749,6 +221773,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -221760,6 +221785,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Allows the trainer to switch out the user and pass effects along to its replacement."
 		},
 		{
@@ -221771,6 +221797,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits once for every conscious Pokémon the trainer has."
 		},
 		{
@@ -221782,6 +221809,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User pays half its max HP to max out its Attack."
 		},
 		{
@@ -221793,6 +221821,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User waits for two turns, then hits back for twice the damage it took."
 		},
 		{
@@ -221804,6 +221833,7 @@
 			"accuracy": 75,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -221815,6 +221845,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -221826,6 +221857,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -221837,6 +221869,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit and a chance to burn the target."
 		},
 		{
@@ -221848,6 +221881,11 @@
 			"accuracy": 70,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {
+				"ruby-sapphire": "TM14",
+				"emerald": "TM14",
+				"firered-leafgreen": "TM14"
+			},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -221859,6 +221897,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -221870,6 +221909,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -221881,6 +221921,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -221892,6 +221933,7 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -221903,6 +221945,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in one turn."
 		},
 		{
@@ -221914,6 +221957,7 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User bounces high into the air, dodging all attacks, and hits next turn."
 		},
 		{
@@ -221925,6 +221969,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM31",
+				"emerald": "TM31",
+				"firered-leafgreen": "TM31"
+			},
 			"description": "Destroys Reflect and Light Screen."
 		},
 		{
@@ -221936,6 +221985,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -221947,6 +221997,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -221958,6 +222009,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM08",
+				"emerald": "TM08",
+				"firered-leafgreen": "TM08"
+			},
 			"description": "Raises the user’s Attack and Defense by one stage."
 		},
 		{
@@ -221969,6 +222025,11 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM09",
+				"emerald": "TM09",
+				"firered-leafgreen": "TM09"
+			},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -221980,6 +222041,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM04",
+				"emerald": "TM04",
+				"firered-leafgreen": "TM04"
+			},
 			"description": "Raises the user’s Special Attack and Special Defense by one stage."
 		},
 		{
@@ -221991,6 +222057,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "User’s type changes to match the terrain."
 		},
 		{
@@ -222002,6 +222069,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Defense by one stage.  User’s Electric moves have doubled power next turn."
 		},
 		{
@@ -222013,6 +222081,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack by two stages."
 		},
 		{
@@ -222024,6 +222093,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -222035,6 +222105,7 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -222046,6 +222117,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -222057,6 +222129,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -222068,6 +222141,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -222079,6 +222153,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "User’s type changes to the type of one of its moves at random."
 		},
 		{
@@ -222090,6 +222165,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Changes the user’s type to a random type either resistant or immune to the last move used against it."
 		},
 		{
@@ -222101,6 +222177,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense and Special Defense by one stage."
 		},
 		{
@@ -222112,6 +222189,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -222123,6 +222201,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Inflicts twice the damage the user received from the last physical hit it took."
 		},
 		{
@@ -222134,6 +222213,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Takes the target’s item."
 		},
 		{
@@ -222145,6 +222225,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -222156,6 +222237,7 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -222167,6 +222249,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -222178,6 +222261,7 @@
 			"accuracy": 95,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -222189,6 +222273,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
 		},
 		{
@@ -222200,6 +222285,11 @@
 			"accuracy": 95,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM01",
+				"emerald": "HM01",
+				"firered-leafgreen": "HM01"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -222211,6 +222301,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises user’s Defense by one stage."
 		},
 		{
@@ -222222,6 +222313,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "If the user faints this turn, the target automatically will, too."
 		},
 		{
@@ -222233,6 +222325,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents any moves from hitting the user this turn."
 		},
 		{
@@ -222244,6 +222337,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM28",
+				"emerald": "TM28",
+				"firered-leafgreen": "TM28"
+			},
 			"description": "User digs underground, dodging all attacks, and hits next turn."
 		},
 		{
@@ -222255,6 +222353,7 @@
 			"accuracy": 55,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Disables the target’s last used move for 1-8 turns."
 		},
 		{
@@ -222266,6 +222365,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM08",
+				"emerald": "HM08",
+				"firered-leafgreen": "HM08"
+			},
 			"description": "User dives underwater, dodging all attacks, and hits next turn."
 		},
 		{
@@ -222277,6 +222381,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -222288,6 +222393,7 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits the target two turns later."
 		},
 		{
@@ -222299,6 +222405,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in one turn."
 		},
 		{
@@ -222310,6 +222417,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -222321,6 +222429,11 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM32",
+				"emerald": "TM32",
+				"firered-leafgreen": "TM32"
+			},
 			"description": "Raises the user’s evasion by one stage."
 		},
 		{
@@ -222332,6 +222445,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/3 the damage inflicted in recoil."
 		},
 		{
@@ -222343,6 +222457,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -222354,6 +222469,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM02",
+				"emerald": "TM02",
+				"firered-leafgreen": "TM02"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -222365,6 +222485,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack and Speed by one stage."
 		},
 		{
@@ -222376,6 +222497,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts 40 points of damage."
 		},
 		{
@@ -222387,6 +222509,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -222398,6 +222521,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -222409,6 +222533,7 @@
 			"accuracy": 50,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -222420,6 +222545,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Other Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM26",
+				"emerald": "TM26",
+				"firered-leafgreen": "TM26"
+			},
 			"description": "Inflicts regular damage and can hit Dig users."
 		},
 		{
@@ -222431,6 +222561,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -222442,6 +222573,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -222453,6 +222585,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to repeat its last used move every turn for 2 to 6 turns."
 		},
 		{
@@ -222464,6 +222597,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s HP to equal the user’s."
 		},
 		{
@@ -222475,6 +222609,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents the user’s HP from lowering below 1 this turn."
 		},
 		{
@@ -222486,6 +222621,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
 		},
 		{
@@ -222497,6 +222633,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "User faints."
 		},
 		{
@@ -222508,6 +222645,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -222519,6 +222657,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -222530,6 +222669,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM42",
+				"emerald": "TM42",
+				"firered-leafgreen": "TM42"
+			},
 			"description": "Power doubles if user is burned, paralyzed, or poisoned."
 		},
 		{
@@ -222541,6 +222685,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
 		},
 		{
@@ -222552,6 +222697,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Special Defense by two stages."
 		},
 		{
@@ -222563,6 +222709,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Cannot lower the target’s HP below 1."
 		},
 		{
@@ -222574,6 +222721,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack by two stages."
 		},
 		{
@@ -222585,6 +222733,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -222596,6 +222745,11 @@
 			"accuracy": 85,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM38",
+				"emerald": "TM38",
+				"firered-leafgreen": "TM38"
+			},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -222607,6 +222761,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -222618,6 +222773,7 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -222629,6 +222785,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -222640,6 +222797,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
 		},
 		{
@@ -222651,6 +222809,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
 		},
 		{
@@ -222662,6 +222821,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM35",
+				"emerald": "TM35",
+				"firered-leafgreen": "TM35"
+			},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -222673,6 +222837,11 @@
 			"accuracy": 70,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM05",
+				"emerald": "HM05",
+				"firered-leafgreen": "HM05"
+			},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -222684,6 +222853,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Raises the target’s Special Attack by one stage and confuses the target."
 		},
 		{
@@ -222695,6 +222865,11 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM02",
+				"emerald": "HM02",
+				"firered-leafgreen": "HM02"
+			},
 			"description": "User flies high into the air, dodging all attacks, and hits next turn."
 		},
 		{
@@ -222706,6 +222881,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Increases the user’s chance to score a critical hit."
 		},
 		{
@@ -222717,6 +222893,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM01",
+				"emerald": "TM01",
+				"firered-leafgreen": "TM01"
+			},
 			"description": "If the user takes damage before attacking, the attack is canceled."
 		},
 		{
@@ -222728,6 +222909,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Redirects the target’s single-target effects to the user for this turn."
 		},
 		{
@@ -222739,6 +222921,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
 		},
 		{
@@ -222750,6 +222933,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -222761,6 +222945,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM21",
+				"emerald": "TM21",
+				"firered-leafgreen": "TM21"
+			},
 			"description": "Power increases as happiness decreases, up to a maximum of 102."
 		},
 		{
@@ -222772,6 +222961,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -222783,6 +222973,7 @@
 			"accuracy": 95,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
 		},
 		{
@@ -222794,6 +222985,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -222805,6 +222997,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits the target two turns later."
 		},
 		{
@@ -222816,6 +223009,11 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM19",
+				"emerald": "TM19",
+				"firered-leafgreen": "TM19"
+			},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -222827,6 +223025,7 @@
 			"accuracy": 75,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -222838,6 +223037,7 @@
 			"accuracy": 55,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -222849,6 +223049,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Attack by one stage."
 		},
 		{
@@ -222860,6 +223061,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack and Special Attack by one stage."
 		},
 		{
@@ -222871,6 +223073,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "If the user faints this turn, the PP of the move that fainted it drops to 0."
 		},
 		{
@@ -222882,6 +223085,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -222893,6 +223097,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage and can hit Pokémon in the air."
 		},
 		{
@@ -222904,6 +223109,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Entire Field",
+			"machines": {
+				"ruby-sapphire": "TM07",
+				"emerald": "TM07",
+				"firered-leafgreen": "TM07"
+			},
 			"description": "Changes the weather to a hailstorm for five turns."
 		},
 		{
@@ -222915,6 +223125,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage."
 		},
 		{
@@ -222926,6 +223137,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Resets all Pokémon’s stats, accuracy, and evasion."
 		},
 		{
@@ -222937,6 +223149,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -222948,6 +223161,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Cures the entire party of major status effects."
 		},
 		{
@@ -222959,6 +223173,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to burn the target."
 		},
 		{
@@ -222970,6 +223185,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Ally",
+			"machines": {},
 			"description": "Ally’s next move inflicts half more damage."
 		},
 		{
@@ -222981,6 +223197,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM10",
+				"emerald": "TM10",
+				"firered-leafgreen": "TM10"
+			},
 			"description": "Power and type depend upon user’s IVs.  Power can range from 30 to 70."
 		},
 		{
@@ -222992,6 +223213,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user misses, it takes half the damage it would have inflicted in recoil."
 		},
 		{
@@ -223003,6 +223225,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223014,6 +223237,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -223025,6 +223249,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User And Allies",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -223036,6 +223261,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -223047,6 +223273,7 @@
 			"accuracy": 80,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223058,6 +223285,11 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM15",
+				"emerald": "TM15",
+				"firered-leafgreen": "TM15"
+			},
 			"description": "User foregoes its next turn to recharge."
 		},
 		{
@@ -223069,6 +223301,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -223080,6 +223313,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223091,6 +223325,7 @@
 			"accuracy": 60,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -223102,6 +223337,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
 		},
 		{
@@ -223113,6 +223349,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM13",
+				"emerald": "TM13",
+				"firered-leafgreen": "TM13"
+			},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -223124,6 +223365,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -223135,6 +223377,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -223146,6 +223389,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -223157,6 +223401,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents the target from using any moves that the user also knows."
 		},
 		{
@@ -223168,6 +223413,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
 		},
 		{
@@ -223179,6 +223425,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by two stages."
 		},
 		{
@@ -223190,6 +223437,11 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM23",
+				"emerald": "TM23",
+				"firered-leafgreen": "TM23"
+			},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -223201,6 +223453,7 @@
 			"accuracy": 95,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user misses, it takes half the damage it would have inflicted in recoil."
 		},
 		{
@@ -223212,6 +223465,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -223223,6 +223477,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -223234,6 +223489,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target drops its held item."
 		},
 		{
@@ -223245,6 +223501,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -223256,6 +223513,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -223267,6 +223525,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Seeds the target, stealing HP from it every turn."
 		},
 		{
@@ -223278,6 +223537,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Defense by one stage."
 		},
 		{
@@ -223289,6 +223549,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -223300,6 +223561,11 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {
+				"ruby-sapphire": "TM16",
+				"emerald": "TM16",
+				"firered-leafgreen": "TM16"
+			},
 			"description": "Reduces damage from special attacks by 50% for five turns."
 		},
 		{
@@ -223311,6 +223577,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Ensures that the user’s next move will hit the target."
 		},
 		{
@@ -223322,6 +223589,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -223333,6 +223601,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage to heavier targets, with a maximum of 120 power."
 		},
 		{
@@ -223344,6 +223613,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -223355,6 +223625,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223366,6 +223637,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "User",
+			"machines": {},
 			"description": "Reflects back the first effect move used on the user this turn."
 		},
 		{
@@ -223377,6 +223649,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -223388,6 +223661,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Power varies randomly from 10 to 150."
 		},
 		{
@@ -223399,6 +223673,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -223410,6 +223685,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -223421,6 +223697,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Drains half the damage inflicted to heal the user."
 		},
 		{
@@ -223432,6 +223709,7 @@
 			"accuracy": 75,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223443,6 +223721,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223454,6 +223733,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223465,6 +223745,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack and Special Attack by two stages.  User faints."
 		},
 		{
@@ -223476,6 +223757,7 @@
 			"accuracy": 95,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise the user’s Attack by one stage."
 		},
 		{
@@ -223487,6 +223769,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Special Defense by two stages."
 		},
 		{
@@ -223498,6 +223781,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise the user’s Attack by one stage."
 		},
 		{
@@ -223509,6 +223793,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Randomly selects and uses any move in the game."
 		},
 		{
@@ -223520,6 +223805,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -223531,6 +223817,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Copies the target’s last used move."
 		},
 		{
@@ -223542,6 +223829,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Ensures that the user’s next move will hit the target."
 		},
 		{
@@ -223553,6 +223841,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s evasion by two stages."
 		},
 		{
@@ -223564,6 +223853,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Specific Move",
+			"machines": {},
 			"description": "Inflicts twice the damage the user received from the last special hit it took."
 		},
 		{
@@ -223575,6 +223865,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Uses the target’s last used move."
 		},
 		{
@@ -223586,6 +223877,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "Users Field",
+			"machines": {},
 			"description": "Protects the user’s stats from being changed by enemy moves."
 		},
 		{
@@ -223597,6 +223889,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Special Attack by one stage."
 		},
 		{
@@ -223608,6 +223901,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -223619,6 +223913,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -223630,6 +223925,7 @@
 			"accuracy": 95,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -223641,6 +223937,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Halves all Electric-type damage."
 		},
 		{
@@ -223652,6 +223949,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -223663,6 +223961,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -223674,6 +223973,7 @@
 			"accuracy": 95,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Uses a move which depends upon the terrain."
 		},
 		{
@@ -223685,6 +223985,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -223696,6 +223997,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to the user’s level."
 		},
 		{
@@ -223707,6 +224009,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target loses 1/4 its max HP every turn as long as it’s asleep."
 		},
 		{
@@ -223718,6 +224021,7 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to lower the target’s accuracy by one stage."
 		},
 		{
@@ -223729,6 +224033,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
 		},
 		{
@@ -223740,6 +224045,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -223751,6 +224057,11 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM50",
+				"emerald": "TM50",
+				"firered-leafgreen": "TM50"
+			},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -223762,6 +224073,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Sets the user’s and targets’s HP to the average of their current HP."
 		},
 		{
@@ -223773,6 +224085,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Scatters money on the ground worth five times the user’s level."
 		},
 		{
@@ -223784,6 +224097,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223795,6 +224109,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "All Pokemon",
+			"machines": {},
 			"description": "User and target both faint after three turns."
 		},
 		{
@@ -223806,6 +224121,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -223817,6 +224133,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -223828,6 +224145,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to badly poison the target."
 		},
 		{
@@ -223839,6 +224157,7 @@
 			"accuracy": 55,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Poisons the target."
 		},
 		{
@@ -223850,6 +224169,7 @@
 			"accuracy": 75,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Poisons the target."
 		},
 		{
@@ -223861,6 +224181,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -223872,6 +224193,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit and a chance to poison the target."
 		},
 		{
@@ -223883,6 +224205,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -223894,6 +224217,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to freeze the target."
 		},
 		{
@@ -223905,6 +224229,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP."
 		},
 		{
@@ -223916,6 +224241,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM17",
+				"emerald": "TM17",
+				"firered-leafgreen": "TM17"
+			},
 			"description": "Prevents any moves from hitting the user this turn."
 		},
 		{
@@ -223927,6 +224257,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -223938,6 +224269,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Discards the user’s stat changes and copies the target’s."
 		},
 		{
@@ -223949,6 +224281,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM29",
+				"emerald": "TM29",
+				"firered-leafgreen": "TM29"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -223960,6 +224297,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Special Attack by two stages after inflicting damage."
 		},
 		{
@@ -223971,6 +224309,7 @@
 			"accuracy": 80,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage between 50% and 150% of the user’s level."
 		},
 		{
@@ -223982,6 +224321,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has double power against, and can hit, Pokémon attempting to switch out."
 		},
 		{
@@ -223993,6 +224333,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224004,6 +224345,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the user is hit after using this move, its Attack rises by one stage."
 		},
 		{
@@ -224015,6 +224357,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {
+				"ruby-sapphire": "TM18",
+				"emerald": "TM18",
+				"firered-leafgreen": "TM18"
+			},
 			"description": "Changes the weather to rain for five turns."
 		},
 		{
@@ -224026,6 +224373,7 @@
 			"accuracy": 100,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
 		},
 		{
@@ -224037,6 +224385,7 @@
 			"accuracy": 95,
 			"pp": 25,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -224048,6 +224397,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Requires a turn to charge before attacking."
 		},
 		{
@@ -224059,6 +224409,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -224070,6 +224421,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User recovers the item it last used up."
 		},
 		{
@@ -224081,6 +224433,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Users Field",
+			"machines": {
+				"ruby-sapphire": "TM33",
+				"emerald": "TM33",
+				"firered-leafgreen": "TM33"
+			},
 			"description": "Reduces damage from physical attacks by half."
 		},
 		{
@@ -224092,6 +224449,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Cleanses the user of a burn, paralysis, or poison."
 		},
 		{
@@ -224103,6 +224461,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM44",
+				"emerald": "TM44",
+				"firered-leafgreen": "TM44"
+			},
 			"description": "User sleeps for two turns, completely healing itself."
 		},
 		{
@@ -224114,6 +224477,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM27",
+				"emerald": "TM27",
+				"firered-leafgreen": "TM27"
+			},
 			"description": "Power increases with happiness, up to a maximum of 102."
 		},
 		{
@@ -224125,6 +224493,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts double damage if the user takes damage before attacking this turn."
 		},
 		{
@@ -224136,6 +224505,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
 		},
 		{
@@ -224147,6 +224517,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM05",
+				"emerald": "TM05",
+				"firered-leafgreen": "TM05"
+			},
 			"description": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
 		},
 		{
@@ -224158,6 +224533,7 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -224169,6 +224545,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -224180,6 +224557,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM06",
+				"emerald": "HM06",
+				"firered-leafgreen": "HM06"
+			},
 			"description": "Has a chance to lower the target’s Defense by one stage."
 		},
 		{
@@ -224191,6 +224573,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224202,6 +224585,11 @@
 			"accuracy": 80,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM39",
+				"emerald": "TM39",
+				"firered-leafgreen": "TM39"
+			},
 			"description": "Has a chance to lower the target’s Speed by one stage."
 		},
 		{
@@ -224213,6 +224601,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Copies the target’s ability."
 		},
 		{
@@ -224224,6 +224613,7 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -224235,6 +224625,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
 		},
 		{
@@ -224246,6 +224637,7 @@
 			"accuracy": 95,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
 		},
 		{
@@ -224257,6 +224649,11 @@
 			"accuracy": null,
 			"pp": 25,
 			"target": "Users Field",
+			"machines": {
+				"ruby-sapphire": "TM20",
+				"emerald": "TM20",
+				"firered-leafgreen": "TM20"
+			},
 			"description": "Protects the user’s field from major status ailments and confusion for five turns."
 		},
 		{
@@ -224268,6 +224665,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -224279,6 +224677,7 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -224290,6 +224689,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Entire Field",
+			"machines": {
+				"ruby-sapphire": "TM37",
+				"emerald": "TM37",
+				"firered-leafgreen": "TM37"
+			},
 			"description": "Changes the weather to a sandstorm for five turns."
 		},
 		{
@@ -224301,6 +224705,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -224312,6 +224717,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224323,6 +224729,7 @@
 			"accuracy": 85,
 			"pp": 40,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Defense by two stages."
 		},
 		{
@@ -224334,6 +224741,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM43",
+				"emerald": "TM43",
+				"firered-leafgreen": "TM43"
+			},
 			"description": "Has a chance to inflict a status effect which depends upon the terrain."
 		},
 		{
@@ -224345,6 +224757,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to the user’s level."
 		},
 		{
@@ -224356,6 +224769,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "User faints."
 		},
 		{
@@ -224367,6 +224781,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM30",
+				"emerald": "TM30",
+				"firered-leafgreen": "TM30"
+			},
 			"description": "Has a chance to lower the target’s Special Defense by one stage."
 		},
 		{
@@ -224378,6 +224797,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -224389,6 +224809,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack by one stage."
 		},
 		{
@@ -224400,6 +224821,7 @@
 			"accuracy": 30,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Causes a one-hit KO."
 		},
 		{
@@ -224411,6 +224833,11 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM34",
+				"emerald": "TM34",
+				"firered-leafgreen": "TM34"
+			},
 			"description": "Never misses."
 		},
 		{
@@ -224422,6 +224849,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -224433,6 +224861,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to raise all of the user’s stats by one stage."
 		},
 		{
@@ -224444,6 +224873,7 @@
 			"accuracy": 55,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -224455,6 +224885,7 @@
 			"accuracy": null,
 			"pp": 1,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Permanently becomes the target’s last used move."
 		},
 		{
@@ -224466,6 +224897,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM48",
+				"emerald": "TM48",
+				"firered-leafgreen": "TM48"
+			},
 			"description": "User and target swap abilities."
 		},
 		{
@@ -224477,6 +224913,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage.  User charges for one turn before attacking."
 		},
 		{
@@ -224488,6 +224925,7 @@
 			"accuracy": 90,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User charges for one turn before attacking.  Has a chance to make the target flinch."
 		},
 		{
@@ -224499,6 +224937,7 @@
 			"accuracy": 90,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage and can hit Bounce and Fly users."
 		},
 		{
@@ -224510,6 +224949,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -224521,6 +224961,7 @@
 			"accuracy": 75,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224532,6 +224973,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has an increased chance for a critical hit."
 		},
 		{
@@ -224543,6 +224985,7 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -224554,6 +224997,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Randomly uses one of the user’s other three moves.  Only works if the user is sleeping."
 		},
 		{
@@ -224565,6 +225009,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -224576,6 +225021,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM36",
+				"emerald": "TM36",
+				"firered-leafgreen": "TM36"
+			},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -224587,6 +225037,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If the target is paralyzed, inflicts double damage and cures the paralysis."
 		},
 		{
@@ -224598,6 +225049,7 @@
 			"accuracy": 70,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to poison the target."
 		},
 		{
@@ -224609,6 +225061,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s accuracy by one stage."
 		},
 		{
@@ -224620,6 +225073,11 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {
+				"ruby-sapphire": "TM49",
+				"emerald": "TM49",
+				"firered-leafgreen": "TM49"
+			},
 			"description": "Steals the target’s move, if it’s self-targeted."
 		},
 		{
@@ -224631,6 +225089,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch.  Only works if the user is sleeping."
 		},
 		{
@@ -224642,6 +225101,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP."
 		},
 		{
@@ -224653,6 +225113,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM22",
+				"emerald": "TM22",
+				"firered-leafgreen": "TM22"
+			},
 			"description": "Requires a turn to charge before attacking."
 		},
 		{
@@ -224664,6 +225129,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts 20 points of damage."
 		},
 		{
@@ -224675,6 +225141,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -224686,6 +225153,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle."
 		},
 		{
@@ -224697,6 +225165,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits 2-5 times in one turn."
 		},
 		{
@@ -224708,6 +225177,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "Opponents Field",
+			"machines": {},
 			"description": "Scatters Spikes, hurting opposing Pokémon that switch in."
 		},
 		{
@@ -224719,6 +225189,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Power is 100 times the amount of energy Stockpiled."
 		},
 		{
@@ -224730,6 +225201,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the PP of the target’s last used move by 4."
 		},
 		{
@@ -224741,6 +225213,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Does nothing."
 		},
 		{
@@ -224752,6 +225225,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Puts the target to sleep."
 		},
 		{
@@ -224763,6 +225237,11 @@
 			"accuracy": 90,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM47",
+				"emerald": "TM47",
+				"firered-leafgreen": "TM47"
+			},
 			"description": "Has a chance to raise the user’s Defense by one stage."
 		},
 		{
@@ -224774,6 +225253,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Stores energy up to three times for use with Spit Up and Swallow."
 		},
 		{
@@ -224785,6 +225265,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -224796,6 +225277,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM04",
+				"emerald": "HM04",
+				"firered-leafgreen": "HM04"
+			},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224807,6 +225293,7 @@
 			"accuracy": 95,
 			"pp": 40,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Speed by two stages."
 		},
 		{
@@ -224818,6 +225305,7 @@
 			"accuracy": 75,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -224829,6 +225317,7 @@
 			"accuracy": 80,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/4 the damage it inflicts in recoil."
 		},
 		{
@@ -224840,6 +225329,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Transfers 1/4 of the user’s max HP into a doll, protecting the user from further damage or status changes until it breaks."
 		},
 		{
@@ -224851,6 +225341,11 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "Entire Field",
+			"machines": {
+				"ruby-sapphire": "TM11",
+				"emerald": "TM11",
+				"firered-leafgreen": "TM11"
+			},
 			"description": "Changes the weather to sunny for five turns."
 		},
 		{
@@ -224862,6 +225357,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts damage equal to half the target’s HP."
 		},
 		{
@@ -224873,6 +225369,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the user’s Attack and Defense by one stage after inflicting damage."
 		},
 		{
@@ -224884,6 +225381,7 @@
 			"accuracy": 55,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -224895,6 +225393,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "All Other Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM03",
+				"emerald": "HM03",
+				"firered-leafgreen": "HM03"
+			},
 			"description": "Inflicts regular damage and can hit Dive users."
 		},
 		{
@@ -224906,6 +225409,7 @@
 			"accuracy": 85,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Raises the target’s Attack by two stages and confuses the target."
 		},
 		{
@@ -224917,6 +225421,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
 		},
 		{
@@ -224928,6 +225433,7 @@
 			"accuracy": 75,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -224939,6 +225445,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s evasion by one stage."
 		},
 		{
@@ -224950,6 +225457,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -224961,6 +225469,7 @@
 			"accuracy": null,
 			"pp": 30,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Attack by two stages."
 		},
 		{
@@ -224972,6 +225481,7 @@
 			"accuracy": null,
 			"pp": 5,
 			"target": "User",
+			"machines": {},
 			"description": "Heals the user by half its max HP.  Affected by weather."
 		},
 		{
@@ -224983,6 +225493,7 @@
 			"accuracy": 95,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -224994,6 +225505,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Special Attack by three stages."
 		},
 		{
@@ -225005,6 +225517,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Lowers the target’s Defense by one stage."
 		},
 		{
@@ -225016,6 +225529,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User receives 1/4 the damage it inflicts in recoil."
 		},
 		{
@@ -225027,6 +225541,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM12",
+				"emerald": "TM12",
+				"firered-leafgreen": "TM12"
+			},
 			"description": "For the next few turns, the target can only use damaging moves."
 		},
 		{
@@ -225038,6 +225557,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Other Pokemon",
+			"machines": {},
 			"description": "Confuses the target."
 		},
 		{
@@ -225049,6 +225569,7 @@
 			"accuracy": null,
 			"pp": 20,
 			"target": "User",
+			"machines": {},
 			"description": "Immediately ends wild battles.  No effect otherwise."
 		},
 		{
@@ -225060,6 +225581,11 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM46",
+				"emerald": "TM46",
+				"firered-leafgreen": "TM46"
+			},
 			"description": "Takes the target’s item."
 		},
 		{
@@ -225071,6 +225597,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Hits every turn for 2-3 turns, then confuses the user."
 		},
 		{
@@ -225082,6 +225609,11 @@
 			"accuracy": 70,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM25",
+				"emerald": "TM25",
+				"firered-leafgreen": "TM25"
+			},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -225093,6 +225625,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -225104,6 +225637,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -225115,6 +225649,7 @@
 			"accuracy": 90,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Paralyzes the target."
 		},
 		{
@@ -225126,6 +225661,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM24",
+				"emerald": "TM24",
+				"firered-leafgreen": "TM24"
+			},
 			"description": "Has a chance to paralyze the target."
 		},
 		{
@@ -225137,6 +225677,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Lowers the target’s Attack and Defense by one stage."
 		},
 		{
@@ -225148,6 +225689,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM41",
+				"emerald": "TM41",
+				"firered-leafgreen": "TM41"
+			},
 			"description": "Prevents the target from using the same move twice in a row."
 		},
 		{
@@ -225159,6 +225705,11 @@
 			"accuracy": 85,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM06",
+				"emerald": "TM06",
+				"firered-leafgreen": "TM06"
+			},
 			"description": "Badly poisons the target, inflicting more damage every turn."
 		},
 		{
@@ -225170,6 +225721,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User becomes a copy of the target until it leaves battle."
 		},
 		{
@@ -225181,6 +225733,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to burn, freeze, or paralyze the target."
 		},
 		{
@@ -225192,6 +225745,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User and target swap items."
 		},
 		{
@@ -225203,6 +225757,7 @@
 			"accuracy": 90,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits three times, increasing power by 100% with each successful hit."
 		},
 		{
@@ -225214,6 +225769,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Hits twice in the same turn.  Has a chance to poison the target."
 		},
 		{
@@ -225225,6 +225781,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -225236,6 +225793,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Random Opponent",
+			"machines": {},
 			"description": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
 		},
 		{
@@ -225247,6 +225805,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -225258,6 +225817,7 @@
 			"accuracy": 100,
 			"pp": 30,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -225269,6 +225829,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Never misses."
 		},
 		{
@@ -225280,6 +225841,7 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "User takes 1/3 the damage inflicted in recoil.  Has a chance to paralyze the target."
 		},
 		{
@@ -225291,6 +225853,7 @@
 			"accuracy": 100,
 			"pp": 25,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -225302,6 +225865,11 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "TM03",
+				"emerald": "TM03",
+				"firered-leafgreen": "TM03"
+			},
 			"description": "Has a chance to confuse the target."
 		},
 		{
@@ -225313,6 +225881,7 @@
 			"accuracy": null,
 			"pp": 15,
 			"target": "Entire Field",
+			"machines": {},
 			"description": "Halves all Fire-type damage."
 		},
 		{
@@ -225324,6 +225893,7 @@
 			"accuracy": 100,
 			"pp": 5,
 			"target": "All Opponents",
+			"machines": {},
 			"description": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
 		},
 		{
@@ -225335,6 +225905,11 @@
 			"accuracy": 100,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {
+				"ruby-sapphire": "HM07",
+				"emerald": "HM07",
+				"firered-leafgreen": "HM07"
+			},
 			"description": "Has a chance to make the target flinch."
 		},
 		{
@@ -225346,6 +225921,7 @@
 			"accuracy": 100,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "If there be weather, this move has doubled power and the weather’s type."
 		},
 		{
@@ -225357,6 +225933,7 @@
 			"accuracy": 70,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns."
 		},
 		{
@@ -225368,6 +225945,7 @@
 			"accuracy": 100,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
 		},
 		{
@@ -225379,6 +225957,7 @@
 			"accuracy": 75,
 			"pp": 15,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Burns the target."
 		},
 		{
@@ -225390,6 +225969,7 @@
 			"accuracy": 100,
 			"pp": 35,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Inflicts regular damage with no additional effect."
 		},
 		{
@@ -225401,6 +225981,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "User",
+			"machines": {},
 			"description": "User will recover half its max HP at the end of the next turn."
 		},
 		{
@@ -225412,6 +225993,7 @@
 			"accuracy": null,
 			"pp": 40,
 			"target": "User",
+			"machines": {},
 			"description": "Raises the user’s Defense by one stage."
 		},
 		{
@@ -225423,6 +226005,7 @@
 			"accuracy": 85,
 			"pp": 20,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
 		},
 		{
@@ -225434,6 +226017,7 @@
 			"accuracy": null,
 			"pp": 10,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Target sleeps at the end of the next turn."
 		},
 		{
@@ -225445,6 +226029,7 @@
 			"accuracy": 50,
 			"pp": 5,
 			"target": "Selected Pokemon",
+			"machines": {},
 			"description": "Has a chance to paralyze the target."
 		}
 	],

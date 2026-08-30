@@ -84,7 +84,9 @@ type Move = {
 	effect_chance: number | null;
 	effect_entries: { short_effect: string; language: Named }[];
 	generation: Named;
+	machines: { machine: Named; version_group: Named }[];
 };
+type Machine = { item: Named };
 type ModValue = {
 	stats?: Record<string, number>;
 	types?: string[];
@@ -226,7 +228,25 @@ const chains = await batches([...new Set(species.map((entry) => entry.evolution_
 );
 const moveNames = [...new Set(pokemon.flatMap((entry) => entry.moves.map((move) => move.move.name)))];
 const moves = await batches(moveNames, (name) => get<Move>(`${API}/move/${name}`));
+const machineUrls = [...new Set(moves.flatMap((move) => move.machines.map((entry) => entry.machine.url)))];
+const machines = new Map(await batches(machineUrls, async (url) => [url, await get<Machine>(url)] as const));
 await mkdir(OUT, { recursive: true });
+
+function machineLabel(name: string) {
+	const match = name.match(/^(tm|hm)(\d+)$/);
+	return match ? `${match[1].toUpperCase()}${match[2]}` : title(name);
+}
+const machinesByMove = new Map(
+	moves.map((move) => [
+		move.name,
+		new Map(
+			move.machines.map((entry) => [
+				entry.version_group.name,
+				machineLabel(machines.get(entry.machine.url)?.item.name ?? '')
+			])
+		)
+	])
+);
 
 for (const config of generations) {
 	const versionGroups = Object.entries(config.groups).map(([value, versions]) => ({
@@ -312,7 +332,13 @@ for (const config of generations) {
 		.filter((move) => roman(move.generation.name) <= config.id)
 		.map((entry) => {
 			const override = combined(moveMods, entry.name.replaceAll('-', '')).move ?? {},
-				type = String(override.type ?? title(entry.type.name));
+				type = String(override.type ?? title(entry.type.name)),
+				moveMachines = Object.fromEntries(
+					versionGroups.flatMap((group) => {
+						const machine = machinesByMove.get(entry.name)?.get(group.value);
+						return machine ? [[group.value, machine]] : [];
+					})
+				);
 			const special = ['Fire', 'Water', 'Electric', 'Grass', 'Ice', 'Psychic', 'Dragon', 'Dark'].includes(type);
 			return {
 				id: entry.id,
@@ -330,6 +356,7 @@ for (const config of generations) {
 				accuracy: override.accuracy === true ? null : Number(override.accuracy ?? entry.accuracy) || null,
 				pp: Number(override.pp ?? entry.pp),
 				target: title(entry.target.name),
+				machines: moveMachines,
 				description: String(
 					override.description ??
 						entry.effect_entries.find((effect) => effect.language.name === 'en')?.short_effect ??

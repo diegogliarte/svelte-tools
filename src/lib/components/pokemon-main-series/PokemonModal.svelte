@@ -9,8 +9,9 @@
 	import { getPokemonTypeColor } from '$lib/utils/pokemon.utils';
 	let { pokemon, data, onClose }: { pokemon: MainPokemon; data: GenerationData; onClose?: () => void } = $props();
 	let group = $state(data.versionGroups[0].value);
+	const moveKey = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, '');
 	const byId = $derived(new SvelteMap(data.pokemon.map((entry) => [entry.id, entry])));
-	const moveByName = $derived(new SvelteMap(data.moves.map((move) => [move.name, move])));
+	const moveByName = $derived(new SvelteMap(data.moves.map((move) => [moveKey(move.name), move])));
 	const selectedVersions = $derived(data.versionGroups.find((entry) => entry.value === group)?.versions ?? []);
 	const versionLabels = new SvelteMap(gameOptions.map(({ value, label }) => [value, label]));
 	const locations = $derived.by(() => {
@@ -85,7 +86,7 @@
 		openModal(PokemonModal, { pokemon: target, data });
 	}
 	async function openMove(name: string) {
-		const move = moveByName.get(name);
+		const move = moveByName.get(moveKey(name));
 		if (!move) return;
 		const { default: MoveModal } = await import('./MoveModal.svelte');
 		openModal(MoveModal, { move, data });
@@ -178,7 +179,12 @@
 				{#each moves as move (`${move.name}-${move.level ?? 0}`)}<button
 						type="button"
 						class="block w-full cursor-pointer text-left text-xs hover:text-accent"
-						onclick={() => openMove(move.name)}>{move.level ? `Lv. ${move.level}: ` : ''}{move.name}</button
+						onclick={() => openMove(move.name)}
+						>{move.level
+							? `Lv. ${move.level}: `
+							: moveByName.get(moveKey(move.name))?.machines[group]
+								? `${moveByName.get(moveKey(move.name))?.machines[group]}: `
+								: ''}{move.name}</button
 					>{/each}
 			</div>{/each}
 	</div>

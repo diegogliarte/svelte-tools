@@ -7,18 +7,23 @@
 	import type { GenerationData, MainMove, MainPokemon } from '$lib/data/pokemon-main-series/data';
 	let { move, data, onClose }: { move: MainMove; data: GenerationData; onClose?: () => void } = $props();
 	let group = $state(data.versionGroups[0].value);
+	const moveKey = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, '');
 	const learnerGroups = $derived.by(() => {
 		const methods = [
 			...new Set(
 				data.pokemon.flatMap((pokemon) =>
-					(pokemon.learnset[group] ?? []).filter((entry) => entry.name === move.name).map((entry) => entry.method)
+					(pokemon.learnset[group] ?? [])
+						.filter((entry) => moveKey(entry.name) === moveKey(move.name))
+						.map((entry) => entry.method)
 				)
 			)
 		];
 		return methods.map((label) => ({
 			label,
 			pokemon: data.pokemon.filter((pokemon) =>
-				(pokemon.learnset[group] ?? []).some((entry) => entry.name === move.name && entry.method === label)
+				(pokemon.learnset[group] ?? []).some(
+					(entry) => moveKey(entry.name) === moveKey(move.name) && entry.method === label
+				)
 			)
 		}));
 	});
@@ -37,6 +42,16 @@
 		<div>PP: <b>{move.pp}</b></div>
 		<div>Accuracy: <b>{move.accuracy == null ? '—' : `${move.accuracy}%`}</b></div>
 		<div>Target: <b>{move.target}</b></div>
+		{#if Object.keys(move.machines).length}<div class="sm:col-span-2">
+				TM/HM: <b
+					>{Object.entries(move.machines)
+						.map(
+							([versionGroup, machine]) =>
+								`${data.versionGroups.find((entry) => entry.value === versionGroup)?.label ?? versionGroup}: ${machine}`
+						)
+						.join(' · ')}</b
+				>
+			</div>{/if}
 	</div>
 	<p class="mb-4 text-sm opacity-70">{move.description}</p>
 	<h3 class="mb-2 font-bold">Learned By</h3>
